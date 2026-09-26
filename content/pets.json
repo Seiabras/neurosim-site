@@ -1,0 +1,889 @@
+{
+ "habitats": [
+  {
+   "id": "hab-terrario",
+   "emoji": "🪟",
+   "price": 70,
+   "name": {
+    "pt": "Terrário",
+    "en": "Terrarium",
+    "es": "Terrario"
+   },
+   "about": {
+    "pt": "Vidro com luz, calor e esconderijos. Necessário para répteis, aranhas e pequenos mamíferos exóticos.",
+    "en": "Glass enclosure with light, warmth and hiding spots. Needed for reptiles, spiders and small exotic mammals.",
+    "es": "Vidrio con luz, calor y escondites. Necesario para reptiles, arañas y pequeños mamíferos exóticos."
+   }
+  },
+  {
+   "id": "hab-viveiro",
+   "emoji": "🪺",
+   "price": 120,
+   "name": {
+    "pt": "Viveiro grande",
+    "en": "Large aviary",
+    "es": "Pajarera grande"
+   },
+   "about": {
+    "pt": "Espaço alto e arejado para aves grandes voarem e brincarem.",
+    "en": "Tall, airy space for large birds to fly and play.",
+    "es": "Espacio alto y ventilado para que las aves grandes vuelen y jueguen."
+   }
+  }
+ ],
+ "species": [
+  {
+   "id": "cao",
+   "emoji": "🐶",
+   "kind": "common",
+   "price": 60,
+   "name": {
+    "pt": "Cão",
+    "en": "Dog",
+    "es": "Perro"
+   },
+   "blurb": {
+    "pt": "Leal e calorosinho. Quando está por perto, as crianças abrem o coração mais rápido.",
+    "en": "Loyal and warm. When nearby, children open up faster.",
+    "es": "Leal y cariñoso. Cuando está cerca, los niños se abren más rápido."
+   },
+   "bonus": {
+    "ap": "acolhimento",
+    "v": 1,
+    "when": "kid"
+   },
+   "care": {
+    "pt": "Passeios e muito carinho.",
+    "en": "Walks and lots of affection.",
+    "es": "Paseos y mucho cariño."
+   },
+   "variants": [
+    {
+     "id": "vira-lata",
+     "name": {
+      "pt": "Vira-lata",
+      "en": "Mutt",
+      "es": "Callejero"
+     },
+     "add": 0,
+     "tint": ""
+    },
+    {
+     "id": "poodle",
+     "name": {
+      "pt": "Poodle",
+      "en": "Poodle",
+      "es": "Caniche"
+     },
+     "add": 20,
+     "tint": "grayscale(1) brightness(1.5)"
+    },
+    {
+     "id": "labrador",
+     "name": {
+      "pt": "Labrador",
+      "en": "Labrador",
+      "es": "Labrador"
+     },
+     "add": 25,
+     "tint": "sepia(.6) saturate(1.4) hue-rotate(-10deg)"
+    },
+    {
+     "id": "shihtzu",
+     "name": {
+      "pt": "Shih-tzu",
+      "en": "Shih Tzu",
+      "es": "Shih Tzu"
+     },
+     "add": 25,
+     "tint": "sepia(.3) brightness(1.15)"
+    },
+    {
+     "id": "golden",
+     "name": {
+      "pt": "Golden Retriever",
+      "en": "Golden Retriever",
+      "es": "Golden Retriever"
+     },
+     "add": 35,
+     "tint": "sepia(.8) saturate(2) hue-rotate(-15deg) brightness(1.1)"
+    }
+   ]
+  },
+  {
+   "id": "gato",
+   "emoji": "🐱",
+   "kind": "common",
+   "price": 55,
+   "name": {
+    "pt": "Gato",
+    "en": "Cat",
+    "es": "Gato"
+   },
+   "blurb": {
+    "pt": "Independente e tranquilo. Um ronronar ao acordar dá mais energia ao dia.",
+    "en": "Independent and calm. A purr on waking up gives the day more energy.",
+    "es": "Independiente y tranquilo. Un ronroneo al despertar da más energía al día."
+   },
+   "bonus": {
+    "dayEnergy": 4
+   },
+   "care": {
+    "pt": "Ração, caixa limpa e colo.",
+    "en": "Food, a clean litter box and laps.",
+    "es": "Comida, arenero limpio y regazo."
+   },
+   "variants": [
+    {
+     "id": "sem-raca",
+     "name": {
+      "pt": "Sem raça definida",
+      "en": "Mixed breed",
+      "es": "Mestizo"
+     },
+     "add": 0,
+     "tint": ""
+    },
+    {
+     "id": "siames",
+     "name": {
+      "pt": "Siamês",
+      "en": "Siamese",
+      "es": "Siamés"
+     },
+     "add": 20,
+     "tint": "sepia(.5) brightness(1.2)"
+    },
+    {
+     "id": "persa",
+     "name": {
+      "pt": "Persa",
+      "en": "Persian",
+      "es": "Persa"
+     },
+     "add": 30,
+     "tint": "grayscale(1) brightness(1.6)"
+    },
+    {
+     "id": "maine",
+     "name": {
+      "pt": "Maine Coon",
+      "en": "Maine Coon",
+      "es": "Maine Coon"
+     },
+     "add": 35,
+     "tint": "sepia(.7) saturate(1.5) hue-rotate(-20deg)"
+    },
+    {
+     "id": "preto",
+     "name": {
+      "pt": "Gato preto",
+      "en": "Black cat",
+      "es": "Gato negro"
+     },
+     "add": 10,
+     "tint": "grayscale(1) brightness(.35)"
+    }
+   ]
+  },
+  {
+   "id": "coelho",
+   "emoji": "🐰",
+   "kind": "common",
+   "price": 50,
+   "name": {
+    "pt": "Coelho",
+    "en": "Rabbit",
+    "es": "Conejo"
+   },
+   "blurb": {
+    "pt": "Silencioso e macio. Ajuda a explicar as coisas sem pressa a quem chega ansioso.",
+    "en": "Quiet and soft. Helps explain things slowly to those who arrive anxious.",
+    "es": "Silencioso y suave. Ayuda a explicar las cosas sin prisa a quien llega ansioso."
+   },
+   "bonus": {
+    "ap": "psicoeducacao",
+    "v": 1,
+    "when": "adult"
+   },
+   "care": {
+    "pt": "Feno, cenoura e espaço para pular.",
+    "en": "Hay, carrots and room to hop.",
+    "es": "Heno, zanahoria y espacio para saltar."
+   },
+   "variants": [
+    {
+     "id": "anao",
+     "name": {
+      "pt": "Coelho anão",
+      "en": "Dwarf rabbit",
+      "es": "Conejo enano"
+     },
+     "add": 15,
+     "tint": ""
+    },
+    {
+     "id": "angora",
+     "name": {
+      "pt": "Angorá",
+      "en": "Angora",
+      "es": "Angora"
+     },
+     "add": 25,
+     "tint": "grayscale(1) brightness(1.5)"
+    },
+    {
+     "id": "lop",
+     "name": {
+      "pt": "Orelhudo (Lop)",
+      "en": "Lop",
+      "es": "Belier"
+     },
+     "add": 20,
+     "tint": "sepia(.6) brightness(1.1)"
+    }
+   ]
+  },
+  {
+   "id": "hamster",
+   "emoji": "🐹",
+   "kind": "common",
+   "price": 35,
+   "name": {
+    "pt": "Hamster",
+    "en": "Hamster",
+    "es": "Hámster"
+   },
+   "blurb": {
+    "pt": "Pequeno e agitado. As crianças adoram acompanhar a rodinha durante a sessão.",
+    "en": "Tiny and lively. Kids love watching the wheel during the session.",
+    "es": "Pequeño y activo. A los niños les encanta seguir la ruedita durante la sesión."
+   },
+   "bonus": {
+    "ap": "comportamental",
+    "v": 1,
+    "when": "kid"
+   },
+   "care": {
+    "pt": "Sementes e uma rodinha.",
+    "en": "Seeds and a wheel.",
+    "es": "Semillas y una ruedita."
+   },
+   "variants": [
+    {
+     "id": "sirio",
+     "name": {
+      "pt": "Hamster sírio",
+      "en": "Syrian hamster",
+      "es": "Hámster sirio"
+     },
+     "add": 5,
+     "tint": "sepia(.7) saturate(1.5)"
+    },
+    {
+     "id": "russo",
+     "name": {
+      "pt": "Anão russo",
+      "en": "Russian dwarf",
+      "es": "Enano ruso"
+     },
+     "add": 8,
+     "tint": "grayscale(1) brightness(1.3)"
+    },
+    {
+     "id": "robo",
+     "name": {
+      "pt": "Roborovski",
+      "en": "Roborovski",
+      "es": "Roborovski"
+     },
+     "add": 12,
+     "tint": "sepia(.5) brightness(1.3)"
+    }
+   ]
+  },
+  {
+   "id": "jabuti",
+   "emoji": "🐢",
+   "kind": "common",
+   "price": 45,
+   "name": {
+    "pt": "Jabuti",
+    "en": "Tortoise",
+    "es": "Tortuga terrestre"
+   },
+   "blurb": {
+    "pt": "Calmo e lento. Lembra você de respirar e de não ter pressa. Rende um pouco de energia extra.",
+    "en": "Calm and slow. Reminds you to breathe and not rush. Gives a little extra energy.",
+    "es": "Calmo y lento. Te recuerda respirar y no tener prisa. Da un poco de energía extra."
+   },
+   "bonus": {
+    "dayEnergy": 2
+   },
+   "care": {
+    "pt": "Folhas verdes e sol.",
+    "en": "Leafy greens and sunshine.",
+    "es": "Hojas verdes y sol."
+   },
+   "variants": [
+    {
+     "id": "piranga",
+     "name": {
+      "pt": "Jabuti-piranga",
+      "en": "Red-footed tortoise",
+      "es": "Tortuga de patas rojas"
+     },
+     "add": 15,
+     "tint": "saturate(1.4)"
+    },
+    {
+     "id": "tinga",
+     "name": {
+      "pt": "Jabuti-tinga",
+      "en": "Yellow-footed tortoise",
+      "es": "Tortuga de patas amarillas"
+     },
+     "add": 15,
+     "tint": "hue-rotate(40deg)"
+    }
+   ]
+  },
+  {
+   "id": "papagaio",
+   "emoji": "🦜",
+   "kind": "common",
+   "price": 90,
+   "name": {
+    "pt": "Papagaio",
+    "en": "Parrot",
+    "es": "Loro"
+   },
+   "blurb": {
+    "pt": "Repete palavras gentis. Cria um clima acolhedor com adultos.",
+    "en": "Repeats kind words. Creates a welcoming mood with adults.",
+    "es": "Repite palabras amables. Crea un clima acogedor con adultos."
+   },
+   "bonus": {
+    "ap": "acolhimento",
+    "v": 1,
+    "when": "adult"
+   },
+   "care": {
+    "pt": "Frutas, conversa e brinquedos.",
+    "en": "Fruit, conversation and toys.",
+    "es": "Frutas, conversación y juguetes."
+   },
+   "variants": [
+    {
+     "id": "verdadeiro",
+     "name": {
+      "pt": "Papagaio-verdadeiro",
+      "en": "Blue-fronted Amazon",
+      "es": "Loro frentiazul"
+     },
+     "add": 20,
+     "tint": ""
+    },
+    {
+     "id": "periquito",
+     "name": {
+      "pt": "Periquito-australiano",
+      "en": "Budgerigar",
+      "es": "Periquito"
+     },
+     "add": 0,
+     "tint": "hue-rotate(-60deg)"
+    },
+    {
+     "id": "cinza",
+     "name": {
+      "pt": "Papagaio-cinzento",
+      "en": "Grey parrot",
+      "es": "Loro gris"
+     },
+     "add": 30,
+     "tint": "grayscale(1)"
+    }
+   ]
+  },
+  {
+   "id": "gecko",
+   "emoji": "🦎",
+   "kind": "exotic",
+   "price": 120,
+   "name": {
+    "pt": "Gecko-leopardo",
+    "en": "Leopard gecko",
+    "es": "Gecko leopardo"
+   },
+   "blurb": {
+    "pt": "Curioso e sereno. Sua calma serve de exemplo para quem precisa examinar os próprios pensamentos.",
+    "en": "Curious and serene. Its calm is an example for those who need to examine their own thoughts.",
+    "es": "Curioso y sereno. Su calma es un ejemplo para quien necesita examinar sus propios pensamientos."
+   },
+   "bonus": {
+    "ap": "tcc",
+    "v": 1,
+    "when": "adult"
+   },
+   "needs": "hab-terrario",
+   "care": {
+    "pt": "Insetos, calor de 30 °C e um esconderijo.",
+    "en": "Insects, 30 °C warmth and a hide.",
+    "es": "Insectos, calor de 30 °C y un escondite."
+   },
+   "variants": [
+    {
+     "id": "leopardo",
+     "name": {
+      "pt": "Gecko-leopardo",
+      "en": "Leopard gecko",
+      "es": "Gecko leopardo"
+     },
+     "add": 10,
+     "tint": "sepia(.7) saturate(1.6)"
+    },
+    {
+     "id": "crested",
+     "name": {
+      "pt": "Gecko-crestado",
+      "en": "Crested gecko",
+      "es": "Gecko crestado"
+     },
+     "add": 15,
+     "tint": "hue-rotate(-30deg)"
+    }
+   ]
+  },
+  {
+   "id": "cobra",
+   "emoji": "🐍",
+   "kind": "exotic",
+   "price": 150,
+   "name": {
+    "pt": "Cobra-do-milho",
+    "en": "Corn snake",
+    "es": "Serpiente del maíz"
+   },
+   "blurb": {
+    "pt": "Mansa e sem veneno. Ajuda a dessensibilizar medos: pacientes ansiosos e com TOC evoluem melhor com ela.",
+    "en": "Gentle and non-venomous. Helps desensitize fears: anxious and OCD patients progress better with it.",
+    "es": "Mansa y sin veneno. Ayuda a desensibilizar miedos: los pacientes ansiosos y con TOC evolucionan mejor con ella."
+   },
+   "bonus": {
+    "ap": "comportamental",
+    "v": 1,
+    "when": "group:ansiedade,toc"
+   },
+   "needs": "hab-terrario",
+   "care": {
+    "pt": "Roedores congelados uma vez por semana e umidade.",
+    "en": "Frozen rodents once a week and humidity.",
+    "es": "Roedores congelados una vez por semana y humedad."
+   },
+   "variants": [
+    {
+     "id": "milho",
+     "name": {
+      "pt": "Cobra-do-milho",
+      "en": "Corn snake",
+      "es": "Serpiente del maíz"
+     },
+     "add": 10,
+     "tint": "sepia(.5) saturate(2) hue-rotate(-30deg)"
+    },
+    {
+     "id": "real",
+     "name": {
+      "pt": "Píton-real",
+      "en": "Ball python",
+      "es": "Pitón real"
+     },
+     "add": 30,
+     "tint": "grayscale(.6) brightness(.7)"
+    }
+   ]
+  },
+  {
+   "id": "tarantula",
+   "emoji": "🕷️",
+   "kind": "exotic",
+   "price": 130,
+   "name": {
+    "pt": "Tarântula-joelho-vermelho",
+    "en": "Red-knee tarantula",
+    "es": "Tarántula rodilla roja"
+   },
+   "blurb": {
+    "pt": "Dócil e observadora. Perfeita para trabalhar fobias em pequenos passos, sem forçar ninguém.",
+    "en": "Docile and watchful. Perfect for working on phobias in small steps, without forcing anyone.",
+    "es": "Dócil y observadora. Perfecta para trabajar fobias en pequeños pasos, sin forzar a nadie."
+   },
+   "bonus": {
+    "ap": "comportamental",
+    "v": 1,
+    "when": "group:ansiedade"
+   },
+   "needs": "hab-terrario",
+   "care": {
+    "pt": "Grilos, esconderijo e ambiente úmido.",
+    "en": "Crickets, a hide and a humid setup.",
+    "es": "Grillos, escondite y ambiente húmedo."
+   },
+   "variants": [
+    {
+     "id": "rosada",
+     "name": {
+      "pt": "Tarântula-rosada",
+      "en": "Chilean rose",
+      "es": "Tarántula rosa"
+     },
+     "add": 10,
+     "tint": "sepia(.5) saturate(2) hue-rotate(-40deg)"
+    },
+    {
+     "id": "azul",
+     "name": {
+      "pt": "Tarântula-azul",
+      "en": "Cobalt blue",
+      "es": "Tarántula azul cobalto"
+     },
+     "add": 30,
+     "tint": "hue-rotate(160deg) saturate(2)"
+    }
+   ]
+  },
+  {
+   "id": "ourico",
+   "emoji": "🦔",
+   "kind": "exotic",
+   "price": 140,
+   "name": {
+    "pt": "Ouriço-pigmeu",
+    "en": "African pygmy hedgehog",
+    "es": "Erizo pigmeo"
+   },
+   "blurb": {
+    "pt": "Tímido no começo e carinhoso depois. As crianças aprendem com ele a esperar a confiança chegar.",
+    "en": "Shy at first and affectionate later. Children learn from it to wait for trust to arrive.",
+    "es": "Tímido al principio y cariñoso después. Los niños aprenden con él a esperar que llegue la confianza."
+   },
+   "bonus": {
+    "ap": "acolhimento",
+    "v": 1,
+    "when": "kid"
+   },
+   "needs": "hab-terrario",
+   "care": {
+    "pt": "Ração de insetos, roda silenciosa e temperatura estável.",
+    "en": "Insect kibble, a quiet wheel and steady temperature.",
+    "es": "Pienso de insectos, rueda silenciosa y temperatura estable."
+   },
+   "variants": [
+    {
+     "id": "pigmeu",
+     "name": {
+      "pt": "Ouriço-pigmeu africano",
+      "en": "African pygmy",
+      "es": "Erizo pigmeo africano"
+     },
+     "add": 10,
+     "tint": ""
+    },
+    {
+     "id": "albino",
+     "name": {
+      "pt": "Ouriço albino",
+      "en": "Albino hedgehog",
+      "es": "Erizo albino"
+     },
+     "add": 25,
+     "tint": "grayscale(1) brightness(1.5)"
+    }
+   ]
+  },
+  {
+   "id": "dragao",
+   "emoji": "🐉",
+   "kind": "exotic",
+   "price": 200,
+   "name": {
+    "pt": "Dragão-barbudo",
+    "en": "Bearded dragon",
+    "es": "Dragón barbudo"
+   },
+   "blurb": {
+    "pt": "Um mini dragão de verdade! Sociável e paciente, faz as crianças se sentirem corajosas.",
+    "en": "A real mini dragon! Sociable and patient, it makes children feel brave.",
+    "es": "¡Un mini dragón de verdad! Sociable y paciente, hace que los niños se sientan valientes."
+   },
+   "bonus": {
+    "ap": "tcc",
+    "v": 1,
+    "when": "kid"
+   },
+   "needs": "hab-terrario",
+   "care": {
+    "pt": "Verduras, grilos e lâmpada UV.",
+    "en": "Greens, crickets and a UV lamp.",
+    "es": "Verduras, grillos y lámpara UV."
+   },
+   "variants": [
+    {
+     "id": "barbudo",
+     "name": {
+      "pt": "Dragão-barbudo",
+      "en": "Bearded dragon",
+      "es": "Dragón barbudo"
+     },
+     "add": 15,
+     "tint": ""
+    },
+    {
+     "id": "citrico",
+     "name": {
+      "pt": "Dragão-barbudo cítrico",
+      "en": "Citrus bearded dragon",
+      "es": "Dragón barbudo cítrico"
+     },
+     "add": 35,
+     "tint": "hue-rotate(20deg) saturate(1.8) brightness(1.15)"
+    }
+   ]
+  },
+  {
+   "id": "arara",
+   "emoji": "🦜",
+   "kind": "exotic",
+   "price": 240,
+   "name": {
+    "pt": "Arara-azul",
+    "en": "Hyacinth macaw",
+    "es": "Guacamayo jacinto"
+   },
+   "blurb": {
+    "pt": "Inteligente e imponente. Seu jeito curioso ajuda a explicar as coisas a qualquer paciente.",
+    "en": "Intelligent and striking. Its curious manner helps explain things to any patient.",
+    "es": "Inteligente e imponente. Su forma curiosa ayuda a explicar las cosas a cualquier paciente."
+   },
+   "bonus": {
+    "ap": "psicoeducacao",
+    "v": 1,
+    "when": "all"
+   },
+   "needs": "hab-viveiro",
+   "care": {
+    "pt": "Nozes, frutas e horas de voo por dia.",
+    "en": "Nuts, fruit and hours of flight each day.",
+    "es": "Nueces, frutas y horas de vuelo al día."
+   },
+   "size": 34,
+   "variants": [
+    {
+     "id": "azul",
+     "name": {
+      "pt": "Arara-azul",
+      "en": "Hyacinth macaw",
+      "es": "Guacamayo jacinto"
+     },
+     "add": 40,
+     "tint": ""
+    },
+    {
+     "id": "vermelha",
+     "name": {
+      "pt": "Arara-vermelha",
+      "en": "Scarlet macaw",
+      "es": "Guacamayo rojo"
+     },
+     "add": 30,
+     "tint": "hue-rotate(150deg)"
+    }
+   ]
+  },
+  {
+   "id": "rato",
+   "emoji": "🐀",
+   "kind": "common",
+   "price": 30,
+   "name": {
+    "pt": "Rato",
+    "en": "Rat",
+    "es": "Rata"
+   },
+   "blurb": {
+    "pt": "Esperto e sociável. Aprende o próprio nome e adora ficar no seu ombro durante a sessão.",
+    "en": "Clever and social. Learns its name and loves sitting on your shoulder during the session.",
+    "es": "Inteligente y sociable. Aprende su nombre y le encanta quedarse en tu hombro durante la sesión."
+   },
+   "bonus": {
+    "ap": "psicoeducacao",
+    "v": 1,
+    "when": "all"
+   },
+   "care": {
+    "pt": "Grãos, frutas e brinquedos para roer.",
+    "en": "Grains, fruit and chew toys.",
+    "es": "Granos, frutas y juguetes para roer."
+   },
+   "variants": [
+    {
+     "id": "branco",
+     "name": {
+      "pt": "Rato branco (albino)",
+      "en": "White rat",
+      "es": "Rata blanca (albina)"
+     },
+     "add": 0,
+     "tint": "grayscale(1) brightness(1.7)"
+    },
+    {
+     "id": "dumbo",
+     "name": {
+      "pt": "Rato Dumbo",
+      "en": "Dumbo rat",
+      "es": "Rata Dumbo"
+     },
+     "add": 10,
+     "tint": "grayscale(.8) brightness(1.2)"
+    },
+    {
+     "id": "hooded",
+     "name": {
+      "pt": "Rato Hooded",
+      "en": "Hooded rat",
+      "es": "Rata Hooded"
+     },
+     "add": 8,
+     "tint": "sepia(.5) brightness(.85)"
+    },
+    {
+     "id": "siames",
+     "name": {
+      "pt": "Rato siamês",
+      "en": "Siamese rat",
+      "es": "Rata siamesa"
+     },
+     "add": 12,
+     "tint": "sepia(.5) brightness(1.3)"
+    }
+   ]
+  }
+ ],
+ "traits": [
+  {
+   "id": "curioso",
+   "emoji": "🔎",
+   "name": {
+    "pt": "Curioso",
+    "en": "Curious",
+    "es": "Curioso"
+   },
+   "line": {
+    "pt": "{pet} bisbilhotou tudo hoje e descobriu uma moeda atrás do sofá.",
+    "en": "{pet} poked around today and found a coin behind the sofa.",
+    "es": "{pet} husmeó todo hoy y encontró una moneda detrás del sofá."
+   },
+   "coins": 2
+  },
+  {
+   "id": "brincalhao",
+   "emoji": "🎾",
+   "name": {
+    "pt": "Brincalhão",
+    "en": "Playful",
+    "es": "Juguetón"
+   },
+   "line": {
+    "pt": "{pet} te esperou na porta com um brinquedo. Vale uns minutinhos de brincadeira!",
+    "en": "{pet} waited for you at the door with a toy. Worth a few minutes of play!",
+    "es": "{pet} te esperó en la puerta con un juguete. ¡Vale unos minutos de juego!"
+   },
+   "coins": 1
+  },
+  {
+   "id": "timido",
+   "emoji": "🫣",
+   "name": {
+    "pt": "Tímido",
+    "en": "Shy",
+    "es": "Tímido"
+   },
+   "line": {
+    "pt": "{pet} se escondeu, mas depois veio ao seu colo. A confiança está crescendo.",
+    "en": "{pet} hid, but later came to your lap. Trust is growing.",
+    "es": "{pet} se escondió, pero luego vino a tu regazo. La confianza está creciendo."
+   },
+   "coins": 1
+  },
+  {
+   "id": "preguicoso",
+   "emoji": "😴",
+   "name": {
+    "pt": "Preguiçoso",
+    "en": "Lazy",
+    "es": "Perezoso"
+   },
+   "line": {
+    "pt": "{pet} passou o dia cochilando ao sol. Você se sentiu descansada só de olhar.",
+    "en": "{pet} napped in the sun all day. Just watching made you feel rested.",
+    "es": "{pet} durmió al sol todo el día. Solo verlo te hizo sentir descansada."
+   },
+   "coins": 0
+  },
+  {
+   "id": "aventureiro",
+   "emoji": "🧭",
+   "name": {
+    "pt": "Aventureiro",
+    "en": "Adventurous",
+    "es": "Aventurero"
+   },
+   "line": {
+    "pt": "{pet} explorou um canto novo da casa e voltou orgulhoso.",
+    "en": "{pet} explored a new corner of the house and came back proud.",
+    "es": "{pet} exploró un rincón nuevo de la casa y volvió orgulloso."
+   },
+   "coins": 2
+  }
+ ],
+ "levels": [
+  {
+   "min": 0,
+   "name": {
+    "pt": "Conhecidos",
+    "en": "Acquaintances",
+    "es": "Conocidos"
+   }
+  },
+  {
+   "min": 15,
+   "name": {
+    "pt": "Amigos",
+    "en": "Friends",
+    "es": "Amigos"
+   }
+  },
+  {
+   "min": 45,
+   "name": {
+    "pt": "Inseparáveis",
+    "en": "Inseparable",
+    "es": "Inseparables"
+   }
+  }
+ ],
+ "shine": {
+  "chance": {
+   "generic": 0.04,
+   "breed": 0.07,
+   "adoption": 0.15
+  },
+  "name": {
+   "pt": "Brilhante ✨",
+   "en": "Shiny ✨",
+   "es": "Brillante ✨"
+  },
+  "bonus": 1
+ }
+}

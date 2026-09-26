@@ -1,0 +1,504 @@
+{
+  "name": {
+    "pt": "Carlos Menezes",
+    "en": "Carlos Menezes",
+    "es": "Carlos Menezes"
+  },
+  "age": {
+    "pt": "45 anos",
+    "en": "45 years old",
+    "es": "45 años"
+  },
+  "complaint": {
+    "pt": "Pesadelos, sobressaltos e evitação depois de um assalto violento.",
+    "en": "Nightmares, startle and avoidance after a violent robbery.",
+    "es": "Pesadillas, sobresaltos y evitación después de un asalto violento."
+  },
+  "history": {
+    "pt": "Motorista de aplicativo. Há 5 meses foi assaltado com arma no carro. Desde então evita dirigir à noite e acorda assustado.",
+    "en": "Ride-hailing driver. Five months ago he was robbed at gunpoint in his car. Since then he avoids driving at night and wakes up frightened.",
+    "es": "Conductor de aplicaciones. Hace 5 meses lo asaltaron con arma en su auto. Desde entonces evita conducir de noche y despierta asustado."
+  },
+  "image": "assets/char-carlos.png",
+  "parent": null,
+  "dot": "dot-pink",
+  "group": "trauma",
+  "type": {
+    "pt": "1ª Sessão: Anamnese",
+    "en": "1st session: intake interview",
+    "es": "1.ª sesión: anamnesis"
+  },
+  "info": {
+    "pt": "Adulto com sintomas de reexperiência, evitação e hipervigilância após trauma. Primeira sessão.",
+    "en": "Adult with re-experiencing, avoidance and hypervigilance symptoms after trauma. First session.",
+    "es": "Adulto con síntomas de reexperimentación, evitación e hipervigilancia tras un trauma. Primera sesión."
+  },
+  "message": {
+    "from": {
+      "pt": "Esposa do paciente (Denise)",
+      "en": "Patient's wife (Denise)",
+      "es": "Esposa del paciente (Denise)"
+    },
+    "text": {
+      "pt": "O Carlos mudou depois do assalto. Não dorme, se assusta com barulho e não quer mais trabalhar à noite. Ele nega que precisa de ajuda.",
+      "en": "Carlos changed after the robbery. He doesn't sleep, startles at noises and won't work nights anymore. He denies needing help.",
+      "es": "Carlos cambió después del asalto. No duerme, se asusta con los ruidos y no quiere trabajar de noche. Niega que necesite ayuda."
+    }
+  },
+  "fit": {
+    "acolhimento": 4,
+    "psicoeducacao": 3,
+    "tcc": 3,
+    "comportamental": 2,
+    "psicodinamica": 2,
+    "diretiva": 0
+  },
+  "why": {
+    "acolhimento": {
+      "pt": "Após um trauma, segurança e ritmo do paciente vêm primeiro. Ser ouvido sem pressa e sem obrigá-lo a relatar tudo constrói a confiança.",
+      "en": "After trauma, safety and the patient's pace come first. Being heard without hurry and without being forced to tell everything builds trust.",
+      "es": "Tras un trauma, la seguridad y el ritmo del paciente van primero. Ser escuchado sin prisa y sin obligarlo a relatarlo todo construye confianza."
+    },
+    "psicoeducacao": {
+      "pt": "Explicar que pesadelos, sobressalto e evitação são reações comuns ao trauma normaliza o que ele sente e reduz a vergonha.",
+      "en": "Explaining that nightmares, startle and avoidance are common reactions to trauma normalizes what he feels and reduces shame.",
+      "es": "Explicar que las pesadillas, el sobresalto y la evitación son reacciones comunes al trauma normaliza lo que siente y reduce la vergüenza."
+    },
+    "tcc": {
+      "pt": "As terapias focadas no trauma (TCC, exposição prolongada) têm forte evidência, mas só depois de segurança e vínculo.",
+      "en": "Trauma-focused therapies (CBT, prolonged exposure) have strong evidence, but only after safety and bond.",
+      "es": "Las terapias centradas en el trauma (TCC, exposición prolongada) tienen fuerte evidencia, pero solo tras seguridad y vínculo."
+    },
+    "comportamental": {
+      "pt": "Estratégias práticas para o sono e para retomar a direção aos poucos ajudam, quando combinadas ao acolhimento.",
+      "en": "Practical strategies for sleep and gradually returning to driving help, when combined with support.",
+      "es": "Las estrategias prácticas para el sueño y para retomar la conducción de a poco ayudan, combinadas con la acogida."
+    },
+    "psicodinamica": {
+      "pt": "Investigar histórias antigas pode ser útil mais adiante; agora o foco é estabilizar os sintomas e a segurança.",
+      "en": "Investigating older stories may help later; now the focus is stabilizing symptoms and safety.",
+      "es": "Investigar historias antiguas puede ser útil más adelante; ahora el foco es estabilizar los síntomas y la seguridad."
+    }
+  },
+  "steps": [
+    {
+      "who": "patient",
+      "text": {
+        "pt": "(braços cruzados) 'Minha esposa que insistiu. Eu estou bem. Já passou, só preciso voltar a trabalhar.'",
+        "en": "(arms crossed) 'My wife insisted. I'm fine. It's over, I just need to get back to work.'",
+        "es": "(brazos cruzados) 'Mi esposa insistió. Estoy bien. Ya pasó, solo necesito volver a trabajar.'"
+      },
+      "note": {
+        "pt": "Minimiza o problema; veio por insistência da esposa.",
+        "en": "Minimizes the problem; came at his wife's insistence.",
+        "es": "Minimiza el problema; vino por insistencia de su esposa."
+      },
+      "mods": {
+        "psicoeducacao": -1,
+        "tcc": -1
+      },
+      "options": {
+        "acolhimento": {
+          "pt": "Entendo. Você não precisa contar nada que não queira. Pode me dizer só como têm sido as suas noites?",
+          "en": "I understand. You don't have to tell anything you don't want to. Could you just tell me how your nights have been?",
+          "es": "Entiendo. No tienes que contar nada que no quieras. ¿Puedes decirme solo cómo han sido tus noches?"
+        },
+        "comportamental": {
+          "pt": "Se o que você quer é voltar a trabalhar, vamos começar por aí: o que hoje te impede de dirigir à noite?",
+          "en": "If what you want is to get back to work, let's start there: what stops you from driving at night today?",
+          "es": "Si lo que quieres es volver a trabajar, empecemos por ahí: ¿qué te impide hoy conducir de noche?"
+        },
+        "psicodinamica": {
+          "pt": "Homens costumam achar que precisam dar conta de tudo sozinhos. De onde vem essa ideia para você?",
+          "en": "Men often feel they must handle everything alone. Where does that idea come from for you?",
+          "es": "Los hombres suelen creer que deben con todo solos. ¿De dónde viene esa idea para ti?"
+        },
+        "diretiva": {
+          "pt": "Quem chega aqui por insistência da esposa costuma estar pior do que admite. Vamos começar pelo tratamento.",
+          "en": "Someone who comes here at his wife's insistence is usually worse than he admits. Let's start with treatment.",
+          "es": "Quien llega aquí por insistencia de su esposa suele estar peor de lo que admite. Empecemos por el tratamiento."
+        }
+      },
+      "variants": [
+        {
+          "pt": "(braços cruzados) 'Foi minha esposa que me trouxe. Eu estou bem. Já passou, só preciso voltar ao trabalho.'",
+          "en": "(arms crossed) 'My wife made me come. I'm fine. It's over, I just need to get back to work.'",
+          "es": "(brazos cruzados) 'Me trajo mi esposa. Estoy bien. Ya pasó, solo necesito volver al trabajo.'"
+        },
+        {
+          "pt": "(olhando para o chão) 'Eu não sei o que estou fazendo aqui. Estou bem, o que aconteceu ficou para trás. Só quero voltar à rotina.'",
+          "en": "(looking at the floor) 'I don't know what I'm doing here. I'm fine, what happened is behind me. I just want my routine back.'",
+          "es": "(mirando al suelo) 'No sé qué hago aquí. Estoy bien, lo que pasó quedó atrás. Solo quiero volver a mi rutina.'"
+        }
+      ]
+    },
+    {
+      "who": "patient",
+      "text": {
+        "pt": "'Eu não durmo direito. Acordo suando, com o barulho da porta do carro na cabeça. E qualquer moto perto de mim me faz querer sair correndo.'",
+        "en": "'I don't sleep well. I wake up sweating, with the sound of the car door in my head. And any motorbike near me makes me want to run.'",
+        "es": "'No duermo bien. Despierto sudando, con el ruido de la puerta del auto en la cabeza. Y cualquier moto cerca me da ganas de salir corriendo.'"
+      },
+      "note": {
+        "pt": "Pesadelos, hipervigilância, sobressalto; reexperiência do trauma.",
+        "en": "Nightmares, hypervigilance, startle; re-experiencing of trauma.",
+        "es": "Pesadillas, hipervigilancia, sobresalto; reexperimentación del trauma."
+      },
+      "mods": {
+        "psicoeducacao": 1,
+        "acolhimento": 0
+      },
+      "options": {
+        "psicoeducacao": {
+          "pt": "Isso é uma reação comum depois de uma ameaça real: o corpo segue em alerta. Não é fraqueza, e tem tratamento.",
+          "en": "This is a common reaction after a real threat: the body stays on alert. It is not weakness, and it is treatable.",
+          "es": "Esto es una reacción común tras una amenaza real: el cuerpo sigue en alerta. No es debilidad y tiene tratamiento."
+        },
+        "acolhimento": {
+          "pt": "Viver em alerta o tempo todo deve ser exaustivo. Você fez o que precisava para sobreviver, e o corpo ainda não desligou.",
+          "en": "Living on alert all the time must be exhausting. You did what you needed to survive, and the body has not switched off yet.",
+          "es": "Vivir en alerta todo el tiempo debe ser agotador. Hiciste lo necesario para sobrevivir y el cuerpo aún no se apagó."
+        },
+        "tcc": {
+          "pt": "Quando uma moto se aproxima, o que passa pela sua cabeça? Quanto perigo você sente de 0 a 10?",
+          "en": "When a motorbike gets close, what goes through your mind? How much danger do you feel from 0 to 10?",
+          "es": "Cuando se acerca una moto, ¿qué pasa por tu cabeza? ¿Cuánto peligro sientes de 0 a 10?"
+        },
+        "diretiva": {
+          "pt": "A saída é tentar esquecer e ocupar a cabeça. Ficar remoendo o assalto só piora.",
+          "en": "The way out is to try to forget and keep your mind busy. Dwelling on the robbery only makes it worse.",
+          "es": "La salida es intentar olvidar y ocupar la cabeza. Darle vueltas al asalto solo empeora."
+        }
+      },
+      "variants": [
+        {
+          "pt": "'Eu não durmo direito. Acordo suado, ouvindo a porta do carro batendo. Se passa uma moto perto de mim, tenho vontade de sair correndo.'",
+          "en": "'I don't sleep well. I wake up sweating, hearing the car door slam. If a motorcycle passes close to me, I want to run.'",
+          "es": "'No duermo bien. Me despierto sudando, oyendo el portazo del coche. Si pasa una moto cerca, quiero salir corriendo.'"
+        },
+        {
+          "pt": "'À noite o barulho da porta do carro volta na minha cabeça e acordo encharcado de suor. E qualquer moto por perto me faz querer fugir.'",
+          "en": "'At night the sound of the car door comes back and I wake up drenched in sweat. And any motorcycle nearby makes me want to flee.'",
+          "es": "'De noche vuelve el ruido de la puerta del coche y me despierto empapado en sudor. Y cualquier moto cerca me hace querer huir.'"
+        }
+      ]
+    },
+    {
+      "who": "patient",
+      "text": {
+        "pt": "(olhos marejados) 'Eu me sinto um covarde. Ele estava com a arma na minha cabeça e eu só obedeci. Se eu tivesse reagido...'",
+        "en": "(teary-eyed) 'I feel like a coward. He had the gun to my head and I just obeyed. If I had reacted...'",
+        "es": "(ojos llorosos) 'Me siento un cobarde. Tenía el arma en mi cabeza y yo solo obedecí. Si hubiera reaccionado...'"
+      },
+      "note": {
+        "pt": "Culpa e vergonha ('covarde'); pensamento de que poderia ter agido diferente.",
+        "en": "Guilt and shame ('coward'); thought that he could have acted differently.",
+        "es": "Culpa y vergüenza ('cobarde'); pensamiento de que pudo haber actuado distinto."
+      },
+      "mods": {
+        "acolhimento": 1,
+        "tcc": 1,
+        "comportamental": -1
+      },
+      "options": {
+        "acolhimento": {
+          "pt": "Obedecer foi a decisão que manteve você vivo. Nada disso é covardia. Estou aqui com você, no seu ritmo.",
+          "en": "Obeying was the decision that kept you alive. None of this is cowardice. I am here with you, at your pace.",
+          "es": "Obedecer fue la decisión que te mantuvo vivo. Nada de esto es cobardía. Estoy aquí contigo, a tu ritmo."
+        },
+        "tcc": {
+          "pt": "Se um amigo tivesse passado por isso, você o chamaria de covarde? Vamos olhar juntos os fatos daquele momento.",
+          "en": "If a friend had been through this, would you call him a coward? Let's look together at the facts of that moment.",
+          "es": "Si un amigo hubiera pasado por esto, ¿lo llamarías cobarde? Miremos juntos los hechos de aquel momento."
+        },
+        "psicoeducacao": {
+          "pt": "Em situações de ameaça, o cérebro escolhe a resposta que mais protege. A culpa depois é comum e costuma diminuir com tratamento.",
+          "en": "In threatening situations, the brain picks the response that protects most. Guilt afterwards is common and tends to ease with treatment.",
+          "es": "En situaciones de amenaza, el cerebro elige la respuesta que más protege. La culpa después es común y suele disminuir con tratamiento."
+        },
+        "diretiva": {
+          "pt": "Isso já passou e você fez o certo. Agora vale mais olhar para o futuro do que remoer o que poderia ter feito.",
+          "en": "That's over and you did the right thing. Now it's better to look to the future than to dwell on what you could have done.",
+          "es": "Eso ya pasó y hiciste lo correcto. Ahora vale más mirar al futuro que darle vueltas a lo que pudiste hacer."
+        }
+      },
+      "variants": [
+        {
+          "pt": "(olhos marejados) 'Eu me sinto um covarde. Ele apontou a arma para minha cabeça e eu só obedeci. Se eu tivesse reagido...'",
+          "en": "(eyes watering) 'I feel like a coward. He held the gun to my head and I just obeyed. If only I had reacted...'",
+          "es": "(ojos vidriosos) 'Me siento un cobarde. Me apuntó con el arma a la cabeza y yo solo obedecí. Si hubiera reaccionado...'"
+        },
+        {
+          "pt": "(engolindo em seco) 'Fico pensando que fui fraco. A arma estava na minha cabeça e eu não fiz nada, só entreguei tudo. E se eu tivesse lutado?'",
+          "en": "(swallowing hard) 'I keep thinking I was weak. The gun was at my head and I did nothing, I just handed everything over. What if I had fought?'",
+          "es": "(tragando saliva) 'No dejo de pensar que fui débil. El arma estaba en mi cabeza y no hice nada, lo entregué todo. ¿Y si hubiera peleado?'"
+        }
+      ]
+    },
+    {
+      "who": "patient",
+      "text": {
+        "pt": "(levantando-se) 'Eu não sei se isso adianta. Mas posso voltar. O que você acha que eu devo fazer até lá?'",
+        "en": "(standing up) 'I don't know if this helps. But I can come back. What do you think I should do until then?'",
+        "es": "(levantándose) 'No sé si esto sirve. Pero puedo volver. ¿Qué crees que debo hacer hasta entonces?'"
+      },
+      "note": {
+        "pt": "Aceita voltar, ainda cético; abre espaço para uma orientação.",
+        "en": "Agrees to return, still skeptical; opens a space for guidance.",
+        "es": "Acepta volver, aún escéptico; abre espacio para una orientación."
+      },
+      "mods": {
+        "psicoeducacao": 1,
+        "acolhimento": -1,
+        "comportamental": 1
+      },
+      "options": {
+        "psicoeducacao": {
+          "pt": "Cuide do sono: horários fixos, sem telas nem café à noite. E, se os pesadelos vierem, isso é esperado e vamos trabalhar nisso aos poucos.",
+          "en": "Look after your sleep: fixed times, no screens or coffee at night. And if nightmares come, that is expected and we'll work on it gradually.",
+          "es": "Cuida el sueño: horarios fijos, sin pantallas ni café por la noche. Y si llegan pesadillas, es esperable y lo trabajaremos poco a poco."
+        },
+        "acolhimento": {
+          "pt": "Não precisa fazer nada além de vir. Ter voltado já é um passo grande. Se quiser, converse com sua esposa sobre como foi. Não precisa se cobrar mais do que isso hoje.",
+          "en": "You don't need to do anything besides coming. Coming back is already a big step. If you like, talk to your wife about how it went. You don't need to demand more of yourself than that today.",
+          "es": "No necesitas hacer nada más que venir. Volver ya es un gran paso. Si quieres, conversa con tu esposa sobre cómo fue. No necesitas exigirte más que eso hoy."
+        },
+        "comportamental": {
+          "pt": "Que tal dirigir um trajeto curto, de dia, perto de casa, duas vezes esta semana? Sem pressa, só para retomar aos poucos.",
+          "en": "How about driving a short route, by day, near home, twice this week? No rush, just to resume gradually.",
+          "es": "¿Qué tal conducir un trayecto corto, de día, cerca de casa, dos veces esta semana? Sin prisa, solo para retomar de a poco."
+        },
+        "diretiva": {
+          "pt": "O melhor remédio é voltar a trabalhar à noite o quanto antes. Quanto mais você adiar, mais o medo cresce.",
+          "en": "The best medicine is to go back to working nights as soon as possible. The longer you put it off, the more the fear grows.",
+          "es": "La mejor medicina es volver a trabajar de noche cuanto antes. Cuanto más lo postergues, más crece el miedo."
+        }
+      },
+      "variants": [
+        {
+          "pt": "(pegando as chaves) 'Não sei se ajuda, mas volto sim. Até lá, o que você acha que eu devo fazer?'",
+          "en": "(picking up his keys) 'Not sure it helps, but I'll be back. Until then, what should I be doing, do you think?'",
+          "es": "(agarrando las llaves) 'No sé si ayuda, pero volveré. Hasta entonces, ¿qué crees que debería hacer?'"
+        },
+        {
+          "pt": "(ajeitando o casaco) 'Ainda tenho dúvida se ajuda. Mas volto, sim. E até lá, o que eu faço com essas noites?'",
+          "en": "(adjusting his coat) 'I'm still not sure it helps. But I'll come back. And until then, what do I do about these nights?'",
+          "es": "(acomodándose el abrigo) 'Todavía dudo de que sirva. Pero volveré. Y hasta entonces, ¿qué hago con estas noches?'"
+        }
+      ]
+    }
+  ],
+  "diagnosis": {
+    "answer": "tept",
+    "options": [
+      "tept",
+      "estresse-agudo",
+      "adaptacao",
+      "panico"
+    ],
+    "why": {
+      "pt": "Um trauma real, seguido de pesadelos, hipervigilância, sobressalto, evitação e culpa por mais de 1 mês (aqui, 5 meses), aponta para o TEPT. O estresse agudo dura de 3 dias a 1 mês.",
+      "en": "A real trauma followed by nightmares, hypervigilance, startle, avoidance and guilt for more than 1 month (here, 5 months) points to PTSD. Acute stress disorder lasts from 3 days to 1 month.",
+      "es": "Un trauma real seguido de pesadillas, hipervigilancia, sobresalto, evitación y culpa por más de 1 mes (aquí, 5 meses) apunta al TEPT. El estrés agudo dura de 3 días a 1 mes."
+    }
+  },
+  "voice": {
+    "intro": {
+      "pt": "(senta rígido, mãos no joelho) 'Carlos Menezes, 45. Fui assaltado faz cinco meses e desde então não sou o mesmo. Nunca precisei disso, mas... a minha esposa insistiu.'",
+      "en": "(sits stiffly, hands on his knees) 'Carlos Menezes, 45. I was robbed five months ago and I haven't been the same since. I never needed this, but... my wife insisted.'",
+      "es": "(se sienta rígido, manos en las rodillas) 'Carlos Menezes, 45. Me asaltaron hace cinco meses y desde entonces no soy el mismo. Nunca necesité esto, pero... mi esposa insistió.'"
+    },
+    "pre": [
+      {
+        "pt": "Olha, doutora,",
+        "en": "Look, doctor,",
+        "es": "Mire, doctora,"
+      },
+      {
+        "pt": "Vou ser direto:",
+        "en": "I'll be direct:",
+        "es": "Voy a ser directo:"
+      }
+    ],
+    "post": {
+      "pt": "Foi isso.",
+      "en": "That's it.",
+      "es": "Eso es todo."
+    },
+    "ref": [
+      {
+        "pt": "Tive pesadelo quase toda noite e evitei dirigir depois das sete.",
+        "en": "Had nightmares almost every night and avoided driving after seven.",
+        "es": "Tuve pesadillas casi todas las noches y evité conducir después de las siete."
+      },
+      {
+        "pt": "Dirigi à noite até a esquina e voltei. Foi um começo.",
+        "en": "I drove at night to the corner and came back. It was a start.",
+        "es": "Conduje de noche hasta la esquina y volví. Fue un comienzo."
+      },
+      {
+        "pt": "Dirigi à noite até a casa do meu irmão. Cheguei tremendo, mas cheguei.",
+        "en": "I drove at night to my brother's house. I arrived shaking, but I arrived.",
+        "es": "Conduje de noche hasta la casa de mi hermano. Llegué temblando, pero llegué."
+      }
+    ],
+    "hookA": {
+      "pt": "O que você sente no corpo quando ouve um barulho forte?",
+      "en": "What do you feel in your body when you hear a loud noise?",
+      "es": "¿Qué sientes en el cuerpo cuando oyes un ruido fuerte?"
+    },
+    "hookB": {
+      "pt": "Vamos montar uma escada de situações, da mais fácil à mais difícil, para voltar a dirigir?",
+      "en": "Shall we build a ladder of situations, easiest to hardest, to get back to driving?",
+      "es": "¿Armamos una escalera de situaciones, de la más fácil a la más difícil, para volver a conducir?"
+    },
+    "sessoes": {
+      "s3": [
+        {
+          "pt": "'(senta de costas para a parede, como sempre) Eu troquei de horário no trabalho pra não voltar de noite. Meu chefe perguntou por quê. Eu falei que era pela minha filha.'",
+          "en": "'(sits with his back to the wall, as always) I changed my shift so I wouldn't come home at night. My boss asked why. I said it was because of my daughter.'",
+          "es": "'(sits with his back to the wall, as always) I changed my shift so I wouldn't come home at night. My boss asked why. I said it was because of my daughter.'"
+        },
+        {
+          "pt": "'Ontem um carro fechou o meu e eu… (para) Eu não lembro do minuto seguinte. Só lembro da minha mulher falando o meu nome e eu com a mão no volante, branco.'",
+          "en": "'Yesterday a car cut me off and I… (stops) I don't remember the next minute. I only remember my wife saying my name and me gripping the wheel, white-knuckled.'",
+          "es": "'Yesterday a car cut me off and I… (stops) I don't remember the next minute. I only remember my wife saying my name and me gripping the wheel, white-knuckled.'"
+        }
+      ],
+      "s4": [
+        {
+          "pt": "'Eu contei pra ela. (a voz falha, e ele espera) Três anos e eu nunca tinha contado a parte do que eu pensei enquanto acontecia. Ela não ficou com medo de mim. Eu achava que ela ia ficar.'",
+          "en": "'I told her. (his voice breaks, and he waits) Three years and I'd never told her the part about what I thought while it was happening. She wasn't afraid of me. I thought she would be.'",
+          "es": "'I told her. (his voice breaks, and he waits) Three years and I'd never told her the part about what I thought while it was happening. She wasn't afraid of me. I thought she would be.'"
+        },
+        {
+          "pt": "'Sonhei de novo na quarta. (silêncio) Mas eu acordei e soube onde eu estava. Antes eu levava uma hora pra saber onde eu estava.'",
+          "en": "'I dreamt it again on Wednesday. (silence) But I woke up and knew where I was. Before, it took me an hour to know where I was.'",
+          "es": "'I dreamt it again on Wednesday. (silence) But I woke up and knew where I was. Before, it took me an hour to know where I was.'"
+        }
+      ]
+    },
+    "fecho": {
+      "s2": {
+        "pt": "(levanta e confere a porta antes de sair, como quem não percebe que está fazendo isso) 'Até semana que vem, doutora.'",
+        "en": "(stands up and checks the door before leaving, like someone who doesn't notice they're doing it) 'See you next week, doctor.'",
+        "es": "(stands up and checks the door before leaving, like someone who doesn't notice they're doing it) 'See you next week, doctor.'"
+      },
+      "s3": {
+        "pt": "'A senhora reparou que eu sento sempre de costas pra parede?' (silêncio) 'Minha filha reparou primeiro. Ela tem nove anos.'",
+        "en": "'Did you notice I always sit with my back to the wall?' (silence) 'My daughter noticed first. She's nine.'",
+        "es": "'Did you notice I always sit with my back to the wall?' (silence) 'My daughter noticed first. She's nine.'"
+      },
+      "s4": {
+        "pt": "(aperta a sua mão com as duas mãos, o que ele nunca tinha feito) 'Obrigado por não ter me feito contar antes de eu conseguir.'",
+        "en": "(shakes your hand with both of his, which he had never done) 'Thank you for not making me tell it before I could.'",
+        "es": "(shakes your hand with both of his, which he had never done) 'Thank you for not making me tell it before I could.'"
+      }
+    },
+    "opcoes": {
+      "s3": [
+        {
+          "acolhimento": {
+            "pt": "Você disse ao seu chefe que era pela sua filha. Comigo não precisa ser pela sua filha.",
+            "en": "You told your boss it was for your daughter. With me it does not have to be for your daughter.",
+            "es": "You told your boss it was for your daughter. With me it does not have to be for your daughter."
+          },
+          "tcc": {
+            "pt": "Trocar de horário resolveu o quê, exatamente? O medo de voltar de noite, ou a lembrança que vem quando você volta?",
+            "en": "What exactly did changing shifts solve? The fear of driving home at night, or the memory that comes when you do?",
+            "es": "What exactly did changing shifts solve? The fear of driving home at night, or the memory that comes when you do?"
+          },
+          "psicoeducacao": {
+            "pt": "Isso tem nome: evitação. Alivia hoje e aperta o mundo amanhã — é assim que o trauma vai tomando o espaço sem ninguém ver.",
+            "en": "This has a name: avoidance. It relieves today and tightens the world tomorrow — that is how trauma takes up space without anyone noticing.",
+            "es": "This has a name: avoidance. It relieves today and tightens the world tomorrow — that is how trauma takes up space without anyone noticing."
+          },
+          "diretiva": {
+            "pt": "Sentar de costas para a parede, trocar de turno, evitar a noite. Isso já é o quadro organizando a sua vida.",
+            "en": "Sitting with your back to the wall, changing shifts, avoiding the night. That is the condition already organising your life.",
+            "es": "Sitting with your back to the wall, changing shifts, avoiding the night. That is the condition already organising your life."
+          }
+        },
+        {
+          "acolhimento": {
+            "pt": "Você parou no meio da frase agora, como parou lá. Tudo bem. Vai no seu tempo.",
+            "en": "You stopped mid-sentence just now, the way you stopped there. That is all right. Take your time.",
+            "es": "You stopped mid-sentence just now, the way you stopped there. That is all right. Take your time."
+          },
+          "tcc": {
+            "pt": "Esse minuto que some não é esquecimento comum. O que foi a última coisa que você lembra antes do branco?",
+            "en": "That missing minute is not ordinary forgetting. What was the last thing you remember before the blank?",
+            "es": "That missing minute is not ordinary forgetting. What was the last thing you remember before the blank?"
+          },
+          "psicoeducacao": {
+            "pt": "O que aconteceu ali chama-se revivescência: o corpo responde como se fosse de novo, e o tempo some. Não é loucura nem descuido no volante.",
+            "en": "What happened there is called re-experiencing: the body responds as if it were happening again, and time disappears. It is not madness or carelessness at the wheel.",
+            "es": "What happened there is called re-experiencing: the body responds as if it were happening again, and time disappears. It is not madness or carelessness at the wheel."
+          },
+          "diretiva": {
+            "pt": "Enquanto isso acontecer ao volante, eu preciso que a gente combine quem dirige à noite.",
+            "en": "As long as that happens at the wheel, I need us to agree on who drives at night.",
+            "es": "As long as that happens at the wheel, I need us to agree on who drives at night."
+          }
+        }
+      ],
+      "s4": [
+        {
+          "acolhimento": {
+            "pt": "Três anos guardando a parte que você achava que ia assustar. E ela não se assustou.",
+            "en": "Three years holding on to the part you thought would frighten her. And she was not frightened.",
+            "es": "Three years holding on to the part you thought would frighten her. And she was not frightened."
+          },
+          "tcc": {
+            "pt": "Você previu que ela teria medo de você. A previsão não se cumpriu. O que mais você anda prevendo assim?",
+            "en": "You predicted she would be afraid of you. The prediction did not come true. What else have you been predicting like that?",
+            "es": "You predicted she would be afraid of you. The prediction did not come true. What else have you been predicting like that?"
+          },
+          "psicoeducacao": {
+            "pt": "O que te calava não era o fato: era a vergonha do que você pensou enquanto acontecia. Isso é comum, e é justamente o que costuma sustentar o quadro.",
+            "en": "What silenced you was not the fact: it was the shame of what you thought while it happened. That is common, and it is exactly what tends to keep the condition going.",
+            "es": "What silenced you was not the fact: it was the shame of what you thought while it happened. That is common, and it is exactly what tends to keep the condition going."
+          },
+          "diretiva": {
+            "pt": "Isso foi o passo mais difícil, e você já deu. O resto do tratamento fica mais fácil a partir daqui.",
+            "en": "That was the hardest step, and you have taken it. The rest of the treatment gets easier from here.",
+            "es": "That was the hardest step, and you have taken it. The rest of the treatment gets easier from here."
+          }
+        },
+        {
+          "acolhimento": {
+            "pt": "De uma hora para o imediato. Você percebeu o tamanho disso?",
+            "en": "From an hour to right away. Have you noticed how big that is?",
+            "es": "From an hour to right away. Have you noticed how big that is?"
+          },
+          "tcc": {
+            "pt": "O sonho voltou e você voltou junto. É esse o treino: não impedir o sonho, encurtar o caminho de volta.",
+            "en": "The dream came back and you came back with it. That is the training: not to stop the dream, but to shorten the way back.",
+            "es": "The dream came back and you came back with it. That is the training: not to stop the dream, but to shorten the way back."
+          },
+          "psicoeducacao": {
+            "pt": "É assim que se mede melhora em trauma: não pela ausência do pesadelo, mas pelo tempo que você leva para reencontrar o quarto.",
+            "en": "That is how improvement in trauma is measured: not by the absence of the nightmare, but by how long it takes you to find the room again.",
+            "es": "That is how improvement in trauma is measured: not by the absence of the nightmare, but by how long it takes you to find the room again."
+          },
+          "diretiva": {
+            "pt": "Anote isso como marca: uma hora, agora imediato. É o número que a gente vai acompanhar.",
+            "en": "Write that down as a marker: an hour, now immediate. That is the number we will follow.",
+            "es": "Write that down as a marker: an hour, now immediate. That is the number we will follow."
+          }
+        }
+      ]
+    }
+  },
+  "look": {
+    "skin": "#8a5c3a",
+    "hair": "#6a6a6a",
+    "top": "#4a6a4a",
+    "style": "shirt",
+    "eyeShape": "round",
+    "brow": "thick",
+    "mouth": "neutral",
+    "rosto": "assets/rosto-carlos.png",
+    "corpo": "m"
+  }
+}

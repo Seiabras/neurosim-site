@@ -1,0 +1,3783 @@
+{
+ "domains": [
+  {
+   "id": "humor",
+   "icon": "😔",
+   "name": {
+    "pt": "Humor e prazer",
+    "en": "Mood and pleasure",
+    "es": "Ánimo y placer"
+   },
+   "ask": {
+    "pt": "Como tem estado o seu humor? Ainda sente prazer nas coisas de antes?",
+    "en": "How has your mood been? Do you still enjoy the things you used to?",
+    "es": "¿Cómo ha estado tu ánimo? ¿Aún disfrutas de lo de antes?"
+   },
+   "sensitive": false,
+   "neg": {
+    "pt": "Sem queda de humor marcante; o prazer nas atividades está preservado.",
+    "en": "No marked low mood; enjoyment of activities is preserved.",
+    "es": "Sin caída marcada del ánimo; el placer en las actividades se conserva."
+   },
+   "negsay": {
+    "adult": {
+     "pt": "Tenho tido meus dias mais ou menos, mas nada que tire meu prazer nas coisas de sempre.",
+     "en": "I've had my so-so days, but nothing that takes away my enjoyment of the usual things.",
+     "es": "He tenido mis días regulares, pero nada que me quite el gusto por lo de siempre."
+    },
+    "kid": {
+     "pt": "Eu tô normal, gosto das minhas coisas!",
+     "en": "I'm okay, I like my stuff!",
+     "es": "¡Estoy normal, me gustan mis cosas!"
+    }
+   }
+  },
+  {
+   "id": "ansiedade",
+   "icon": "😰",
+   "name": {
+    "pt": "Ansiedade e medos",
+    "en": "Anxiety and fears",
+    "es": "Ansiedad y miedos"
+   },
+   "ask": {
+    "pt": "Existem medos ou preocupações que incomodam?",
+    "en": "Are there fears or worries that bother you?",
+    "es": "¿Hay miedos o preocupaciones que te molesten?"
+   },
+   "sensitive": false,
+   "neg": {
+    "pt": "Nada chama a atenção em ansiedade ou medos.",
+    "en": "Nothing stands out regarding anxiety or fears.",
+    "es": "Nada llama la atención en ansiedad o miedos."
+   },
+   "negsay": {
+    "adult": {
+     "pt": "Ansioso além do normal? Não, dá pra levar. O normal de quem tem uma vida corrida.",
+     "en": "Anxious beyond normal? No, I manage. The usual for someone with a busy life.",
+     "es": "¿Ansioso más de lo normal? No, se lleva. Lo normal de quien tiene una vida ajetreada."
+    },
+    "kid": {
+     "pt": "Não tenho medo de nada disso, não.",
+     "en": "I'm not scared of any of that.",
+     "es": "No tengo miedo de nada de eso."
+    }
+   }
+  },
+  {
+   "id": "pensamento",
+   "icon": "💭",
+   "name": {
+    "pt": "Pensamento e percepção",
+    "en": "Thoughts and perception",
+    "es": "Pensamiento y percepción"
+   },
+   "ask": {
+    "pt": "Como a sua cabeça funciona no dia a dia — atenção, memória, jeito de pensar? E há pensamentos que se repetem, ou coisas que você ouve ou vê e os outros não?",
+    "en": "How does your head work day to day — attention, memory, the way you think? And are there thoughts that keep repeating, or things you hear or see that others don't?",
+    "es": "¿Cómo funciona tu cabeza en el día a día: atención, memoria, forma de pensar? ¿Y hay pensamientos que se repiten, o cosas que oyes o ves y los demás no?"
+   },
+   "sensitive": false,
+   "neg": {
+    "pt": "Pensamento organizado, sem obsessões, delírios ou alucinações.",
+    "en": "Organized thinking, with no obsessions, delusions or hallucinations.",
+    "es": "Pensamiento organizado, sin obsesiones, delirios ni alucinaciones."
+   },
+   "negsay": {
+    "adult": {
+     "pt": "Meus pensamentos tão normais, nada estranho passando pela minha cabeça.",
+     "en": "My thoughts are normal, nothing strange going through my head.",
+     "es": "Mis pensamientos están normales, nada raro pasando por mi cabeza."
+    },
+    "kid": {
+     "pt": "Nada estranho, não. Eu penso nas minhas coisas.",
+     "en": "Nothing weird. I think about my stuff.",
+     "es": "Nada raro, no. Pienso en mis cosas."
+    }
+   }
+  },
+  {
+   "id": "sono",
+   "icon": "🌙",
+   "name": {
+    "pt": "Sono e energia",
+    "en": "Sleep and energy",
+    "es": "Sueño y energía"
+   },
+   "ask": {
+    "pt": "Como estão o sono e a energia?",
+    "en": "How are your sleep and energy?",
+    "es": "¿Cómo están el sueño y la energía?"
+   },
+   "sensitive": false,
+   "neg": {
+    "pt": "Sono e energia dentro do esperado.",
+    "en": "Sleep and energy within the expected range.",
+    "es": "Sueño y energía dentro de lo esperado."
+   },
+   "negsay": {
+    "adult": {
+     "pt": "O sono tá bom, durmo direitinho e acordo descansado.",
+     "en": "Sleep is fine, I sleep well and wake up rested.",
+     "es": "El sueño está bien, duermo bien y despierto descansado."
+    },
+    "kid": {
+     "pt": "Eu durmo bem, sim!",
+     "en": "I sleep well, yes!",
+     "es": "¡Duermo bien, sí!"
+    }
+   }
+  },
+  {
+   "id": "corpo",
+   "icon": "🩺",
+   "name": {
+    "pt": "Corpo e saúde",
+    "en": "Body and health",
+    "es": "Cuerpo y salud"
+   },
+   "ask": {
+    "pt": "Mudou algo no apetite, no peso ou no corpo? Já fez exames?",
+    "en": "Any change in appetite, weight or body? Have you had tests?",
+    "es": "¿Cambió algo en el apetito, el peso o el cuerpo? ¿Te hiciste exámenes?"
+   },
+   "sensitive": false,
+   "neg": {
+    "pt": "Sem queixas físicas relevantes.",
+    "en": "No relevant physical complaints.",
+    "es": "Sin quejas físicas relevantes."
+   },
+   "negsay": {
+    "adult": {
+     "pt": "No corpo não tenho nada de mais: apetite normal, sem dor nem tensão.",
+     "en": "Nothing much in my body: normal appetite, no pain or tension.",
+     "es": "En el cuerpo no tengo nada especial: apetito normal, sin dolor ni tensión."
+    },
+    "kid": {
+     "pt": "Meu corpo tá bem, não dói nada.",
+     "en": "My body's fine, nothing hurts.",
+     "es": "Mi cuerpo está bien, no me duele nada."
+    }
+   }
+  },
+  {
+   "id": "trauma",
+   "icon": "🕰️",
+   "name": {
+    "pt": "Passado e eventos difíceis",
+    "en": "Past and difficult events",
+    "es": "Pasado y sucesos difíciles"
+   },
+   "ask": {
+    "pt": "Aconteceu algo marcante ou muito difícil na vida?",
+    "en": "Has anything marked or very hard happened in life?",
+    "es": "¿Ocurrió algo marcante o muy difícil en la vida?"
+   },
+   "sensitive": true,
+   "neg": {
+    "pt": "Nenhum evento traumático relevante.",
+    "en": "No relevant traumatic event.",
+    "es": "Ningún suceso traumático relevante."
+   },
+   "negsay": {
+    "adult": {
+     "pt": "Nada assim marcante que eu lembre... nenhum evento que ainda me assombre.",
+     "en": "Nothing that striking that I remember... no event that still haunts me.",
+     "es": "Nada tan marcante que recuerde... ningún hecho que me siga acechando."
+    },
+    "kid": {
+     "pt": "Não aconteceu nada de ruim assim comigo.",
+     "en": "Nothing bad like that has happened to me.",
+     "es": "No me pasó nada malo así."
+    }
+   }
+  },
+  {
+   "id": "risco",
+   "icon": "🛟",
+   "name": {
+    "pt": "Segurança e risco",
+    "en": "Safety and risk",
+    "es": "Seguridad y riesgo"
+   },
+   "ask": {
+    "pt": "Já pensou em se machucar ou em não estar mais aqui?",
+    "en": "Have you thought of hurting yourself or of not being here anymore?",
+    "es": "¿Has pensado en hacerte daño o en no estar más aquí?"
+   },
+   "sensitive": true,
+   "neg": {
+    "pt": "Nega pensamentos de morte ou de se machucar.",
+    "en": "Denies thoughts of death or self-harm.",
+    "es": "Niega pensamientos de muerte o de hacerse daño."
+   },
+   "negsay": {
+    "adult": {
+     "pt": "Não, nada disso. Eu quero é ficar bem, pode ficar tranquila.",
+     "en": "No, nothing like that. I just want to feel better, you can rest easy.",
+     "es": "No, nada de eso. Lo que quiero es estar bien, puede estar tranquila."
+    },
+    "kid": {
+     "pt": "Não, eu não penso nisso.",
+     "en": "No, I don't think about that.",
+     "es": "No, no pienso en eso."
+    }
+   }
+  },
+  {
+   "id": "subst",
+   "icon": "🍷",
+   "name": {
+    "pt": "Álcool e substâncias",
+    "en": "Alcohol and substances",
+    "es": "Alcohol y sustancias"
+   },
+   "ask": {
+    "pt": "Como é o consumo de álcool, cigarro, remédios ou outras substâncias?",
+    "en": "How is the use of alcohol, cigarettes, medication or other substances?",
+    "es": "¿Cómo es el consumo de alcohol, cigarrillos, medicamentos u otras sustancias?"
+   },
+   "sensitive": true,
+   "neg": {
+    "pt": "Sem uso relevante de substâncias.",
+    "en": "No relevant substance use.",
+    "es": "Sin consumo relevante de sustancias."
+   },
+   "negsay": {
+    "adult": {
+     "pt": "Bebida e droga, não uso, não. Só de vez em quando, socialmente.",
+     "en": "Alcohol or drugs, I don't use. Only occasionally, socially.",
+     "es": "Alcohol y drogas, no uso. Solo de vez en cuando, socialmente."
+    },
+    "kid": {
+     "pt": "Eu não tomo nada disso!",
+     "en": "I don't take any of that!",
+     "es": "¡No tomo nada de eso!"
+    }
+   }
+  },
+  {
+   "id": "func",
+   "icon": "🏫",
+   "name": {
+    "pt": "Rotina e funcionamento",
+    "en": "Routine and functioning",
+    "es": "Rutina y funcionamiento"
+   },
+   "ask": {
+    "pt": "Como isso afeta o trabalho, os estudos e a rotina?",
+    "en": "How does this affect work, studies and routine?",
+    "es": "¿Cómo afecta esto al trabajo, los estudios y la rutina?"
+   },
+   "sensitive": false,
+   "neg": {
+    "pt": "Rotina e desempenho preservados.",
+    "en": "Routine and performance preserved.",
+    "es": "Rutina y desempeño conservados."
+   },
+   "negsay": {
+    "adult": {
+     "pt": "No dia a dia eu dou conta, trabalho e rotina seguem de boa.",
+     "en": "In daily life I manage, work and routine go fine.",
+     "es": "En el día a día me las arreglo, trabajo y rutina van bien."
+    },
+    "kid": {
+     "pt": "Na escola e em casa tá tudo bem.",
+     "en": "At school and at home everything's fine.",
+     "es": "En la escuela y en casa todo bien."
+    }
+   }
+  },
+  {
+   "id": "social",
+   "icon": "🤝",
+   "name": {
+    "pt": "Relações e comunicação",
+    "en": "Relationships and communication",
+    "es": "Relaciones y comunicación"
+   },
+   "ask": {
+    "pt": "Como são as relações com amigos, família e parceiros?",
+    "en": "How are relationships with friends, family and partners?",
+    "es": "¿Cómo son las relaciones con amigos, familia y parejas?"
+   },
+   "sensitive": false,
+   "neg": {
+    "pt": "Relações e comunicação sem alterações marcantes.",
+    "en": "Relationships and communication without marked changes.",
+    "es": "Relaciones y comunicación sin cambios marcados."
+   },
+   "negsay": {
+    "adult": {
+     "pt": "Com as pessoas eu me dou bem, tenho meus amigos e converso de boa.",
+     "en": "I get along with people, I have my friends and talk easily.",
+     "es": "Con la gente me llevo bien, tengo mis amigos y converso tranquilo."
+    },
+    "kid": {
+     "pt": "Eu brinco com todo mundo, tenho amigos.",
+     "en": "I play with everyone, I have friends.",
+     "es": "Juego con todos, tengo amigos."
+    }
+   }
+  },
+  {
+   "id": "inicio",
+   "icon": "⏳",
+   "name": {
+    "pt": "Início e duração",
+    "en": "Onset and duration",
+    "es": "Inicio y duración"
+   },
+   "ask": {
+    "pt": "Quando começou e como evoluiu desde então?",
+    "en": "When did it start and how has it evolved since?",
+    "es": "¿Cuándo empezó y cómo evolucionó desde entonces?"
+   },
+   "sensitive": false,
+   "neg": {
+    "pt": "O início é vago no tempo, sem um marco claro.",
+    "en": "Onset is vague, with no clear landmark.",
+    "es": "El inicio es vago en el tiempo, sin un hito claro."
+   },
+   "negsay": {
+    "adult": {
+     "pt": "Não sei apontar um começo, não é uma coisa que eu consiga situar no tempo.",
+     "en": "I can't point to a start, it's not something I can place in time.",
+     "es": "No sé señalar un comienzo, no es algo que pueda situar en el tiempo."
+    },
+    "kid": {
+     "pt": "Não lembro de quando começou.",
+     "en": "I don't remember when it started.",
+     "es": "No recuerdo cuándo empezó."
+    }
+   }
+  },
+  {
+   "id": "familia",
+   "icon": "🏠",
+   "name": {
+    "pt": "Família e rede de apoio",
+    "en": "Family and support network",
+    "es": "Familia y red de apoyo"
+   },
+   "ask": {
+    "pt": "Alguém da família passou por algo parecido? Com quem conta?",
+    "en": "Has anyone in the family had something similar? Who can you count on?",
+    "es": "¿Alguien de la familia pasó por algo parecido? ¿Con quién cuentas?"
+   },
+   "sensitive": false,
+   "neg": {
+    "pt": "Sem histórico familiar relevante; rede de apoio razoável.",
+    "en": "No relevant family history; reasonable support network.",
+    "es": "Sin antecedentes familiares relevantes; red de apoyo razonable."
+   },
+   "negsay": {
+    "adult": {
+     "pt": "Na minha família não tem nada assim, que eu saiba.",
+     "en": "In my family there's nothing like that, as far as I know.",
+     "es": "En mi familia no hay nada así, que yo sepa."
+    },
+    "kid": {
+     "pt": "Lá em casa tá tudo normal.",
+     "en": "At home everything's normal.",
+     "es": "En casa todo normal."
+    }
+   }
+  }
+ ],
+ "cases": {
+  "beatriz": {
+   "findings": [
+    {
+     "d": "pensamento",
+     "text": {
+      "pt": "Pensamentos intrusivos de contaminar a família; ela sabe que é exagero, mas não consegue ignorá-los.",
+      "en": "Intrusive thoughts of contaminating the family; she knows it is excessive but cannot ignore them.",
+      "es": "Pensamientos intrusivos de contaminar a la familia; sabe que es exagerado pero no logra ignorarlos."
+     },
+     "pts": {
+      "toc": 3,
+      "tag": 1,
+      "ansiedade-doenca": 1,
+      "obsessivo-compulsiva-pers": -1
+     },
+     "say": {
+      "pt": "Vem uma imagem na cabeça... eu passando algo pra minha família, tipo uma doença. Eu sei que é exagero, sei mesmo, mas não consigo ignorar. Me desculpa, deve soar ridículo.",
+      "en": "An image pops into my head... me passing something on to my family, like an illness. I know it's excessive, I really do, but I can't ignore it. Sorry, it must sound ridiculous.",
+      "es": "Me viene una imagen a la cabeza... yo contagiando algo a mi familia, una enfermedad. Sé que es exagerado, de verdad, pero no logro ignorarlo. Perdón, debe sonar ridículo."
+     }
+    },
+    {
+     "d": "func",
+     "text": {
+      "pt": "Perde cerca de 3 horas por dia em rituais e já falta às aulas.",
+      "en": "Loses about 3 hours a day to rituals and is already missing classes.",
+      "es": "Pierde unas 3 horas al día en rituales y ya falta a clases."
+     },
+     "pts": {
+      "toc": 3,
+      "obsessivo-compulsiva-pers": 1
+     },
+     "say": {
+      "pt": "Uns... três horas por dia, fácil. Entre lavar, conferir e refazer. Já faltei em aula por causa disso e nem tenho coragem de contar o motivo.",
+      "en": "About... three hours a day, easily. Washing, checking, redoing it all. I've already skipped class because of it and I don't even dare say why.",
+      "es": "Unas... tres horas al día, fácil. Entre lavar, comprobar y rehacer. Ya falté a clase por esto y ni me atrevo a contar el motivo."
+     }
+    },
+    {
+     "d": "ansiedade",
+     "text": {
+      "pt": "A ansiedade sobe ao tocar em maçanetas e só cai depois de lavar; preocupa-se só com contaminação, não com tudo.",
+      "en": "Anxiety rises after touching doorknobs and drops only after washing; she worries only about contamination, not everything.",
+      "es": "La ansiedad sube al tocar picaportes y baja solo tras lavarse; se preocupa solo por la contaminación, no por todo."
+     },
+     "pts": {
+      "toc": 2,
+      "tag": -2
+     },
+     "say": {
+      "pt": "Sobe quando eu encosto numa maçaneta, sabe? Aí só passa depois que eu lavo. Mas é só isso... não é que eu me preocupe com tudo, é com contaminação mesmo.",
+      "en": "It rises when I touch a doorknob, you know? And only goes away after I wash. But it's just that... I don't worry about everything, only contamination.",
+      "es": "Sube cuando toco un picaporte, ¿sabes? Y solo pasa después de lavarme. Pero es solo eso... no me preocupo por todo, es la contaminación."
+     }
+    },
+    {
+     "d": "inicio",
+     "text": {
+      "pt": "Começou há cerca de um ano e foi piorando aos poucos.",
+      "en": "Started about a year ago and slowly got worse.",
+      "es": "Empezó hace cerca de un año y fue empeorando poco a poco."
+     },
+     "pts": {
+      "toc": 1
+     },
+     "say": {
+      "pt": "Faz mais ou menos um ano. Começou pequeno, lavava um pouquinho mais... e foi só piorando, devagar, sem eu perceber.",
+      "en": "About a year now. It started small, washing a little more... and it just got worse, slowly, without me noticing.",
+      "es": "Hace más o menos un año. Empezó chico, lavaba un poquito más... y fue empeorando, despacio, sin que me diera cuenta."
+     }
+    },
+    {
+     "d": "corpo",
+     "text": {
+      "pt": "As mãos estão em carne viva de tanto lavar; não teme ter uma doença específica.",
+      "en": "Her hands are raw from washing; she does not fear having a specific illness.",
+      "es": "Las manos están en carne viva de tanto lavar; no teme tener una enfermedad concreta."
+     },
+     "pts": {
+      "toc": 1,
+      "ansiedade-doenca": -1
+     },
+     "say": {
+      "pt": "Olha minhas mãos... estão em carne viva, de tanto lavar. Mas doença específica, assim, eu não tenho medo de nenhuma. É só... contaminar.",
+      "en": "Look at my hands... raw from so much washing. But I'm not afraid of any specific illness. It's just... contaminating.",
+      "es": "Mira mis manos... en carne viva de tanto lavar. Pero no le temo a ninguna enfermedad en concreto. Es solo... contagiar."
+     }
+    }
+   ],
+   "form": {
+    "predisposing": {
+     "pt": "Traço perfeccionista e histórico familiar de ansiedade.",
+     "en": "Perfectionist trait and family history of anxiety.",
+     "es": "Rasgo perfeccionista y antecedentes familiares de ansiedad."
+    },
+    "precipitating": {
+     "pt": "Pressão da faculdade e um surto de gripe na turma reforçaram o medo de contaminação.",
+     "en": "College pressure and a flu outbreak in class reinforced the fear of contamination.",
+     "es": "La presión de la facultad y un brote de gripe en la clase reforzaron el miedo a la contaminación."
+    },
+    "perpetuating": {
+     "pt": "Rituais e pedidos de garantia aliviam na hora e mantêm o ciclo.",
+     "en": "Rituals and reassurance-seeking relieve her at once and keep the cycle going.",
+     "es": "Los rituales y pedir garantías alivian en el momento y mantienen el ciclo."
+    },
+    "protective": {
+     "pt": "Boa rede familiar, motivação alta e consciência do problema.",
+     "en": "Good family network, high motivation and awareness of the problem.",
+     "es": "Buena red familiar, motivación alta y conciencia del problema."
+    }
+   },
+   "testes": {
+    "atencao": {
+     "z": -0.27,
+     "prof": {
+      "toc": -0.3,
+      "tag": -0.5,
+      "obsessivo-compulsiva-pers": 0,
+      "ansiedade-doenca": -0.3
+     }
+    },
+    "memoria": {
+     "z": 0.22,
+     "prof": {
+      "toc": 0,
+      "tag": 0,
+      "obsessivo-compulsiva-pers": 0,
+      "ansiedade-doenca": 0
+     }
+    },
+    "executivas": {
+     "z": -0.59,
+     "prof": {
+      "toc": -0.8,
+      "tag": 0,
+      "obsessivo-compulsiva-pers": -0.2,
+      "ansiedade-doenca": 0
+     }
+    },
+    "qi": {
+     "z": -0.12,
+     "prof": {
+      "toc": 0,
+      "tag": 0,
+      "obsessivo-compulsiva-pers": 0,
+      "ansiedade-doenca": 0
+     }
+    },
+    "emocoes": {
+     "z": 0.25,
+     "prof": {
+      "toc": 0,
+      "tag": 0,
+      "obsessivo-compulsiva-pers": 0,
+      "ansiedade-doenca": 0
+     }
+    }
+   }
+  },
+  "carlos": {
+   "findings": [
+    {
+     "d": "trauma",
+     "text": {
+      "pt": "Há 5 meses foi assaltado com arma dentro do carro e lembra da cena em detalhes.",
+      "en": "Five months ago he was robbed at gunpoint in his car and remembers the scene in detail.",
+      "es": "Hace 5 meses lo asaltaron con arma dentro del auto y recuerda la escena con detalle."
+     },
+     "pts": {
+      "tept": 3,
+      "estresse-agudo": 1,
+      "adaptacao": -1
+     },
+     "say": {
+      "pt": "Faz cinco meses. Ele apontou a arma pra dentro do carro... e eu lembro de tudo. A cor da camisa dele, o barulho. Todo detalhe. Não pedi pra lembrar assim.",
+      "en": "Five months ago. He pointed the gun into the car... and I remember everything. The color of his shirt, the noise. Every detail. I didn't ask to remember like this.",
+      "es": "Hace cinco meses. Apuntó con el arma dentro del coche... y recuerdo todo. El color de su camisa, el ruido. Cada detalle. No pedí recordar así."
+     }
+    },
+    {
+     "d": "sono",
+     "text": {
+      "pt": "Pesadelos com o assalto; acorda assustado quase toda noite.",
+      "en": "Nightmares about the robbery; wakes up frightened almost every night.",
+      "es": "Pesadillas con el asalto; despierta asustado casi todas las noches."
+     },
+     "pts": {
+      "tept": 3,
+      "panico": 1
+     },
+     "say": {
+      "pt": "Pesadelo, quase toda noite. É sempre o assalto. Eu acordo com o coração na boca e não durmo mais.",
+      "en": "Nightmares, almost every night. It's always the robbery. I wake up with my heart in my mouth and can't sleep again.",
+      "es": "Pesadillas, casi todas las noches. Siempre es el asalto. Me despierto con el corazón en la boca y ya no duermo."
+     }
+    },
+    {
+     "d": "ansiedade",
+     "text": {
+      "pt": "Sobressalta-se com barulhos, fica em alerta ao dirigir à noite e evita as ruas do assalto.",
+      "en": "Startles at noises, stays on alert driving at night and avoids the streets of the robbery.",
+      "es": "Se sobresalta con ruidos, está en alerta al manejar de noche y evita las calles del asalto."
+     },
+     "pts": {
+      "tept": 2,
+      "panico": 1
+     },
+     "say": {
+      "pt": "Qualquer barulho me dá um sobressalto. Dirigir à noite, nem pensar, fico em alerta o tempo todo. E aquelas ruas ali, eu dou a volta, evito.",
+      "en": "Any noise makes me jump. Driving at night, no way, I'm on alert the whole time. And those streets, I go around, I avoid them.",
+      "es": "Cualquier ruido me sobresalta. Conducir de noche, ni pensarlo, estoy en alerta todo el tiempo. Y esas calles, doy la vuelta, las evito."
+     }
+    },
+    {
+     "d": "inicio",
+     "text": {
+      "pt": "Tudo começou logo após o assalto e dura 5 meses: já passou da fase aguda.",
+      "en": "It all began right after the robbery and has lasted 5 months: past the acute phase.",
+      "es": "Todo empezó justo después del asalto y dura 5 meses: ya pasó la fase aguda."
+     },
+     "pts": {
+      "tept": 2,
+      "estresse-agudo": -3
+     },
+     "say": {
+      "pt": "Foi logo depois do assalto, doutora. Já são cinco meses e eu achava que já tinha que ter passado.",
+      "en": "Right after the robbery, doctor. It's been five months now and I thought it should have passed by now.",
+      "es": "Fue justo después del asalto, doctora. Ya son cinco meses y pensaba que ya tendría que haberse pasado."
+     }
+    },
+    {
+     "d": "humor",
+     "text": {
+      "pt": "Sente culpa e vergonha, chama a si mesmo de covarde.",
+      "en": "Feels guilt and shame, calls himself a coward.",
+      "es": "Siente culpa y vergüenza, se llama cobarde."
+     },
+     "pts": {
+      "tept": 2
+     },
+     "say": {
+      "pt": "Eu sinto culpa... e vergonha. Um homem da minha idade travar daquele jeito. Eu me chamo de covarde, vou ser sincero.",
+      "en": "I feel guilt... and shame. A man my age freezing like that. I call myself a coward, to be honest.",
+      "es": "Siento culpa... y vergüenza. Un hombre de mi edad quedándose paralizado así. Me llamo cobarde, voy a ser sincero."
+     }
+    },
+    {
+     "d": "func",
+     "text": {
+      "pt": "Deixou de trabalhar à noite, a renda caiu e a esposa nota a irritabilidade.",
+      "en": "Stopped working nights, income dropped and his wife notices the irritability.",
+      "es": "Dejó de trabajar de noche, bajó el ingreso y la esposa nota la irritabilidad."
+     },
+     "pts": {
+      "tept": 1,
+      "adaptacao": 1
+     },
+     "say": {
+      "pt": "Parei de trabalhar à noite, e a renda caiu. Minha esposa já notou que eu ando irritado por nada. Eu não era assim.",
+      "en": "I stopped working nights, and income dropped. My wife has noticed I'm irritable over nothing. I wasn't like this.",
+      "es": "Dejé de trabajar de noche y bajaron los ingresos. Mi esposa ya notó que ando irritable por nada. Yo no era así."
+     }
+    }
+   ],
+   "form": {
+    "predisposing": {
+     "pt": "Sem transtorno anterior, mas muita responsabilidade e pouca rede fora da família.",
+     "en": "No previous disorder, but heavy responsibility and little support outside the family.",
+     "es": "Sin trastorno previo, pero mucha responsabilidad y poca red fuera de la familia."
+    },
+    "precipitating": {
+     "pt": "Assalto à mão armada, com risco de vida, há 5 meses.",
+     "en": "Armed robbery, life-threatening, 5 months ago.",
+     "es": "Asalto a mano armada, con riesgo de vida, hace 5 meses."
+    },
+    "perpetuating": {
+     "pt": "Evitar dirigir à noite e a culpa impedem processar o trauma.",
+     "en": "Avoiding night driving and guilt prevent processing the trauma.",
+     "es": "Evitar manejar de noche y la culpa impiden procesar el trauma."
+    },
+    "protective": {
+     "pt": "Esposa presente e vínculo forte com o trabalho.",
+     "en": "A present wife and a strong tie to his work.",
+     "es": "Esposa presente y fuerte vínculo con el trabajo."
+    }
+   },
+   "testes": {
+    "atencao": {
+     "z": -1.01,
+     "prof": {
+      "tept": -1.0,
+      "estresse-agudo": -0.8,
+      "adaptacao": -0.3,
+      "panico": -0.3
+     }
+    },
+    "memoria": {
+     "z": -0.97,
+     "prof": {
+      "tept": -0.9,
+      "estresse-agudo": 0,
+      "adaptacao": 0,
+      "panico": 0
+     }
+    },
+    "executivas": {
+     "z": -0.24,
+     "prof": {
+      "tept": 0,
+      "estresse-agudo": 0,
+      "adaptacao": 0,
+      "panico": 0
+     }
+    },
+    "qi": {
+     "z": 0.07,
+     "prof": {
+      "tept": 0,
+      "estresse-agudo": 0,
+      "adaptacao": 0,
+      "panico": 0
+     }
+    },
+    "emocoes": {
+     "z": -0.17,
+     "prof": {
+      "tept": 0,
+      "estresse-agudo": 0,
+      "adaptacao": 0,
+      "panico": 0
+     }
+    }
+   },
+   "warn": [
+    "trauma"
+   ]
+  },
+  "enzo": {
+   "findings": [
+    {
+     "d": "social",
+     "text": {
+      "pt": "Poucos olhares e poucas frases; prefere brincar sozinho, alinhando carrinhos.",
+      "en": "Little eye contact and few phrases; prefers playing alone, lining up toy cars.",
+      "es": "Poco contacto visual y pocas frases; prefiere jugar solo, alineando autitos."
+     },
+     "pts": {
+      "tea": 3,
+      "comunicacao": 1,
+      "mutismo": -2
+     },
+     "say": {
+      "pt": "(Enzo brinca alinhando os carrinhos, sem olhar.) ...Carrinho. Vermelho. (A mãe:) Ele quase não olha nem fala com os outros, prefere ficar sozinho assim.",
+      "en": "(Enzo plays lining up the cars, not looking up.) ...Car. Red. (His mom:) He hardly looks or talks to others, he prefers being alone like this.",
+      "es": "(Enzo juega alineando los cochecitos, sin mirar.) ...Coche. Rojo. (La madre:) Casi no mira ni habla con los demás, prefiere estar solo así."
+     }
+    },
+    {
+     "d": "inicio",
+     "text": {
+      "pt": "Falou tarde (perto dos 3 anos) e as diferenças aparecem desde bebê.",
+      "en": "Spoke late (near age 3) and the differences show since infancy.",
+      "es": "Habló tarde (cerca de los 3 años) y las diferencias aparecen desde bebé."
+     },
+     "pts": {
+      "tea": 2,
+      "tdi": 1
+     },
+     "say": {
+      "pt": "(A mãe:) Ele falou tarde, perto dos três anos. E, olhando pra trás, já era diferente desde bebê. A gente demorou pra juntar as peças.",
+      "en": "(His mom:) He spoke late, around three. And looking back, he was different since he was a baby. It took us a while to put the pieces together.",
+      "es": "(La madre:) Habló tarde, cerca de los tres años. Y, mirando atrás, ya era diferente desde bebé. Tardamos en juntar las piezas."
+     }
+    },
+    {
+     "d": "func",
+     "text": {
+      "pt": "Crises quando a rotina muda, como trocar o caminho da escola.",
+      "en": "Meltdowns when routine changes, like a different route to school.",
+      "es": "Crisis cuando cambia la rutina, como el camino a la escuela."
+     },
+     "pts": {
+      "tea": 3
+     },
+     "say": {
+      "pt": "(A mãe:) Quando muda a rotina, é crise. Semana passada trocamos o caminho da escola e ele desabou, chorou o trajeto inteiro.",
+      "en": "(His mom:) When the routine changes, it's a meltdown. Last week we changed the way to school and he fell apart, cried the whole trip.",
+      "es": "(La madre:) Cuando cambia la rutina, es crisis. La semana pasada cambiamos el camino a la escuela y se derrumbó, lloró todo el trayecto."
+     }
+    },
+    {
+     "d": "pensamento",
+     "text": {
+      "pt": "Interesses restritos e movimentos repetitivos com as rodas dos carrinhos.",
+      "en": "Restricted interests and repetitive movements with the toy car wheels.",
+      "es": "Intereses restringidos y movimientos repetitivos con las ruedas de los autitos."
+     },
+     "pts": {
+      "tea": 3,
+      "comunicacao": -2
+     },
+     "say": {
+      "pt": "(Enzo gira a rodinha de um carrinho, de novo e de novo.) ...roda. Roda. (A mãe:) Ele passa horas nisso, só nisso.",
+      "en": "(Enzo spins a car's wheel, again and again.) ...wheel. Wheel. (His mom:) He spends hours on this, only this.",
+      "es": "(Enzo hace girar la rueda de un cochecito, una y otra vez.) ...rueda. Rueda. (La madre:) Pasa horas en eso, solo en eso."
+     }
+    },
+    {
+     "d": "ansiedade",
+     "text": {
+      "pt": "Incomoda-se muito com barulhos e etiquetas de roupa.",
+      "en": "Very bothered by noises and clothing tags.",
+      "es": "Le molestan mucho los ruidos y las etiquetas de la ropa."
+     },
+     "pts": {
+      "tea": 2
+     },
+     "say": {
+      "pt": "(Enzo tapa os ouvidos.) Barulho não. (A mãe:) O secador, o liquidificador... e as etiquetas das roupas, ele arranca todas.",
+      "en": "(Enzo covers his ears.) No noise. (His mom:) The hairdryer, the blender... and clothes tags, he rips them all off.",
+      "es": "(Enzo se tapa los oídos.) Ruido no. (La madre:) El secador, la licuadora... y las etiquetas de la ropa, las arranca todas."
+     }
+    }
+   ],
+   "form": {
+    "predisposing": {
+     "pt": "Neurodesenvolvimento atípico desde a primeira infância, com possível herança familiar.",
+     "en": "Atypical neurodevelopment since early childhood, with possible family heritage.",
+     "es": "Neurodesarrollo atípico desde la primera infancia, con posible herencia familiar."
+    },
+    "precipitating": {
+     "pt": "A entrada na escola aumentou as demandas sociais e deixou as diferenças visíveis.",
+     "en": "Starting school raised social demands and made the differences visible.",
+     "es": "Entrar a la escuela aumentó las demandas sociales y volvió visibles las diferencias."
+    },
+    "perpetuating": {
+     "pt": "Mudanças de rotina sem aviso e pouco apoio escolar aumentam as crises.",
+     "en": "Unannounced routine changes and little school support increase the meltdowns.",
+     "es": "Los cambios de rutina sin aviso y el poco apoyo escolar aumentan las crisis."
+    },
+    "protective": {
+     "pt": "Mãe engajada, boa memória visual e os carrinhos como ponte de interação.",
+     "en": "An engaged mother, good visual memory and toy cars as a bridge for interaction.",
+     "es": "Madre comprometida, buena memoria visual y los autitos como puente de interacción."
+    }
+   },
+   "testes": {
+    "atencao": {
+     "z": -0.12,
+     "prof": {
+      "tea": -0.3,
+      "comunicacao": 0,
+      "mutismo": 0,
+      "tdi": -1.5
+     }
+    },
+    "memoria": {
+     "z": -0.2,
+     "prof": {
+      "tea": 0,
+      "comunicacao": 0,
+      "mutismo": 0,
+      "tdi": -1.6
+     }
+    },
+    "executivas": {
+     "z": -1.01,
+     "prof": {
+      "tea": -0.9,
+      "comunicacao": 0,
+      "mutismo": 0,
+      "tdi": -1.6
+     }
+    },
+    "qi": {
+     "z": 0.19,
+     "prof": {
+      "tea": 0,
+      "comunicacao": 0,
+      "mutismo": 0,
+      "tdi": -2.3
+     }
+    },
+    "emocoes": {
+     "z": -1.43,
+     "prof": {
+      "tea": -1.5,
+      "comunicacao": -0.6,
+      "mutismo": -0.3,
+      "tdi": -1.2
+     }
+    }
+   }
+  },
+  "gabriel": {
+   "findings": [
+    {
+     "d": "func",
+     "text": {
+      "pt": "Lê e escreve bem abaixo do esperado, mesmo com esforço e reforço escolar.",
+      "en": "Reads and writes well below expectations despite effort and tutoring.",
+      "es": "Lee y escribe muy por debajo de lo esperado pese al esfuerzo y al refuerzo."
+     },
+     "pts": {
+      "aprendizagem": 3,
+      "tdah": 1
+     },
+     "say": {
+      "pt": "Eu leio bem devagar, tá? E escrevo... errado. Já fiz reforço, me esforcei, e não adianta. Ah, tanto faz.",
+      "en": "I read really slowly, okay? And I write... wrong. I've done tutoring, I tried hard, and it doesn't help. Ah, whatever.",
+      "es": "Leo muy despacio, ¿vale? Y escribo... mal. Ya hice refuerzo, me esforcé, y no sirve. Ah, da igual."
+     }
+    },
+    {
+     "d": "inicio",
+     "text": {
+      "pt": "As dificuldades de leitura e escrita aparecem desde a alfabetização e persistem.",
+      "en": "Reading and writing difficulties appear since literacy learning and persist.",
+      "es": "Las dificultades de lectura y escritura aparecen desde la alfabetización y persisten."
+     },
+     "pts": {
+      "aprendizagem": 3,
+      "social": -1
+     },
+     "say": {
+      "pt": "(O pai:) Desde que aprendeu a ler, já era assim. Não é de agora. (Gabriel:) Sempre foi difícil, desde a primeira série.",
+      "en": "(His dad:) Since he learned to read, it's been like this. It's not new. (Gabriel:) It's always been hard, since first grade.",
+      "es": "(El padre:) Desde que aprendió a leer ya era así. No es de ahora. (Gabriel:) Siempre fue difícil, desde primer grado."
+     }
+    },
+    {
+     "d": "pensamento",
+     "text": {
+      "pt": "Perde o foco só em textos longos; em jogos e assuntos de interesse, concentra-se bem. Inteligência na média nos testes.",
+      "en": "Loses focus only on long texts; concentrates well on games and topics of interest. Intelligence average on testing.",
+      "es": "Pierde el foco solo en textos largos; se concentra bien en juegos y temas de interés. Inteligencia promedio en las pruebas."
+     },
+     "pts": {
+      "tdah": -2,
+      "tdi": -3,
+      "aprendizagem": 1
+     },
+     "say": {
+      "pt": "Texto grande me dá sono, perco o fio. Mas jogando eu fico horas de boa, tipo, sem problema. Não é que eu seja burro, né.",
+      "en": "Long texts make me sleepy, I lose the thread. But playing games I'm fine for hours, like, no problem. It's not like I'm dumb, right?",
+      "es": "Un texto largo me da sueño, pierdo el hilo. Pero jugando aguanto horas, tipo, sin problema. No es que sea tonto, ¿no?"
+     }
+    },
+    {
+     "d": "social",
+     "text": {
+      "pt": "Tem amigos e se comunica bem com eles.",
+      "en": "Has friends and communicates well with them.",
+      "es": "Tiene amigos y se comunica bien con ellos."
+     },
+     "pts": {
+      "social": -2,
+      "tdi": -1
+     },
+     "say": {
+      "pt": "Meus amigos são da hora, a gente conversa de tudo. Com eles não tem problema nenhum.",
+      "en": "My friends are cool, we talk about everything. With them there's no problem at all.",
+      "es": "Mis amigos son geniales, hablamos de todo. Con ellos no hay ningún problema."
+     }
+    },
+    {
+     "d": "humor",
+     "text": {
+      "pt": "Desanima e diz ser 'burro' depois das notas baixas.",
+      "en": "Gets discouraged and calls himself 'dumb' after low grades.",
+      "es": "Se desanima y dice ser 'tonto' tras las notas bajas."
+     },
+     "pts": {
+      "aprendizagem": 1
+     },
+     "say": {
+      "pt": "Depois da prova a nota vem baixa e eu... me sinto um burro, sabe? Falo mesmo: 'sou burro'. Desanima.",
+      "en": "After the test the grade comes back low and I... feel dumb, you know? I actually say it: 'I'm dumb'. It's discouraging.",
+      "es": "Después del examen la nota sale baja y yo... me siento tonto, ¿sabes? Lo digo: 'soy tonto'. Desanima."
+     }
+    },
+    {
+     "d": "familia",
+     "text": {
+      "pt": "O pai é ansioso e cobra resposta rápida; a mãe apoia mais.",
+      "en": "The father is anxious and demands quick answers; the mother is more supportive.",
+      "es": "El padre es ansioso y exige respuesta rápida; la madre apoya más."
+     },
+     "pts": {},
+     "say": {
+      "pt": "Meu pai fica em cima, quer resposta rápida, e eu travo. Minha mãe é mais de boa, ela ajuda.",
+      "en": "My dad's on my case, wants a quick answer, and I freeze. My mom is more chill, she helps.",
+      "es": "Mi padre me presiona, quiere respuesta rápida, y me bloqueo. Mi madre es más tranquila, ayuda."
+     }
+    }
+   ],
+   "form": {
+    "predisposing": {
+     "pt": "Histórico familiar de dificuldades de leitura.",
+     "en": "Family history of reading difficulties.",
+     "es": "Antecedentes familiares de dificultades de lectura."
+    },
+    "precipitating": {
+     "pt": "A cobrança crescente do ensino médio expôs a dificuldade.",
+     "en": "Increasing demands in high school exposed the difficulty.",
+     "es": "La exigencia creciente de la secundaria dejó a la vista la dificultad."
+    },
+    "perpetuating": {
+     "pt": "Notas baixas e a crença de ser 'burro' reduzem a motivação e o esforço.",
+     "en": "Low grades and the belief of being 'dumb' reduce motivation and effort.",
+     "es": "Las notas bajas y creerse 'tonto' reducen la motivación y el esfuerzo."
+    },
+    "protective": {
+     "pt": "Inteligência preservada, bons amigos e interesse por tecnologia.",
+     "en": "Preserved intelligence, good friends and an interest in technology.",
+     "es": "Inteligencia conservada, buenos amigos e interés por la tecnología."
+    }
+   },
+   "testes": {
+    "atencao": {
+     "z": -0.41,
+     "prof": {
+      "aprendizagem": -0.6,
+      "tdah": -1.6,
+      "tdi": -1.5,
+      "social": 0
+     }
+    },
+    "memoria": {
+     "z": -1.02,
+     "prof": {
+      "aprendizagem": -1.0,
+      "tdah": -0.6,
+      "tdi": -1.6,
+      "social": 0
+     }
+    },
+    "executivas": {
+     "z": -0.71,
+     "prof": {
+      "aprendizagem": -0.5,
+      "tdah": -1.3,
+      "tdi": -1.6,
+      "social": 0
+     }
+    },
+    "qi": {
+     "z": -0.16,
+     "prof": {
+      "aprendizagem": 0,
+      "tdah": 0,
+      "tdi": -2.3,
+      "social": 0
+     }
+    },
+    "emocoes": {
+     "z": 0.06,
+     "prof": {
+      "aprendizagem": 0,
+      "tdah": 0,
+      "tdi": -1.2,
+      "social": -0.3
+     }
+    }
+   }
+  },
+  "helena": {
+   "findings": [
+    {
+     "d": "humor",
+     "text": {
+      "pt": "Nada mais tem graça e ela se sente um peso para os outros, quase todos os dias, há meses.",
+      "en": "Nothing is fun anymore and she feels like a burden, nearly every day, for months.",
+      "es": "Nada tiene gracia y se siente una carga para los demás, casi todos los días, desde hace meses."
+     },
+     "pts": {
+      "tdm": 3,
+      "distimia": 1,
+      "tag": -1
+     },
+     "say": {
+      "pt": "Nada mais tem graça... quase todo dia, faz meses. Eu me sinto um peso pra todo mundo. Desculpa, não queria incomodar.",
+      "en": "Nothing is fun anymore... almost every day, for months. I feel like a burden to everyone. Sorry, I didn't mean to bother you.",
+      "es": "Nada tiene gracia ya... casi todos los días, hace meses. Me siento una carga para todos. Perdón, no quería molestar."
+     }
+    },
+    {
+     "d": "sono",
+     "text": {
+      "pt": "Dorme mal e acorda cedo; deitada, a cabeça não para. Ela não sabe dizer se o que a mantém acordada é tristeza ou preocupação.",
+      "en": "Sleeps badly and wakes early; lying down, her head will not stop. She cannot say whether what keeps her awake is sadness or worry.",
+      "es": "Duerme mal y despierta temprano; acostada, la cabeza no para. No sabe decir si lo que la mantiene despierta es tristeza o preocupación."
+     },
+     "pts": {
+      "tdm": 2,
+      "tag": 2
+     },
+     "say": {
+      "pt": "Durmo mal... acordo cedinho e não volto a dormir. E o cansaço fica o dia todo, sabe? Um cansaço que não passa.",
+      "en": "I sleep badly... I wake up early and can't go back to sleep. And the tiredness stays all day, you know? A tiredness that won't go away.",
+      "es": "Duermo mal... me despierto temprano y no vuelvo a dormir. Y el cansancio se queda todo el día, ¿sabes? Un cansancio que no pasa."
+     }
+    },
+    {
+     "d": "corpo",
+     "text": {
+      "pt": "Perdeu o apetite e alguns quilos sem querer.",
+      "en": "Lost her appetite and a few kilos without trying.",
+      "es": "Perdió el apetito y algunos kilos sin querer."
+     },
+     "pts": {
+      "tdm": 2
+     },
+     "say": {
+      "pt": "Perdi o apetite. Emagreci uns quilos sem querer, as roupas ficaram folgadas.",
+      "en": "I lost my appetite. I dropped a few kilos without trying, my clothes got loose.",
+      "es": "Perdí el apetito. Adelgacé unos kilos sin querer, la ropa me queda floja."
+     }
+    },
+    {
+     "d": "risco",
+     "text": {
+      "pt": "Aparecem pensamentos passivos de morte ('seria mais fácil não acordar'), sem plano.",
+      "en": "Passive thoughts of death appear ('it would be easier not to wake up'), with no plan.",
+      "es": "Aparecen pensamientos pasivos de muerte ('sería más fácil no despertar'), sin plan."
+     },
+     "pts": {
+      "tdm": 2
+     },
+     "say": {
+      "pt": "(fala baixinho) Às vezes penso que seria mais fácil não acordar. Não tenho plano nenhum, não é isso... é só um pensamento que vem.",
+      "en": "(speaks softly) Sometimes I think it would be easier not to wake up. I have no plan, it's not that... it's just a thought that comes.",
+      "es": "(habla bajito) A veces pienso que sería más fácil no despertar. No tengo ningún plan, no es eso... es solo un pensamiento que viene."
+     }
+    },
+    {
+     "d": "inicio",
+     "text": {
+      "pt": "Começou há uns 5 meses, depois da separação, e piorou aos poucos.",
+      "en": "Began about 5 months ago, after the separation, and slowly worsened.",
+      "es": "Empezó hace unos 5 meses, tras la separación, y empeoró poco a poco."
+     },
+     "pts": {
+      "tdm": 2,
+      "distimia": -2
+     },
+     "say": {
+      "pt": "Começou faz uns cinco meses, depois da separação. E foi piorando assim, aos pouquinhos, eu nem vi.",
+      "en": "It started about five months ago, after the separation. And it got worse little by little, I didn't even see it.",
+      "es": "Empezó hace unos cinco meses, después de la separación. Y fue empeorando poquito a poco, ni lo vi."
+     }
+    },
+    {
+     "d": "func",
+     "text": {
+      "pt": "Continua dando aulas, mas com muito esforço. Nunca teve semanas de euforia ou energia excessiva.",
+      "en": "Still teaches, but with great effort. Never had weeks of euphoria or excess energy.",
+      "es": "Sigue dando clases, pero con mucho esfuerzo. Nunca tuvo semanas de euforia o energía excesiva."
+     },
+     "pts": {
+      "bipolar2": -3,
+      "tdm": 1
+     },
+     "say": {
+      "pt": "Continuo dando aula, mas com um esforço enorme. E olha, nunca tive semana de euforia, de energia demais, nada disso. Sempre pra baixo.",
+      "en": "I keep teaching, but with enormous effort. And look, I've never had a week of euphoria or too much energy, none of that. Always down.",
+      "es": "Sigo dando clase, pero con un esfuerzo enorme. Y mira, nunca tuve una semana de euforia ni de energía de más. Siempre hacia abajo."
+     }
+    }
+   ],
+   "form": {
+    "predisposing": {
+     "pt": "Histórico familiar de depressão (mãe) e tendência a se cobrar muito.",
+     "en": "Family history of depression (mother) and a tendency to demand a lot of herself.",
+     "es": "Antecedentes familiares de depresión (madre) y tendencia a exigirse mucho."
+    },
+    "precipitating": {
+     "pt": "Separação há um ano e sobrecarga no trabalho.",
+     "en": "Separation a year ago and work overload.",
+     "es": "Separación hace un año y sobrecarga laboral."
+    },
+    "perpetuating": {
+     "pt": "Isolamento, inatividade e ruminação sobre culpa.",
+     "en": "Isolation, inactivity and rumination about guilt.",
+     "es": "Aislamiento, inactividad y rumiación sobre la culpa."
+    },
+    "protective": {
+     "pt": "Irmã presente, vínculo com os alunos e a decisão de buscar ajuda.",
+     "en": "A present sister, a bond with her students and the decision to seek help.",
+     "es": "Hermana presente, vínculo con los alumnos y la decisión de buscar ayuda."
+    }
+   },
+   "testes": {
+    "atencao": {
+     "z": -0.7,
+     "prof": {
+      "tdm": -0.9,
+      "distimia": -0.5,
+      "bipolar2": -0.7,
+      "tag": -0.5
+     }
+    },
+    "memoria": {
+     "z": -0.58,
+     "prof": {
+      "tdm": -0.7,
+      "distimia": 0,
+      "bipolar2": 0,
+      "tag": 0
+     }
+    },
+    "executivas": {
+     "z": -0.99,
+     "prof": {
+      "tdm": -0.9,
+      "distimia": -0.5,
+      "bipolar2": -0.7,
+      "tag": 0
+     }
+    },
+    "qi": {
+     "z": 0.13,
+     "prof": {
+      "tdm": 0,
+      "distimia": 0,
+      "bipolar2": 0,
+      "tag": 0
+     }
+    },
+    "emocoes": {
+     "z": 0.14,
+     "prof": {
+      "tdm": 0,
+      "distimia": 0,
+      "bipolar2": 0,
+      "tag": 0
+     }
+    }
+   },
+   "risk": {
+    "ideacao": true,
+    "plano": false,
+    "imediato": false
+   },
+   "warn": [
+    "risco"
+   ],
+   "difWhy": {
+    "distimia": {
+     "ok": {
+      "pt": "Descartado. A distimia é um humor rebaixado que se arrasta por anos, de leve intensidade. O quadro da Helena começou há poucos meses, em alguém que funcionava bem antes, e caiu fundo e rápido.",
+      "en": "Ruled out. Dysthymia is a low mood that drags on for years at mild intensity. Helena's picture started a few months ago, in someone who was functioning well before, and dropped deep and fast.",
+      "es": "Descartado. La distimia es un ánimo bajo que se arrastra durante años, de intensidad leve. El cuadro de Helena empezó hace pocos meses, en alguien que funcionaba bien antes, y cayó hondo y rápido."
+     },
+     "dica": {
+      "pt": "Olhe quando começou e como ela estava antes: anos de humor baixo, ou uma queda recente?",
+      "en": "Look at when it started and how she was before: years of low mood, or a recent drop?",
+      "es": "Mira cuándo empezó y cómo estaba antes: ¿años de ánimo bajo, o una caída reciente?"
+     }
+    },
+    "bipolar2": {
+     "ok": {
+      "pt": "Descartado. Para o tipo 2 seria preciso um período de humor elevado, com energia a mais e menos necessidade de sono. Na história da Helena não há nada disso: só a descida.",
+      "en": "Ruled out. Type 2 would require a period of elevated mood, with extra energy and less need for sleep. There is none of that in Helena's history: only the descent.",
+      "es": "Descartado. Para el tipo 2 haría falta un periodo de ánimo elevado, con más energía y menos necesidad de sueño. En la historia de Helena no hay nada de eso: solo el descenso."
+     },
+     "dica": {
+      "pt": "Procure na história um período de energia a mais, não só os períodos ruins.",
+      "en": "Look in the history for a period of extra energy, not only the bad periods.",
+      "es": "Busca en la historia un periodo de más energía, no solo los periodos malos."
+     }
+    },
+    "tag": {
+     "ok": {
+      "pt": "Descartado. Na ansiedade generalizada o motor é a preocupação antecipatória, com o corpo em alerta. Aqui o motor é a perda do prazer e da vontade, com o corpo lentificado — é o oposto.",
+      "en": "Ruled out. In generalised anxiety the engine is anticipatory worry, with the body on alert. Here the engine is loss of pleasure and drive, with the body slowed down — the opposite.",
+      "es": "Descartado. En la ansiedad generalizada el motor es la preocupación anticipatoria, con el cuerpo en alerta. Aquí el motor es la pérdida del placer y de las ganas, con el cuerpo lentificado: lo contrario."
+     },
+     "dica": {
+      "pt": "O corpo dela está acelerado de preocupação ou parado de desânimo?",
+      "en": "Is her body speeded up with worry, or slowed down with dejection?",
+      "es": "¿Su cuerpo está acelerado de preocupación o parado de desánimo?"
+     }
+    }
+   },
+   "pico": {
+    "palavra": [
+     "morrer",
+     "die"
+    ],
+    "eixo": "raciocinio",
+    "sess": 4,
+    "gatilho": {
+     "pt": "Ela diz a palavra do mesmo jeito que diria “comprar pão”. É essa calma que assusta.",
+     "en": "She says the word the way she would say “buy bread”. It is that calm that is frightening.",
+     "es": "Dice la palabra como diría “comprar pan”. Es esa calma lo que asusta."
+    },
+    "fala": {
+     "pt": "Você disse que não quer morrer, e sim que a dor pare. Eu preciso que a gente olhe essa diferença junto, devagar, porque ela muda tudo — inclusive o que eu faço a partir de agora.",
+     "en": "You said you do not want to die, but that you want the pain to stop. I need us to look at that difference together, slowly, because it changes everything — including what I do from here.",
+     "es": "Dijiste que no quieres morir, sino que el dolor pare. Necesito que miremos esa diferencia juntas, despacio, porque lo cambia todo, incluso lo que yo hago a partir de ahora."
+    },
+    "resposta": {
+     "pt": "Ela levanta os olhos pela primeira vez na sessão. “É a dor. É só a dor.” E o alívio de ter sido perguntada direito aparece no rosto antes de aparecer na voz.",
+     "en": "She raises her eyes for the first time in the session. “It is the pain. It is only the pain.” And the relief of having been asked properly shows on her face before it shows in her voice.",
+     "es": "Levanta los ojos por primera vez en la sesión. “Es el dolor. Es solo el dolor.” Y el alivio de que se lo hayan preguntado bien aparece en su cara antes que en su voz."
+    },
+    "perdido": {
+     "pt": "Ela concorda com a cabeça, educada, e muda de assunto para o tempo. A pergunta que importava fica para a próxima — se houver.",
+     "en": "She nods, polite, and changes the subject to the weather. The question that mattered waits for next time — if there is one.",
+     "es": "Asiente, educada, y cambia de tema al clima. La pregunta que importaba queda para la próxima, si la hay."
+    }
+   }
+  },
+  "iris": {
+   "findings": [
+    {
+     "d": "humor",
+     "text": {
+      "pt": "O humor muda em horas, quase sempre depois de discussões ou de se sentir rejeitada.",
+      "en": "Mood shifts within hours, almost always after arguments or feeling rejected.",
+      "es": "El ánimo cambia en horas, casi siempre tras discusiones o sentirse rechazada."
+     },
+     "pts": {
+      "borderline": 3,
+      "bipolar2": -2,
+      "ciclotimico": -1
+     },
+     "say": {
+      "pt": "Meu humor muda em horas! Tô bem, aí alguém me contraria ou eu me sinto rejeitada e... desabo. Depois passa, mas eu já estraguei tudo.",
+      "en": "My mood shifts in hours! I'm fine, then someone contradicts me or I feel rejected and... I crash. Then it passes, but I've already ruined everything.",
+      "es": "¡Mi ánimo cambia en horas! Estoy bien, y alguien me contradice o me siento rechazada y... me hundo. Luego pasa, pero ya lo estropeé todo."
+     }
+    },
+    {
+     "d": "risco",
+     "text": {
+      "pt": "Já se machucou para aliviar a dor emocional e tem muito medo de ser deixada.",
+      "en": "She has hurt herself to relieve emotional pain and is very afraid of being left.",
+      "es": "Se ha hecho daño para aliviar el dolor emocional y teme mucho ser abandonada."
+     },
+     "pts": {
+      "borderline": 3
+     },
+     "say": {
+      "pt": "(desvia o olhar) Já me machuquei, sim, quando a dor de dentro é demais. Alivia na hora. E eu tenho muito medo de ser deixada, sempre.",
+      "en": "(looks away) I've hurt myself, yes, when the pain inside is too much. It relieves it right then. And I'm so scared of being left, always.",
+      "es": "(desvía la mirada) Ya me lastimé, sí, cuando el dolor de adentro es demasiado. Alivia en el momento. Y tengo mucho miedo de que me dejen, siempre."
+     }
+    },
+    {
+     "d": "social",
+     "text": {
+      "pt": "Relações intensas: idealiza e desvaloriza as pessoas rapidamente.",
+      "en": "Intense relationships: idealizes and devalues people quickly.",
+      "es": "Relaciones intensas: idealiza y desvaloriza a las personas con rapidez."
+     },
+     "pts": {
+      "borderline": 3,
+      "histrionica": 1
+     },
+     "say": {
+      "pt": "Minhas relações são intensas. Primeiro a pessoa é perfeita, a melhor do mundo... e de repente eu enxergo tudo de ruim. Eu sei, é um ciclo.",
+      "en": "My relationships are intense. First the person is perfect, the best in the world... and suddenly I see everything bad. I know, it's a cycle.",
+      "es": "Mis relaciones son intensas. Primero la persona es perfecta, la mejor del mundo... y de repente veo todo lo malo. Lo sé, es un ciclo."
+     }
+    },
+    {
+     "d": "sono",
+     "text": {
+      "pt": "Só fica sem dormir nos dias depois de términos e depois desaba; sem período longo de super energia.",
+      "en": "Loses sleep only in the days after break-ups and then crashes; no long stretch of high energy.",
+      "es": "Solo pierde el sueño los días tras una ruptura y luego se desploma; sin un período largo de mucha energía."
+     },
+     "pts": {
+      "bipolar2": -2
+     },
+     "say": {
+      "pt": "Eu só fico sem dormir nos dias depois de término. Aí desabo. Não é que eu tenha semanas cheia de energia, nada disso.",
+      "en": "I only stay up without sleeping in the days after a breakup. Then I crash. It's not like I have weeks full of energy, nothing like that.",
+      "es": "Solo me quedo sin dormir los días después de una ruptura. Luego me hundo. No es que tenga semanas llena de energía, nada de eso."
+     }
+    },
+    {
+     "d": "inicio",
+     "text": {
+      "pt": "O padrão vem desde a adolescência, em várias áreas da vida, e não em episódios.",
+      "en": "The pattern goes back to adolescence, across many areas of life, not in episodes.",
+      "es": "El patrón viene desde la adolescencia, en varias áreas de la vida, y no en episodios."
+     },
+     "pts": {
+      "borderline": 2,
+      "bipolar2": -1
+     },
+     "say": {
+      "pt": "Isso vem desde a adolescência, em tudo: amizade, família, namoro. Não é uma fase que vem e vai, é meu jeito.",
+      "en": "This goes back to adolescence, in everything: friends, family, dating. It's not a phase that comes and goes, it's how I am.",
+      "es": "Esto viene desde la adolescencia, en todo: amistades, familia, pareja. No es una fase que viene y va, es mi forma de ser."
+     }
+    },
+    {
+     "d": "pensamento",
+     "text": {
+      "pt": "Sente vazio crônico; sem ideias grandiosas nem pensamento acelerado.",
+      "en": "Feels chronic emptiness; no grandiose ideas or racing thoughts.",
+      "es": "Siente vacío crónico; sin ideas grandiosas ni pensamiento acelerado."
+     },
+     "pts": {
+      "borderline": 1,
+      "bipolar2": -1
+     },
+     "say": {
+      "pt": "Eu me sinto vazia, sabe? Um vazio que não sai. Mas ideia grandiosa, pensamento correndo? Não, nada disso.",
+      "en": "I feel empty, you know? An emptiness that won't leave. But grand ideas, racing thoughts? No, none of that.",
+      "es": "Me siento vacía, ¿sabes? Un vacío que no se va. ¿Pero ideas grandiosas, pensamiento acelerado? No, nada de eso."
+     }
+    }
+   ],
+   "form": {
+    "predisposing": {
+     "pt": "Infância com invalidação emocional e temperamento sensível.",
+     "en": "Childhood with emotional invalidation and a sensitive temperament.",
+     "es": "Infancia con invalidación emocional y temperamento sensible."
+    },
+    "precipitating": {
+     "pt": "Fim de um relacionamento e conflitos recentes no trabalho.",
+     "en": "The end of a relationship and recent conflicts at work.",
+     "es": "Fin de una relación y conflictos recientes en el trabajo."
+    },
+    "perpetuating": {
+     "pt": "Impulsividade e autolesão aliviam na hora, mas afastam pessoas e aumentam o medo de abandono.",
+     "en": "Impulsivity and self-harm relieve at once but push people away and increase fear of abandonment.",
+     "es": "La impulsividad y la autolesión alivian al instante, pero alejan a las personas y aumentan el miedo al abandono."
+    },
+    "protective": {
+     "pt": "Criatividade, trabalho como designer e busca ativa por terapia.",
+     "en": "Creativity, work as a designer and an active search for therapy.",
+     "es": "Creatividad, trabajo como diseñadora y búsqueda activa de terapia."
+    }
+   },
+   "testes": {
+    "atencao": {
+     "z": -0.19,
+     "prof": {
+      "borderline": 0,
+      "bipolar2": -0.7,
+      "ciclotimico": 0,
+      "histrionica": 0
+     }
+    },
+    "memoria": {
+     "z": -0.11,
+     "prof": {
+      "borderline": 0,
+      "bipolar2": 0,
+      "ciclotimico": 0,
+      "histrionica": 0
+     }
+    },
+    "executivas": {
+     "z": -0.37,
+     "prof": {
+      "borderline": -0.6,
+      "bipolar2": -0.7,
+      "ciclotimico": -0.3,
+      "histrionica": 0
+     }
+    },
+    "qi": {
+     "z": -0.13,
+     "prof": {
+      "borderline": 0,
+      "bipolar2": 0,
+      "ciclotimico": 0,
+      "histrionica": 0
+     }
+    },
+    "emocoes": {
+     "z": -0.99,
+     "prof": {
+      "borderline": -1.0,
+      "bipolar2": 0,
+      "ciclotimico": 0,
+      "histrionica": -0.3
+     }
+    }
+   },
+   "tardio": {
+    "text": {
+     "pt": "Relato tardio da família: as oscilações duram horas e vêm depois de conflitos com pessoas próximas, sem semanas de humor elevado.",
+     "en": "Late family report: the swings last hours and follow conflicts with close people, with no weeks of elevated mood.",
+     "es": "Relato tardío de la familia: las oscilaciones duran horas y siguen a conflictos con personas cercanas, sin semanas de ánimo elevado."
+    },
+    "pts": {
+     "borderline": 3,
+     "bipolar2": -2,
+     "ciclotimico": -1
+    }
+   },
+   "armadilha": "bipolar2",
+   "risk": {
+    "ideacao": true,
+    "plano": true,
+    "imediato": false
+   },
+   "warn": [
+    "autolesao",
+    "risco"
+   ]
+  },
+  "jonas": {
+   "findings": [
+    {
+     "d": "pensamento",
+     "text": {
+      "pt": "Ouve vozes que comentam o que faz e acredita ser vigiado; cobre a câmera do notebook.",
+      "en": "Hears voices commenting on what he does and believes he is watched; covers his laptop camera.",
+      "es": "Oye voces que comentan lo que hace y cree estar vigilado; tapa la cámara del notebook."
+     },
+     "pts": {
+      "esquizofrenia": 3,
+      "psicotico-breve": 1,
+      "cannabis": 1
+     },
+     "say": {
+      "pt": "(olha de lado) As vozes comentam o que eu faço... tipo 'agora ele vai levantar'. Eu sei que tem gente me vigiando. Por isso cobri a câmera.",
+      "en": "(looks sideways) The voices comment on what I do... like 'now he's going to get up'. I know people are watching me. That's why I covered the camera.",
+      "es": "(mira de lado) Las voces comentan lo que hago... tipo 'ahora se va a levantar'. Sé que alguien me vigila. Por eso tapé la cámara."
+     }
+    },
+    {
+     "d": "inicio",
+     "text": {
+      "pt": "O isolamento começou há mais de 6 meses e as vozes, há uns 3.",
+      "en": "The isolation began over 6 months ago and the voices about 3 months ago.",
+      "es": "El aislamiento empezó hace más de 6 meses y las voces, hace unos 3."
+     },
+     "pts": {
+      "esquizofrenia": 3,
+      "psicotico-breve": -3
+     },
+     "say": {
+      "pt": "(baixo) Faz uns seis meses que eu me isolei. As vozes... uns três, mais ou menos. Não sei bem.",
+      "en": "(low) It's been about six months since I isolated myself. The voices... about three, more or less. I'm not sure.",
+      "es": "(bajo) Hace unos seis meses que me aislé. Las voces... unos tres, más o menos. No sé bien."
+     }
+    },
+    {
+     "d": "familia",
+     "text": {
+      "pt": "A mãe conta um ano e meio antes das vozes: largou o time, parou de responder mensagens, passou a achar que os colegas riam dele. Em casa chamaram de fase.",
+      "en": "His mother describes a year and a half before the voices: he quit the team, stopped replying to messages, began believing classmates laughed at him. At home they called it a phase.",
+      "es": "La madre cuenta un año y medio antes de las voces: dejó el equipo, dejó de responder mensajes, empezó a creer que los compañeros se reían de él. En casa lo llamaron una fase."
+     },
+     "pts": {
+      "esquizofrenia": 3,
+      "psicotico-breve": -3,
+      "cannabis": -1
+     },
+     "say": {
+      "pt": "Minha mãe fala que começou bem antes. Que eu larguei o time, parei de atender o telefone... (pausa) Ela diz que eu falava que o pessoal ria de mim. Faz uns um ano e meio. Em casa acharam que era fase.",
+      "en": "My mother says it started way earlier. That I quit the team, stopped answering the phone... (pause) She says I used to say people laughed at me. About a year and a half ago. At home they thought it was a phase.",
+      "es": "Mi madre dice que empezó mucho antes. Que dejé el equipo, dejé de contestar el teléfono... (pausa) Dice que yo decía que la gente se reía de mí. Hace como un año y medio. En casa pensaron que era una fase."
+     }
+    },
+    {
+     "d": "func",
+     "text": {
+      "pt": "Trancou o curso, afastou-se dos amigos e inverteu o sono.",
+      "en": "Dropped out of the course, withdrew from friends and reversed his sleep.",
+      "es": "Suspendió la carrera, se alejó de los amigos e invirtió el sueño."
+     },
+     "pts": {
+      "esquizofrenia": 2
+     },
+     "say": {
+      "pt": "Tranquei o curso. Me afastei do pessoal. E meu sono virou de cabeça pra baixo, fico acordado a noite toda.",
+      "en": "I put my degree on hold. Drifted from my friends. And my sleep flipped upside down, I'm up all night.",
+      "es": "Aplacé la carrera. Me alejé de los amigos. Y mi sueño se dio la vuelta, estoy despierto toda la noche."
+     }
+    },
+    {
+     "d": "humor",
+     "text": {
+      "pt": "Não houve episódios marcantes de depressão ou de mania durante as vozes.",
+      "en": "No marked depressive or manic episodes during the voices.",
+      "es": "No hubo episodios marcados de depresión o manía durante las voces."
+     },
+     "pts": {
+      "esquizoafetivo": -3,
+      "esquizofrenia": 1
+     },
+     "say": {
+      "pt": "Tristeza? ...Não sei. Não foi nada muito de tristeza nem de ficar elétrico. Eu só... fico.",
+      "en": "Sadness? ...I don't know. It wasn't really sadness or being wired. I just... stay.",
+      "es": "¿Tristeza? ...No sé. No fue mucho de tristeza ni de estar eléctrico. Yo solo... me quedo."
+     }
+    },
+    {
+     "d": "social",
+     "text": {
+      "pt": "Fala pouco, com tom emocional apagado, e desconfia de estranhos.",
+      "en": "Speaks little, with a flat emotional tone, and distrusts strangers.",
+      "es": "Habla poco, con tono emocional apagado, y desconfía de extraños."
+     },
+     "pts": {
+      "esquizofrenia": 2
+     },
+     "say": {
+      "pt": "(fala pouco, sem expressão) Não tenho muito o que falar. Desconfio de gente que eu não conheço.",
+      "en": "(speaks little, flat) I don't have much to say. I don't trust people I don't know.",
+      "es": "(habla poco, sin expresión) No tengo mucho que decir. Desconfío de la gente que no conozco."
+     }
+    },
+    {
+     "d": "subst",
+     "text": {
+      "pt": "Fumava maconha quase todo dia dos 17 aos 20 e parou há oito meses, antes de as vozes começarem. Depois que parou, elas continuaram e ficaram piores.",
+      "en": "He smoked cannabis almost daily from 17 to 20 and stopped eight months ago, before the voices began. After he stopped, they continued and got worse.",
+      "es": "Fumaba marihuana casi a diario de los 17 a los 20 y lo dejó hace ocho meses, antes de que empezaran las voces. Después de dejarlo, continuaron y empeoraron."
+     },
+     "pts": {
+      "esquizofrenia": 3,
+      "cannabis": -3
+     },
+     "say": {
+      "pt": "(demora) Eu fumava. Quase todo dia, dos dezessete aos vinte. Parei faz uns oito meses, antes de começar isso. (pausa) Por isso que eu não entendo: eu parei, e piorou.",
+      "en": "(takes a while) I used to smoke. Almost every day, from seventeen to twenty. I stopped about eight months ago, before this started. (pause) That's what I don't get: I stopped, and it got worse.",
+      "es": "(tarda) Yo fumaba. Casi todos los días, de los diecisiete a los veinte. Lo dejé hace unos ocho meses, antes de que empezara esto. (pausa) Por eso no entiendo: lo dejé, y empeoró."
+     }
+    }
+   ],
+   "form": {
+    "predisposing": {
+     "pt": "Traços de isolamento na adolescência e histórico familiar de psicose (tio).",
+     "en": "Withdrawal traits in adolescence and a family history of psychosis (uncle).",
+     "es": "Rasgos de aislamiento en la adolescencia y antecedentes familiares de psicosis (tío)."
+    },
+    "precipitating": {
+     "pt": "Estresse do curso de Engenharia e privação de sono.",
+     "en": "Stress from the engineering course and sleep deprivation.",
+     "es": "Estrés de la carrera de Ingeniería y privación de sueño."
+    },
+    "perpetuating": {
+     "pt": "Isolamento, medo de internação e falta de tratamento adiam a ajuda.",
+     "en": "Isolation, fear of hospitalization and lack of treatment delay help.",
+     "es": "El aislamiento, el miedo a la internación y la falta de tratamiento retrasan la ayuda."
+    },
+    "protective": {
+     "pt": "Mãe presente e o fato de aceitar voltar.",
+     "en": "A present mother and the fact that he agrees to come back.",
+     "es": "Madre presente y el hecho de aceptar volver."
+    }
+   },
+   "testes": {
+    "atencao": {
+     "z": -1.88,
+     "prof": {
+      "esquizofrenia": -1.8,
+      "psicotico-breve": -1.0,
+      "esquizoafetivo": -1.4,
+      "cannabis": 0
+     }
+    },
+    "memoria": {
+     "z": -1.3,
+     "prof": {
+      "esquizofrenia": -1.2,
+      "psicotico-breve": 0,
+      "esquizoafetivo": -1.0,
+      "cannabis": 0
+     }
+    },
+    "executivas": {
+     "z": -1.51,
+     "prof": {
+      "esquizofrenia": -1.6,
+      "psicotico-breve": -0.8,
+      "esquizoafetivo": -1.3,
+      "cannabis": 0
+     }
+    },
+    "qi": {
+     "z": -0.6,
+     "prof": {
+      "esquizofrenia": -0.6,
+      "psicotico-breve": 0,
+      "esquizoafetivo": 0,
+      "cannabis": 0
+     }
+    },
+    "emocoes": {
+     "z": -1.44,
+     "prof": {
+      "esquizofrenia": -1.4,
+      "psicotico-breve": 0,
+      "esquizoafetivo": -1.0,
+      "cannabis": 0
+     }
+    }
+   },
+   "difWhy": {
+    "psicotico-breve": {
+     "ok": {
+      "pt": "Descartado. O psicótico breve dura de um dia a um mês e volta ao que a pessoa era antes. No Jonas, a mãe conta um ano e meio de mudança ANTES das vozes: largou o time, parou de responder, passou a achar que riam dele. Somando o pródromo e os três meses de vozes, o quadro já passou de seis meses e ele não voltou ao que era.",
+      "en": "Ruled out. Brief psychotic disorder lasts from a day to a month and returns the person to who they were. With Jonas, his mother describes a year and a half of change BEFORE the voices: he quit the team, stopped replying, started believing people laughed at him. Adding the prodrome to the three months of voices, the picture is already past six months and he has not returned to who he was.",
+      "es": "Descartado. El trastorno psicótico breve dura de un día a un mes y devuelve a la persona a quien era. En Jonas, la madre cuenta un año y medio de cambio ANTES de las voces: dejó el equipo, dejó de responder, empezó a creer que se reían de él. Sumando el pródromo y los tres meses de voces, el cuadro ya pasó de seis meses y no volvió a ser quien era."
+     },
+     "dica": {
+      "pt": "Pergunte à família como a pessoa estava UM ANO antes do sintoma que trouxe todo mundo aqui. O pródromo quase nunca aparece na queixa: ele foi chamado de fase, de preguiça, de adolescência.",
+      "en": "Ask the family how the person was A YEAR before the symptom that brought everyone here. The prodrome almost never shows up in the complaint: it was called a phase, laziness, adolescence.",
+      "es": "Pregunta a la familia cómo estaba la persona UN AÑO antes del síntoma que trajo a todos aquí. El pródromo casi nunca aparece en la queja: lo llamaron una fase, pereza, adolescencia."
+     }
+    },
+    "esquizoafetivo": {
+     "ok": {
+      "pt": "Descartado. No esquizoafetivo há um episódio de humor — depressão ou mania — ocupando boa parte do tempo em que os sintomas psicóticos acontecem. No Jonas não houve nem um nem outro durante as vozes: o humor está apagado, que é coisa diferente de deprimido.",
+      "en": "Ruled out. In schizoaffective disorder there is a mood episode — depression or mania — occupying much of the time the psychotic symptoms occur. With Jonas there was neither during the voices: his affect is flattened, which is a different thing from depressed.",
+      "es": "Descartado. En el esquizoafectivo hay un episodio del ánimo — depresión o manía — que ocupa buena parte del tiempo en que ocurren los síntomas psicóticos. En Jonas no hubo ni uno ni otro durante las voces: el ánimo está apagado, que es cosa distinta de deprimido."
+     },
+     "dica": {
+      "pt": "Afeto embotado não é tristeza. Pergunte se houve semanas de humor muito alto ou muito baixo, com sono e energia mudados, e não só 'como você está'.",
+      "en": "Flat affect is not sadness. Ask whether there were weeks of very high or very low mood, with sleep and energy changed, not just 'how are you'.",
+      "es": "El afecto aplanado no es tristeza. Pregunta si hubo semanas de ánimo muy alto o muy bajo, con sueño y energía cambiados, y no solo 'cómo estás'."
+     }
+    },
+    "cannabis": {
+     "ok": {
+      "pt": "Descartado — e é o descarte mais importante deste caso. Ele fumava quase todo dia dos 17 aos 20 e parou há oito meses, ANTES de as vozes começarem. A psicose induzida por substância melhora em dias ou semanas de abstinência; as vozes dele apareceram depois de parar e pioraram desde então. O uso é história relevante, não a causa.",
+      "en": "Ruled out — and it is the most important ruling-out in this case. He smoked almost daily from 17 to 20 and stopped eight months ago, BEFORE the voices began. Substance-induced psychosis improves within days or weeks of abstinence; his voices appeared after he stopped and have worsened since. The use is relevant history, not the cause.",
+      "es": "Descartado — y es el descarte más importante de este caso. Fumaba casi a diario de los 17 a los 20 y lo dejó hace ocho meses, ANTES de que empezaran las voces. La psicosis inducida por sustancias mejora en días o semanas de abstinencia; sus voces aparecieron tras dejarlo y empeoraron desde entonces. El consumo es historia relevante, no la causa."
+     },
+     "dica": {
+      "pt": "Ponha o uso e o sintoma na mesma linha do tempo. O que decide não é SE usou, é se o quadro seguiu depois de parar — e quanto tempo depois.",
+      "en": "Put the use and the symptom on the same timeline. What decides is not WHETHER they used, but whether the picture continued after stopping — and how long after.",
+      "es": "Pon el consumo y el síntoma en la misma línea de tiempo. Lo que decide no es SI consumió, sino si el cuadro siguió tras dejarlo — y cuánto después."
+     }
+    }
+   }
+  },
+  "lucas": {
+   "findings": [
+    {
+     "d": "func",
+     "text": {
+      "pt": "Agitação e desatenção na escola e em casa, em vários ambientes.",
+      "en": "Restlessness and inattention at school and at home, in several settings.",
+      "es": "Agitación y desatención en la escuela y en casa, en varios ambientes."
+     },
+     "pts": {
+      "tdah": 3
+     },
+     "say": {
+      "pt": "(a mãe:) Ele não para, doutora, nem em casa nem na escola. Esquece o que eu pedi no meio da frase. (Lucas:) Tô prestando atenção! ...o quê?",
+      "en": "(his mom:) He doesn't stop, doctor, not at home or at school. Forgets what I asked mid-sentence. (Lucas:) I'm paying attention! ...what?",
+      "es": "(la madre:) No para, doctora, ni en casa ni en la escuela. Olvida lo que le pedí a mitad de frase. (Lucas:) ¡Estoy prestando atención! ...¿qué?"
+     }
+    },
+    {
+     "d": "inicio",
+     "text": {
+      "pt": "Já era agitado na creche, antes dos 7 anos.",
+      "en": "Was already restless in daycare, before age 7.",
+      "es": "Ya era agitado en la guardería, antes de los 7 años."
+     },
+     "pts": {
+      "tdah": 3
+     },
+     "say": {
+      "pt": "(a mãe:) Já era assim na creche, muito antes dos sete anos. Sempre foi o mais agitado da turma.",
+      "en": "(his mom:) He was like this in daycare, way before seven. Always the most restless in the class.",
+      "es": "(la madre:) Ya era así en la guardería, mucho antes de los siete años. Siempre fue el más inquieto de la clase."
+     }
+    },
+    {
+     "d": "social",
+     "text": {
+      "pt": "Brinca e interage bem com colegas, olha nos olhos e entende brincadeiras.",
+      "en": "Plays and interacts well with classmates, makes eye contact and understands jokes.",
+      "es": "Juega e interactúa bien con compañeros, mira a los ojos y entiende las bromas."
+     },
+     "pts": {
+      "tea": -3
+     },
+     "say": {
+      "pt": "Eu tenho amigo! A gente brinca de pega-pega e eu entendo as brincadeiras todas. Olha, eu tô olhando!",
+      "en": "I have friends! We play tag and I get all the games. Look, I'm looking at you!",
+      "es": "¡Tengo amigos! Jugamos al pillapilla y entiendo todos los juegos. ¡Mira, te estoy mirando!"
+     }
+    },
+    {
+     "d": "corpo",
+     "text": {
+      "pt": "Não para sentado, mexe mãos e pés, interrompe os outros e perde materiais.",
+      "en": "Cannot stay seated, fidgets, interrupts others and loses materials.",
+      "es": "No se queda sentado, mueve manos y pies, interrumpe a los demás y pierde materiales."
+     },
+     "pts": {
+      "tdah": 2
+     },
+     "say": {
+      "pt": "(mexendo os pés) Eu não consigo ficar sentado, é chato. Ah, e eu perdi o caderno de novo... e o lápis.",
+      "en": "(fidgeting his feet) I can't stay seated, it's boring. Oh, and I lost my notebook again... and the pencil.",
+      "es": "(moviendo los pies) No consigo quedarme sentado, es aburrido. Ah, y perdí el cuaderno otra vez... y el lápiz."
+     }
+    },
+    {
+     "d": "pensamento",
+     "text": {
+      "pt": "Aprende bem quando o conteúdo é curto e dinâmico; o raciocínio está adequado para a idade.",
+      "en": "Learns well when content is short and dynamic; reasoning is age-appropriate.",
+      "es": "Aprende bien cuando el contenido es corto y dinámico; el razonamiento es adecuado para la edad."
+     },
+     "pts": {
+      "tdi": -2,
+      "aprendizagem": -1
+     },
+     "say": {
+      "pt": "Eu aprendo rápido se for curto e legal! Se for aquele textão eu me perco. Mas eu entendo, tá? Eu sou esperto!",
+      "en": "I learn fast if it's short and fun! If it's a long text I get lost. But I understand, okay? I'm smart!",
+      "es": "¡Aprendo rápido si es corto y divertido! Si es un textazo me pierdo. ¡Pero entiendo, ¿vale?! ¡Soy listo!"
+     }
+    },
+    {
+     "d": "humor",
+     "text": {
+      "pt": "Não é tristeza: ele se anima fácil, mas se acha burro depois de cada bronca por esquecimento. A autoestima cai junto com as broncas, não sozinha.",
+      "en": "Not sadness: he cheers up easily, but calls himself stupid after each scolding for forgetting. His self-esteem falls with the scoldings, not on its own.",
+      "es": "No es tristeza: se anima fácil, pero se llama tonto tras cada reto por olvidarse. La autoestima cae con los retos, no sola."
+     },
+     "pts": {
+      "tdah": 1
+     },
+     "say": {
+      "pt": "Eu não fico triste não, eu sou animado! Só que quando a professora fala na frente de todo mundo que eu esqueci de novo, aí eu acho que eu sou burro.",
+      "en": "I'm not sad, I'm cheerful! It's just that when the teacher says in front of everyone that I forgot again, then I think I'm stupid.",
+      "es": "Triste no estoy, ¡yo soy alegre! Solo que cuando la maestra dice delante de todos que me olvidé otra vez, ahí pienso que soy tonto."
+     }
+    },
+    {
+     "d": "sono",
+     "text": {
+      "pt": "Dorme bem quando a rotina é firme; nas noites de tela até tarde, custa a desacelerar. Não há rigidez de rotina nem rituais para dormir.",
+      "en": "Sleeps well when the routine is firm; on late-screen nights he struggles to wind down. There is no routine rigidity or bedtime ritual.",
+      "es": "Duerme bien cuando la rutina es firme; en las noches de pantalla hasta tarde le cuesta desacelerar. No hay rigidez de rutina ni rituales para dormir."
+     },
+     "pts": {
+      "tdah": 1,
+      "tea": -1
+     },
+     "say": {
+      "pt": "(a mãe:) Ele dorme bem quando a rotina tá firme. Se ficar na tela até tarde, aí demora horas pra desacelerar.",
+      "en": "(his mother:) He sleeps well when the routine is firm. If he's on a screen until late, then it takes hours for him to wind down.",
+      "es": "(la madre:) Duerme bien cuando la rutina está firme. Si se queda en la pantalla hasta tarde, ahí tarda horas en desacelerar."
+     }
+    },
+    {
+     "d": "ansiedade",
+     "text": {
+      "pt": "Só fica tenso quando sabe que vai ser cobrado na frente da turma; fora disso não se preocupa em excesso. Não é medo de gente: é medo de falhar em público.",
+      "en": "He only gets tense when he knows he will be put on the spot in front of the class; otherwise he does not worry excessively. It is not fear of people: it is fear of failing in public.",
+      "es": "Solo se tensa cuando sabe que lo van a exponer frente a la clase; fuera de eso no se preocupa en exceso. No es miedo a la gente: es miedo a fallar en público."
+     },
+     "pts": {
+      "tdah": 1,
+      "tea": -1
+     },
+     "say": {
+      "pt": "Eu só fico com medo quando eu sei que vou ter que ler em voz alta pra turma. Fora isso eu não fico preocupado com nada, não.",
+      "en": "I only get scared when I know I'll have to read out loud to the class. Other than that I don't worry about anything.",
+      "es": "Solo me da miedo cuando sé que voy a tener que leer en voz alta a la clase. Fuera de eso no me preocupo por nada."
+     }
+    },
+    {
+     "d": "familia",
+     "text": {
+      "pt": "O pai se reconhece no filho: também perdia tudo e não parava quieto na escola.",
+      "en": "His father recognises himself in his son: he also lost everything and could not sit still at school.",
+      "es": "El padre se reconoce en su hijo: también perdía todo y no paraba quieto en la escuela."
+     },
+     "pts": {
+      "tdah": 2
+     },
+     "say": {
+      "pt": "(a mãe:) O pai dele era igualzinho, doutora. Perdia tudo, não parava quieto na escola. Os pais dele achavam que era falta de vergonha na cara.",
+      "en": "(his mother:) His father was exactly the same, doctor. He lost everything, couldn't sit still at school. His parents thought he was just shameless.",
+      "es": "(la madre:) Su padre era igualito, doctora. Perdía todo, no paraba quieto en la escuela. Sus padres creían que era pura desvergüenza."
+     }
+    }
+   ],
+   "form": {
+    "predisposing": {
+     "pt": "Histórico familiar de TDAH (pai) e temperamento ativo.",
+     "en": "Family history of ADHD (father) and an active temperament.",
+     "es": "Antecedentes familiares de TDAH (padre) y temperamento activo."
+    },
+    "precipitating": {
+     "pt": "A alfabetização aumentou a exigência de foco.",
+     "en": "Literacy learning raised the demand for focus.",
+     "es": "La alfabetización aumentó la exigencia de foco."
+    },
+    "perpetuating": {
+     "pt": "Broncas e o rótulo de 'bagunceiro' baixam a autoestima e pioram o comportamento.",
+     "en": "Scoldings and the 'troublemaker' label lower self-esteem and worsen behavior.",
+     "es": "Los retos y la etiqueta de 'travieso' bajan la autoestima y empeoran la conducta."
+    },
+    "protective": {
+     "pt": "Mãe dedicada, boa sociabilidade e muita curiosidade.",
+     "en": "A dedicated mother, good sociability and lots of curiosity.",
+     "es": "Madre dedicada, buena sociabilidad y mucha curiosidad."
+    }
+   },
+   "testes": {
+    "atencao": {
+     "z": -1.69,
+     "prof": {
+      "tdah": -1.6,
+      "aprendizagem": -0.6,
+      "tea": -0.3,
+      "tdi": -1.5
+     }
+    },
+    "memoria": {
+     "z": -0.74,
+     "prof": {
+      "tdah": -0.6,
+      "aprendizagem": -1.0,
+      "tea": 0,
+      "tdi": -1.6
+     }
+    },
+    "executivas": {
+     "z": -1.05,
+     "prof": {
+      "tdah": -1.3,
+      "aprendizagem": -0.5,
+      "tea": -0.9,
+      "tdi": -1.6
+     }
+    },
+    "qi": {
+     "z": -0.11,
+     "prof": {
+      "tdah": 0,
+      "aprendizagem": 0,
+      "tea": 0,
+      "tdi": -2.3
+     }
+    },
+    "emocoes": {
+     "z": -0.02,
+     "prof": {
+      "tdah": 0,
+      "aprendizagem": 0,
+      "tea": -1.5,
+      "tdi": -1.2
+     }
+    }
+   },
+   "difWhy": {
+    "aprendizagem": {
+     "ok": {
+      "pt": "Descartado. No transtorno de aprendizagem a falha é específica da leitura ou do cálculo; a dificuldade do Lucas é geral e some quando o ambiente tira as distrações — ele não aprende porque não sustenta a atenção, não porque não processa a letra.",
+      "en": "Ruled out. In a learning disorder the failure is specific to reading or arithmetic; Lucas's difficulty is general and disappears once the setting removes distractions — he does not learn because he cannot sustain attention, not because he cannot process the letter.",
+      "es": "Descartado. En el trastorno del aprendizaje la falla es específica de la lectura o el cálculo; la dificultad de Lucas es general y desaparece cuando el entorno quita las distracciones: no aprende porque no sostiene la atención, no porque no procese la letra."
+     },
+     "dica": {
+      "pt": "Pergunte-se se a dificuldade é de uma matéria só ou de tudo que exige ficar parado prestando atenção.",
+      "en": "Ask yourself whether the difficulty is in one subject only, or in everything that requires sitting still and paying attention.",
+      "es": "Pregúntate si la dificultad es de una sola materia o de todo lo que exige quedarse quieto prestando atención."
+     }
+    },
+    "tdi": {
+     "ok": {
+      "pt": "Descartado. Num ambiente sem distrações, ou numa tarefa do interesse dele, o raciocínio do Lucas aparece inteiro. A deficiência intelectual não vai e vem conforme o barulho da sala.",
+      "en": "Ruled out. In a distraction-free setting, or on a task he is interested in, Lucas's reasoning shows up intact. Intellectual disability does not come and go with the noise in the room.",
+      "es": "Descartado. En un entorno sin distracciones, o en una tarea que le interesa, el razonamiento de Lucas aparece entero. La discapacidad intelectual no va y viene según el ruido del aula."
+     },
+     "dica": {
+      "pt": "Compare como ele se sai sozinho e sem barulho com como se sai na sala cheia.",
+      "en": "Compare how he does alone and without noise with how he does in a full classroom.",
+      "es": "Compara cómo le va solo y sin ruido con cómo le va en el aula llena."
+     }
+    },
+    "tea": {
+     "ok": {
+      "pt": "Descartado. Lucas procura os colegas, entende a brincadeira e quer participar: a reciprocidade social está preservada. O que atrapalha é a impulsividade, não a leitura do outro.",
+      "en": "Ruled out. Lucas seeks out his classmates, understands the game and wants to join in: social reciprocity is preserved. What gets in the way is impulsivity, not reading other people.",
+      "es": "Descartado. Lucas busca a sus compañeros, entiende el juego y quiere participar: la reciprocidad social está preservada. Lo que estorba es la impulsividad, no leer al otro."
+     },
+     "dica": {
+      "pt": "Veja se ele evita o contato ou se quer o contato e se atrapalha nele.",
+      "en": "See whether he avoids contact, or wants contact and trips over it.",
+      "es": "Mira si evita el contacto o si quiere el contacto y se enreda en él."
+     }
+    }
+   },
+   "confronto": {
+    "achado": "func",
+    "crenca": {
+     "pt": "(a mãe:) “O pai dele diz que o Lucas é preguiçoso. Que não faz a lição porque quer afrontar, que prefere ficar no videogame.”",
+     "en": "(his mother:) “His father says Lucas is lazy. That he doesn't do his homework because he wants to defy him, that he'd rather be on the videogame.”",
+     "es": "(la madre:) “Su padre dice que Lucas es perezoso. Que no hace la tarea porque quiere desafiarlo, que prefiere el videojuego.”"
+    },
+    "fala": {
+     "pt": "Olha o que a professora observou na sala: ele não está no videogame lá. Ele chora de frustração tentando acompanhar a lousa. Isso não é preguiça nem afronta — é uma cabeça que se cansa de sustentar a atenção.",
+     "en": "Look at what his teacher observed in class: he is not on a videogame there. He cries in frustration trying to keep up with the board. That is not laziness or defiance — it is a mind that tires from holding attention.",
+     "es": "Mire lo que observó la maestra en clase: allí no está en el videojuego. Llora de frustración intentando seguir el pizarrón. Eso no es pereza ni desafío: es una cabeza que se cansa de sostener la atención."
+    },
+    "resposta": {
+     "pt": "O pai fica em silêncio, lê o bilhete de novo e a voz muda: “Eu bati de castigo por causa disso. Achei que era pirraça.”",
+     "en": "The father goes quiet, reads the note again, and his voice changes: “I punished him over this. I thought he was being stubborn.”",
+     "es": "El padre se queda callado, relee la nota y le cambia la voz: “Lo castigué por esto. Pensé que era terquedad.”"
+    },
+    "cedo": {
+     "pt": "“Você tá me dizendo que eu não conheço meu filho? Você viu ele uma vez.” Ele cruza os braços e encerra o assunto.",
+     "en": "“Are you telling me I don't know my own son? You've met him once.” He folds his arms and shuts the subject down.",
+     "es": "“¿Me está diciendo que no conozco a mi hijo? Lo vio una vez.” Cruza los brazos y cierra el tema."
+    },
+    "ganho": {
+     "pt": "O estigma de “bagunceiro” cai, e o que vier de orientação agora tem para onde ir.",
+     "en": "The “troublemaker” label falls away, and any guidance from here has somewhere to land.",
+     "es": "La etiqueta de “revoltoso” se cae, y lo que venga de orientación ahora tiene dónde apoyarse."
+    },
+    "pts": 3
+   },
+   "deducao": {
+    "texto": {
+     "pt": "Não é só na escola: {A}. E não começou agora: {B}. O corpo entrega: {C}. E não é de relação com gente: {D}.",
+     "en": "It is not only at school: {A}. And it did not start now: {B}. The body gives it away: {C}. And it is not about relating to people: {D}.",
+     "es": "No es solo en la escuela: {A}. Y no empezó ahora: {B}. El cuerpo lo delata: {C}. Y no es de relación con la gente: {D}."
+    },
+    "slots": {
+     "A": "func",
+     "B": "inicio",
+     "C": "corpo",
+     "D": "social"
+    },
+    "fecho": {
+     "pt": "Desatenção e agitação em mais de um ambiente, presentes desde antes dos sete anos, com inquietação motora e perda de materiais — e com a parte social preservada, que é o que separa do autismo. O quadro é de TDAH, e o que ele mais precisa não é disciplina: é ambiente e rotina que caibam nessa cabeça.",
+     "en": "Inattention and restlessness in more than one setting, present since before age seven, with motor restlessness and lost belongings — and with social skills preserved, which is what separates this from autism. This is ADHD, and what he most needs is not discipline: it is an environment and a routine that fit this mind.",
+     "es": "Desatención e inquietud en más de un ambiente, presentes desde antes de los siete años, con agitación motora y pérdida de materiales, y con la parte social conservada, que es lo que lo separa del autismo. El cuadro es TDAH, y lo que más necesita no es disciplina: es un entorno y una rutina que quepan en esa cabeza."
+    }
+   },
+   "tardio": {
+    "text": {
+     "pt": "A professora testou blocos de dez minutos com pausa entre eles: ele entregou a lição inteira, e certa. Não era a conta nem a letra que travavam — era o tanto de tempo seguido que se pedia dele.",
+     "en": "The teacher tried ten-minute blocks with breaks in between: he handed in the whole assignment, and got it right. It was not the arithmetic or the letters that blocked him — it was how much uninterrupted time he was being asked for.",
+     "es": "La maestra probó bloques de diez minutos con pausas: entregó la tarea entera y correcta. No eran las cuentas ni las letras lo que trababa, sino cuánto tiempo seguido se le pedía."
+    },
+    "pts": {
+     "tdah": 3,
+     "aprendizagem": -3,
+     "tdi": -2
+    }
+   },
+   "armadilha": "aprendizagem",
+   "consequencia": {
+    "aprendizagem": {
+     "pt": "(a mãe, cansada:) A escola botou ele no reforço de leitura, como a senhora orientou. Três meses. A professora do reforço disse que ele lê bem — que o problema é que ele não fica. (Lucas, encolhido:) Agora eu perco o recreio pra ir no reforço e continuo levando bronca.",
+     "en": "(his mother, tired:) The school put him in reading support, as you advised. Three months. The support teacher says he reads fine — that the problem is he does not stay put. (Lucas, hunched:) Now I lose break time to go to support and I still get told off.",
+     "es": "(la madre, cansada:) La escuela lo puso en refuerzo de lectura, como usted orientó. Tres meses. La maestra de refuerzo dice que lee bien, que el problema es que no se queda. (Lucas, encogido:) Ahora pierdo el recreo para ir al refuerzo y sigo recibiendo retos."
+    },
+    "tea": {
+     "pt": "(a mãe:) Eu procurei tudo sobre autismo, doutora. Tirei ele do futebol porque li que ambiente barulhento não era bom. (silêncio) Ele chorou a semana inteira. O futebol era onde ele tinha amigo.",
+     "en": "(his mother:) I read everything about autism, doctor. I took him out of football because I read that noisy places were not good. (silence) He cried all week. Football was where he had friends.",
+     "es": "(la madre:) Busqué todo sobre autismo, doctora. Lo saqué del fútbol porque leí que el ambiente ruidoso no era bueno. (silencio) Lloró toda la semana. El fútbol era donde tenía amigos."
+    },
+    "tdi": {
+     "pt": "(a mãe, seca:) A senhora falou em atraso no desenvolvimento e a escola já falou em mudar ele de turma. (Lucas, sem olhar:) Eles falaram que eu ia pra sala dos pequenos.",
+     "en": "(his mother, curt:) You mentioned a developmental delay and the school is already talking about moving him to another class. (Lucas, not looking up:) They said I'd go to the little kids' room.",
+     "es": "(la madre, seca:) Usted habló de retraso del desarrollo y la escuela ya habla de cambiarlo de aula. (Lucas, sin mirar:) Dijeron que iba a ir al salón de los chiquitos."
+    }
+   },
+   "pico": {
+    "palavra": [
+     "burro",
+     "stupid"
+    ],
+    "eixo": "devolutiva",
+    "sess": 1,
+    "gatilho": {
+     "pt": "Ele para de mexer os pés. Fica completamente parado, que é a coisa mais estranha de se ver nele.",
+     "en": "He stops jiggling his feet. He goes completely still, which is the strangest thing to see in him.",
+     "es": "Deja de mover los pies. Se queda completamente quieto, que es lo más extraño de verle."
+    },
+    "fala": {
+     "pt": "A sua cabeça não é burra, Lucas. Ela funciona numa velocidade diferente, e a escola pede uma velocidade só. Isso é uma coisa que dá para arrumar do lado de fora de você, não dentro.",
+     "en": "Your head is not stupid, Lucas. It runs at a different speed, and school asks for one speed only. That is something we can arrange around you, not inside you.",
+     "es": "Tu cabeza no es tonta, Lucas. Funciona a otra velocidad, y la escuela pide una sola. Eso se puede arreglar fuera de ti, no dentro."
+    },
+    "resposta": {
+     "pt": "Ele olha para a mãe, depois para você. “Então não é culpa minha?” A mãe leva a mão à boca. É a primeira vez em meses que ele pergunta em vez de afirmar.",
+     "en": "He looks at his mother, then at you. “So it isn't my fault?” His mother covers her mouth. It is the first time in months he has asked instead of stated.",
+     "es": "Mira a su madre, luego a ti. “¿Entonces no es culpa mía?” La madre se lleva la mano a la boca. Es la primera vez en meses que pregunta en vez de afirmar."
+    },
+    "perdido": {
+     "pt": "Ele dá de ombros e volta a mexer os pés. “Tanto faz.” E não é tanto faz.",
+     "en": "He shrugs and goes back to jiggling his feet. “Whatever.” And it is not whatever.",
+     "es": "Se encoge de hombros y vuelve a mover los pies. “Da igual.” Y no da igual."
+    }
+   }
+  },
+  "marcos": {
+   "findings": [
+    {
+     "d": "subst",
+     "text": {
+      "pt": "Bebe todos os dias, cada vez mais, 'para dormir', e já tentou parar sem conseguir.",
+      "en": "Drinks every day, more and more, 'to sleep', and has tried to stop without success.",
+      "es": "Bebe todos los días, cada vez más, 'para dormir', y ya intentó parar sin lograrlo."
+     },
+     "pts": {
+      "alcool": 3
+     },
+     "say": {
+      "pt": "(evita o olhar) Bebo todo dia, sim. É pra dormir, sabe? Cada vez mais, eu admito. Já tentei parar e... não deu.",
+      "en": "(avoids eye contact) I drink every day, yes. It's to sleep, you know? More and more, I admit. I've tried to stop and... couldn't.",
+      "es": "(evita la mirada) Bebo todos los días, sí. Es para dormir, ¿sabes? Cada vez más, lo admito. Ya intenté parar y... no pude."
+     }
+    },
+    {
+     "d": "humor",
+     "text": {
+      "pt": "A tristeza veio depois da demissão e piora à medida que bebe mais.",
+      "en": "The sadness came after being fired and worsens as he drinks more.",
+      "es": "La tristeza vino tras el despido y empeora a medida que bebe más."
+     },
+     "pts": {
+      "alcool": 1,
+      "tdm": 1
+     },
+     "say": {
+      "pt": "A tristeza veio depois que me demitiram. E quanto mais eu bebo, pior fica. Um círculo, né.",
+      "en": "The sadness came after I was fired. And the more I drink, the worse it gets. A circle, isn't it.",
+      "es": "La tristeza vino después de que me despidieran. Y cuanto más bebo, peor. Un círculo, ¿no?"
+     }
+    },
+    {
+     "d": "sono",
+     "text": {
+      "pt": "Acorda de madrugada com o coração acelerado e as mãos tremendo.",
+      "en": "Wakes at dawn with a racing heart and trembling hands.",
+      "es": "Despierta de madrugada con el corazón acelerado y las manos temblorosas."
+     },
+     "pts": {
+      "alcool": 3,
+      "tdm": 1
+     },
+     "say": {
+      "pt": "Acordo de madrugada... o coração disparado, a mão tremendo. Aí eu bebo de novo pra acalmar.",
+      "en": "I wake up at dawn... heart racing, hands shaking. Then I drink again to calm down.",
+      "es": "Me despierto de madrugada... el corazón disparado, la mano temblando. Entonces bebo otra vez para calmarme."
+     }
+    },
+    {
+     "d": "func",
+     "text": {
+      "pt": "Discute com a esposa, faltou a entrevistas de emprego e descuida de si.",
+      "en": "Argues with his wife, skipped job interviews and neglects himself.",
+      "es": "Discute con la esposa, faltó a entrevistas de empleo y se descuida."
+     },
+     "pts": {
+      "alcool": 2,
+      "tdm": 1
+     },
+     "say": {
+      "pt": "Discuto com a minha esposa por tudo. Faltei em entrevista de emprego... e ando meio desleixado, eu sei.",
+      "en": "I argue with my wife over everything. I missed job interviews... and I've been kind of sloppy, I know.",
+      "es": "Discuto con mi esposa por todo. Falté a entrevistas de trabajo... y ando algo descuidado, lo sé."
+     }
+    },
+    {
+     "d": "inicio",
+     "text": {
+      "pt": "Antes da demissão bebia socialmente; o consumo cresceu nos últimos meses.",
+      "en": "Before the layoff he drank socially; consumption grew over recent months.",
+      "es": "Antes del despido bebía socialmente; el consumo creció en los últimos meses."
+     },
+     "pts": {
+      "alcool": 2,
+      "distimia": -2
+     },
+     "say": {
+      "pt": "Antes da demissão era social, sabe, fim de semana, cervejinha. De uns meses pra cá foi crescendo.",
+      "en": "Before the layoff it was social, you know, weekends, a beer. In the last few months it grew.",
+      "es": "Antes del despido era social, ya sabes, fin de semana, una cerveza. En los últimos meses fue creciendo."
+     }
+    },
+    {
+     "d": "risco",
+     "text": {
+      "pt": "Sem ideias de morte, mas há risco médico se parar de repente.",
+      "en": "No thoughts of death, but there is a medical risk if he stops suddenly.",
+      "es": "Sin ideas de muerte, pero hay riesgo médico si deja de golpe."
+     },
+     "pts": {
+      "alcool": 2
+     },
+     "say": {
+      "pt": "Ideia de morte? Não, isso não. Mas me falaram que parar de repente pode ser perigoso, e eu tô com medo disso.",
+      "en": "Thoughts of death? No, not that. But I was told stopping suddenly can be dangerous, and that scares me.",
+      "es": "¿Ideas de muerte? No, eso no. Pero me dijeron que parar de golpe puede ser peligroso, y eso me da miedo."
+     }
+    }
+   ],
+   "form": {
+    "predisposing": {
+     "pt": "Histórico familiar de alcoolismo (pai) e dificuldade de falar de emoções.",
+     "en": "Family history of alcoholism (father) and difficulty talking about emotions.",
+     "es": "Antecedentes familiares de alcoholismo (padre) y dificultad para hablar de emociones."
+    },
+    "precipitating": {
+     "pt": "Demissão há 3 meses e ameaça de separação.",
+     "en": "Being fired 3 months ago and a threat of separation.",
+     "es": "Despido hace 3 meses y amenaza de separación."
+    },
+    "perpetuating": {
+     "pt": "O álcool piora o sono e o humor, e a vergonha faz esconder o consumo.",
+     "en": "Alcohol worsens sleep and mood, and shame makes him hide the drinking.",
+     "es": "El alcohol empeora el sueño y el ánimo, y la vergüenza lo lleva a esconder el consumo."
+    },
+    "protective": {
+     "pt": "Esposa ainda presente, boa qualificação e uma ambivalência que abre espaço.",
+     "en": "A wife still present, good qualifications and an ambivalence that opens a door.",
+     "es": "Esposa aún presente, buena calificación y una ambivalencia que abre una puerta."
+    }
+   },
+   "testes": {
+    "atencao": {
+     "z": -0.62,
+     "prof": {
+      "alcool": -0.4,
+      "tdm": -0.9,
+      "distimia": -0.5,
+      "tag": -0.5
+     }
+    },
+    "memoria": {
+     "z": -1.24,
+     "prof": {
+      "alcool": -1.0,
+      "tdm": -0.7,
+      "distimia": 0,
+      "tag": 0
+     }
+    },
+    "executivas": {
+     "z": -1.02,
+     "prof": {
+      "alcool": -1.1,
+      "tdm": -0.9,
+      "distimia": -0.5,
+      "tag": 0
+     }
+    },
+    "qi": {
+     "z": 0.17,
+     "prof": {
+      "alcool": 0,
+      "tdm": 0,
+      "distimia": 0,
+      "tag": 0
+     }
+    },
+    "emocoes": {
+     "z": 0.15,
+     "prof": {
+      "alcool": 0,
+      "tdm": 0,
+      "distimia": 0,
+      "tag": 0
+     }
+    }
+   },
+   "comorbid": [
+    "tdm"
+   ],
+   "warn": [
+    "substancias"
+   ]
+  },
+  "maria": {
+   "findings": [
+    {
+     "d": "social",
+     "text": {
+      "pt": "Relações intensas e curtas; liga repetidamente quando o parceiro demora.",
+      "en": "Intense, short relationships; calls repeatedly when her partner is slow to reply.",
+      "es": "Relaciones intensas y cortas; llama una y otra vez cuando la pareja demora."
+     },
+     "pts": {
+      "borderline": 3,
+      "dependente": 2
+     },
+     "say": {
+      "pt": "Meus relacionamentos são intensos e... curtos. Quando ele demora pra responder eu ligo, ligo de novo. Eu sei que é demais, mas não consigo parar.",
+      "en": "My relationships are intense and... short. When he's slow to answer I call, call again. I know it's too much, but I can't stop.",
+      "es": "Mis relaciones son intensas y... cortas. Cuando tarda en contestar llamo, llamo otra vez. Sé que es demasiado, pero no puedo parar."
+     }
+    },
+    {
+     "d": "ansiedade",
+     "text": {
+      "pt": "Medo intenso de ser abandonada; termina antes de ser deixada.",
+      "en": "Intense fear of being abandoned; ends things before being left.",
+      "es": "Miedo intenso a ser abandonada; termina antes de que la dejen."
+     },
+     "pts": {
+      "borderline": 3,
+      "dependente": 0
+     },
+     "say": {
+      "pt": "Tenho um medo enorme de ser abandonada. Então eu termino antes, sabe? Antes que me deixem. Faz sentido, né?",
+      "en": "I have an enormous fear of being abandoned. So I end it first, you know? Before they leave me. Makes sense, right?",
+      "es": "Tengo un miedo enorme a que me abandonen. Entonces termino primero, ¿sabes? Antes de que me dejen. Tiene sentido, ¿no?"
+     }
+    },
+    {
+     "d": "humor",
+     "text": {
+      "pt": "O humor oscila em horas conforme a atenção do parceiro; sensação de vazio.",
+      "en": "Mood swings within hours depending on her partner's attention; a feeling of emptiness.",
+      "es": "El ánimo oscila en horas según la atención de la pareja; sensación de vacío."
+     },
+     "pts": {
+      "borderline": 3,
+      "bipolar2": -2
+     },
+     "say": {
+      "pt": "Meu humor vai e vem em horas, depende da atenção dele. E tem um vazio, uma sensação de vazio que eu não sei explicar.",
+      "en": "My mood goes up and down in hours, it depends on his attention. And there's an emptiness, a feeling of emptiness I can't explain.",
+      "es": "Mi ánimo va y viene en horas, depende de su atención. Y hay un vacío, una sensación de vacío que no sé explicar."
+     }
+    },
+    {
+     "d": "risco",
+     "text": {
+      "pt": "Já pensou em se machucar quando é rejeitada, sem plano.",
+      "en": "Has thought of hurting herself when rejected, with no plan.",
+      "es": "Ha pensado en hacerse daño cuando la rechazan, sin plan."
+     },
+     "pts": {
+      "borderline": 2
+     },
+     "say": {
+      "pt": "Quando eu me sinto rejeitada... já pensei em me machucar. Mas plano, plano eu não tenho.",
+      "en": "When I feel rejected... I've thought about hurting myself. But a plan, I don't have a plan.",
+      "es": "Cuando me siento rechazada... ya pensé en lastimarme. Pero plan, plan no tengo."
+     }
+    },
+    {
+     "d": "inicio",
+     "text": {
+      "pt": "O padrão vem desde a adolescência e aparece em todos os relacionamentos.",
+      "en": "The pattern goes back to adolescence and shows in every relationship.",
+      "es": "El patrón viene desde la adolescencia y aparece en todas las relaciones."
+     },
+     "pts": {
+      "borderline": 2,
+      "bipolar2": -1
+     },
+     "say": {
+      "pt": "Isso vem desde a adolescência. Em todo relacionamento, sempre o mesmo padrão.",
+      "en": "This goes back to adolescence. In every relationship, always the same pattern.",
+      "es": "Esto viene desde la adolescencia. En cada relación, siempre el mismo patrón."
+     }
+    },
+    {
+     "d": "func",
+     "text": {
+      "pt": "No trabalho está estável; o sofrimento se concentra nas relações afetivas.",
+      "en": "Stable at work; the suffering is concentrated in romantic relationships.",
+      "es": "Estable en el trabajo; el sufrimiento se concentra en las relaciones afectivas."
+     },
+     "pts": {
+      "borderline": 1,
+      "histrionica": 1
+     },
+     "say": {
+      "pt": "No trabalho eu tô bem, tô estável, é sério. O que pesa mesmo é a parte afetiva.",
+      "en": "At work I'm fine, I'm stable, really. What weighs on me is the emotional side.",
+      "es": "En el trabajo estoy bien, estoy estable, en serio. Lo que pesa es la parte afectiva."
+     }
+    },
+    {
+     "d": "subst",
+     "text": {
+      "pt": "Bebe além da conta e faz compras por impulso quando está mal; se arrepende depois.",
+      "en": "Drinks more than intended and shops impulsively when she's upset; regrets it afterward.",
+      "es": "Bebe más de la cuenta y hace compras por impulso cuando está mal; se arrepiente después."
+     },
+     "pts": {
+      "borderline": 2,
+      "histrionica": 1
+     },
+     "say": {
+      "pt": "Quando tô muito mal eu bebo além da conta, ou entro comprando um monte de coisa pelo celular sem nem pensar. No dia seguinte eu me arrependo, mas na hora parece que alivia.",
+      "en": "When I'm really down I drink more than I should, or I go shopping online, buying a bunch of stuff without even thinking. The next day I regret it, but in the moment it feels like it helps.",
+      "es": "Cuando estoy muy mal bebo más de la cuenta, o me pongo a comprar un montón de cosas por el celular sin pensarlo. Al día siguiente me arrepiento, pero en el momento parece que alivia."
+     }
+    },
+    {
+     "d": "sono",
+     "text": {
+      "pt": "Sono preservado: demora a pegar no sono remoendo brigas, mas nunca passa dias sem precisar dormir.",
+      "en": "Sleep preserved: she takes a while to fall asleep chewing over fights, but never goes days without needing sleep.",
+      "es": "Sueño preservado: tarda en dormirse rumiando peleas, pero nunca pasa días sin necesitar dormir."
+     },
+     "pts": {
+      "borderline": 1,
+      "bipolar2": -3
+     },
+     "say": {
+      "pt": "Meu sono é normal, no geral. Às vezes demoro pra dormir se fiquei remoendo alguma briga, mas dias sem precisar dormir? Isso nunca.",
+      "en": "My sleep is normal, mostly. Sometimes I take a while if I'm chewing over a fight, but days without needing to sleep? Never.",
+      "es": "Mi sueño es normal, en general. A veces tardo si me quedo rumiando una pelea, pero ¿días sin necesitar dormir? Nunca."
+     }
+    },
+    {
+     "d": "pensamento",
+     "text": {
+      "pt": "Não sustenta uma imagem de si: alterna entre achar-se incrível e detestável, muda de gosto conforme a companhia e abandonou três cursos.",
+      "en": "She cannot hold an image of herself: she alternates between feeling amazing and detestable, changes her tastes to match whoever is around and dropped out of three courses.",
+      "es": "No sostiene una imagen de sí misma: alterna entre sentirse increíble y detestable, cambia de gustos según la compañía y abandonó tres carreras."
+     },
+     "pts": {
+      "borderline": 3,
+      "histrionica": -2,
+      "dependente": 1
+     },
+     "say": {
+      "pt": "Eu não sei direito quem eu sou. Tem dia que me acho incrível, tem dia que me acho detestável. Mudo de gosto dependendo de quem tá do lado, e já larguei três faculdades.",
+      "en": "I don't really know who I am. Some days I think I'm amazing, other days I find myself detestable. I change my tastes depending on who's around, and I've dropped out of three degrees.",
+      "es": "No sé bien quién soy. Hay días que me creo increíble y días que me encuentro detestable. Cambio de gustos según quién esté al lado, y ya dejé tres carreras."
+     }
+    },
+    {
+     "d": "familia",
+     "text": {
+      "pt": "Pai desapareceu quando ela tinha 5 anos; mãe punia com dias de silêncio. Quando se sente rejeitada, reage com raiva explosiva e ataques verbais, não com submissão.",
+      "en": "Her father vanished when she was 5; her mother punished her with days of silence. When she feels rejected she reacts with explosive anger and verbal attacks, not submission.",
+      "es": "Su padre desapareció cuando ella tenía 5 años; su madre la castigaba con días de silencio. Cuando se siente rechazada reacciona con rabia explosiva y ataques verbales, no con sumisión."
+     },
+     "pts": {
+      "borderline": 3,
+      "dependente": -3
+     },
+     "say": {
+      "pt": "Meu pai foi embora quando eu tinha 5 anos e sumiu. Minha mãe, quando eu errava, passava dias sem falar comigo. Hoje, se eu sinto que vão me deixar, eu não fico quietinha — eu ligo dez vezes, xingo, ameaço terminar. E depois morro de vergonha.",
+      "en": "My father left when I was 5 and vanished. My mother, when I got something wrong, would go days without speaking to me. Now, if I feel someone is going to leave me, I don't go quiet — I call ten times, I yell, I threaten to end it. And afterwards I'm mortified.",
+      "es": "Mi padre se fue cuando yo tenía 5 años y desapareció. Mi madre, cuando yo me equivocaba, pasaba días sin hablarme. Hoy, si siento que me van a dejar, no me quedo callada: llamo diez veces, insulto, amenazo con terminar. Y después me muero de vergüenza."
+     }
+    }
+   ],
+   "form": {
+    "predisposing": {
+     "pt": "Infância com cuidadores instáveis e apego inseguro.",
+     "en": "Childhood with unstable caregivers and insecure attachment.",
+     "es": "Infancia con cuidadores inestables y apego inseguro."
+    },
+    "precipitating": {
+     "pt": "Novo relacionamento em que o parceiro demora a responder.",
+     "en": "A new relationship in which the partner is slow to answer.",
+     "es": "Nueva relación en la que la pareja demora en responder."
+    },
+    "perpetuating": {
+     "pt": "Checagens e cobranças afastam o parceiro e confirmam o medo.",
+     "en": "Checking and demands push the partner away and confirm the fear.",
+     "es": "Las verificaciones y exigencias alejan a la pareja y confirman el miedo."
+    },
+    "protective": {
+     "pt": "Procurou ajuda sozinha, tem amigas próximas e trabalho estável.",
+     "en": "Sought help on her own, has close friends and a stable job.",
+     "es": "Buscó ayuda por su cuenta, tiene amigas cercanas y trabajo estable."
+    }
+   },
+   "testes": {
+    "atencao": {
+     "z": 0.01,
+     "prof": {
+      "borderline": 0,
+      "dependente": 0,
+      "histrionica": 0,
+      "bipolar2": -0.7
+     }
+    },
+    "memoria": {
+     "z": 0.07,
+     "prof": {
+      "borderline": 0,
+      "dependente": 0,
+      "histrionica": 0,
+      "bipolar2": 0
+     }
+    },
+    "executivas": {
+     "z": -0.72,
+     "prof": {
+      "borderline": -0.6,
+      "dependente": 0,
+      "histrionica": 0,
+      "bipolar2": -0.7
+     }
+    },
+    "qi": {
+     "z": 0.1,
+     "prof": {
+      "borderline": 0,
+      "dependente": 0,
+      "histrionica": 0,
+      "bipolar2": 0
+     }
+    },
+    "emocoes": {
+     "z": -0.92,
+     "prof": {
+      "borderline": -1.0,
+      "dependente": -0.2,
+      "histrionica": -0.3,
+      "bipolar2": 0
+     }
+    }
+   },
+   "tardio": {
+    "text": {
+     "pt": "Histórico de relações intensas, com idealização e desvalorização rápidas da mesma pessoa, mais do que medo de ficar sozinha.",
+     "en": "History of intense relationships, with quick idealization and devaluation of the same person, more than fear of being alone.",
+     "es": "Historial de relaciones intensas, con idealización y desvalorización rápidas de la misma persona, más que miedo a estar sola."
+    },
+    "pts": {
+     "borderline": 3,
+     "dependente": -1,
+     "histrionica": -1
+    }
+   },
+   "armadilha": "dependente",
+   "risk": {
+    "ideacao": true,
+    "plano": false,
+    "imediato": false
+   },
+   "warn": [
+    "risco"
+   ],
+   "difWhy": {
+    "bipolar2": {
+     "ok": {
+      "pt": "Descartado. Na bipolaridade o humor muda por dias e vem com redução da necessidade de sono; aqui o sono está preservado e a virada dura horas, sempre disparada por algo na relação.",
+      "en": "Ruled out. In bipolar disorder mood shifts last days and come with a reduced need for sleep; here sleep is preserved and the swing lasts hours, always triggered by something in the relationship.",
+      "es": "Descartado. En la bipolaridad el ánimo cambia por días y viene con menor necesidad de sueño; aquí el sueño está preservado y el viraje dura horas, siempre disparado por algo de la relación."
+     },
+     "dica": {
+      "pt": "Olhe o sono e quanto tempo dura cada virada de humor antes de concluir bipolaridade.",
+      "en": "Look at her sleep and how long each mood swing lasts before concluding bipolar disorder.",
+      "es": "Mira el sueño y cuánto dura cada viraje de ánimo antes de concluir bipolaridad."
+     }
+    },
+    "dependente": {
+     "ok": {
+      "pt": "Descartado. Quem tem personalidade dependente se submete para não ser deixado; Maria faz o oposto — ataca, xinga e termina antes, para não ser abandonada primeiro.",
+      "en": "Ruled out. Someone with dependent personality submits so as not to be left; Maria does the opposite — she attacks, yells and ends it first, so as not to be abandoned first.",
+      "es": "Descartado. Quien tiene personalidad dependiente se somete para no ser dejado; María hace lo contrario: ataca, insulta y termina antes, para que no la abandonen primero."
+     },
+     "dica": {
+      "pt": "Repare em COMO ela reage quando sente que vai ser deixada: submissa ou explosiva?",
+      "en": "Notice HOW she reacts when she feels she is about to be left: submissive or explosive?",
+      "es": "Fíjate en CÓMO reacciona cuando siente que la van a dejar: ¿sumisa o explosiva?"
+     }
+    },
+    "histrionica": {
+     "ok": {
+      "pt": "Descartado. Na personalidade histriônica o foco é buscar atenção em qualquer plateia; aqui o núcleo é o medo de abandono, a autoimagem que não se sustenta e o vazio crônico.",
+      "en": "Ruled out. In histrionic personality the focus is seeking attention from any audience; here the core is fear of abandonment, an unstable self-image and chronic emptiness.",
+      "es": "Descartado. En la personalidad histriónica el foco es buscar atención ante cualquier público; aquí el núcleo es el miedo al abandono, la autoimagen que no se sostiene y el vacío crónico."
+     },
+     "dica": {
+      "pt": "Pergunte-se o que está no centro: a plateia, ou o medo de ser deixada e o vazio?",
+      "en": "Ask yourself what is at the centre: the audience, or the fear of being left and the emptiness?",
+      "es": "Pregúntate qué está en el centro: el público, o el miedo a ser dejada y el vacío?"
+     }
+    }
+   },
+   "deducao": {
+    "texto": {
+     "pt": "O que segura tudo é {A}. Quando isso dispara, {B}, e ela age por impulso {C}. O padrão não é de agora: {D}.",
+     "en": "What holds it all together is {A}. When that fires, {B}, and she acts on impulse {C}. The pattern is not new: {D}.",
+     "es": "Lo que sostiene todo es {A}. Cuando eso se dispara, {B}, y actúa por impulso {C}. El patrón no es de ahora: {D}."
+    },
+    "slots": {
+     "A": "ansiedade",
+     "B": "humor",
+     "C": "subst",
+     "D": "inicio"
+    },
+    "fecho": {
+     "pt": "Medo intenso de abandono, humor que vira em horas conforme a resposta do outro, impulsividade que alivia na hora e cobra depois, e um padrão que vem da adolescência em todos os vínculos: é transtorno da personalidade borderline, e não bipolaridade — as viradas seguem a relação, não ciclos de semanas.",
+     "en": "Intense fear of abandonment, mood that turns within hours with the other person's response, impulsivity that soothes now and charges later, and a pattern running since adolescence across every bond: this is borderline personality disorder, not bipolarity — the turns follow the relationship, not week-long cycles.",
+     "es": "Miedo intenso al abandono, ánimo que gira en horas según la respuesta del otro, impulsividad que alivia ahora y cobra después, y un patrón que viene desde la adolescencia en todos los vínculos: es trastorno límite de la personalidad, no bipolaridad; los giros siguen la relación, no ciclos de semanas."
+    }
+   },
+   "confronto": {
+    "achado": "inicio",
+    "crenca": {
+     "pt": "“Foi esse namoro que me deixou assim. Antes dele eu era normal, juro.”",
+     "en": "“It was this relationship that left me like this. Before him I was normal, I swear.”",
+     "es": "“Fue esta relación la que me dejó así. Antes de él yo era normal, lo juro.”"
+    },
+    "fala": {
+     "pt": "Eu ouvi você contar a mesma cena em três relacionamentos diferentes, desde a adolescência. Não é ele que cria isso — é uma forma de sentir que já vinha com você, e que ele apenas encontrou.",
+     "en": "I heard you describe the same scene in three different relationships, going back to adolescence. He does not create this — it is a way of feeling that was already yours, and that he only met.",
+     "es": "Te escuché contar la misma escena en tres relaciones distintas, desde la adolescencia. No es él quien crea esto: es una forma de sentir que ya venía contigo y que él solo encontró."
+    },
+    "resposta": {
+     "pt": "Ela para. “…é sempre igual, né. Eu achava que era azar de escolher errado.” E pela primeira vez a conversa não é sobre ele.",
+     "en": "She stops. “…it is always the same, isn't it. I thought I just kept picking wrong.” And for the first time the conversation is not about him.",
+     "es": "Se detiene. “…siempre es igual, ¿no? Creía que era mala suerte al elegir.” Y por primera vez la charla no es sobre él."
+    },
+    "cedo": {
+     "pt": "“Ah, então a culpada sou eu.” O tom endurece e a conversa volta para o que ele fez na terça.",
+     "en": "“Oh, so I'm the one to blame.” Her tone hardens and the talk goes back to what he did on Tuesday.",
+     "es": "“Ah, entonces la culpable soy yo.” El tono se endurece y la charla vuelve a lo que él hizo el martes."
+    },
+    "ganho": {
+     "pt": "Sai do relato de um namoro e entra no padrão: é a virada que a avaliação precisava.",
+     "en": "It moves from one relationship's story into the pattern: the turn the assessment needed.",
+     "es": "Pasa del relato de una relación al patrón: el giro que la evaluación necesitaba."
+    },
+    "pts": 3
+   },
+   "consequencia": {
+    "bipolar2": {
+     "pt": "'O psiquiatra ajustou o remédio, como a senhora sugeriu. (voz dura) Eu tô mais lenta, durmo mais, e continuo ligando quarenta vezes quando ele some. O remédio não fez nada com a parte que dói. A senhora não entendeu o que eu sinto.'",
+     "en": "'The psychiatrist adjusted the medication, as you suggested. (hard voice) I'm slower, I sleep more, and I still call forty times when he disappears. The medication did nothing to the part that hurts. You didn't understand what I feel.'",
+     "es": "'El psiquiatra ajustó el medicamento, como usted sugirió. (voz dura) Estoy más lenta, duermo más, y sigo llamando cuarenta veces cuando desaparece. El remedio no hizo nada con la parte que duele. Usted no entendió lo que siento.'"
+    },
+    "dependente": {
+     "pt": "'A senhora disse pra eu praticar ficar sozinha. Eu fiquei. Passei um fim de semana inteiro sem falar com ninguém. (pausa) No domingo eu quebrei o celular na parede. Não é que eu não consiga ficar sozinha — é que sozinha eu sumo.'",
+     "en": "'You told me to practise being alone. I did. I spent a whole weekend without speaking to anyone. (pause) On Sunday I smashed my phone against the wall. It isn't that I can't be alone — it's that alone, I disappear.'",
+     "es": "'Usted me dijo que practicara estar sola. Lo hice. Pasé un fin de semana entero sin hablar con nadie. (pausa) El domingo rompí el celular contra la pared. No es que no pueda estar sola: es que sola, desaparezco.'"
+    },
+    "histrionica": {
+     "pt": "'Minha irmã leu a palavra que a senhora usou e agora, quando eu choro, ela fala “lá vem o teatro”. (a voz falha) Eu vim aqui porque tava sofrendo, não porque eu queria plateia.'",
+     "en": "'My sister read the word you used and now, when I cry, she says “here comes the performance”. (her voice breaks) I came here because I was suffering, not because I wanted an audience.'",
+     "es": "'Mi hermana leyó la palabra que usó usted y ahora, cuando lloro, dice “ahí viene el teatro”. (se le quiebra la voz) Vine aquí porque estaba sufriendo, no porque quisiera público.'"
+    }
+   },
+   "pico": {
+    "palavra": [
+     "ninguém",
+     "nobody"
+    ],
+    "eixo": "anamnese",
+    "sess": 3,
+    "gatilho": {
+     "pt": "Ela para no meio da frase. Os olhos enchem e ela não tira mais a mão da alça da bolsa.",
+     "en": "She stops mid-sentence. Her eyes fill and she does not let go of the strap of her bag.",
+     "es": "Se detiene a media frase. Se le llenan los ojos y no suelta el asa del bolso."
+    },
+    "fala": {
+     "pt": "Você não é invisível aqui. O que você está sentindo agora está sendo visto nesta sala, e não precisa de grito nenhum para eu olhar.",
+     "en": "You are not invisible here. What you are feeling right now is being seen in this room, and it needs no shouting for me to look.",
+     "es": "No eres invisible aquí. Lo que sientes ahora se ve en esta sala, y no hace falta ningún grito para que yo mire."
+    },
+    "resposta": {
+     "pt": "Ela chora sem se esconder pela primeira vez. Quando volta a falar, a voz é de outra pessoa: “É isso. É exatamente isso. Eu faço escândalo porque eu tenho medo de sumir.”",
+     "en": "She cries without hiding for the first time. When she speaks again, the voice is another person's: “That's it. That's exactly it. I make a scene because I am afraid of disappearing.”",
+     "es": "Llora sin esconderse por primera vez. Cuando vuelve a hablar, la voz es de otra persona: “Es eso. Es exactamente eso. Hago escándalo porque tengo miedo de desaparecer.”"
+    },
+    "perdido": {
+     "pt": "Ela respira fundo, limpa o rosto com as costas da mão e endireita as costas. “Desculpa. Que bobagem. Onde a gente estava?” A porta que abriu fecha.",
+     "en": "She takes a deep breath, wipes her face with the back of her hand and straightens up. “Sorry. How silly. Where were we?” The door that opened closes.",
+     "es": "Respira hondo, se seca la cara con el dorso de la mano y se endereza. “Perdón. Qué tontería. ¿Dónde estábamos?” La puerta que se abrió se cierra."
+    }
+   }
+  },
+  "mariana": {
+   "findings": [
+    {
+     "d": "func",
+     "text": {
+      "pt": "Perde prazos, esquece o material e se distrai em sala e em casa.",
+      "en": "Misses deadlines, forgets materials and gets distracted in class and at home.",
+      "es": "Pierde plazos, olvida el material y se distrae en el aula y en casa."
+     },
+     "pts": {
+      "tdah": 3
+     },
+     "say": {
+      "pt": "(a avó:) Ela perde prazo, esquece o material, se distrai em sala e em casa. (Mariana:) Ah, eu esqueci de novo? Tava pensando numa coisa...",
+      "en": "(her grandma:) She misses deadlines, forgets her things, gets distracted in class and at home. (Mariana:) Oh, I forgot again? I was thinking about something...",
+      "es": "(la abuela:) Pierde plazos, olvida el material, se distrae en clase y en casa. (Mariana:) ¿Ah, me olvidé otra vez? Estaba pensando en algo..."
+     }
+    },
+    {
+     "d": "pensamento",
+     "text": {
+      "pt": "Na Torre de Londres agiu por impulso, sem planejar os movimentos.",
+      "en": "On the Tower of London she acted on impulse, without planning her moves.",
+      "es": "En la Torre de Londres actuó por impulso, sin planificar los movimientos."
+     },
+     "pts": {
+      "tdah": 2,
+      "tag": -1
+     },
+     "say": {
+      "pt": "(Mariana:) Na Torre de Londres eu fui mexendo... rápido, não parei pra pensar antes. Ah, era pra planejar? Eu fui logo.",
+      "en": "(Mariana:) In the Tower of London I just kept moving... fast, I didn't stop to think first. Oh, was I supposed to plan? I just went.",
+      "es": "(Mariana:) En la Torre de Londres fui moviendo... rápido, no paré a pensar antes. ¿Ah, había que planificar? Fui directa."
+     }
+    },
+    {
+     "d": "ansiedade",
+     "text": {
+      "pt": "Fica tensa só em provas; no dia a dia não se preocupa em excesso.",
+      "en": "Gets tense only in tests; day to day she does not worry excessively.",
+      "es": "Se tensa solo en las pruebas; en el día a día no se preocupa en exceso."
+     },
+     "pts": {
+      "tag": -2
+     },
+     "say": {
+      "pt": "Só na prova eu fico assim, tensa, mão gelada. Fora da prova eu não fico preocupada com nada, não.",
+      "en": "Only on tests I get like this, tense, cold hands. Outside of tests I don't worry about anything.",
+      "es": "Solo en los exámenes me pongo así, tensa, manos frías. Fuera de eso no me preocupo por nada."
+     }
+    },
+    {
+     "d": "inicio",
+     "text": {
+      "pt": "Os sinais aparecem desde os 6 anos, em vários contextos.",
+      "en": "Signs appear since age 6, in several settings.",
+      "es": "Las señales aparecen desde los 6 años, en varios contextos."
+     },
+     "pts": {
+      "tdah": 2
+     },
+     "say": {
+      "pt": "(a avó:) Desde os seis anos, mais ou menos. Na escola, em casa, na casa da tia... em todo lugar.",
+      "en": "(her grandma:) Since about six. At school, at home, at her aunt's... everywhere.",
+      "es": "(la abuela:) Desde los seis años, más o menos. En la escuela, en casa, en casa de la tía... en todas partes."
+     }
+    },
+    {
+     "d": "social",
+     "text": {
+      "pt": "Interage bem com colegas, entende o humor e não tem rigidez de rotina.",
+      "en": "Interacts well with peers, understands humor and has no routine rigidity.",
+      "es": "Interactúa bien con los compañeros, entiende el humor y no tiene rigidez de rutina."
+     },
+     "pts": {
+      "tea": -3
+     },
+     "say": {
+      "pt": "Eu tenho amigas! A gente ri das mesmas coisas. E eu gosto da minha rotina, mas se mudar, tudo bem também.",
+      "en": "I have friends! We laugh at the same things. And I like my routine, but if it changes, that's fine too.",
+      "es": "¡Tengo amigas! Nos reímos de las mismas cosas. Y me gusta mi rutina, pero si cambia, también está bien."
+     }
+    },
+    {
+     "d": "corpo",
+     "text": {
+      "pt": "Inquieta, interrompe e responde antes de a pergunta terminar.",
+      "en": "Restless, interrupts and answers before the question ends.",
+      "es": "Inquieta, interrumpe y responde antes de que termine la pregunta."
+     },
+     "pts": {
+      "tdah": 2
+     },
+     "say": {
+      "pt": "(a avó:) Não fica quieta, interrompe, responde antes de a pergunta acabar. (Mariana:) Ué, eu já sabia a resposta!",
+      "en": "(her grandma:) She can't sit still, interrupts, answers before the question ends. (Mariana:) Well, I already knew the answer!",
+      "es": "(la abuela:) No se queda quieta, interrumpe, responde antes de que acabe la pregunta. (Mariana:) ¡Pues ya sabía la respuesta!"
+     }
+    }
+   ],
+   "form": {
+    "predisposing": {
+     "pt": "Familiar com TDAH e prematuridade leve.",
+     "en": "Relative with ADHD and mild prematurity.",
+     "es": "Familiar con TDAH y prematuridad leve."
+    },
+    "precipitating": {
+     "pt": "Aumento das tarefas escolares no 5º ano.",
+     "en": "More schoolwork in 5th grade.",
+     "es": "Aumento de las tareas escolares en 5.º grado."
+    },
+    "perpetuating": {
+     "pt": "Falta de rotina e broncas por esquecimentos; tarefas longas sem pausa.",
+     "en": "Lack of routine and scolding for forgetting; long tasks with no breaks.",
+     "es": "Falta de rutina y retos por olvidos; tareas largas sin pausas."
+    },
+    "protective": {
+     "pt": "Boa sociabilidade e mãe engajada na avaliação.",
+     "en": "Good sociability and a mother engaged in the evaluation.",
+     "es": "Buena sociabilidad y madre comprometida con la evaluación."
+    }
+   },
+   "testes": {
+    "atencao": {
+     "z": -1.79,
+     "prof": {
+      "tdah": -1.6,
+      "tag": -0.5,
+      "tea": -0.3,
+      "aprendizagem": -0.6
+     }
+    },
+    "memoria": {
+     "z": -0.65,
+     "prof": {
+      "tdah": -0.6,
+      "tag": 0,
+      "tea": 0,
+      "aprendizagem": -1.0
+     }
+    },
+    "executivas": {
+     "z": -1.53,
+     "prof": {
+      "tdah": -1.3,
+      "tag": 0,
+      "tea": -0.9,
+      "aprendizagem": -0.5
+     }
+    },
+    "qi": {
+     "z": -0.11,
+     "prof": {
+      "tdah": 0,
+      "tag": 0,
+      "tea": 0,
+      "aprendizagem": 0
+     }
+    },
+    "emocoes": {
+     "z": -0.14,
+     "prof": {
+      "tdah": 0,
+      "tag": 0,
+      "tea": -1.5,
+      "aprendizagem": 0
+     }
+    }
+   },
+   "comorbid": [
+    "tag"
+   ]
+  },
+  "rafael": {
+   "findings": [
+    {
+     "d": "corpo",
+     "text": {
+      "pt": "Coração disparado, falta de ar e medo de morrer; exames do pronto-socorro normais.",
+      "en": "Racing heart, shortness of breath and fear of dying; ER tests normal.",
+      "es": "Corazón desbocado, falta de aire y miedo a morir; exámenes de urgencias normales."
+     },
+     "pts": {
+      "panico": 3,
+      "sintomas-somaticos": 1
+     },
+     "say": {
+      "pt": "Foi o coração disparado, falta de ar, e eu tive certeza que ia morrer. Fui pro pronto-socorro e os exames deram normais. Normais! Então o que foi aquilo?",
+      "en": "It was my heart racing, shortness of breath, and I was sure I was going to die. I went to the ER and the tests came back normal. Normal! So what was that?",
+      "es": "Fue el corazón disparado, falta de aire, y estaba seguro de que me iba a morir. Fui a urgencias y las pruebas salieron normales. ¡Normales! Entonces, ¿qué fue eso?"
+     }
+    },
+    {
+     "d": "ansiedade",
+     "text": {
+      "pt": "Teme ter outra crise; ela vem do nada e atinge o pico em minutos.",
+      "en": "Fears having another attack; it comes out of nowhere and peaks within minutes.",
+      "es": "Teme tener otra crisis; llega de la nada y alcanza el pico en minutos."
+     },
+     "pts": {
+      "panico": 3,
+      "tag": -1
+     },
+     "say": {
+      "pt": "O que mais me pega é ter outra. Ela vem do nada, sem aviso, e em minutos tá no auge. Eu vivo esperando a próxima.",
+      "en": "What gets me is having another one. It comes out of nowhere, no warning, and in minutes it's at its peak. I live waiting for the next one.",
+      "es": "Lo que más me afecta es tener otra. Viene de la nada, sin aviso, y en minutos está en su punto máximo. Vivo esperando la siguiente."
+     }
+    },
+    {
+     "d": "func",
+     "text": {
+      "pt": "Passou a evitar metrô, reuniões e academia por medo de passar mal.",
+      "en": "Started avoiding the subway, meetings and the gym for fear of feeling ill.",
+      "es": "Empezó a evitar el metro, las reuniones y el gimnasio por miedo a sentirse mal."
+     },
+     "pts": {
+      "panico": 1,
+      "agorafobia": 2
+     },
+     "say": {
+      "pt": "Parei de pegar metrô. Evito reunião, evito academia... qualquer lugar onde eu possa passar mal e não ter saída.",
+      "en": "I stopped taking the subway. I avoid meetings, avoid the gym... anywhere I could feel sick with no way out.",
+      "es": "Dejé de tomar el metro. Evito reuniones, evito el gimnasio... cualquier sitio donde pueda sentirme mal sin salida."
+     }
+    },
+    {
+     "d": "inicio",
+     "text": {
+      "pt": "A primeira crise foi há 4 meses, sem gatilho claro; o medo antecipatório veio depois.",
+      "en": "The first attack was 4 months ago with no clear trigger; anticipatory fear came later.",
+      "es": "La primera crisis fue hace 4 meses, sin desencadenante claro; el miedo anticipatorio vino después."
+     },
+     "pts": {
+      "panico": 2,
+      "tag": -1
+     },
+     "say": {
+      "pt": "A primeira foi há uns quatro meses, do nada, sem motivo nenhum. Depois veio o medo de ter outra.",
+      "en": "The first one was about four months ago, out of nowhere, no reason. Then came the fear of having another.",
+      "es": "La primera fue hace unos cuatro meses, de la nada, sin motivo. Después vino el miedo a tener otra."
+     }
+    },
+    {
+     "d": "pensamento",
+     "text": {
+      "pt": "Interpreta as sensações do corpo como perigo e passa o dia conferindo o próprio pulso.",
+      "en": "Reads body sensations as danger and spends the day checking his own pulse.",
+      "es": "Interpreta las sensaciones del cuerpo como peligro y pasa el día tomándose el pulso."
+     },
+     "pts": {
+      "panico": 2,
+      "sintomas-somaticos": 2
+     },
+     "say": {
+      "pt": "Qualquer sensação no corpo eu penso: 'é agora, vou ter um infarto'. Sei que é lógico duvidar, mas na hora eu acredito.",
+      "en": "Any sensation in my body I think: 'this is it, I'm having a heart attack'. I know it's logical to doubt, but in the moment I believe it.",
+      "es": "Cualquier sensación en el cuerpo pienso: 'es ahora, me da un infarto'. Sé que es lógico dudar, pero en el momento lo creo."
+     }
+    },
+    {
+     "d": "subst",
+     "text": {
+      "pt": "Tomava muito café e energético; reduziu e melhorou um pouco, mas as crises continuam.",
+      "en": "Drank lots of coffee and energy drinks; cut down and improved slightly, but attacks continue.",
+      "es": "Tomaba mucho café y bebidas energéticas; redujo y mejoró un poco, pero las crisis continúan."
+     },
+     "pts": {
+      "panico": 1
+     },
+     "say": {
+      "pt": "Eu tomava muito café e energético. Diminuí e melhorou um pouco, mas as crises continuam, sabe?",
+      "en": "I used to drink lots of coffee and energy drinks. I cut back and it got a bit better, but the attacks continue, you know?",
+      "es": "Tomaba mucho café y bebidas energéticas. Reduje y mejoró un poco, pero las crisis continúan, ¿sabes?"
+     }
+    }
+   ],
+   "form": {
+    "predisposing": {
+     "pt": "Traço ansioso e histórico familiar de pânico.",
+     "en": "Anxious trait and family history of panic.",
+     "es": "Rasgo ansioso y antecedentes familiares de pánico."
+    },
+    "precipitating": {
+     "pt": "Sobrecarga no trabalho e excesso de cafeína.",
+     "en": "Work overload and too much caffeine.",
+     "es": "Sobrecarga laboral y exceso de cafeína."
+    },
+    "perpetuating": {
+     "pt": "Evitação e checagem do corpo mantêm o medo.",
+     "en": "Avoidance and body-checking keep the fear going.",
+     "es": "La evitación y el chequeo del cuerpo mantienen el miedo."
+    },
+    "protective": {
+     "pt": "Boa consciência do problema, apoio da namorada e exames que descartaram doença física.",
+     "en": "Good awareness of the problem, his girlfriend's support and tests that ruled out physical illness.",
+     "es": "Buena conciencia del problema, apoyo de la novia y exámenes que descartaron enfermedad física."
+    }
+   },
+   "testes": {
+    "atencao": {
+     "z": -0.17,
+     "prof": {
+      "panico": -0.3,
+      "tag": -0.5,
+      "agorafobia": -0.2,
+      "sintomas-somaticos": -0.2
+     }
+    },
+    "memoria": {
+     "z": -0.17,
+     "prof": {
+      "panico": 0,
+      "tag": 0,
+      "agorafobia": 0,
+      "sintomas-somaticos": 0
+     }
+    },
+    "executivas": {
+     "z": -0.21,
+     "prof": {
+      "panico": 0,
+      "tag": 0,
+      "agorafobia": 0,
+      "sintomas-somaticos": 0
+     }
+    },
+    "qi": {
+     "z": -0.11,
+     "prof": {
+      "panico": 0,
+      "tag": 0,
+      "agorafobia": 0,
+      "sintomas-somaticos": 0
+     }
+    },
+    "emocoes": {
+     "z": 0.09,
+     "prof": {
+      "panico": 0,
+      "tag": 0,
+      "agorafobia": 0,
+      "sintomas-somaticos": 0
+     }
+    }
+   }
+  },
+  "sofia": {
+   "findings": [
+    {
+     "d": "ansiedade",
+     "text": {
+      "pt": "Preocupa-se com quase tudo: notas, o que pensam dela, a saúde da mãe; há mais de 6 meses.",
+      "en": "Worries about almost everything: grades, what others think, her mother's health; for over 6 months.",
+      "es": "Se preocupa por casi todo: notas, lo que piensan de ella, la salud de su madre; desde hace más de 6 meses."
+     },
+     "pts": {
+      "tag": 3,
+      "social": 1
+     },
+     "say": {
+      "pt": "Eu me preocupo com quase tudo... nota, o que pensam de mim, se a minha mãe tá bem de saúde. Faz tempo já, mais de seis meses.",
+      "en": "I worry about almost everything... grades, what people think of me, whether my mom's healthy. It's been a while, more than six months.",
+      "es": "Me preocupo por casi todo... notas, lo que piensan de mí, si mi madre está bien de salud. Hace tiempo ya, más de seis meses."
+     }
+    },
+    {
+     "d": "corpo",
+     "text": {
+      "pt": "Dor de barriga e tensão nos ombros antes das provas e à noite.",
+      "en": "Stomachaches and shoulder tension before tests and at night.",
+      "es": "Dolor de barriga y tensión en los hombros antes de las pruebas y por la noche."
+     },
+     "pts": {
+      "tag": 2
+     },
+     "say": {
+      "pt": "Dói a barriga antes da prova. E os ombros ficam duros, tipo pedra. À noite também.",
+      "en": "My stomach hurts before tests. And my shoulders get stiff, like stone. At night too.",
+      "es": "Me duele la barriga antes del examen. Y los hombros se ponen duros, como piedra. De noche también."
+     }
+    },
+    {
+     "d": "func",
+     "text": {
+      "pt": "Erra por ansiedade e busca aprovação; rende bem quando se sente segura.",
+      "en": "Makes mistakes from anxiety and seeks approval; does well when she feels safe.",
+      "es": "Se equivoca por ansiedad y busca aprobación; rinde bien cuando se siente segura."
+     },
+     "pts": {
+      "tag": 2,
+      "tdah": -2,
+      "aprendizagem": -2
+     },
+     "say": {
+      "pt": "Eu erro porque fico nervosa... e eu quero que aprovem, que digam que tá certo. Quando me sinto segura eu vou bem.",
+      "en": "I make mistakes because I get nervous... and I want them to approve, to tell me it's right. When I feel safe I do well.",
+      "es": "Me equivoco porque me pongo nerviosa... y quiero que me aprueben, que me digan que está bien. Cuando me siento segura me va bien."
+     }
+    },
+    {
+     "d": "sono",
+     "text": {
+      "pt": "Demora a dormir, pensando no dia seguinte.",
+      "en": "Takes long to fall asleep, thinking about the next day.",
+      "es": "Tarda en dormirse, pensando en el día siguiente."
+     },
+     "pts": {
+      "tag": 2
+     },
+     "say": {
+      "pt": "Demoro pra dormir... fico pensando no dia seguinte, e se eu esquecer alguma coisa.",
+      "en": "I take a long time to fall asleep... thinking about tomorrow, what if I forget something.",
+      "es": "Tardo en dormirme... pensando en el día siguiente, ¿y si olvido algo?"
+     }
+    },
+    {
+     "d": "social",
+     "text": {
+      "pt": "Tem amigas e só teme ser julgada em situações de avaliação.",
+      "en": "Has friends and fears judgment only in evaluation situations.",
+      "es": "Tiene amigas y solo teme ser juzgada en situaciones de evaluación."
+     },
+     "pts": {
+      "social": 1
+     },
+     "say": {
+      "pt": "Eu tenho amigas! Só tenho medo de errar na frente de todo mundo, quando vão me avaliar.",
+      "en": "I have friends! I'm just scared of messing up in front of everyone, when I'm being evaluated.",
+      "es": "¡Tengo amigas! Solo me da miedo equivocarme delante de todos, cuando me van a evaluar."
+     }
+    },
+    {
+     "d": "inicio",
+     "text": {
+      "pt": "As preocupações começaram há cerca de 1 ano e se espalharam por vários temas, não só os que envolvem gente olhando.",
+      "en": "The worries began about a year ago and spread across many topics, not only the ones involving people watching.",
+      "es": "Las preocupaciones empezaron hace cerca de un año y se extendieron a varios temas, no solo los que implican gente mirando."
+     },
+     "pts": {
+      "tag": 2,
+      "social": -2
+     },
+     "say": {
+      "pt": "Começou faz mais ou menos um ano e foi se espalhando, sabe? Primeiro era só a escola, agora é tudo.",
+      "en": "It started about a year ago and kept spreading, you know? First it was just school, now it's everything.",
+      "es": "Empezó hace más o menos un año y fue extendiéndose, ¿sabes? Primero era solo la escuela, ahora es todo."
+     }
+    },
+    {
+     "d": "pensamento",
+     "text": {
+      "pt": "A preocupação se repete, mas não vira ritual nem obsessão: o raciocínio está adequado para a idade.",
+      "en": "The worry repeats, but does not become a ritual or an obsession: reasoning is age-appropriate.",
+      "es": "La preocupación se repite, pero no se vuelve ritual ni obsesión: el razonamiento es adecuado para la edad."
+     },
+     "pts": {
+      "tag": 2,
+      "aprendizagem": -1
+     },
+     "say": {
+      "pt": "Fica repetindo na minha cabeça, tipo um disco riscado. Mas eu não preciso contar nem arrumar nada pra parar, não. É só o pensamento mesmo.",
+      "en": "It keeps repeating in my head, like a scratched record. But I don't need to count or arrange anything to make it stop. It's just the thought itself.",
+      "es": "Se repite en mi cabeza, como un disco rayado. Pero no necesito contar ni ordenar nada para que pare. Es solo el pensamiento."
+     }
+    },
+    {
+     "d": "humor",
+     "text": {
+      "pt": "Não é tristeza: ela se anima com o que gosta, mas passa o dia esperando que algo dê errado, esteja com gente ou sozinha.",
+      "en": "Not sadness: she brightens with what she enjoys, but spends the day waiting for something to go wrong, whether with people or alone.",
+      "es": "No es tristeza: se anima con lo que le gusta, pero pasa el día esperando que algo salga mal, con gente o sola."
+     },
+     "pts": {
+      "tag": 2,
+      "social": -1
+     },
+     "say": {
+      "pt": "Triste eu não fico, não. Eu gosto de desenhar, gosto das minhas amigas. Só que o dia inteiro eu fico esperando alguma coisa dar errado — no recreio, e também sozinha no meu quarto.",
+      "en": "I don't get sad. I like drawing, I like my friends. It's just that all day I'm waiting for something to go wrong — at break, and alone in my room too.",
+      "es": "Triste no me pongo. Me gusta dibujar, me gustan mis amigas. Solo que todo el día estoy esperando que algo salga mal: en el recreo y también sola en mi cuarto."
+     }
+    },
+    {
+     "d": "familia",
+     "text": {
+      "pt": "A mãe também se preocupa demais e verifica tudo duas vezes; em casa a preocupação é a linguagem comum.",
+      "en": "Her mother also worries too much and double-checks everything; at home worry is the common language.",
+      "es": "La madre también se preocupa de más y verifica todo dos veces; en casa la preocupación es el idioma común."
+     },
+     "pts": {
+      "tag": 2
+     },
+     "say": {
+      "pt": "(a mãe:) Ela puxou a mim, doutora. Eu também confiro a porta duas vezes, ligo pra saber se chegou... Lá em casa é assim.",
+      "en": "(her mother:) She takes after me, doctor. I check the door twice too, I call to make sure they arrived... That's how it is at home.",
+      "es": "(la madre:) Salió a mí, doctora. Yo también reviso la puerta dos veces, llamo para saber si llegó... En casa es así."
+     }
+    }
+   ],
+   "form": {
+    "predisposing": {
+     "pt": "Temperamento inibido e mãe também ansiosa.",
+     "en": "Inhibited temperament and an anxious mother.",
+     "es": "Temperamento inhibido y madre también ansiosa."
+    },
+    "precipitating": {
+     "pt": "Passagem para o fundamental II, com mais cobrança.",
+     "en": "Moving to middle school, with more demands.",
+     "es": "Paso a la secundaria básica, con más exigencia."
+    },
+    "perpetuating": {
+     "pt": "Buscar aprovação e evitar erros mantém a insegurança; associa erro a desaprovação.",
+     "en": "Seeking approval and avoiding mistakes keeps the insecurity; she links errors to disapproval.",
+     "es": "Buscar aprobación y evitar errores mantiene la inseguridad; asocia error con desaprobación."
+    },
+    "protective": {
+     "pt": "Amigas, boa inteligência e vínculo com a mãe.",
+     "en": "Friends, good intelligence and a bond with her mother.",
+     "es": "Amigas, buena inteligencia y vínculo con la madre."
+    }
+   },
+   "testes": {
+    "atencao": {
+     "z": -0.29,
+     "prof": {
+      "tag": -0.5,
+      "tdah": -1.6,
+      "aprendizagem": -0.6,
+      "social": 0
+     }
+    },
+    "memoria": {
+     "z": 0.19,
+     "prof": {
+      "tag": 0,
+      "tdah": -0.6,
+      "aprendizagem": -1.0,
+      "social": 0
+     }
+    },
+    "executivas": {
+     "z": -0.04,
+     "prof": {
+      "tag": 0,
+      "tdah": -1.3,
+      "aprendizagem": -0.5,
+      "social": 0
+     }
+    },
+    "qi": {
+     "z": -0.14,
+     "prof": {
+      "tag": 0,
+      "tdah": 0,
+      "aprendizagem": 0,
+      "social": 0
+     }
+    },
+    "emocoes": {
+     "z": 0.15,
+     "prof": {
+      "tag": 0,
+      "tdah": 0,
+      "aprendizagem": 0,
+      "social": -0.3
+     }
+    }
+   },
+   "deducao": {
+    "texto": {
+     "pt": "A preocupação dela não tem um alvo só: {A}. O corpo acompanha: {B}. Na escola isso vira {C}, e começou {D}.",
+     "en": "Her worry has no single target: {A}. The body follows: {B}. At school that becomes {C}, and it started {D}.",
+     "es": "Su preocupación no tiene un solo blanco: {A}. El cuerpo acompaña: {B}. En la escuela eso se vuelve {C}, y empezó {D}."
+    },
+    "slots": {
+     "A": "ansiedade",
+     "B": "corpo",
+     "C": "func",
+     "D": "inicio"
+    },
+    "fecho": {
+     "pt": "Preocupação espalhada por vários assuntos, sintomas no corpo, queda no rendimento por ansiedade e começo há cerca de um ano: o quadro é de ansiedade generalizada, não de um problema de aprendizagem. Ela rende bem quando se sente segura.",
+     "en": "Worry spread across several subjects, bodily symptoms, a drop in performance driven by anxiety and an onset about a year ago: this is generalised anxiety, not a learning problem. She does well when she feels safe.",
+     "es": "Preocupación repartida en varios asuntos, síntomas en el cuerpo, caída del rendimiento por ansiedad e inicio hace cerca de un año: el cuadro es de ansiedad generalizada, no un problema de aprendizaje. Rinde bien cuando se siente segura."
+    }
+   },
+   "confronto": {
+    "achado": "func",
+    "crenca": {
+     "pt": "(a mãe:) “Ela é preguiçosa para a escola. Se quisesse, ia — no fim de semana sai de casa numa boa.”",
+     "en": "(her mother:) “She's lazy about school. If she wanted to, she'd go — on weekends she leaves the house just fine.”",
+     "es": "(la madre:) “Es perezosa para la escuela. Si quisiera, iría: el fin de semana sale de casa sin problema.”"
+    },
+    "fala": {
+     "pt": "Repare no que muda entre sábado e segunda: não é a vontade, é a cobrança. Ela sai quando não vai ser avaliada. O que trava não é a escola, é ser olhada.",
+     "en": "Notice what changes between Saturday and Monday: it is not the willingness, it is the evaluation. She goes out when she will not be judged. What stops her is not school, it is being watched.",
+     "es": "Fíjese en qué cambia entre el sábado y el lunes: no es la voluntad, es la exigencia. Sale cuando no la van a evaluar. Lo que la traba no es la escuela, es ser mirada."
+    },
+    "resposta": {
+     "pt": "A mãe olha para a filha. Sofia solta o ar como quem foi entendida antes de conseguir explicar.",
+     "en": "The mother looks at her daughter. Sofia exhales like someone understood before she managed to explain.",
+     "es": "La madre mira a su hija. Sofía suelta el aire como quien fue entendida antes de poder explicar."
+    },
+    "cedo": {
+     "pt": "“Desculpa, mas eu vivo com ela.” A mãe se fecha, e Sofia encolhe na cadeira: agora são duas pessoas na defensiva.",
+     "en": "“Sorry, but I live with her.” The mother closes off, and Sofia shrinks in her chair: now there are two people on guard.",
+     "es": "“Perdón, pero yo vivo con ella.” La madre se cierra y Sofía se encoge en la silla: ahora hay dos personas a la defensiva."
+    },
+    "ganho": {
+     "pt": "Tira o rótulo de preguiça de cima da menina e devolve o problema ao lugar certo.",
+     "en": "It lifts the laziness label off the girl and puts the problem back where it belongs.",
+     "es": "Quita la etiqueta de pereza de la niña y devuelve el problema a su lugar."
+    },
+    "pts": 3
+   },
+   "tardio": {
+    "text": {
+     "pt": "A escola mandou as provas refeitas em sala vazia e sem cronômetro: acertou quase tudo. A dificuldade não estava na leitura nem na conta — estava no que a cabeça dela fazia enquanto a turma olhava.",
+     "en": "The school sent the tests redone in an empty room and untimed: she got almost everything right. The difficulty was not in reading or arithmetic — it was in what her mind was doing while the class watched.",
+     "es": "La escuela mandó las pruebas rehechas en un aula vacía y sin cronómetro: acertó casi todo. La dificultad no estaba en la lectura ni en el cálculo, sino en lo que hacía su cabeza mientras la clase miraba."
+    },
+    "pts": {
+     "tag": 3,
+     "aprendizagem": -3,
+     "tdah": -1
+    }
+   },
+   "armadilha": "aprendizagem",
+   "difWhy": {
+    "tdah": {
+     "ok": {
+      "pt": "Descartado. A atenção da Sofia falha quando ela está tensa e volta ao normal quando se sente segura, e ninguém via desatenção antes dos sete anos. No TDAH a desatenção é estável e aparece em todo ambiente, inclusive nos que ela gosta.",
+      "en": "Ruled out. Sofia's attention fails when she is tense and returns to normal when she feels safe, and nobody saw inattention before age seven. In ADHD inattention is stable and shows in every setting, including the ones she enjoys.",
+      "es": "Descartado. La atención de Sofía falla cuando está tensa y vuelve a la normalidad cuando se siente segura, y nadie vio desatención antes de los siete años. En el TDAH la desatención es estable y aparece en todo ambiente, incluso en los que le gustan."
+     },
+     "dica": {
+      "pt": "Olhe QUANDO a atenção falha. Se ela some só sob cobrança e volta no que a pessoa gosta, o problema é a ansiedade ocupando a cabeça, não a atenção em si.",
+      "en": "Look at WHEN attention fails. If it only disappears under pressure and returns in what the person enjoys, the problem is anxiety taking up the mind, not attention itself.",
+      "es": "Mire CUÁNDO falla la atención. Si solo desaparece bajo exigencia y vuelve en lo que le gusta, el problema es la ansiedad ocupando la cabeza, no la atención en sí."
+     }
+    },
+    "aprendizagem": {
+     "ok": {
+      "pt": "Descartado. Ela lê, escreve e calcula bem quando faz a tarefa sozinha e sem tempo cronometrado; as notas caíram junto com a ansiedade, não antes dela. No transtorno de aprendizagem a falha é específica e não melhora só porque o ambiente acalmou.",
+      "en": "Ruled out. She reads, writes and calculates well when she works alone and untimed; her grades fell alongside the anxiety, not before it. In a learning disorder the failure is specific and does not improve just because the setting calmed down.",
+      "es": "Descartado. Lee, escribe y calcula bien cuando trabaja sola y sin cronómetro; las notas cayeron junto con la ansiedad, no antes. En el trastorno de aprendizaje la falla es específica y no mejora solo porque el entorno se calmó."
+     },
+     "dica": {
+      "pt": "Compare o rendimento com e sem plateia. Habilidade que reaparece em silêncio nunca tinha se perdido.",
+      "en": "Compare performance with and without an audience. A skill that reappears in silence was never lost.",
+      "es": "Compare el rendimiento con y sin público. Una habilidad que reaparece en silencio nunca se había perdido."
+     }
+    },
+    "social": {
+     "ok": {
+      "pt": "Descartado. O medo dela não é de ser julgada por gente: ela se preocupa com a prova, com a saúde da mãe, com o que pode dar errado amanhã. Na ansiedade social o medo tem um alvo só, e some quando não há ninguém olhando.",
+      "en": "Ruled out. Her fear is not about being judged by people: she worries about the test, her mother's health, what could go wrong tomorrow. In social anxiety the fear has a single target, and it disappears when nobody is watching.",
+      "es": "Descartado. Su miedo no es a ser juzgada por la gente: se preocupa por el examen, por la salud de su madre, por lo que pueda salir mal mañana. En la ansiedad social el miedo tiene un solo blanco y desaparece cuando nadie mira."
+     },
+     "dica": {
+      "pt": "Conte os alvos da preocupação. Um alvo só aponta para fobia; muitos alvos, para ansiedade generalizada.",
+      "en": "Count the targets of the worry. A single target points to a phobia; many targets, to generalised anxiety.",
+      "es": "Cuente los blancos de la preocupación. Un solo blanco apunta a fobia; muchos blancos, a ansiedad generalizada."
+     }
+    }
+   },
+   "consequencia": {
+    "aprendizagem": {
+     "pt": "(a mãe:) Ela foi pro reforço, como a senhora falou. Mais duas horas de escola por semana. (Sofia, quase sem voz:) Agora eu tenho mais prova pra fazer errado.",
+     "en": "(her mother:) She went to support classes, as you said. Two more hours of school a week. (Sofia, barely audible:) Now I have more tests to get wrong.",
+     "es": "(la madre:) Fue al refuerzo, como usted dijo. Dos horas más de escuela por semana. (Sofía, casi sin voz:) Ahora tengo más pruebas para hacer mal."
+    },
+    "tdah": {
+     "pt": "(a mãe:) Começamos a acompanhar a atenção dela em casa, com lista e cronômetro. (Sofia:) O cronômetro me deixa pior. Quando ele tá ligado eu só penso nele.",
+     "en": "(her mother:) We started tracking her attention at home, with a list and a timer. (Sofia:) The timer makes it worse. When it's on, it's all I can think about.",
+     "es": "(la madre:) Empezamos a seguir su atención en casa, con lista y cronómetro. (Sofía:) El cronómetro me pone peor. Cuando está encendido solo pienso en él."
+    },
+    "social": {
+     "pt": "(a mãe:) A senhora falou em timidez, então eu inscrevi ela no teatro pra soltar. (Sofia, olhando as mãos:) Eu fui. Passei mal antes de entrar e a professora achou que eu tava fingindo.",
+     "en": "(her mother:) You mentioned shyness, so I enrolled her in drama to open her up. (Sofia, looking at her hands:) I went. I felt sick before going in and the teacher thought I was pretending.",
+     "es": "(la madre:) Usted habló de timidez, así que la inscribí en teatro para soltarla. (Sofía, mirándose las manos:) Fui. Me sentí mal antes de entrar y la profesora creyó que fingía."
+    }
+   },
+   "pico": {
+    "palavra": [
+     "errado",
+     "wrong"
+    ],
+    "eixo": "projetivas",
+    "sess": 4,
+    "gatilho": {
+     "pt": "A voz some no meio da frase. Ela olha para as próprias mãos e não levanta mais os olhos.",
+     "en": "Her voice disappears mid-sentence. She looks at her own hands and does not raise her eyes again.",
+     "es": "La voz se le apaga a media frase. Se mira las manos y ya no levanta los ojos."
+    },
+    "fala": {
+     "pt": "Eu não vou te pedir para explicar. Desenha para mim: como é o tamanho dessa coisa que pode dar errado? Do tamanho de quê?",
+     "en": "I am not going to ask you to explain. Draw it for me: how big is this thing that could go wrong? The size of what?",
+     "es": "No te voy a pedir que expliques. Dibújamelo: ¿de qué tamaño es esa cosa que puede salir mal? ¿Del tamaño de qué?"
+    },
+    "resposta": {
+     "pt": "Ela pega o lápis. Desenha uma menina pequena e, em volta, uma onda que ocupa a folha inteira. “É desse tamanho.” E aí, finalmente, chora.",
+     "en": "She takes the pencil. She draws a small girl and, around her, a wave that fills the whole page. “It's this big.” And then, finally, she cries.",
+     "es": "Toma el lápiz. Dibuja una niña pequeña y, alrededor, una ola que llena toda la hoja. “Es de este tamaño.” Y entonces, por fin, llora."
+    },
+    "perdido": {
+     "pt": "Ela diz “nada, deixa” e sorri do jeito que se sorri para adulto parar de perguntar.",
+     "en": "She says “nothing, never mind” and smiles the way you smile so an adult will stop asking.",
+     "es": "Dice “nada, déjalo” y sonríe como se sonríe para que un adulto deje de preguntar."
+    }
+   }
+  },
+  "tiago": {
+   "findings": [
+    {
+     "d": "sono",
+     "text": {
+      "pt": "Há dois meses, 10 dias dormindo 3 horas por noite sem sentir cansaço.",
+      "en": "Two months ago, 10 days sleeping 3 hours a night without feeling tired.",
+      "es": "Hace dos meses, 10 días durmiendo 3 horas por noche sin sentir cansancio."
+     },
+     "pts": {
+      "bipolar2": 2,
+      "bipolar1": 1
+     },
+     "say": {
+      "pt": "Nossa, faz dois meses, eu dormi tipo três horas por noite durante dez dias e não senti cansaço nenhum! Tava a mil, ligado no 220.",
+      "en": "Wow, two months ago, I slept like three hours a night for ten days and felt zero tiredness! I was on fire, running at full speed.",
+      "es": "Uf, hace dos meses dormí como tres horas por noche durante diez días ¡y no sentí cansancio alguno! Estaba a mil, a tope."
+     }
+    },
+    {
+     "d": "humor",
+     "text": {
+      "pt": "Depois da fase de energia, semanas de queda profunda, sem sair da cama.",
+      "en": "After the high-energy phase, weeks of deep low, unable to leave bed.",
+      "es": "Tras la fase de energía, semanas de caída profunda, sin salir de la cama."
+     },
+     "pts": {
+      "bipolar2": 2,
+      "tdm": 2
+     },
+     "say": {
+      "pt": "Aí depois da fase boa... vem a queda. Semanas sem sair da cama, sem vontade de nada. É o oposto, uma nuvem em cima da cabeça.",
+      "en": "Then after the good phase... comes the crash. Weeks without leaving bed, no will for anything. The opposite, a cloud over my head.",
+      "es": "Y después de la fase buena... viene la caída. Semanas sin salir de la cama, sin ganas de nada. Lo opuesto, una nube encima."
+     }
+    },
+    {
+     "d": "func",
+     "text": {
+      "pt": "Na fase elevada gastou muito, mas seguiu trabalhando; sem internação.",
+      "en": "In the elevated phase he overspent but kept working; no hospitalization.",
+      "es": "En la fase elevada gastó mucho, pero siguió trabajando; sin internación."
+     },
+     "pts": {
+      "bipolar2": 3,
+      "bipolar1": -3
+     },
+     "say": {
+      "pt": "Na fase alta eu gastei bastante, tá, mas continuei trabalhando. Não precisei internar nem nada.",
+      "en": "In the high phase I spent a lot, okay, but I kept working. I didn't need hospitalization or anything.",
+      "es": "En la fase alta gasté bastante, vale, pero seguí trabajando. No necesité internación ni nada."
+     }
+    },
+    {
+     "d": "inicio",
+     "text": {
+      "pt": "Fases elevadas de cerca de 10 dias e depressões de semanas, com meses entre elas.",
+      "en": "Elevated phases of about 10 days and depressions of weeks, with months between them.",
+      "es": "Fases elevadas de unos 10 días y depresiones de semanas, con meses entre ellas."
+     },
+     "pts": {
+      "bipolar2": 2,
+      "ciclotimico": -2
+     },
+     "say": {
+      "pt": "As fases altas duram uns dez dias e as depressões, semanas. E entre uma e outra passam meses de boa.",
+      "en": "The high phases last about ten days and the depressions, weeks. And between them months go by fine.",
+      "es": "Las fases altas duran unos diez días y las depresiones, semanas. Y entre una y otra pasan meses bien."
+     }
+    },
+    {
+     "d": "pensamento",
+     "text": {
+      "pt": "Sem delírios nem alucinações; fica criativo e falante, mas crítico da realidade.",
+      "en": "No delusions or hallucinations; gets creative and talkative but keeps touch with reality.",
+      "es": "Sin delirios ni alucinaciones; se pone creativo y hablador, pero conserva el juicio de realidad."
+     },
+     "pts": {
+      "bipolar1": -2,
+      "bipolar2": 1
+     },
+     "say": {
+      "pt": "Delírio? Alucinação? Não, nada disso! Eu fico criativo, falante, cheio de ideia, mas eu sei o que é real, viu?",
+      "en": "Delusion? Hallucination? No, nothing like that! I get creative, talkative, full of ideas, but I know what's real, okay?",
+      "es": "¿Delirio? ¿Alucinación? ¡No, nada de eso! Me pongo creativo, hablador, lleno de ideas, pero sé lo que es real, ¿eh?"
+     }
+    },
+    {
+     "d": "familia",
+     "text": {
+      "pt": "O tio tem transtorno bipolar.",
+      "en": "His uncle has bipolar disorder.",
+      "es": "El tío tiene trastorno bipolar."
+     },
+     "pts": {
+      "bipolar2": 1,
+      "bipolar1": 1
+     },
+     "say": {
+      "pt": "Meu tio tem transtorno bipolar. A gente só descobriu tarde, na família ninguém falava disso.",
+      "en": "My uncle has bipolar disorder. We only found out late, nobody in the family talked about it.",
+      "es": "Mi tío tiene trastorno bipolar. Solo lo supimos tarde, en la familia nadie hablaba de eso."
+     }
+    }
+   ],
+   "form": {
+    "predisposing": {
+     "pt": "Histórico familiar (tio) e sono muito sensível ao ritmo.",
+     "en": "Family history (uncle) and sleep very sensitive to rhythm.",
+     "es": "Antecedentes familiares (tío) y sueño muy sensible al ritmo."
+    },
+    "precipitating": {
+     "pt": "Prazos intensos e noites em claro na agência.",
+     "en": "Tight deadlines and sleepless nights at the agency.",
+     "es": "Plazos intensos y noches en vela en la agencia."
+    },
+    "perpetuating": {
+     "pt": "Sono irregular e resistência a remédios por medo de perder a criatividade.",
+     "en": "Irregular sleep and resistance to medication for fear of losing creativity.",
+     "es": "Sueño irregular y resistencia a los medicamentos por miedo a perder la creatividad."
+    },
+    "protective": {
+     "pt": "Bom trabalho, amigos e abertura para um plano de prevenção.",
+     "en": "A good job, friends and openness to a prevention plan.",
+     "es": "Buen trabajo, amigos y apertura a un plan de prevención."
+    }
+   },
+   "testes": {
+    "atencao": {
+     "z": -0.52,
+     "prof": {
+      "bipolar2": -0.7,
+      "bipolar1": -0.9,
+      "ciclotimico": 0,
+      "tdm": -0.9
+     }
+    },
+    "memoria": {
+     "z": -0.17,
+     "prof": {
+      "bipolar2": 0,
+      "bipolar1": -0.5,
+      "ciclotimico": 0,
+      "tdm": -0.7
+     }
+    },
+    "executivas": {
+     "z": -0.77,
+     "prof": {
+      "bipolar2": -0.7,
+      "bipolar1": -0.9,
+      "ciclotimico": -0.3,
+      "tdm": -0.9
+     }
+    },
+    "qi": {
+     "z": -0.14,
+     "prof": {
+      "bipolar2": 0,
+      "bipolar1": 0,
+      "ciclotimico": 0,
+      "tdm": 0
+     }
+    },
+    "emocoes": {
+     "z": -0.0,
+     "prof": {
+      "bipolar2": 0,
+      "bipolar1": 0,
+      "ciclotimico": 0,
+      "tdm": 0
+     }
+    }
+   },
+   "tardio": {
+    "text": {
+     "pt": "O diário do sono mostra episódios de 4 dias com pouca necessidade de dormir e energia muito alta, algo que a hipótese depressiva não explica.",
+     "en": "The sleep diary shows 4-day episodes with little need for sleep and very high energy, which a depressive hypothesis does not explain.",
+     "es": "El diario del sueño muestra episodios de 4 días con poca necesidad de dormir y mucha energía, algo que la hipótesis depresiva no explica."
+    },
+    "pts": {
+     "bipolar2": 3,
+     "tdm": -2,
+     "bipolar1": -1
+    }
+   },
+   "armadilha": "tdm"
+  },
+  "vitoria": {
+   "findings": [
+    {
+     "d": "pensamento",
+     "text": {
+      "pt": "Sente-se fora do corpo e vê o mundo como um filme; sabe que não é real, e isso a assusta.",
+      "en": "Feels outside her body and sees the world like a movie; knows it is not real, which scares her.",
+      "es": "Se siente fuera del cuerpo y ve el mundo como una película; sabe que no es real y eso la asusta."
+     },
+     "pts": {
+      "despersonalizacao": 3
+     },
+     "say": {
+      "pt": "Eu me sinto fora do corpo, como se eu tivesse vendo o mundo em um filme. Eu sei que não é real, e isso me assusta mais ainda.",
+      "en": "I feel outside my body, like I'm watching the world in a movie. I know it's not real, and that scares me even more.",
+      "es": "Me siento fuera del cuerpo, como si viera el mundo en una película. Sé que no es real, y eso me asusta todavía más."
+     }
+    },
+    {
+     "d": "inicio",
+     "text": {
+      "pt": "Começou depois de estresse e de um luto, há uns 6 meses, e piora sob pressão.",
+      "en": "Started after stress and a bereavement, about 6 months ago, and worsens under pressure.",
+      "es": "Empezó tras estrés y un duelo, hace unos 6 meses, y empeora bajo presión."
+     },
+     "pts": {
+      "despersonalizacao": 2,
+      "luto": 1
+     },
+     "say": {
+      "pt": "Foi depois de muito estresse e de um luto, uns seis meses. E piora quando eu tô sob pressão.",
+      "en": "It came after a lot of stress and a loss, about six months ago. And it gets worse when I'm under pressure.",
+      "es": "Fue después de mucho estrés y de un duelo, unos seis meses. Y empeora cuando estoy bajo presión."
+     }
+    },
+    {
+     "d": "ansiedade",
+     "text": {
+      "pt": "Tem medo de 'enlouquecer' e checa as sensações o tempo todo.",
+      "en": "Fears 'going crazy' and checks her sensations all the time.",
+      "es": "Teme 'enloquecer' y chequea las sensaciones todo el tiempo."
+     },
+     "pts": {
+      "despersonalizacao": 1,
+      "panico": 1
+     },
+     "say": {
+      "pt": "Eu tenho medo de enlouquecer! Fico checando as sensações o tempo todo: 'tá acontecendo? tá diferente?'. Não consigo parar.",
+      "en": "I'm afraid of going crazy! I keep checking the sensations all the time: 'is it happening? is it different?'. I can't stop.",
+      "es": "¡Tengo miedo de enloquecer! Me paso comprobando las sensaciones: '¿está pasando? ¿es distinto?'. No puedo parar."
+     }
+    },
+    {
+     "d": "humor",
+     "text": {
+      "pt": "Está triste pelo luto, mas o quadro não é só tristeza; há dias em que se sente normal.",
+      "en": "Sad over the loss, but the picture is not just sadness; some days she feels normal.",
+      "es": "Está triste por el duelo, pero el cuadro no es solo tristeza; hay días en que se siente normal."
+     },
+     "pts": {
+      "luto": 1,
+      "despersonalizacao": 1
+     },
+     "say": {
+      "pt": "Tô triste pelo luto, sim. Mas isso não é só tristeza. Tem dia que eu me sinto normal, e no outro... volta.",
+      "en": "I'm sad about the loss, yes. But this isn't just sadness. Some days I feel normal, and the next... it's back.",
+      "es": "Estoy triste por el duelo, sí. Pero esto no es solo tristeza. Hay días que me siento normal, y al otro... vuelve."
+     }
+    },
+    {
+     "d": "func",
+     "text": {
+      "pt": "Trabalha, mas com esforço; teme uma crise em público.",
+      "en": "Works, but with effort; fears an episode in public.",
+      "es": "Trabaja, pero con esfuerzo; teme una crisis en público."
+     },
+     "pts": {
+      "despersonalizacao": 1
+     },
+     "say": {
+      "pt": "Eu trabalho, mas com muito esforço. E vivo com medo de ter uma crise no meio de todo mundo.",
+      "en": "I work, but with a lot of effort. And I live afraid of having an episode in front of everyone.",
+      "es": "Trabajo, pero con mucho esfuerzo. Y vivo con miedo de tener una crisis delante de todos."
+     }
+    },
+    {
+     "d": "trauma",
+     "text": {
+      "pt": "Sem lacunas de memória nem 'outras identidades'; lembra de tudo.",
+      "en": "No memory gaps or 'other identities'; remembers everything.",
+      "es": "Sin lagunas de memoria ni 'otras identidades'; recuerda todo."
+     },
+     "pts": {
+      "did": -3,
+      "despersonalizacao": 2
+     },
+     "say": {
+      "pt": "Lembrar eu lembro de tudo, viu? Não tenho buraco na memória, nem sinto que tem 'outra pessoa' aqui dentro. Só isso: o mundo parece irreal.",
+      "en": "I remember everything, okay? I have no gaps in memory, nor do I feel there's 'someone else' in here. Just this: the world feels unreal.",
+      "es": "Recuerdo todo, ¿eh? No tengo huecos de memoria, ni siento que haya 'otra persona' aquí dentro. Solo eso: el mundo parece irreal."
+     }
+    }
+   ],
+   "form": {
+    "predisposing": {
+     "pt": "Traço de autocobrança e sensibilidade ao estresse.",
+     "en": "A self-demanding trait and sensitivity to stress.",
+     "es": "Rasgo de autoexigencia y sensibilidad al estrés."
+    },
+    "precipitating": {
+     "pt": "Luto recente somado a meses de sobrecarga no trabalho.",
+     "en": "A recent bereavement plus months of work overload.",
+     "es": "Duelo reciente sumado a meses de sobrecarga laboral."
+    },
+    "perpetuating": {
+     "pt": "Checagem constante das sensações e medo da cronicidade mantêm o quadro.",
+     "en": "Constant checking of sensations and fear of chronicity keep it going.",
+     "es": "El chequeo constante de las sensaciones y el miedo a la cronicidad mantienen el cuadro."
+    },
+    "protective": {
+     "pt": "Boa rede de amigos, consciência do problema e motivação para tratar.",
+     "en": "A good circle of friends, awareness of the problem and motivation to get treatment.",
+     "es": "Buena red de amigos, conciencia del problema y motivación para tratarse."
+    }
+   },
+   "testes": {
+    "atencao": {
+     "z": -0.88,
+     "prof": {
+      "despersonalizacao": -0.9,
+      "did": -0.8,
+      "luto": -0.5,
+      "panico": -0.3
+     }
+    },
+    "memoria": {
+     "z": -0.13,
+     "prof": {
+      "despersonalizacao": -0.3,
+      "did": -1.0,
+      "luto": 0,
+      "panico": 0
+     }
+    },
+    "executivas": {
+     "z": 0.04,
+     "prof": {
+      "despersonalizacao": 0,
+      "did": 0,
+      "luto": 0,
+      "panico": 0
+     }
+    },
+    "qi": {
+     "z": -0.01,
+     "prof": {
+      "despersonalizacao": 0,
+      "did": 0,
+      "luto": 0,
+      "panico": 0
+     }
+    },
+    "emocoes": {
+     "z": 0.04,
+     "prof": {
+      "despersonalizacao": 0,
+      "did": 0,
+      "luto": 0,
+      "panico": 0
+     }
+    }
+   },
+   "tardio": {
+    "text": {
+     "pt": "As crises de estranheza acontecem sem medo intenso nem coração disparado, e o teste de realidade segue preservado.",
+     "en": "The episodes of unreality happen without intense fear or racing heart, and reality testing stays intact.",
+     "es": "Los episodios de extrañeza ocurren sin miedo intenso ni corazón acelerado, y la prueba de realidad se mantiene."
+    },
+    "pts": {
+     "despersonalizacao": 3,
+     "panico": -2,
+     "did": -1
+    }
+   },
+   "armadilha": "panico",
+   "warn": [
+    "luto"
+   ]
+  }
+ },
+ "warnText": {
+  "risco": {
+   "pt": "risco de autolesão/suicídio",
+   "en": "self-harm/suicide risk",
+   "es": "riesgo de autolesión/suicidio"
+  },
+  "autolesao": {
+   "pt": "automutilação",
+   "en": "self-harm",
+   "es": "autolesión"
+  },
+  "trauma": {
+   "pt": "violência e trauma",
+   "en": "violence and trauma",
+   "es": "violencia y trauma"
+  },
+  "luto": {
+   "pt": "luto",
+   "en": "grief",
+   "es": "duelo"
+  },
+  "substancias": {
+   "pt": "uso de álcool e outras substâncias",
+   "en": "alcohol and other substances",
+   "es": "consumo de alcohol y otras sustancias"
+  }
+ }
+}

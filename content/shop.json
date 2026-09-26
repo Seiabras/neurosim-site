@@ -1,0 +1,3511 @@
+{
+ "slots": {
+  "cor": {
+   "pt": "Cor da parede",
+   "en": "Wall color",
+   "es": "Color de la pared"
+  },
+  "quadro": {
+   "pt": "Quadro na parede",
+   "en": "Wall art",
+   "es": "Cuadro en la pared"
+  },
+  "canto": {
+   "pt": "Canto da sala",
+   "en": "Corner",
+   "es": "Rincón de la sala"
+  },
+  "sofa": {
+   "pt": "Sofá",
+   "en": "Sofa",
+   "es": "Sofá"
+  },
+  "luz": {
+   "pt": "Iluminação",
+   "en": "Lighting",
+   "es": "Iluminación"
+  },
+  "mesa": {
+   "pt": "Mesa de apoio",
+   "en": "Side table",
+   "es": "Mesa auxiliar"
+  },
+  "tapete": {
+   "pt": "Tapete",
+   "en": "Rug",
+   "es": "Alfombra"
+  },
+  "cortina": {
+   "pt": "Cortina",
+   "en": "Curtain",
+   "es": "Cortina"
+  },
+  "brinq": {
+   "pt": "Brinquedos",
+   "en": "Toys",
+   "es": "Juguetes"
+  },
+  "escrivaninha": {
+   "pt": "Escrivaninha",
+   "en": "Desk",
+   "es": "Escritorio"
+  },
+  "aquario": {
+   "pt": "Aquário",
+   "en": "Aquarium",
+   "es": "Acuario"
+  },
+  "sazonal": {
+   "pt": "Decoração sazonal",
+   "en": "Seasonal decoration",
+   "es": "Decoración de temporada"
+  },
+  "e-quadro": {
+   "pt": "Quadro",
+   "en": "Wall art",
+   "es": "Cuadro"
+  },
+  "e-planta": {
+   "pt": "Planta",
+   "en": "Plant",
+   "es": "Planta"
+  },
+  "e-agua": {
+   "pt": "Bebedouro",
+   "en": "Water cooler",
+   "es": "Dispensador de agua"
+  },
+  "e-revistas": {
+   "pt": "Revistas",
+   "en": "Magazines",
+   "es": "Revistas"
+  },
+  "e-tapete": {
+   "pt": "Tapete",
+   "en": "Rug",
+   "es": "Alfombra"
+  },
+  "c-cor": {
+   "pt": "Cor da parede",
+   "en": "Wall color",
+   "es": "Color de la pared"
+  },
+  "c-poster": {
+   "pt": "Pôster",
+   "en": "Poster",
+   "es": "Póster"
+  },
+  "c-planta": {
+   "pt": "Planta",
+   "en": "Plant",
+   "es": "Planta"
+  },
+  "c-luz": {
+   "pt": "Abajur",
+   "en": "Bedside lamp",
+   "es": "Lámpara de mesita"
+  },
+  "c-tapete": {
+   "pt": "Tapete",
+   "en": "Rug",
+   "es": "Alfombra"
+  },
+  "c-estante": {
+   "pt": "Estante",
+   "en": "Shelf",
+   "es": "Estante"
+  },
+  "k-cafe": {
+   "pt": "Cafeteira",
+   "en": "Coffee maker",
+   "es": "Cafetera"
+  },
+  "k-fruta": {
+   "pt": "Fruteira",
+   "en": "Fruit bowl",
+   "es": "Frutero"
+  },
+  "k-planta": {
+   "pt": "Ervas",
+   "en": "Herbs",
+   "es": "Hierbas"
+  },
+  "k-quadro": {
+   "pt": "Quadro",
+   "en": "Wall art",
+   "es": "Cuadro"
+  },
+  "k-tapete": {
+   "pt": "Tapete",
+   "en": "Rug",
+   "es": "Alfombra"
+  },
+  "pufe": {
+   "pt": "Pufe",
+   "en": "Ottoman",
+   "es": "Puf"
+  },
+  "poltrona-extra": {
+   "pt": "Poltrona extra",
+   "en": "Extra armchair",
+   "es": "Sillón extra"
+  },
+  "estante-dupla": {
+   "pt": "Estante dupla",
+   "en": "Double bookcase",
+   "es": "Estantería doble"
+  },
+  "relogio-chao": {
+   "pt": "Relógio de chão",
+   "en": "Grandfather clock",
+   "es": "Reloj de pie"
+  },
+  "piano": {
+   "pt": "Piano vertical",
+   "en": "Upright piano",
+   "es": "Piano vertical"
+  },
+  "globo": {
+   "pt": "Globo terrestre",
+   "en": "Globe",
+   "es": "Globo terráqueo"
+  },
+  "cabideiro": {
+   "pt": "Cabideiro",
+   "en": "Coat rack",
+   "es": "Perchero"
+  },
+  "espelho-chao": {
+   "pt": "Espelho de chão",
+   "en": "Floor mirror",
+   "es": "Espejo de pie"
+  },
+  "biombo": {
+   "pt": "Biombo",
+   "en": "Folding screen",
+   "es": "Biombo"
+  },
+  "gaveteiro": {
+   "pt": "Arquivo de aço",
+   "en": "Filing cabinet",
+   "es": "Archivador"
+  },
+  "purificador": {
+   "pt": "Purificador de ar",
+   "en": "Air purifier",
+   "es": "Purificador de aire"
+  },
+  "rack-tv": {
+   "pt": "Rack com TV",
+   "en": "TV console",
+   "es": "Mueble con TV"
+  },
+  "cafe-bar": {
+   "pt": "Cantinho do café",
+   "en": "Coffee corner",
+   "es": "Rincón del café"
+  },
+  "escultura": {
+   "pt": "Escultura",
+   "en": "Sculpture",
+   "es": "Escultura"
+  },
+  "caixa-areia": {
+   "pt": "Caixa de areia",
+   "en": "Sand tray",
+   "es": "Caja de arena"
+  },
+  "casa-bonecas": {
+   "pt": "Casa de bonecas",
+   "en": "Dollhouse",
+   "es": "Casa de muñecas"
+  },
+  "mesa-infantil": {
+   "pt": "Mesinha infantil",
+   "en": "Kids' table",
+   "es": "Mesita infantil"
+  },
+  "tenda": {
+   "pt": "Tenda de brincar",
+   "en": "Play tent",
+   "es": "Carpa de juego"
+  },
+  "divisoria-plantas": {
+   "pt": "Divisória de plantas",
+   "en": "Planter divider",
+   "es": "Divisor de plantas"
+  },
+  "lixeira": {
+   "pt": "Lixeira",
+   "en": "Waste bin",
+   "es": "Papelera"
+  },
+  "casa-pufe": {
+   "pt": "Pufe da sala",
+   "en": "Living-room ottoman",
+   "es": "Puf de la sala"
+  },
+  "casa-tv": {
+   "pt": "TV da sala",
+   "en": "Living-room TV",
+   "es": "TV de la sala"
+  },
+  "casa-comoda": {
+   "pt": "Cômoda",
+   "en": "Chest of drawers",
+   "es": "Cómoda"
+  },
+  "casa-sofa": {
+   "pt": "Sofá da sala",
+   "en": "Living-room sofa",
+   "es": "Sofá de la sala"
+  },
+  "casa-leitura": {
+   "pt": "Cantinho de leitura",
+   "en": "Reading nook",
+   "es": "Rincón de lectura"
+  },
+  "mesa-jantar": {
+   "pt": "Mesa de jantar",
+   "en": "Dining table",
+   "es": "Mesa de comedor"
+  },
+  "violao": {
+   "pt": "Violão no suporte",
+   "en": "Guitar on a stand",
+   "es": "Guitarra en soporte"
+  },
+  "bike": {
+   "pt": "Bicicleta ergométrica",
+   "en": "Exercise bike",
+   "es": "Bicicleta estática"
+  },
+  "cama-pet": {
+   "pt": "Caminha de bichinho",
+   "en": "Pet bed",
+   "es": "Cama de mascota"
+  },
+  "tapete-yoga": {
+   "pt": "Tapete de yoga",
+   "en": "Yoga mat",
+   "es": "Tapete de yoga"
+  },
+  "planta-grande": {
+   "pt": "Planta grande",
+   "en": "Big plant",
+   "es": "Planta grande"
+  },
+  "casa-escrivaninha": {
+   "pt": "Escrivaninha do quarto",
+   "en": "Bedroom desk",
+   "es": "Escritorio del cuarto"
+  },
+  "m-bateria": {
+   "pt": "Bateria",
+   "en": "Drum kit",
+   "es": "Batería"
+  },
+  "m-teclado": {
+   "pt": "Teclado",
+   "en": "Keyboard",
+   "es": "Teclado"
+  },
+  "m-harpa": {
+   "pt": "Harpa",
+   "en": "Harp",
+   "es": "Arpa"
+  },
+  "m-xilofone": {
+   "pt": "Xilofone",
+   "en": "Xylophone",
+   "es": "Xilófono"
+  },
+  "m-contrabaixo": {
+   "pt": "Contrabaixo",
+   "en": "Double bass",
+   "es": "Contrabajo"
+  },
+  "m-caixa-som": {
+   "pt": "Caixa de som",
+   "en": "Speaker",
+   "es": "Altavoz"
+  },
+  "m-microfone": {
+   "pt": "Microfone com pedestal",
+   "en": "Mic on a stand",
+   "es": "Micrófono con pie"
+  },
+  "m-estante-partitura": {
+   "pt": "Estante de partituras",
+   "en": "Music stand",
+   "es": "Atril"
+  },
+  "m-samambaia": {
+   "pt": "Samambaia",
+   "en": "Fern",
+   "es": "Helecho"
+  },
+  "m-bonsai": {
+   "pt": "Bonsai",
+   "en": "Bonsai",
+   "es": "Bonsái"
+  },
+  "m-fonte-mesa": {
+   "pt": "Fonte de mesa",
+   "en": "Tabletop fountain",
+   "es": "Fuente de mesa"
+  },
+  "m-cacto": {
+   "pt": "Cacto grande",
+   "en": "Big cactus",
+   "es": "Cactus grande"
+  },
+  "m-orquideas": {
+   "pt": "Orquídeas",
+   "en": "Orchids",
+   "es": "Orquídeas"
+  },
+  "m-terrario": {
+   "pt": "Terrário",
+   "en": "Terrarium",
+   "es": "Terrario"
+  },
+  "m-jardineira": {
+   "pt": "Jardineira de janela",
+   "en": "Window planter",
+   "es": "Jardinera de ventana"
+  },
+  "m-jardim-vertical": {
+   "pt": "Jardim vertical",
+   "en": "Vertical garden",
+   "es": "Jardín vertical"
+  },
+  "m-carrinho-livros": {
+   "pt": "Carrinho de livros",
+   "en": "Book cart",
+   "es": "Carrito de libros"
+  },
+  "m-mesa-estudos": {
+   "pt": "Mesa de estudos",
+   "en": "Study desk",
+   "es": "Mesa de estudio"
+  },
+  "m-quadro-negro": {
+   "pt": "Quadro-negro",
+   "en": "Chalkboard",
+   "es": "Pizarra"
+  },
+  "m-pilha-livros": {
+   "pt": "Pilha de livros",
+   "en": "Stack of books",
+   "es": "Pila de libros"
+  },
+  "m-relogio-mesa": {
+   "pt": "Relógio de caixa",
+   "en": "Case clock",
+   "es": "Reloj de caja"
+  },
+  "m-luminaria-leitura": {
+   "pt": "Luminária de leitura",
+   "en": "Reading lamp",
+   "es": "Lámpara de lectura"
+  },
+  "m-cavalete": {
+   "pt": "Cavalete com tela",
+   "en": "Easel with canvas",
+   "es": "Caballete con lienzo"
+  },
+  "m-prateleira-tintas": {
+   "pt": "Prateleira de tintas",
+   "en": "Paint shelf",
+   "es": "Estante de pinturas"
+  },
+  "m-escultura-argila": {
+   "pt": "Escultura de argila",
+   "en": "Clay sculpture",
+   "es": "Escultura de arcilla"
+  },
+  "m-movel-mobile": {
+   "pt": "Móbile de metal",
+   "en": "Metal mobile",
+   "es": "Móvil de metal"
+  },
+  "m-mesa-desenho": {
+   "pt": "Mesa de desenho",
+   "en": "Drawing table",
+   "es": "Mesa de dibujo"
+  },
+  "m-manequim": {
+   "pt": "Manequim de costura",
+   "en": "Sewing mannequin",
+   "es": "Maniquí de costura"
+  },
+  "m-bau-antigo": {
+   "pt": "Baú antigo",
+   "en": "Antique chest",
+   "es": "Baúl antiguo"
+  },
+  "m-gramofone": {
+   "pt": "Gramofone",
+   "en": "Gramophone",
+   "es": "Gramófono"
+  },
+  "m-cadeira-balanco": {
+   "pt": "Cadeira de balanço",
+   "en": "Rocking chair",
+   "es": "Mecedora"
+  },
+  "m-lampiao": {
+   "pt": "Lampião",
+   "en": "Lantern lamp",
+   "es": "Farol de luz"
+  },
+  "m-maquina-escrever": {
+   "pt": "Máquina de escrever",
+   "en": "Typewriter desk",
+   "es": "Máquina de escribir"
+  },
+  "m-espelho-oval": {
+   "pt": "Espelho oval",
+   "en": "Oval mirror",
+   "es": "Espejo ovalado"
+  },
+  "m-cavalinho": {
+   "pt": "Cavalinho de balanço",
+   "en": "Rocking horse",
+   "es": "Caballito mecedor"
+  },
+  "m-escorregador": {
+   "pt": "Escorregador",
+   "en": "Slide",
+   "es": "Tobogán"
+  },
+  "m-cesto-bolas": {
+   "pt": "Cesto de bolas",
+   "en": "Ball basket",
+   "es": "Cesto de pelotas"
+  },
+  "m-mesa-blocos": {
+   "pt": "Mesa de blocos",
+   "en": "Blocks table",
+   "es": "Mesa de bloques"
+  },
+  "m-trem": {
+   "pt": "Trenzinho",
+   "en": "Toy train",
+   "es": "Trencito"
+  },
+  "calcado": {
+   "pt": "Calçado",
+   "en": "Footwear",
+   "es": "Calzado"
+  },
+  "intima": {
+   "pt": "Roupa de baixo",
+   "en": "Underwear",
+   "es": "Ropa interior"
+  }
+ },
+ "areas": [
+  {
+   "id": "consultorio",
+   "icon": "🛋️",
+   "name": {
+    "pt": "Consultório",
+    "en": "Office",
+    "es": "Consultorio"
+   },
+   "scene": "room"
+  },
+  {
+   "id": "espera",
+   "icon": "🪑",
+   "name": {
+    "pt": "Sala de espera",
+    "en": "Waiting room",
+    "es": "Sala de espera"
+   },
+   "scene": "room",
+   "needs": "exp-espera"
+  },
+  {
+   "id": "casa",
+   "icon": "🏠",
+   "name": {
+    "pt": "Casa",
+    "en": "Home",
+    "es": "Casa"
+   },
+   "scene": "casa"
+  },
+  {
+   "id": "cozinha",
+   "icon": "🍳",
+   "name": {
+    "pt": "Cozinha",
+    "en": "Kitchen",
+    "es": "Cocina"
+   },
+   "scene": "casa",
+   "needs": "exp-cozinha"
+  },
+  {
+   "id": "roupas",
+   "icon": "👗",
+   "name": {
+    "pt": "Roupas",
+    "en": "Clothes",
+    "es": "Ropa"
+   },
+   "scene": null
+  },
+  {
+   "id": "pets",
+   "icon": "🐾",
+   "name": {
+    "pt": "Pets",
+    "en": "Pets",
+    "es": "Mascotas"
+   },
+   "scene": null
+  },
+  {
+   "id": "souvenirs",
+   "icon": "🏷️",
+   "name": {
+    "pt": "Souvenirs",
+    "en": "Souvenirs",
+    "es": "Souvenirs"
+   },
+   "scene": null
+  },
+  {
+   "id": "boutique",
+   "icon": "🧥",
+   "name": {
+    "pt": "Boutique",
+    "en": "Boutique",
+    "es": "Boutique"
+   },
+   "scene": null
+  },
+  {
+   "id": "sazonal",
+   "icon": "🎁",
+   "name": {
+    "pt": "Sazonais",
+    "en": "Seasonal",
+    "es": "De temporada"
+   },
+   "scene": "room",
+   "secret": true
+  }
+ ],
+ "expansions": [
+  {
+   "id": "exp-espera",
+   "area": "espera",
+   "emoji": "🪑",
+   "price": 120,
+   "name": {
+    "pt": "Sala de espera",
+    "en": "Waiting room",
+    "es": "Sala de espera"
+   },
+   "about": {
+    "pt": "Amplia o consultório com uma sala de espera, onde você pode colocar quadro, planta, bebedouro, revistas e tapete.",
+    "en": "Extends the office with a waiting room, where you can place art, a plant, a water cooler, magazines and a rug.",
+    "es": "Amplía el consultorio con una sala de espera, donde puedes poner cuadro, planta, dispensador de agua, revistas y alfombra."
+   }
+  },
+  {
+   "id": "exp-cozinha",
+   "area": "cozinha",
+   "emoji": "🍳",
+   "price": 100,
+   "name": {
+    "pt": "Cozinha",
+    "en": "Kitchen",
+    "es": "Cocina"
+   },
+   "about": {
+    "pt": "Amplia a casa com uma cozinha. Cafeteira e fruteira dão mais energia no começo de cada dia.",
+    "en": "Extends your home with a kitchen. A coffee maker and a fruit bowl give you more energy at the start of each day.",
+    "es": "Amplía la casa con una cocina. Cafetera y frutero dan más energía al comenzar cada día."
+   }
+  },
+  {
+   "id": "exp-tam-c1",
+   "area": "consultorio",
+   "emoji": "📐",
+   "price": 250,
+   "size": true,
+   "name": {
+    "pt": "Ampliar o consultório I",
+    "en": "Enlarge the office I",
+    "es": "Ampliar el consultorio I"
+   },
+   "about": {
+    "pt": "Mais espaço à esquerda e à frente. Dá para organizar tudo com folga.",
+    "en": "More room to the left and front. Plenty of space to arrange things.",
+    "es": "Más espacio a la izquierda y al frente. Cabe todo con holgura."
+   }
+  },
+  {
+   "id": "exp-tam-c2",
+   "area": "consultorio",
+   "emoji": "📐",
+   "price": 500,
+   "size": true,
+   "name": {
+    "pt": "Ampliar o consultório II",
+    "en": "Enlarge the office II",
+    "es": "Ampliar el consultorio II"
+   },
+   "about": {
+    "pt": "O maior tamanho: uma sala enorme, com janelas extras.",
+    "en": "The biggest size: a huge room with extra windows.",
+    "es": "El mayor tamaño: una sala enorme con ventanas extra."
+   }
+  },
+  {
+   "id": "exp-tam-h1",
+   "area": "casa",
+   "emoji": "📐",
+   "price": 200,
+   "size": true,
+   "name": {
+    "pt": "Ampliar o apartamento I",
+    "en": "Enlarge the apartment I",
+    "es": "Ampliar el apartamento I"
+   },
+   "about": {
+    "pt": "Mais espaço no quarto para móveis e bichinhos.",
+    "en": "More bedroom space for furniture and pets.",
+    "es": "Más espacio en el cuarto para muebles y mascotas."
+   }
+  },
+  {
+   "id": "exp-tam-h2",
+   "area": "casa",
+   "emoji": "📐",
+   "price": 400,
+   "size": true,
+   "name": {
+    "pt": "Ampliar o apartamento II",
+    "en": "Enlarge the apartment II",
+    "es": "Ampliar el apartamento II"
+   },
+   "about": {
+    "pt": "O quarto vira um loft espaçoso.",
+    "en": "The bedroom becomes a spacious loft.",
+    "es": "El cuarto se convierte en un loft espacioso."
+   }
+  }
+ ],
+ "items": [
+  {
+   "id": "cor-bege",
+   "area": "consultorio",
+   "slot": "cor",
+   "name": {
+    "pt": "Parede bege",
+    "en": "Beige wall",
+    "es": "Pared beige"
+   },
+   "price": 0,
+   "color": "#f2e2c4",
+   "cat": "parede"
+  },
+  {
+   "id": "cor-lavanda",
+   "area": "consultorio",
+   "slot": "cor",
+   "name": {
+    "pt": "Parede lavanda",
+    "en": "Lavender wall",
+    "es": "Pared lavanda"
+   },
+   "price": 15,
+   "color": "#e3dcf5",
+   "cat": "parede"
+  },
+  {
+   "id": "cor-menta",
+   "area": "consultorio",
+   "slot": "cor",
+   "name": {
+    "pt": "Parede verde-menta",
+    "en": "Mint-green wall",
+    "es": "Pared verde menta"
+   },
+   "price": 15,
+   "color": "#d6efe3",
+   "cat": "parede"
+  },
+  {
+   "id": "cor-rosa",
+   "area": "consultorio",
+   "slot": "cor",
+   "name": {
+    "pt": "Parede rosada",
+    "en": "Pink wall",
+    "es": "Pared rosada"
+   },
+   "price": 15,
+   "color": "#f7dde5",
+   "cat": "parede"
+  },
+  {
+   "id": "cor-amarelo",
+   "area": "consultorio",
+   "slot": "cor",
+   "name": {
+    "pt": "Parede amarelo suave",
+    "en": "Soft yellow wall",
+    "es": "Pared amarillo suave"
+   },
+   "price": 15,
+   "color": "#f8ecb8",
+   "cat": "parede"
+  },
+  {
+   "id": "cor-azul",
+   "area": "consultorio",
+   "slot": "cor",
+   "name": {
+    "pt": "Parede azul-céu",
+    "en": "Sky-blue wall",
+    "es": "Pared azul cielo"
+   },
+   "price": 15,
+   "color": "#d5e6f7",
+   "cat": "parede"
+  },
+  {
+   "id": "cor-cinza",
+   "area": "consultorio",
+   "slot": "cor",
+   "name": {
+    "pt": "Parede cinza-claro",
+    "en": "Light gray wall",
+    "es": "Pared gris claro"
+   },
+   "price": 15,
+   "color": "#e4e4e8",
+   "cat": "parede"
+  },
+  {
+   "id": "quadro-abstrato",
+   "area": "consultorio",
+   "slot": "quadro",
+   "name": {
+    "pt": "Quadro abstrato",
+    "en": "Abstract painting",
+    "es": "Cuadro abstracto"
+   },
+   "price": 20,
+   "emoji": "🖼️",
+   "cat": "parede"
+  },
+  {
+   "id": "quadro-diploma",
+   "area": "consultorio",
+   "slot": "quadro",
+   "name": {
+    "pt": "Diploma",
+    "en": "Diploma",
+    "es": "Diploma"
+   },
+   "price": 15,
+   "emoji": "🎓",
+   "cat": "parede"
+  },
+  {
+   "id": "quadro-relogio",
+   "area": "consultorio",
+   "slot": "quadro",
+   "name": {
+    "pt": "Relógio de parede",
+    "en": "Wall clock",
+    "es": "Reloj de pared"
+   },
+   "price": 20,
+   "emoji": "🕰️",
+   "cat": "parede"
+  },
+  {
+   "id": "quadro-paisagem",
+   "area": "consultorio",
+   "slot": "quadro",
+   "name": {
+    "pt": "Quadro de paisagem",
+    "en": "Landscape painting",
+    "es": "Cuadro de paisaje"
+   },
+   "price": 25,
+   "emoji": "🏞️",
+   "cat": "parede"
+  },
+  {
+   "id": "quadro-cerebro",
+   "area": "consultorio",
+   "slot": "quadro",
+   "name": {
+    "pt": "Pôster do cérebro",
+    "en": "Brain poster",
+    "es": "Póster del cerebro"
+   },
+   "price": 30,
+   "emoji": "🧠",
+   "bonus": {
+    "ap": "tcc",
+    "v": 1,
+    "when": "all"
+   },
+   "cat": "parede"
+  },
+  {
+   "id": "planta",
+   "area": "consultorio",
+   "slot": "canto",
+   "name": {
+    "pt": "Planta",
+    "en": "Plant",
+    "es": "Planta"
+   },
+   "price": 12,
+   "emoji": "🪴",
+   "cat": "plantas"
+  },
+  {
+   "id": "estante",
+   "area": "consultorio",
+   "slot": "canto",
+   "name": {
+    "pt": "Estante de livros",
+    "en": "Bookshelf",
+    "es": "Estantería de libros"
+   },
+   "price": 40,
+   "emoji": "📚",
+   "bonus": {
+    "ap": "psicoeducacao",
+    "v": 1,
+    "when": "all"
+   },
+   "cat": "guardar"
+  },
+  {
+   "id": "ficus",
+   "area": "consultorio",
+   "slot": "canto",
+   "name": {
+    "pt": "Ficus grande",
+    "en": "Large ficus",
+    "es": "Ficus grande"
+   },
+   "price": 35,
+   "emoji": "🌿",
+   "cat": "deco"
+  },
+  {
+   "id": "sofa",
+   "area": "consultorio",
+   "slot": "sofa",
+   "name": {
+    "pt": "Sofá verde",
+    "en": "Green sofa",
+    "es": "Sofá verde"
+   },
+   "price": 60,
+   "emoji": "🛋️",
+   "color": "#6aa89a",
+   "cat": "assentos"
+  },
+  {
+   "id": "sofa-mostarda",
+   "area": "consultorio",
+   "slot": "sofa",
+   "name": {
+    "pt": "Sofá mostarda",
+    "en": "Mustard sofa",
+    "es": "Sofá mostaza"
+   },
+   "price": 60,
+   "emoji": "🛋️",
+   "color": "#d9a51f",
+   "cat": "assentos"
+  },
+  {
+   "id": "sofa-vinho",
+   "area": "consultorio",
+   "slot": "sofa",
+   "name": {
+    "pt": "Sofá vinho",
+    "en": "Wine-red sofa",
+    "es": "Sofá burdeos"
+   },
+   "price": 65,
+   "emoji": "🛋️",
+   "color": "#8c3a4f",
+   "cat": "assentos"
+  },
+  {
+   "id": "diva",
+   "area": "consultorio",
+   "slot": "diva",
+   "name": {
+    "pt": "Divã",
+    "en": "Couch",
+    "es": "Diván"
+   },
+   "price": 140,
+   "emoji": "🛋️",
+   "color": "#7f9a72",
+   "cat": "assentos"
+  },
+  {
+   "id": "abajur",
+   "area": "consultorio",
+   "slot": "luz",
+   "name": {
+    "pt": "Abajur",
+    "en": "Floor lamp",
+    "es": "Lámpara de pie"
+   },
+   "price": 15,
+   "emoji": "💡",
+   "cat": "luz"
+  },
+  {
+   "id": "luz-arco",
+   "area": "consultorio",
+   "slot": "luz",
+   "name": {
+    "pt": "Luminária de arco",
+    "en": "Arc lamp",
+    "es": "Lámpara de arco"
+   },
+   "price": 45,
+   "emoji": "🔆",
+   "cat": "luz"
+  },
+  {
+   "id": "cafe",
+   "area": "consultorio",
+   "slot": "mesa",
+   "name": {
+    "pt": "Xícara de café",
+    "en": "Cup of coffee",
+    "es": "Taza de café"
+   },
+   "price": 10,
+   "emoji": "☕",
+   "cat": "mesas"
+  },
+  {
+   "id": "lencos",
+   "area": "consultorio",
+   "slot": "mesa",
+   "name": {
+    "pt": "Caixa de lenços",
+    "en": "Box of tissues",
+    "es": "Caja de pañuelos"
+   },
+   "price": 10,
+   "emoji": "🧻",
+   "bonus": {
+    "ap": "acolhimento",
+    "v": 1,
+    "when": "adult"
+   },
+   "cat": "mesas"
+  },
+  {
+   "id": "flores",
+   "area": "consultorio",
+   "slot": "mesa",
+   "name": {
+    "pt": "Vaso de flores",
+    "en": "Vase of flowers",
+    "es": "Jarrón de flores"
+   },
+   "price": 10,
+   "emoji": "💐",
+   "cat": "mesas"
+  },
+  {
+   "id": "tapete",
+   "area": "consultorio",
+   "slot": "tapete",
+   "name": {
+    "pt": "Tapete vinho",
+    "en": "Wine-red rug",
+    "es": "Alfombra burdeos"
+   },
+   "price": 15,
+   "color": "#b9536b",
+   "cat": "chao"
+  },
+  {
+   "id": "tapete-azul",
+   "area": "consultorio",
+   "slot": "tapete",
+   "name": {
+    "pt": "Tapete azul",
+    "en": "Blue rug",
+    "es": "Alfombra azul"
+   },
+   "price": 15,
+   "color": "#4f7fc4",
+   "cat": "chao"
+  },
+  {
+   "id": "tapete-verde",
+   "area": "consultorio",
+   "slot": "tapete",
+   "name": {
+    "pt": "Tapete verde",
+    "en": "Green rug",
+    "es": "Alfombra verde"
+   },
+   "price": 15,
+   "color": "#4f9a6a",
+   "cat": "chao"
+  },
+  {
+   "id": "cortina-rosa",
+   "area": "consultorio",
+   "slot": "cortina",
+   "name": {
+    "pt": "Cortina rosa",
+    "en": "Pink curtain",
+    "es": "Cortina rosa"
+   },
+   "price": 15,
+   "color": "#e58aa8",
+   "cat": "parede"
+  },
+  {
+   "id": "cortina-azul",
+   "area": "consultorio",
+   "slot": "cortina",
+   "name": {
+    "pt": "Cortina azul",
+    "en": "Blue curtain",
+    "es": "Cortina azul"
+   },
+   "price": 15,
+   "color": "#6f9fd8",
+   "cat": "parede"
+  },
+  {
+   "id": "brinquedos",
+   "area": "consultorio",
+   "slot": "brinq",
+   "name": {
+    "pt": "Baú de brinquedos",
+    "en": "Toy chest",
+    "es": "Baúl de juguetes"
+   },
+   "price": 35,
+   "emoji": "🧸",
+   "bonus": {
+    "ap": "comportamental",
+    "v": 1,
+    "when": "kid"
+   },
+   "cat": "infantil"
+  },
+  {
+   "id": "escrivaninha",
+   "area": "consultorio",
+   "slot": "escrivaninha",
+   "name": {
+    "pt": "Escrivaninha",
+    "en": "Desk",
+    "es": "Escritorio"
+   },
+   "price": 50,
+   "emoji": "🖥️",
+   "cat": "mesas"
+  },
+  {
+   "id": "aquario",
+   "area": "consultorio",
+   "slot": "aquario",
+   "name": {
+    "pt": "Aquário",
+    "en": "Aquarium",
+    "es": "Acuario"
+   },
+   "price": 60,
+   "emoji": "🐠",
+   "cat": "bemestar"
+  },
+  {
+   "id": "e-quadro",
+   "area": "espera",
+   "slot": "e-quadro",
+   "name": {
+    "pt": "Quadro da espera",
+    "en": "Waiting-room painting",
+    "es": "Cuadro de la espera"
+   },
+   "price": 20,
+   "emoji": "🖼️",
+   "cat": "parede"
+  },
+  {
+   "id": "e-planta",
+   "area": "espera",
+   "slot": "e-planta",
+   "name": {
+    "pt": "Planta de canto",
+    "en": "Corner plant",
+    "es": "Planta de rincón"
+   },
+   "price": 25,
+   "emoji": "🪴",
+   "cat": "plantas"
+  },
+  {
+   "id": "bebedouro",
+   "area": "espera",
+   "slot": "e-agua",
+   "name": {
+    "pt": "Bebedouro",
+    "en": "Water cooler",
+    "es": "Dispensador de agua"
+   },
+   "price": 30,
+   "emoji": "🚰",
+   "cat": "bemestar"
+  },
+  {
+   "id": "revistas",
+   "area": "espera",
+   "slot": "e-revistas",
+   "name": {
+    "pt": "Revistas",
+    "en": "Magazines",
+    "es": "Revistas"
+   },
+   "price": 10,
+   "emoji": "📰",
+   "cat": "conforto"
+  },
+  {
+   "id": "e-tapete",
+   "area": "espera",
+   "slot": "e-tapete",
+   "name": {
+    "pt": "Tapete da espera",
+    "en": "Waiting-room rug",
+    "es": "Alfombra de la espera"
+   },
+   "price": 20,
+   "color": "#7d6fc4",
+   "cat": "chao"
+  },
+  {
+   "id": "casa-cor-pessego",
+   "area": "casa",
+   "slot": "c-cor",
+   "name": {
+    "pt": "Parede pêssego",
+    "en": "Peach wall",
+    "es": "Pared melocotón"
+   },
+   "price": 0,
+   "color": "#ffe1c2",
+   "cat": "deco"
+  },
+  {
+   "id": "casa-cor-verde",
+   "area": "casa",
+   "slot": "c-cor",
+   "name": {
+    "pt": "Parede verde-sálvia",
+    "en": "Sage-green wall",
+    "es": "Pared verde salvia"
+   },
+   "price": 12,
+   "color": "#dbe8d4",
+   "cat": "deco"
+  },
+  {
+   "id": "casa-cor-azul",
+   "area": "casa",
+   "slot": "c-cor",
+   "name": {
+    "pt": "Parede azul-bebê",
+    "en": "Baby-blue wall",
+    "es": "Pared azul bebé"
+   },
+   "price": 12,
+   "color": "#d9e8f7",
+   "cat": "deco"
+  },
+  {
+   "id": "casa-cor-lilas",
+   "area": "casa",
+   "slot": "c-cor",
+   "name": {
+    "pt": "Parede lilás",
+    "en": "Lilac wall",
+    "es": "Pared lila"
+   },
+   "price": 12,
+   "color": "#e6dcf4",
+   "cat": "deco"
+  },
+  {
+   "id": "poster",
+   "area": "casa",
+   "slot": "c-poster",
+   "name": {
+    "pt": "Pôster no quarto",
+    "en": "Bedroom poster",
+    "es": "Póster del cuarto"
+   },
+   "price": 12,
+   "emoji": "🖼️",
+   "cat": "parede"
+  },
+  {
+   "id": "casa-planta",
+   "area": "casa",
+   "slot": "c-planta",
+   "name": {
+    "pt": "Planta do quarto",
+    "en": "Bedroom plant",
+    "es": "Planta del cuarto"
+   },
+   "price": 0,
+   "emoji": "🪴",
+   "cat": "plantas"
+  },
+  {
+   "id": "casa-abajur",
+   "area": "casa",
+   "slot": "c-luz",
+   "name": {
+    "pt": "Abajur do quarto",
+    "en": "Bedside lamp",
+    "es": "Lámpara de mesita"
+   },
+   "price": 12,
+   "emoji": "💡",
+   "cat": "luz"
+  },
+  {
+   "id": "casa-tapete",
+   "area": "casa",
+   "slot": "c-tapete",
+   "name": {
+    "pt": "Tapete do quarto",
+    "en": "Bedroom rug",
+    "es": "Alfombra del cuarto"
+   },
+   "price": 15,
+   "color": "#b9536b",
+   "cat": "chao"
+  },
+  {
+   "id": "casa-estante",
+   "area": "casa",
+   "slot": "c-estante",
+   "name": {
+    "pt": "Estante do quarto",
+    "en": "Bedroom shelf",
+    "es": "Estante del cuarto"
+   },
+   "price": 40,
+   "emoji": "📚",
+   "cat": "guardar"
+  },
+  {
+   "id": "cafeteira",
+   "area": "cozinha",
+   "slot": "k-cafe",
+   "name": {
+    "pt": "Cafeteira",
+    "en": "Coffee maker",
+    "es": "Cafetera"
+   },
+   "price": 30,
+   "emoji": "☕",
+   "dayEnergy": 5,
+   "cat": "conforto"
+  },
+  {
+   "id": "fruteira",
+   "area": "cozinha",
+   "slot": "k-fruta",
+   "name": {
+    "pt": "Fruteira",
+    "en": "Fruit bowl",
+    "es": "Frutero"
+   },
+   "price": 10,
+   "emoji": "🍎",
+   "dayEnergy": 5,
+   "cat": "conforto"
+  },
+  {
+   "id": "k-planta",
+   "area": "cozinha",
+   "slot": "k-planta",
+   "name": {
+    "pt": "Ervas na janela",
+    "en": "Herbs on the windowsill",
+    "es": "Hierbas en la ventana"
+   },
+   "price": 20,
+   "emoji": "🌱",
+   "cat": "plantas"
+  },
+  {
+   "id": "k-quadro",
+   "area": "cozinha",
+   "slot": "k-quadro",
+   "name": {
+    "pt": "Quadro da cozinha",
+    "en": "Kitchen painting",
+    "es": "Cuadro de la cocina"
+   },
+   "price": 20,
+   "emoji": "🖼️",
+   "cat": "parede"
+  },
+  {
+   "id": "k-tapete",
+   "area": "cozinha",
+   "slot": "k-tapete",
+   "name": {
+    "pt": "Tapete da cozinha",
+    "en": "Kitchen rug",
+    "es": "Alfombra de la cocina"
+   },
+   "price": 20,
+   "color": "#e0a050",
+   "cat": "chao"
+  },
+  {
+   "id": "arvore-natal",
+   "area": "sazonal",
+   "slot": "sazonal",
+   "name": {
+    "pt": "Árvore de Natal",
+    "en": "Christmas tree",
+    "es": "Árbol de Navidad"
+   },
+   "price": 0,
+   "emoji": "🎄",
+   "secretOnly": true,
+   "theme": "natal",
+   "cat": "sazonal"
+  },
+  {
+   "id": "abobora",
+   "area": "sazonal",
+   "slot": "sazonal",
+   "name": {
+    "pt": "Abóboras de Halloween",
+    "en": "Halloween pumpkins",
+    "es": "Calabazas de Halloween"
+   },
+   "price": 0,
+   "emoji": "🎃",
+   "secretOnly": true,
+   "theme": "halloween",
+   "cat": "sazonal"
+  },
+  {
+   "id": "ovos",
+   "area": "sazonal",
+   "slot": "sazonal",
+   "name": {
+    "pt": "Cesta de ovos de Páscoa",
+    "en": "Easter egg basket",
+    "es": "Cesta de huevos de Pascua"
+   },
+   "price": 0,
+   "emoji": "🥚",
+   "secretOnly": true,
+   "theme": "pascoa",
+   "cat": "sazonal"
+  },
+  {
+   "id": "pufe",
+   "area": "consultorio",
+   "slot": "pufe",
+   "emoji": "🟣",
+   "name": {
+    "pt": "Pufe",
+    "en": "Ottoman",
+    "es": "Puf"
+   },
+   "price": 15,
+   "cat": "assentos"
+  },
+  {
+   "id": "poltrona-extra",
+   "area": "consultorio",
+   "slot": "poltrona-extra",
+   "emoji": "💺",
+   "name": {
+    "pt": "Poltrona extra",
+    "en": "Extra armchair",
+    "es": "Sillón extra"
+   },
+   "price": 60,
+   "cat": "assentos"
+  },
+  {
+   "id": "estante-dupla",
+   "area": "consultorio",
+   "slot": "estante-dupla",
+   "emoji": "📚",
+   "name": {
+    "pt": "Estante dupla",
+    "en": "Double bookcase",
+    "es": "Estantería doble"
+   },
+   "price": 95,
+   "cat": "guardar"
+  },
+  {
+   "id": "relogio-chao",
+   "area": "consultorio",
+   "slot": "relogio-chao",
+   "emoji": "🕰️",
+   "name": {
+    "pt": "Relógio de chão",
+    "en": "Grandfather clock",
+    "es": "Reloj de pie"
+   },
+   "price": 80,
+   "cat": "antiguidades"
+  },
+  {
+   "id": "piano",
+   "area": "consultorio",
+   "slot": "piano",
+   "emoji": "🎹",
+   "name": {
+    "pt": "Piano vertical",
+    "en": "Upright piano",
+    "es": "Piano vertical"
+   },
+   "price": 220,
+   "cat": "instrumentos"
+  },
+  {
+   "id": "globo",
+   "area": "consultorio",
+   "slot": "globo",
+   "emoji": "🌍",
+   "name": {
+    "pt": "Globo terrestre",
+    "en": "Globe",
+    "es": "Globo terráqueo"
+   },
+   "price": 45,
+   "cat": "leitura"
+  },
+  {
+   "id": "cabideiro",
+   "area": "consultorio",
+   "slot": "cabideiro",
+   "emoji": "🧥",
+   "name": {
+    "pt": "Cabideiro",
+    "en": "Coat rack",
+    "es": "Perchero"
+   },
+   "price": 18,
+   "cat": "guardar"
+  },
+  {
+   "id": "espelho-chao",
+   "area": "consultorio",
+   "slot": "espelho-chao",
+   "emoji": "🪞",
+   "name": {
+    "pt": "Espelho de chão",
+    "en": "Floor mirror",
+    "es": "Espejo de pie"
+   },
+   "price": 55,
+   "cat": "parede"
+  },
+  {
+   "id": "biombo",
+   "area": "consultorio",
+   "slot": "biombo",
+   "emoji": "🪟",
+   "name": {
+    "pt": "Biombo",
+    "en": "Folding screen",
+    "es": "Biombo"
+   },
+   "price": 50,
+   "cat": "deco"
+  },
+  {
+   "id": "gaveteiro",
+   "area": "consultorio",
+   "slot": "gaveteiro",
+   "emoji": "🗄️",
+   "name": {
+    "pt": "Arquivo de aço",
+    "en": "Filing cabinet",
+    "es": "Archivador"
+   },
+   "price": 40,
+   "cat": "guardar"
+  },
+  {
+   "id": "purificador",
+   "area": "consultorio",
+   "slot": "purificador",
+   "emoji": "🌬️",
+   "name": {
+    "pt": "Purificador de ar",
+    "en": "Air purifier",
+    "es": "Purificador de aire"
+   },
+   "price": 45,
+   "cat": "bemestar"
+  },
+  {
+   "id": "rack-tv",
+   "area": "consultorio",
+   "slot": "rack-tv",
+   "emoji": "📺",
+   "name": {
+    "pt": "Rack com TV",
+    "en": "TV console",
+    "es": "Mueble con TV"
+   },
+   "price": 120,
+   "cat": "mesas"
+  },
+  {
+   "id": "cafe-bar",
+   "area": "consultorio",
+   "slot": "cafe-bar",
+   "emoji": "☕",
+   "name": {
+    "pt": "Cantinho do café",
+    "en": "Coffee corner",
+    "es": "Rincón del café"
+   },
+   "price": 100,
+   "cat": "conforto"
+  },
+  {
+   "id": "escultura",
+   "area": "consultorio",
+   "slot": "escultura",
+   "emoji": "🗿",
+   "name": {
+    "pt": "Escultura",
+    "en": "Sculpture",
+    "es": "Escultura"
+   },
+   "price": 70,
+   "cat": "arte"
+  },
+  {
+   "id": "caixa-areia",
+   "area": "consultorio",
+   "slot": "caixa-areia",
+   "emoji": "🏖️",
+   "name": {
+    "pt": "Caixa de areia",
+    "en": "Sand tray",
+    "es": "Caja de arena"
+   },
+   "price": 65,
+   "cat": "guardar"
+  },
+  {
+   "id": "casa-bonecas",
+   "area": "consultorio",
+   "slot": "casa-bonecas",
+   "emoji": "🏠",
+   "name": {
+    "pt": "Casa de bonecas",
+    "en": "Dollhouse",
+    "es": "Casa de muñecas"
+   },
+   "price": 55,
+   "cat": "infantil"
+  },
+  {
+   "id": "mesa-infantil",
+   "area": "consultorio",
+   "slot": "mesa-infantil",
+   "emoji": "🧒",
+   "name": {
+    "pt": "Mesinha infantil",
+    "en": "Kids' table",
+    "es": "Mesita infantil"
+   },
+   "price": 40,
+   "cat": "mesas"
+  },
+  {
+   "id": "tenda",
+   "area": "consultorio",
+   "slot": "tenda",
+   "emoji": "⛺",
+   "name": {
+    "pt": "Tenda de brincar",
+    "en": "Play tent",
+    "es": "Carpa de juego"
+   },
+   "price": 60,
+   "cat": "assentos"
+  },
+  {
+   "id": "divisoria-plantas",
+   "area": "consultorio",
+   "slot": "divisoria-plantas",
+   "emoji": "🌿",
+   "name": {
+    "pt": "Divisória de plantas",
+    "en": "Planter divider",
+    "es": "Divisor de plantas"
+   },
+   "price": 35,
+   "cat": "plantas"
+  },
+  {
+   "id": "lixeira",
+   "area": "consultorio",
+   "slot": "lixeira",
+   "emoji": "🗑️",
+   "name": {
+    "pt": "Lixeira",
+    "en": "Waste bin",
+    "es": "Papelera"
+   },
+   "price": 10,
+   "cat": "deco"
+  },
+  {
+   "id": "casa-pufe",
+   "area": "casa",
+   "slot": "casa-pufe",
+   "emoji": "🟣",
+   "name": {
+    "pt": "Pufe da sala",
+    "en": "Living-room ottoman",
+    "es": "Puf de la sala"
+   },
+   "price": 15,
+   "cat": "assentos"
+  },
+  {
+   "id": "casa-tv",
+   "area": "casa",
+   "slot": "casa-tv",
+   "emoji": "📺",
+   "name": {
+    "pt": "TV da sala",
+    "en": "Living-room TV",
+    "es": "TV de la sala"
+   },
+   "price": 110,
+   "cat": "conforto"
+  },
+  {
+   "id": "casa-comoda",
+   "area": "casa",
+   "slot": "casa-comoda",
+   "emoji": "🗄️",
+   "name": {
+    "pt": "Cômoda",
+    "en": "Chest of drawers",
+    "es": "Cómoda"
+   },
+   "price": 60,
+   "cat": "guardar"
+  },
+  {
+   "id": "casa-sofa",
+   "area": "casa",
+   "slot": "casa-sofa",
+   "emoji": "🛋️",
+   "name": {
+    "pt": "Sofá da sala",
+    "en": "Living-room sofa",
+    "es": "Sofá de la sala"
+   },
+   "price": 100,
+   "cat": "assentos"
+  },
+  {
+   "id": "casa-leitura",
+   "area": "casa",
+   "slot": "casa-leitura",
+   "emoji": "📖",
+   "name": {
+    "pt": "Cantinho de leitura",
+    "en": "Reading nook",
+    "es": "Rincón de lectura"
+   },
+   "price": 75,
+   "cat": "leitura"
+  },
+  {
+   "id": "mesa-jantar",
+   "area": "casa",
+   "slot": "mesa-jantar",
+   "emoji": "🍽️",
+   "name": {
+    "pt": "Mesa de jantar",
+    "en": "Dining table",
+    "es": "Mesa de comedor"
+   },
+   "price": 90,
+   "cat": "mesas"
+  },
+  {
+   "id": "violao",
+   "area": "casa",
+   "slot": "violao",
+   "emoji": "🎸",
+   "name": {
+    "pt": "Violão no suporte",
+    "en": "Guitar on a stand",
+    "es": "Guitarra en soporte"
+   },
+   "price": 50,
+   "cat": "instrumentos"
+  },
+  {
+   "id": "bike",
+   "area": "casa",
+   "slot": "bike",
+   "emoji": "🚲",
+   "name": {
+    "pt": "Bicicleta ergométrica",
+    "en": "Exercise bike",
+    "es": "Bicicleta estática"
+   },
+   "price": 130,
+   "cat": "deco"
+  },
+  {
+   "id": "cama-pet",
+   "area": "casa",
+   "slot": "cama-pet",
+   "emoji": "🐶",
+   "name": {
+    "pt": "Caminha de bichinho",
+    "en": "Pet bed",
+    "es": "Cama de mascota"
+   },
+   "price": 30,
+   "cat": "deco"
+  },
+  {
+   "id": "tapete-yoga",
+   "area": "casa",
+   "slot": "tapete-yoga",
+   "emoji": "🧘",
+   "name": {
+    "pt": "Tapete de yoga",
+    "en": "Yoga mat",
+    "es": "Tapete de yoga"
+   },
+   "price": 12,
+   "cat": "chao"
+  },
+  {
+   "id": "planta-grande",
+   "area": "casa",
+   "slot": "planta-grande",
+   "emoji": "🌴",
+   "name": {
+    "pt": "Planta grande",
+    "en": "Big plant",
+    "es": "Planta grande"
+   },
+   "price": 45,
+   "cat": "plantas"
+  },
+  {
+   "id": "casa-escrivaninha",
+   "area": "casa",
+   "slot": "casa-escrivaninha",
+   "emoji": "💻",
+   "name": {
+    "pt": "Escrivaninha do quarto",
+    "en": "Bedroom desk",
+    "es": "Escritorio del cuarto"
+   },
+   "price": 80,
+   "cat": "mesas"
+  },
+  {
+   "id": "bateria",
+   "area": "casa",
+   "slot": "m-bateria",
+   "cat": "instrumentos",
+   "store": "musica",
+   "name": {
+    "pt": "Bateria",
+    "en": "Drum kit",
+    "es": "Batería"
+   },
+   "price": 110,
+   "emoji": "🥁"
+  },
+  {
+   "id": "teclado",
+   "area": "consultorio",
+   "slot": "m-teclado",
+   "cat": "instrumentos",
+   "store": "musica",
+   "name": {
+    "pt": "Teclado",
+    "en": "Keyboard",
+    "es": "Teclado"
+   },
+   "price": 80,
+   "emoji": "🎹"
+  },
+  {
+   "id": "harpa",
+   "area": "consultorio",
+   "slot": "m-harpa",
+   "cat": "instrumentos",
+   "store": "musica",
+   "name": {
+    "pt": "Harpa",
+    "en": "Harp",
+    "es": "Arpa"
+   },
+   "price": 130,
+   "emoji": "🎼"
+  },
+  {
+   "id": "xilofone",
+   "area": "casa",
+   "slot": "m-xilofone",
+   "cat": "instrumentos",
+   "store": "musica",
+   "name": {
+    "pt": "Xilofone",
+    "en": "Xylophone",
+    "es": "Xilófono"
+   },
+   "price": 50,
+   "emoji": "🎶"
+  },
+  {
+   "id": "contrabaixo",
+   "area": "consultorio",
+   "slot": "m-contrabaixo",
+   "cat": "instrumentos",
+   "store": "musica",
+   "name": {
+    "pt": "Contrabaixo",
+    "en": "Double bass",
+    "es": "Contrabajo"
+   },
+   "price": 95,
+   "emoji": "🎻"
+  },
+  {
+   "id": "caixa-som",
+   "area": "casa",
+   "slot": "m-caixa-som",
+   "cat": "instrumentos",
+   "store": "musica",
+   "name": {
+    "pt": "Caixa de som",
+    "en": "Speaker",
+    "es": "Altavoz"
+   },
+   "price": 60,
+   "emoji": "🔊"
+  },
+  {
+   "id": "microfone",
+   "area": "consultorio",
+   "slot": "m-microfone",
+   "cat": "instrumentos",
+   "store": "musica",
+   "name": {
+    "pt": "Microfone com pedestal",
+    "en": "Mic on a stand",
+    "es": "Micrófono con pie"
+   },
+   "price": 45,
+   "emoji": "🎤"
+  },
+  {
+   "id": "estante-partitura",
+   "area": "casa",
+   "slot": "m-estante-partitura",
+   "cat": "instrumentos",
+   "store": "musica",
+   "name": {
+    "pt": "Estante de partituras",
+    "en": "Music stand",
+    "es": "Atril"
+   },
+   "price": 40,
+   "emoji": "🎼"
+  },
+  {
+   "id": "samambaia",
+   "area": "casa",
+   "slot": "m-samambaia",
+   "cat": "plantas",
+   "store": "jardim",
+   "name": {
+    "pt": "Samambaia",
+    "en": "Fern",
+    "es": "Helecho"
+   },
+   "price": 45,
+   "emoji": "🌿"
+  },
+  {
+   "id": "bonsai",
+   "area": "consultorio",
+   "slot": "m-bonsai",
+   "cat": "plantas",
+   "store": "jardim",
+   "name": {
+    "pt": "Bonsai",
+    "en": "Bonsai",
+    "es": "Bonsái"
+   },
+   "price": 65,
+   "emoji": "🌳"
+  },
+  {
+   "id": "fonte-mesa",
+   "area": "consultorio",
+   "slot": "m-fonte-mesa",
+   "cat": "plantas",
+   "store": "jardim",
+   "name": {
+    "pt": "Fonte de mesa",
+    "en": "Tabletop fountain",
+    "es": "Fuente de mesa"
+   },
+   "price": 80,
+   "emoji": "⛲"
+  },
+  {
+   "id": "cacto",
+   "area": "casa",
+   "slot": "m-cacto",
+   "cat": "plantas",
+   "store": "jardim",
+   "name": {
+    "pt": "Cacto grande",
+    "en": "Big cactus",
+    "es": "Cactus grande"
+   },
+   "price": 35,
+   "emoji": "🌵"
+  },
+  {
+   "id": "orquideas",
+   "area": "consultorio",
+   "slot": "m-orquideas",
+   "cat": "plantas",
+   "store": "jardim",
+   "name": {
+    "pt": "Orquídeas",
+    "en": "Orchids",
+    "es": "Orquídeas"
+   },
+   "price": 55,
+   "emoji": "🌸"
+  },
+  {
+   "id": "terrario",
+   "area": "casa",
+   "slot": "m-terrario",
+   "cat": "plantas",
+   "store": "jardim",
+   "name": {
+    "pt": "Terrário",
+    "en": "Terrarium",
+    "es": "Terrario"
+   },
+   "price": 70,
+   "emoji": "🪴"
+  },
+  {
+   "id": "jardineira",
+   "area": "casa",
+   "slot": "m-jardineira",
+   "cat": "plantas",
+   "store": "jardim",
+   "name": {
+    "pt": "Jardineira de janela",
+    "en": "Window planter",
+    "es": "Jardinera de ventana"
+   },
+   "price": 40,
+   "emoji": "🌼"
+  },
+  {
+   "id": "jardim-vertical",
+   "area": "consultorio",
+   "slot": "m-jardim-vertical",
+   "cat": "plantas",
+   "store": "jardim",
+   "name": {
+    "pt": "Jardim vertical",
+    "en": "Vertical garden",
+    "es": "Jardín vertical"
+   },
+   "price": 100,
+   "emoji": "🌱"
+  },
+  {
+   "id": "carrinho-livros",
+   "area": "consultorio",
+   "slot": "m-carrinho-livros",
+   "cat": "leitura",
+   "store": "livraria",
+   "name": {
+    "pt": "Carrinho de livros",
+    "en": "Book cart",
+    "es": "Carrito de libros"
+   },
+   "price": 60,
+   "emoji": "📚"
+  },
+  {
+   "id": "mesa-estudos",
+   "area": "consultorio",
+   "slot": "m-mesa-estudos",
+   "cat": "leitura",
+   "store": "livraria",
+   "name": {
+    "pt": "Mesa de estudos",
+    "en": "Study desk",
+    "es": "Mesa de estudio"
+   },
+   "price": 85,
+   "emoji": "📖"
+  },
+  {
+   "id": "quadro-negro",
+   "area": "consultorio",
+   "slot": "m-quadro-negro",
+   "cat": "leitura",
+   "store": "livraria",
+   "name": {
+    "pt": "Quadro-negro",
+    "en": "Chalkboard",
+    "es": "Pizarra"
+   },
+   "price": 65,
+   "emoji": "🖍️"
+  },
+  {
+   "id": "pilha-livros",
+   "area": "casa",
+   "slot": "m-pilha-livros",
+   "cat": "leitura",
+   "store": "livraria",
+   "name": {
+    "pt": "Pilha de livros",
+    "en": "Stack of books",
+    "es": "Pila de libros"
+   },
+   "price": 25,
+   "emoji": "📕"
+  },
+  {
+   "id": "relogio-mesa",
+   "area": "casa",
+   "slot": "m-relogio-mesa",
+   "cat": "leitura",
+   "store": "livraria",
+   "name": {
+    "pt": "Relógio de caixa",
+    "en": "Case clock",
+    "es": "Reloj de caja"
+   },
+   "price": 35,
+   "emoji": "🕰️"
+  },
+  {
+   "id": "luminaria-leitura",
+   "area": "consultorio",
+   "slot": "m-luminaria-leitura",
+   "cat": "leitura",
+   "store": "livraria",
+   "name": {
+    "pt": "Luminária de leitura",
+    "en": "Reading lamp",
+    "es": "Lámpara de lectura"
+   },
+   "price": 50,
+   "emoji": "💡"
+  },
+  {
+   "id": "cavalete",
+   "area": "consultorio",
+   "slot": "m-cavalete",
+   "cat": "arte",
+   "store": "atelie",
+   "name": {
+    "pt": "Cavalete com tela",
+    "en": "Easel with canvas",
+    "es": "Caballete con lienzo"
+   },
+   "price": 75,
+   "emoji": "🎨"
+  },
+  {
+   "id": "prateleira-tintas",
+   "area": "casa",
+   "slot": "m-prateleira-tintas",
+   "cat": "arte",
+   "store": "atelie",
+   "name": {
+    "pt": "Prateleira de tintas",
+    "en": "Paint shelf",
+    "es": "Estante de pinturas"
+   },
+   "price": 60,
+   "emoji": "🖌️"
+  },
+  {
+   "id": "escultura-argila",
+   "area": "consultorio",
+   "slot": "m-escultura-argila",
+   "cat": "arte",
+   "store": "atelie",
+   "name": {
+    "pt": "Escultura de argila",
+    "en": "Clay sculpture",
+    "es": "Escultura de arcilla"
+   },
+   "price": 65,
+   "emoji": "🗿"
+  },
+  {
+   "id": "movel-mobile",
+   "area": "casa",
+   "slot": "m-movel-mobile",
+   "cat": "arte",
+   "store": "atelie",
+   "name": {
+    "pt": "Móbile de metal",
+    "en": "Metal mobile",
+    "es": "Móvil de metal"
+   },
+   "price": 45,
+   "emoji": "🪅"
+  },
+  {
+   "id": "mesa-desenho",
+   "area": "consultorio",
+   "slot": "m-mesa-desenho",
+   "cat": "arte",
+   "store": "atelie",
+   "name": {
+    "pt": "Mesa de desenho",
+    "en": "Drawing table",
+    "es": "Mesa de dibujo"
+   },
+   "price": 90,
+   "emoji": "✏️"
+  },
+  {
+   "id": "manequim",
+   "area": "casa",
+   "slot": "m-manequim",
+   "cat": "arte",
+   "store": "atelie",
+   "name": {
+    "pt": "Manequim de costura",
+    "en": "Sewing mannequin",
+    "es": "Maniquí de costura"
+   },
+   "price": 70,
+   "emoji": "👗"
+  },
+  {
+   "id": "bau-antigo",
+   "area": "consultorio",
+   "slot": "m-bau-antigo",
+   "cat": "antiguidades",
+   "store": "antiquario",
+   "name": {
+    "pt": "Baú antigo",
+    "en": "Antique chest",
+    "es": "Baúl antiguo"
+   },
+   "price": 95,
+   "emoji": "🧰"
+  },
+  {
+   "id": "gramofone",
+   "area": "casa",
+   "slot": "m-gramofone",
+   "cat": "antiguidades",
+   "store": "antiquario",
+   "name": {
+    "pt": "Gramofone",
+    "en": "Gramophone",
+    "es": "Gramófono"
+   },
+   "price": 90,
+   "emoji": "📻"
+  },
+  {
+   "id": "cadeira-balanco",
+   "area": "consultorio",
+   "slot": "m-cadeira-balanco",
+   "cat": "antiguidades",
+   "store": "antiquario",
+   "name": {
+    "pt": "Cadeira de balanço",
+    "en": "Rocking chair",
+    "es": "Mecedora"
+   },
+   "price": 80,
+   "emoji": "🪑"
+  },
+  {
+   "id": "lampiao",
+   "area": "casa",
+   "slot": "m-lampiao",
+   "cat": "antiguidades",
+   "store": "antiquario",
+   "name": {
+    "pt": "Lampião",
+    "en": "Lantern lamp",
+    "es": "Farol de luz"
+   },
+   "price": 55,
+   "emoji": "🏮"
+  },
+  {
+   "id": "maquina-escrever",
+   "area": "consultorio",
+   "slot": "m-maquina-escrever",
+   "cat": "antiguidades",
+   "store": "antiquario",
+   "name": {
+    "pt": "Máquina de escrever",
+    "en": "Typewriter desk",
+    "es": "Máquina de escribir"
+   },
+   "price": 60,
+   "emoji": "⌨️"
+  },
+  {
+   "id": "espelho-oval",
+   "area": "casa",
+   "slot": "m-espelho-oval",
+   "cat": "antiguidades",
+   "store": "antiquario",
+   "name": {
+    "pt": "Espelho oval",
+    "en": "Oval mirror",
+    "es": "Espejo ovalado"
+   },
+   "price": 75,
+   "emoji": "🪞"
+  },
+  {
+   "id": "cavalinho",
+   "area": "consultorio",
+   "slot": "m-cavalinho",
+   "cat": "infantil",
+   "store": "brinquedos",
+   "name": {
+    "pt": "Cavalinho de balanço",
+    "en": "Rocking horse",
+    "es": "Caballito mecedor"
+   },
+   "price": 60,
+   "emoji": "🐴"
+  },
+  {
+   "id": "escorregador",
+   "area": "consultorio",
+   "slot": "m-escorregador",
+   "cat": "infantil",
+   "store": "brinquedos",
+   "name": {
+    "pt": "Escorregador",
+    "en": "Slide",
+    "es": "Tobogán"
+   },
+   "price": 95,
+   "emoji": "🛝"
+  },
+  {
+   "id": "cesto-bolas",
+   "area": "casa",
+   "slot": "m-cesto-bolas",
+   "cat": "infantil",
+   "store": "brinquedos",
+   "name": {
+    "pt": "Cesto de bolas",
+    "en": "Ball basket",
+    "es": "Cesto de pelotas"
+   },
+   "price": 35,
+   "emoji": "⚽"
+  },
+  {
+   "id": "mesa-blocos",
+   "area": "casa",
+   "slot": "m-mesa-blocos",
+   "cat": "infantil",
+   "store": "brinquedos",
+   "name": {
+    "pt": "Mesa de blocos",
+    "en": "Blocks table",
+    "es": "Mesa de bloques"
+   },
+   "price": 65,
+   "emoji": "🧱"
+  },
+  {
+   "id": "trem",
+   "area": "casa",
+   "slot": "m-trem",
+   "cat": "infantil",
+   "store": "brinquedos",
+   "name": {
+    "pt": "Trenzinho",
+    "en": "Toy train",
+    "es": "Trencito"
+   },
+   "price": 70,
+   "emoji": "🚂"
+  }
+ ],
+ "tops": [
+  {
+   "id": "base",
+   "style": "shirt",
+   "color": "#d6ccd3",
+   "pants": "#2233a0",
+   "shoe": "#7f2f36",
+   "mark": "psi",
+   "price": 0,
+   "name": {
+    "pt": "Camisa com Ψ",
+    "en": "Ψ shirt",
+    "es": "Camisa con Ψ"
+   }
+  },
+  {
+   "id": "coat",
+   "style": "coat",
+   "color": "#ffffff",
+   "price": 0,
+   "name": {
+    "pt": "Jaleco",
+    "en": "Lab coat",
+    "es": "Bata"
+   }
+  },
+  {
+   "id": "shirt",
+   "style": "shirt",
+   "color": "#5f86c4",
+   "price": 0,
+   "name": {
+    "pt": "Camisa azul",
+    "en": "Blue shirt",
+    "es": "Camisa azul"
+   }
+  },
+  {
+   "id": "sweater",
+   "style": "sweater",
+   "color": "#5fa77a",
+   "price": 0,
+   "name": {
+    "pt": "Suéter verde",
+    "en": "Green sweater",
+    "es": "Suéter verde"
+   }
+  },
+  {
+   "id": "purple",
+   "style": "top",
+   "color": "#9b7fd6",
+   "price": 0,
+   "name": {
+    "pt": "Blusa roxa",
+    "en": "Purple top",
+    "es": "Blusa morada"
+   }
+  },
+  {
+   "id": "blazer",
+   "style": "blazer",
+   "color": "#8c2f4b",
+   "price": 40,
+   "name": {
+    "pt": "Blazer bordô",
+    "en": "Burgundy blazer",
+    "es": "Blazer burdeos"
+   }
+  },
+  {
+   "id": "dress",
+   "style": "dress",
+   "color": "#e58aa8",
+   "price": 45,
+   "name": {
+    "pt": "Vestido floral",
+    "en": "Floral dress",
+    "es": "Vestido floral"
+   }
+  },
+  {
+   "id": "plaid",
+   "style": "shirt",
+   "color": "#c9573b",
+   "price": 35,
+   "name": {
+    "pt": "Camisa xadrez",
+    "en": "Plaid shirt",
+    "es": "Camisa a cuadros"
+   }
+  },
+  {
+   "id": "wool",
+   "style": "sweater",
+   "color": "#e58a3a",
+   "price": 35,
+   "name": {
+    "pt": "Suéter laranja",
+    "en": "Orange sweater",
+    "es": "Suéter naranja"
+   }
+  },
+  {
+   "id": "vest",
+   "style": "top",
+   "color": "#7d8794",
+   "price": 30,
+   "name": {
+    "pt": "Colete cinza",
+    "en": "Gray vest",
+    "es": "Chaleco gris"
+   }
+  },
+  {
+   "id": "psi",
+   "style": "top",
+   "color": "#2f2b4a",
+   "price": 25,
+   "name": {
+    "pt": "Camiseta Ψ",
+    "en": "Ψ t-shirt",
+    "es": "Camiseta Ψ"
+   }
+  },
+  {
+   "id": "b-blazer-vinho",
+   "style": "blazer",
+   "color": "#7a2a3a",
+   "price": 60,
+   "store": "boutique",
+   "name": {
+    "pt": "Blazer vinho",
+    "en": "Wine blazer",
+    "es": "Blazer vino"
+   }
+  },
+  {
+   "id": "b-blazer-verde",
+   "style": "blazer",
+   "color": "#2f5a3f",
+   "price": 60,
+   "store": "boutique",
+   "name": {
+    "pt": "Blazer verde-floresta",
+    "en": "Forest-green blazer",
+    "es": "Blazer verde bosque"
+   }
+  },
+  {
+   "id": "b-vestido-noite",
+   "style": "dress",
+   "color": "#24325a",
+   "price": 65,
+   "store": "boutique",
+   "name": {
+    "pt": "Vestido azul-noite",
+    "en": "Midnight-blue dress",
+    "es": "Vestido azul noche"
+   }
+  },
+  {
+   "id": "b-vestido-flores",
+   "style": "dress",
+   "color": "#e58aa8",
+   "price": 60,
+   "store": "boutique",
+   "name": {
+    "pt": "Vestido floral",
+    "en": "Floral dress",
+    "es": "Vestido floral"
+   }
+  },
+  {
+   "id": "b-sueter-mostarda",
+   "style": "sweater",
+   "color": "#d9a520",
+   "price": 50,
+   "store": "boutique",
+   "name": {
+    "pt": "Suéter mostarda",
+    "en": "Mustard sweater",
+    "es": "Suéter mostaza"
+   }
+  },
+  {
+   "id": "b-camisa-oceano",
+   "style": "shirt",
+   "color": "#3f8fb0",
+   "price": 48,
+   "store": "boutique",
+   "name": {
+    "pt": "Camisa oceano",
+    "en": "Ocean shirt",
+    "es": "Camisa océano"
+   }
+  },
+  {
+   "id": "b-jaleco-rosa",
+   "style": "coat",
+   "color": "#fbd0e0",
+   "price": 55,
+   "store": "boutique",
+   "name": {
+    "pt": "Jaleco rosa",
+    "en": "Pink lab coat",
+    "es": "Bata rosa"
+   }
+  },
+  {
+   "id": "b-jaleco-preto",
+   "style": "coat",
+   "color": "#3a3a44",
+   "price": 58,
+   "store": "boutique",
+   "name": {
+    "pt": "Jaleco grafite",
+    "en": "Graphite lab coat",
+    "es": "Bata grafito"
+   }
+  },
+  {
+   "id": "hoodie-cinza",
+   "style": "hoodie",
+   "color": "#8a8f9c",
+   "price": 32,
+   "name": {
+    "pt": "Moletom cinza",
+    "en": "Grey hoodie",
+    "es": "Sudadera gris"
+   }
+  },
+  {
+   "id": "hoodie-psi",
+   "style": "hoodie",
+   "color": "#3c4a7a",
+   "mark": "psi",
+   "price": 42,
+   "name": {
+    "pt": "Moletom com Ψ",
+    "en": "Ψ hoodie",
+    "es": "Sudadera con Ψ"
+   }
+  },
+  {
+   "id": "polo-branca",
+   "style": "polo",
+   "color": "#f2efe8",
+   "price": 30,
+   "name": {
+    "pt": "Polo branca",
+    "en": "White polo",
+    "es": "Polo blanco"
+   }
+  },
+  {
+   "id": "polo-verde",
+   "style": "polo",
+   "color": "#4f7a5a",
+   "price": 30,
+   "name": {
+    "pt": "Polo verde",
+    "en": "Green polo",
+    "es": "Polo verde"
+   }
+  },
+  {
+   "id": "gola-alta-preta",
+   "style": "turtleneck",
+   "color": "#2b2b33",
+   "price": 38,
+   "name": {
+    "pt": "Gola alta preta",
+    "en": "Black turtleneck",
+    "es": "Cuello alto negro"
+   }
+  },
+  {
+   "id": "gola-alta-creme",
+   "style": "turtleneck",
+   "color": "#e6dcc8",
+   "price": 38,
+   "name": {
+    "pt": "Gola alta creme",
+    "en": "Cream turtleneck",
+    "es": "Cuello alto crema"
+   }
+  },
+  {
+   "id": "cardigan-bege",
+   "style": "cardigan",
+   "color": "#cbb494",
+   "price": 36,
+   "name": {
+    "pt": "Cardigã bege",
+    "en": "Beige cardigan",
+    "es": "Cárdigan beige"
+   }
+  },
+  {
+   "id": "cardigan-azul",
+   "style": "cardigan",
+   "color": "#6d85b5",
+   "price": 36,
+   "name": {
+    "pt": "Cardigã azul",
+    "en": "Blue cardigan",
+    "es": "Cárdigan azul"
+   }
+  },
+  {
+   "id": "regata-branca",
+   "style": "tank",
+   "color": "#f4f1ea",
+   "price": 18,
+   "name": {
+    "pt": "Regata branca",
+    "en": "White tank top",
+    "es": "Camiseta de tirantes blanca"
+   }
+  },
+  {
+   "id": "regata-terracota",
+   "style": "tank",
+   "color": "#c1714f",
+   "price": 20,
+   "name": {
+    "pt": "Regata terracota",
+    "en": "Terracotta tank top",
+    "es": "Camiseta de tirantes terracota"
+   }
+  },
+  {
+   "id": "jardineira-jeans",
+   "style": "overall",
+   "color": "#5f7fa8",
+   "pants": "#3f5d85",
+   "price": 45,
+   "name": {
+    "pt": "Jardineira jeans",
+    "en": "Denim overalls",
+    "es": "Peto vaquero"
+   }
+  },
+  {
+   "id": "tunica-terra",
+   "style": "tunic",
+   "color": "#a86b4a",
+   "price": 40,
+   "name": {
+    "pt": "Túnica terra",
+    "en": "Earth tunic",
+    "es": "Túnica tierra"
+   }
+  },
+  {
+   "id": "b-gola-alta-vinho",
+   "style": "turtleneck",
+   "color": "#6e2a3c",
+   "price": 62,
+   "store": "boutique",
+   "name": {
+    "pt": "Gola alta vinho",
+    "en": "Wine turtleneck",
+    "es": "Cuello alto vino"
+   }
+  },
+  {
+   "id": "b-cardigan-tricot",
+   "style": "cardigan",
+   "color": "#8f7a5f",
+   "price": 66,
+   "store": "boutique",
+   "name": {
+    "pt": "Cardigã de tricô",
+    "en": "Knitted cardigan",
+    "es": "Cárdigan de punto"
+   }
+  },
+  {
+   "id": "b-tunica-bordada",
+   "style": "tunic",
+   "color": "#3f6b74",
+   "price": 70,
+   "store": "boutique",
+   "name": {
+    "pt": "Túnica bordada",
+    "en": "Embroidered tunic",
+    "es": "Túnica bordada"
+   }
+  },
+  {
+   "id": "b-polo-listrada",
+   "style": "polo",
+   "color": "#324a7a",
+   "price": 58,
+   "store": "boutique",
+   "name": {
+    "pt": "Polo azul-marinho",
+    "en": "Navy polo",
+    "es": "Polo azul marino"
+   }
+  },
+  {
+   "id": "b-moletom-oversize",
+   "style": "hoodie",
+   "color": "#d8c7b0",
+   "price": 64,
+   "store": "boutique",
+   "name": {
+    "pt": "Moletom oversize",
+    "en": "Oversized hoodie",
+    "es": "Sudadera oversize"
+   }
+  }
+ ],
+ "accs": [
+  {
+   "id": "none",
+   "price": 0,
+   "name": {
+    "pt": "Nenhum",
+    "en": "None",
+    "es": "Ninguno"
+   }
+  },
+  {
+   "id": "glasses",
+   "price": 20,
+   "name": {
+    "pt": "Óculos redondos",
+    "en": "Round glasses",
+    "es": "Gafas redondas"
+   }
+  },
+  {
+   "id": "scarf",
+   "price": 25,
+   "name": {
+    "pt": "Cachecol",
+    "en": "Scarf",
+    "es": "Bufanda"
+   }
+  },
+  {
+   "id": "gorro-natal",
+   "price": 0,
+   "secretOnly": true,
+   "name": {
+    "pt": "Gorro de Natal",
+    "en": "Santa hat",
+    "es": "Gorro de Navidad"
+   }
+  },
+  {
+   "id": "chapeu-abobora",
+   "price": 0,
+   "secretOnly": true,
+   "name": {
+    "pt": "Chapéu de abóbora",
+    "en": "Pumpkin hat",
+    "es": "Sombrero de calabaza"
+   }
+  },
+  {
+   "id": "orelhas-coelho",
+   "price": 0,
+   "secretOnly": true,
+   "name": {
+    "pt": "Orelhas de coelho",
+    "en": "Bunny ears",
+    "es": "Orejas de conejo"
+   }
+  }
+ ],
+ "actions": [
+  {
+   "id": "janela",
+   "icon": "🪟",
+   "req": null,
+   "energy": 8,
+   "label": {
+    "pt": "Olhar pela janela",
+    "en": "Look out the window",
+    "es": "Mirar por la ventana"
+   },
+   "text": {
+    "pt": "Você respira fundo e observa a rua por um minuto. Pausas curtas ajudam a atenção a se renovar.",
+    "en": "You take a deep breath and watch the street for a minute. Short pauses help attention renew itself.",
+    "es": "Respiras hondo y observas la calle un minuto. Las pausas cortas ayudan a renovar la atención."
+   }
+  },
+  {
+   "id": "alongar",
+   "icon": "🧘",
+   "req": null,
+   "energy": 6,
+   "label": {
+    "pt": "Alongar os ombros",
+    "en": "Stretch your shoulders",
+    "es": "Estirar los hombros"
+   },
+   "text": {
+    "pt": "Alongar ombros e pescoço solta a tensão de horas sentado(a) ouvindo.",
+    "en": "Stretching shoulders and neck releases the tension of hours spent sitting and listening.",
+    "es": "Estirar hombros y cuello suelta la tensión de horas sentado/a escuchando."
+   }
+  },
+  {
+   "id": "cafe",
+   "icon": "☕",
+   "req": [
+    "cafe"
+   ],
+   "energy": 15,
+   "label": {
+    "pt": "Tomar um café",
+    "en": "Have a coffee",
+    "es": "Tomar un café"
+   },
+   "text": {
+    "pt": "O cheiro do café acorda os sentidos. Só cuide para não exagerar na cafeína.",
+    "en": "The smell of coffee wakes the senses. Just take care not to overdo the caffeine.",
+    "es": "El olor del café despierta los sentidos. Solo cuida no pasarte con la cafeína."
+   }
+  },
+  {
+   "id": "planta",
+   "icon": "🪴",
+   "req": [
+    "planta",
+    "ficus"
+   ],
+   "energy": 10,
+   "label": {
+    "pt": "Regar a planta",
+    "en": "Water the plant",
+    "es": "Regar la planta"
+   },
+   "text": {
+    "pt": "Cuidar de outro ser vivo, mesmo uma planta, acalma. Pequenos rituais de cuidado ajudam contra o estresse.",
+    "en": "Caring for another living being, even a plant, calms you. Small rituals of care help against stress.",
+    "es": "Cuidar de otro ser vivo, aunque sea una planta, calma. Los pequeños rituales de cuidado ayudan contra el estrés."
+   }
+  },
+  {
+   "id": "estante",
+   "icon": "📚",
+   "req": [
+    "estante"
+   ],
+   "energy": 6,
+   "label": {
+    "pt": "Ler um trecho",
+    "en": "Read a passage",
+    "es": "Leer un fragmento"
+   },
+   "text": {
+    "pt": "Você lê uma página: 'A escuta atenta cura mais do que muitas palavras.' Continuar estudando protege contra a rotina.",
+    "en": "You read a page: 'Attentive listening heals more than many words.' Continuing to study protects against routine.",
+    "es": "Lees una página: 'La escucha atenta cura más que muchas palabras.' Seguir estudiando protege contra la rutina."
+   }
+  },
+  {
+   "id": "sofa",
+   "icon": "🛋️",
+   "req": [
+    "sofa",
+    "sofa-mostarda",
+    "sofa-vinho"
+   ],
+   "energy": 18,
+   "label": {
+    "pt": "Descansar no sofá",
+    "en": "Rest on the sofa",
+    "es": "Descansar en el sofá"
+   },
+   "text": {
+    "pt": "Dez minutos de descanso desligam o piloto automático. Descansar também faz parte do trabalho clínico.",
+    "en": "Ten minutes of rest switch off the autopilot. Resting is also part of clinical work.",
+    "es": "Diez minutos de descanso apagan el piloto automático. Descansar también es parte del trabajo clínico."
+   }
+  },
+  {
+   "id": "diploma",
+   "icon": "🎓",
+   "req": [
+    "quadro-diploma"
+   ],
+   "energy": 6,
+   "label": {
+    "pt": "Reler o diploma",
+    "en": "Reread the diploma",
+    "es": "Releer el diploma"
+   },
+   "text": {
+    "pt": "Você lembra por que escolheu essa profissão. Ter propósito é combustível.",
+    "en": "You remember why you chose this profession. Having purpose is fuel.",
+    "es": "Recuerdas por qué elegiste esta profesión. Tener un propósito es combustible."
+   }
+  },
+  {
+   "id": "peixes",
+   "icon": "🐠",
+   "req": [
+    "aquario"
+   ],
+   "energy": 12,
+   "label": {
+    "pt": "Observar os peixes",
+    "en": "Watch the fish",
+    "es": "Observar los peces"
+   },
+   "text": {
+    "pt": "Ver peixes nadando desacelera a respiração e a mente.",
+    "en": "Watching fish swim slows the breath and the mind.",
+    "es": "Ver nadar a los peces ralentiza la respiración y la mente."
+   }
+  },
+  {
+   "id": "brinquedos",
+   "icon": "🧸",
+   "req": [
+    "brinquedos"
+   ],
+   "energy": 5,
+   "label": {
+    "pt": "Arrumar os brinquedos",
+    "en": "Tidy the toys",
+    "es": "Ordenar los juguetes"
+   },
+   "text": {
+    "pt": "Um ambiente acolhedor ajuda as crianças a se sentirem à vontade para brincar e falar.",
+    "en": "A welcoming space helps children feel at ease to play and talk.",
+    "es": "Un ambiente acogedor ayuda a los niños a sentirse a gusto para jugar y hablar."
+   }
+  },
+  {
+   "id": "relogio",
+   "icon": "🕰️",
+   "req": [
+    "quadro-relogio"
+   ],
+   "energy": 3,
+   "label": {
+    "pt": "Conferir o relógio",
+    "en": "Check the clock",
+    "es": "Mirar el reloj"
+   },
+   "text": {
+    "pt": "Faltam poucos minutos. Cuidar do tempo evita o esgotamento.",
+    "en": "Only a few minutes left. Looking after your time prevents burnout.",
+    "es": "Faltan pocos minutos. Cuidar el tiempo evita el agotamiento."
+   }
+  },
+  {
+   "id": "lencos",
+   "icon": "🧻",
+   "req": [
+    "lencos"
+   ],
+   "energy": 5,
+   "label": {
+    "pt": "Repor os lenços",
+    "en": "Restock the tissues",
+    "es": "Reponer los pañuelos"
+   },
+   "text": {
+    "pt": "Ter lenços à mão diz ao paciente: aqui você pode chorar.",
+    "en": "Having tissues at hand tells the patient: here, you may cry.",
+    "es": "Tener pañuelos a mano le dice al paciente: aquí puedes llorar."
+   }
+  },
+  {
+   "id": "mesa",
+   "icon": "🖥️",
+   "req": [
+    "escrivaninha"
+   ],
+   "energy": 6,
+   "label": {
+    "pt": "Organizar as anotações",
+    "en": "Organize your notes",
+    "es": "Organizar las notas"
+   },
+   "text": {
+    "pt": "Anotações em dia liberam a mente para a próxima sessão.",
+    "en": "Up-to-date notes free the mind for the next session.",
+    "es": "Las notas al día liberan la mente para la próxima sesión."
+   }
+  },
+  {
+   "id": "luz",
+   "icon": "💡",
+   "req": [
+    "abajur",
+    "luz-arco"
+   ],
+   "energy": 4,
+   "label": {
+    "pt": "Acender a luz suave",
+    "en": "Switch on the soft light",
+    "es": "Encender la luz suave"
+   },
+   "text": {
+    "pt": "Uma luz suave deixa o ambiente mais calmo.",
+    "en": "A soft light makes the room calmer.",
+    "es": "Una luz suave hace el ambiente más calmado."
+   }
+  },
+  {
+   "id": "flores",
+   "icon": "💐",
+   "req": [
+    "flores"
+   ],
+   "energy": 5,
+   "label": {
+    "pt": "Sentir o perfume das flores",
+    "en": "Smell the flowers",
+    "es": "Oler las flores"
+   },
+   "text": {
+    "pt": "O perfume das flores muda o humor em segundos.",
+    "en": "The scent of flowers changes your mood in seconds.",
+    "es": "El aroma de las flores cambia el ánimo en segundos."
+   }
+  }
+ ],
+ "stores": [
+  {
+   "id": "musica",
+   "emoji": "🎵",
+   "street": "rua-lojas",
+   "cat": "instrumentos",
+   "name": {
+    "pt": "Som & Cia",
+    "en": "Sound & Co.",
+    "es": "Sonido y Cía."
+   },
+   "hint": {
+    "pt": "Dizem que dá para ouvir um piano vindo da Avenida das Lojas.",
+    "en": "They say you can hear a piano from Shopping Avenue.",
+    "es": "Dicen que se oye un piano desde la Avenida de las Tiendas."
+   }
+  },
+  {
+   "id": "jardim",
+   "emoji": "🌿",
+   "street": "rua-lojas",
+   "cat": "plantas",
+   "name": {
+    "pt": "Verde Vivo",
+    "en": "Living Green",
+    "es": "Verde Vivo"
+   },
+   "hint": {
+    "pt": "Uma loja cheia de plantas fica na Avenida das Lojas, perto de onde vendem bichinhos.",
+    "en": "A shop full of plants sits on Shopping Avenue, near the pet shop.",
+    "es": "Una tienda llena de plantas está en la Avenida de las Tiendas, cerca de las mascotas."
+   }
+  },
+  {
+   "id": "livraria",
+   "emoji": "📚",
+   "street": "rua-campus",
+   "cat": "leitura",
+   "name": {
+    "pt": "Páginas & Pausas",
+    "en": "Pages & Pauses",
+    "es": "Páginas y Pausas"
+   },
+   "hint": {
+    "pt": "Quem estuda na Rua do Campus vai gostar da livraria de lá.",
+    "en": "Whoever studies on Campus Street will like the bookstore there.",
+    "es": "A quien estudia en la Calle del Campus le gustará la librería de allí."
+   }
+  },
+  {
+   "id": "atelie",
+   "emoji": "🎨",
+   "street": "rua-campus",
+   "cat": "arte",
+   "name": {
+    "pt": "Ateliê Cor",
+    "en": "Color Studio",
+    "es": "Taller Color"
+   },
+   "hint": {
+    "pt": "Cheiro de tinta no ar: procure o ateliê perto do museu.",
+    "en": "The smell of paint in the air: look for the studio near the museum.",
+    "es": "Olor a pintura en el aire: busca el taller cerca del museo."
+   }
+  },
+  {
+   "id": "antiquario",
+   "emoji": "🕰️",
+   "street": "rua",
+   "cat": "antiguidades",
+   "name": {
+    "pt": "Velho Tempo",
+    "en": "Old Time",
+    "es": "Tiempo Viejo"
+   },
+   "hint": {
+    "pt": "Um antiquário misterioso fica na Rua Central, entre as lojas de serviços.",
+    "en": "A mysterious antique shop sits on Central Street.",
+    "es": "Una misteriosa tienda de antigüedades está en la Calle Central."
+   }
+  },
+  {
+   "id": "brinquedos",
+   "emoji": "🧸",
+   "street": "rua-lazer",
+   "cat": "infantil",
+   "name": {
+    "pt": "Casa dos Brinquedos",
+    "en": "Toy House",
+    "es": "Casa de Juguetes"
+   },
+   "hint": {
+    "pt": "Risadas de criança vêm do Boulevard do Lazer.",
+    "en": "Children's laughter comes from Leisure Boulevard.",
+    "es": "Se oyen risas de niños en el Bulevar del Ocio."
+   }
+  }
+ ],
+ "cats": {
+  "instrumentos": {
+   "icon": "🎵",
+   "name": {
+    "pt": "Instrumentos",
+    "en": "Instruments",
+    "es": "Instrumentos"
+   }
+  },
+  "plantas": {
+   "icon": "🌿",
+   "name": {
+    "pt": "Plantas",
+    "en": "Plants",
+    "es": "Plantas"
+   }
+  },
+  "leitura": {
+   "icon": "📚",
+   "name": {
+    "pt": "Leitura e estudo",
+    "en": "Reading and study",
+    "es": "Lectura y estudio"
+   }
+  },
+  "arte": {
+   "icon": "🎨",
+   "name": {
+    "pt": "Arte",
+    "en": "Art",
+    "es": "Arte"
+   }
+  },
+  "antiguidades": {
+   "icon": "🕰️",
+   "name": {
+    "pt": "Antiguidades",
+    "en": "Antiques",
+    "es": "Antigüedades"
+   }
+  },
+  "infantil": {
+   "icon": "🧸",
+   "name": {
+    "pt": "Infantil",
+    "en": "Kids",
+    "es": "Infantil"
+   }
+  },
+  "parede": {
+   "icon": "🖼️",
+   "name": {
+    "pt": "Paredes e quadros",
+    "en": "Walls and pictures",
+    "es": "Paredes y cuadros"
+   }
+  },
+  "assentos": {
+   "icon": "🛋️",
+   "name": {
+    "pt": "Onde sentar",
+    "en": "Places to sit",
+    "es": "Dónde sentarse"
+   }
+  },
+  "mesas": {
+   "icon": "🪵",
+   "name": {
+    "pt": "Mesas e apoios",
+    "en": "Tables and surfaces",
+    "es": "Mesas y apoyos"
+   }
+  },
+  "guardar": {
+   "icon": "🗄️",
+   "name": {
+    "pt": "Guardar e organizar",
+    "en": "Storage",
+    "es": "Guardar y organizar"
+   }
+  },
+  "luz": {
+   "icon": "💡",
+   "name": {
+    "pt": "Luz",
+    "en": "Light",
+    "es": "Luz"
+   }
+  },
+  "chao": {
+   "icon": "🧶",
+   "name": {
+    "pt": "Chão",
+    "en": "Floor",
+    "es": "Suelo"
+   }
+  },
+  "bemestar": {
+   "icon": "🌊",
+   "name": {
+    "pt": "Bem-estar da sala",
+    "en": "Room comfort",
+    "es": "Bienestar de la sala"
+   }
+  },
+  "deco": {
+   "icon": "✨",
+   "name": {
+    "pt": "Decoração",
+    "en": "Decoration",
+    "es": "Decoración"
+   }
+  },
+  "conforto": {
+   "icon": "☕",
+   "name": {
+    "pt": "Aconchego",
+    "en": "Cosiness",
+    "es": "Acogida"
+   }
+  },
+  "sazonal": {
+   "icon": "🎃",
+   "name": {
+    "pt": "De época",
+    "en": "Seasonal",
+    "es": "De temporada"
+   }
+  },
+  "transporte": {
+   "icon": "🚲",
+   "name": {
+    "pt": "Transporte",
+    "en": "Getting around",
+    "es": "Transporte"
+   }
+  }
+ },
+ "shoes": [
+  {
+   "id": "sapato-padrao",
+   "kind": "sapato",
+   "color": "#2a2530",
+   "price": 0,
+   "name": {
+    "pt": "Sapato fechado",
+    "en": "Closed shoe",
+    "es": "Zapato cerrado"
+   }
+  },
+  {
+   "id": "tenis-branco",
+   "kind": "tenis",
+   "color": "#f2efe8",
+   "price": 28,
+   "name": {
+    "pt": "Tênis branco",
+    "en": "White sneakers",
+    "es": "Tenis blancos"
+   }
+  },
+  {
+   "id": "tenis-colorido",
+   "kind": "tenis",
+   "color": "#3f7fc4",
+   "price": 30,
+   "name": {
+    "pt": "Tênis azul",
+    "en": "Blue sneakers",
+    "es": "Tenis azules"
+   }
+  },
+  {
+   "id": "tenis-corrida",
+   "kind": "tenis",
+   "color": "#d94f6a",
+   "price": 34,
+   "name": {
+    "pt": "Tênis de corrida",
+    "en": "Running shoes",
+    "es": "Zapatillas de correr"
+   }
+  },
+  {
+   "id": "bota-couro",
+   "kind": "bota",
+   "color": "#6b4327",
+   "price": 40,
+   "name": {
+    "pt": "Bota de couro",
+    "en": "Leather boots",
+    "es": "Botas de cuero"
+   }
+  },
+  {
+   "id": "sapatilha",
+   "kind": "sapatilha",
+   "color": "#b56b86",
+   "price": 24,
+   "name": {
+    "pt": "Sapatilha",
+    "en": "Ballet flats",
+    "es": "Bailarinas"
+   }
+  },
+  {
+   "id": "mocassim",
+   "kind": "social",
+   "color": "#3a2f26",
+   "price": 36,
+   "name": {
+    "pt": "Mocassim",
+    "en": "Loafers",
+    "es": "Mocasines"
+   }
+  },
+  {
+   "id": "sandalia",
+   "kind": "sandalia",
+   "color": "#c89a58",
+   "price": 22,
+   "name": {
+    "pt": "Sandália",
+    "en": "Sandals",
+    "es": "Sandalias"
+   }
+  }
+ ],
+ "under": [
+  {
+   "id": "intima-basica",
+   "color": "#e8e2d8",
+   "price": 0,
+   "name": {
+    "pt": "Básica branca",
+    "en": "Basic white",
+    "es": "Básica blanca"
+   }
+  },
+  {
+   "id": "intima-preta",
+   "color": "#2f2b33",
+   "price": 14,
+   "name": {
+    "pt": "Conjunto preto",
+    "en": "Black set",
+    "es": "Conjunto negro"
+   }
+  },
+  {
+   "id": "intima-listrada",
+   "color": "#7fa6c9",
+   "price": 16,
+   "name": {
+    "pt": "Conjunto azul",
+    "en": "Blue set",
+    "es": "Conjunto azul"
+   }
+  },
+  {
+   "id": "intima-rosa",
+   "color": "#e29ab0",
+   "price": 16,
+   "name": {
+    "pt": "Conjunto rosa",
+    "en": "Pink set",
+    "es": "Conjunto rosa"
+   }
+  },
+  {
+   "id": "intima-verde",
+   "color": "#7fa889",
+   "price": 16,
+   "name": {
+    "pt": "Conjunto verde",
+    "en": "Green set",
+    "es": "Conjunto verde"
+   }
+  }
+ ]
+}

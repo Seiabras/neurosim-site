@@ -1,0 +1,517 @@
+{
+  "name": {
+    "pt": "Mariana Dias",
+    "en": "Mariana Dias",
+    "es": "Mariana Dias"
+  },
+  "age": {
+    "pt": "10 anos",
+    "en": "10 years old",
+    "es": "10 años"
+  },
+  "complaint": {
+    "pt": "Suspeita de TDAH: dificuldades de organização e impulsividade.",
+    "en": "Suspected ADHD: difficulty with organization and impulsivity.",
+    "es": "Sospecha de TDAH: dificultades de organización e impulsividad."
+  },
+  "history": {
+    "pt": "Em avaliação de funções executivas. Última sessão de testagem.",
+    "en": "In executive function assessment. Last testing session.",
+    "es": "En evaluación de funciones ejecutivas. Última sesión de evaluación."
+  },
+  "image": "assets/char-mariana.png",
+  "dot": "dot-blue",
+  "group": "neuro",
+  "parent": {
+    "name": {
+      "pt": "Dona Lúcia",
+      "en": "Dona Lúcia",
+      "es": "Dona Lúcia"
+    },
+    "image": "assets/par-lucia.png",
+    "look": {
+      "skin": "#f0d3b8",
+      "hair": "#e0662a",
+      "hairStyle": "long",
+      "top": "#5a9a5a",
+      "eyeShape": "round",
+      "brow": "soft",
+      "mouth": "neutral",
+      "corpo": "f"
+    },
+    "papel": "avo"
+  },
+  "type": {
+    "pt": "Sessão de Testagem",
+    "en": "Testing session",
+    "es": "Sesión de evaluación"
+  },
+  "info": {
+    "pt": "Avaliação de Funções Executivas e TDAH (planejamento, inibição e flexibilidade).",
+    "en": "Assessment of Executive Functions and ADHD (planning, inhibition and flexibility).",
+    "es": "Evaluación de Funciones Ejecutivas y TDAH (planificación, inhibición y flexibilidad)."
+  },
+  "message": {
+    "from": {
+      "pt": "Dr. Paulo (Pediatra)",
+      "en": "Dr. Paulo (Pediatrician)",
+      "es": "Dr. Paulo (Pediatra)"
+    },
+    "text": {
+      "pt": "{doc}, a Mariana está finalizando a testagem com você. Se possível, me envie um resumo para ajustarmos o acompanhamento.",
+      "en": "{doc}, Mariana is finishing the testing with you. If possible, send me a summary so we can adjust her follow-up.",
+      "es": "{doc}, Mariana está terminando la evaluación con usted. Si es posible, envíeme un resumen para ajustar el seguimiento."
+    }
+  },
+  "fit": {
+    "comportamental": 4,
+    "acolhimento": 3,
+    "psicoeducacao": 3,
+    "tcc": 2,
+    "psicodinamica": 1,
+    "diretiva": 0
+  },
+  "why": {
+    "comportamental": {
+      "pt": "Observar como ela resolve as tarefas, com pausas planejadas, é o melhor jeito de manter a validade e o engajamento.",
+      "en": "Observing how she solves the tasks, with planned breaks, is the best way to keep validity and engagement.",
+      "es": "Observar cómo resuelve las tareas, con pausas planificadas, es la mejor forma de mantener la validez y el compromiso."
+    },
+    "acolhimento": {
+      "pt": "Acolher o cansaço ajuda, mas sem alterar as regras da aplicação.",
+      "en": "Supporting her tiredness helps, but without changing the administration rules.",
+      "es": "Acoger el cansancio ayuda, pero sin alterar las reglas de la aplicación."
+    },
+    "psicoeducacao": {
+      "pt": "Explicar procedimentos e resultados é útil, no momento certo e sem dar dicas.",
+      "en": "Explaining procedures and results is useful, at the right time and without giving hints.",
+      "es": "Explicar procedimientos y resultados es útil, en el momento oportuno y sin dar pistas."
+    },
+    "tcc": {
+      "pt": "Guiar o raciocínio durante a tarefa altera o que o teste mede: seria intervenção, e não avaliação.",
+      "en": "Guiding her reasoning during the task changes what the test measures: it would be intervention, not assessment.",
+      "es": "Guiar el razonamiento durante la tarea altera lo que mide la prueba: sería intervención, no evaluación."
+    },
+    "psicodinamica": {
+      "pt": "Não é o foco de uma testagem de funções executivas.",
+      "en": "It is not the focus of an executive function test.",
+      "es": "No es el foco de una evaluación de funciones ejecutivas."
+    }
+  },
+  "steps": [
+    {
+      "who": "patient",
+      "text": {
+        "pt": "(mexendo-se na cadeira) 'Tô cansada, posso parar?' (Ainda faltam duas tarefas.)",
+        "en": "(fidgeting in her chair) 'I'm tired, can I stop?' (Two tasks are still left.)",
+        "es": "(moviéndose en la silla) 'Estoy cansada, ¿puedo parar?' (Aún faltan dos tareas.)"
+      },
+      "note": {
+        "pt": "Sinais de cansaço no meio da testagem.",
+        "en": "Signs of tiredness in the middle of the testing.",
+        "es": "Señales de cansancio en medio de la evaluación."
+      },
+      "mods": {
+        "psicoeducacao": -1
+      },
+      "options": {
+        "comportamental": {
+          "pt": "Vamos fazer uma pausa de 5 minutos para beber água e depois terminamos. Você está indo muito bem.",
+          "en": "Let's take a 5-minute break for some water and then finish. You're doing very well.",
+          "es": "Hagamos una pausa de 5 minutos para beber agua y luego terminamos. Lo estás haciendo muy bien."
+        },
+        "acolhimento": {
+          "pt": "Percebo que você está cansada. Como você está se sentindo agora? Não precisa fingir estar bem para começarmos.",
+          "en": "I can see you're tired. How are you feeling right now? You don't need to pretend you're fine for us to start.",
+          "es": "Veo que estás cansada. ¿Cómo te sientes ahora? No hace falta fingir que estás bien para empezar."
+        },
+        "psicoeducacao": {
+          "pt": "Faltam só duas tarefas. Vou explicar quanto tempo elas levam.",
+          "en": "Only two tasks are left. I'll explain how long they take.",
+          "es": "Solo faltan dos tareas. Te explico cuánto tiempo llevan."
+        },
+        "diretiva": {
+          "pt": "Ainda faltam só duas tarefas, dá para aguentar mais um pouco. Vamos terminar de uma vez. É simples e rápido.",
+          "en": "Only two tasks left, you can hold on a bit longer. Let's finish it all at once. It is simple and quick.",
+          "es": "Solo faltan dos tareas, puedes aguantar un poco más. Terminemos de una vez. Es simple y rápido."
+        }
+      },
+      "variants": [
+        {
+          "pt": "(remexendo-se na cadeira) 'Tô cansada... dá pra parar?' (Ainda faltam duas tarefas.)",
+          "en": "(fidgeting in her chair) 'I'm tired... can we stop?' (Two tasks are still left.)",
+          "es": "(removiéndose en la silla) 'Estoy cansada... ¿podemos parar?' (Aún faltan dos tareas.)"
+        },
+        {
+          "pt": "(balançando as pernas) 'Já deu, né? Tô cansada.' (Ainda restam duas tarefas.)",
+          "en": "(swinging her legs) 'That's enough, right? I'm tired.' (Two tasks are still to go.)",
+          "es": "(balanceando las piernas) 'Ya basta, ¿no? Estoy cansada.' (Aún quedan dos tareas.)"
+        }
+      ]
+    },
+    {
+      "who": "patient",
+      "text": {
+        "pt": "(Na Torre de Londres, Mariana age por impulso e desmancha as peças sem planejar. Ela olha para você.)",
+        "en": "(In the Tower of London, Mariana acts on impulse and undoes the pieces without planning. She looks at you.)",
+        "es": "(En la Torre de Londres, Mariana actúa por impulso y deshace las piezas sin planificar. Te mira.)"
+      },
+      "note": {
+        "pt": "Torre de Londres: agiu por impulso, sem planejar os movimentos.",
+        "en": "Tower of London: acted on impulse, without planning the moves.",
+        "es": "Torre de Londres: actuó por impulso, sin planificar los movimientos."
+      },
+      "mods": {
+        "tcc": -1
+      },
+      "options": {
+        "comportamental": {
+          "pt": "Registrar o comportamento na observação clínica sem interromper e continuar com a aplicação.",
+          "en": "Record the behavior in the clinical observation without interrupting and continue the administration.",
+          "es": "Registrar la conducta en la observación clínica sin interrumpir y continuar con la aplicación."
+        },
+        "psicoeducacao": {
+          "pt": "Repetir as regras da Torre de forma padronizada, sem dar dicas. O padrão importa mais do que a gentileza aqui.",
+          "en": "Repeat the Tower rules in the standardized way, without giving hints. Consistency matters more than kindness here.",
+          "es": "Repetir las reglas de la Torre de forma estandarizada, sin dar pistas. La estandarización importa más que la amabilidad aquí."
+        },
+        "tcc": {
+          "pt": "'Vamos pensar em voz alta: qual seria o primeiro passo?'",
+          "en": "'Let's think out loud: what would the first step be?'",
+          "es": "'Pensemos en voz alta: ¿cuál sería el primer paso?'"
+        },
+        "diretiva": {
+          "pt": "Interromper e dar dicas de como planejar melhor os movimentos.",
+          "en": "Interrupt and give tips on how to plan the moves better.",
+          "es": "Interrumpir y dar consejos sobre cómo planificar mejor los movimientos."
+        }
+      },
+      "variants": [
+        {
+          "pt": "(Na Torre de Londres, Mariana mexe nas peças por impulso e desmancha tudo sem planejar. Ela procura o seu olhar.)",
+          "en": "(On the Tower of London, Mariana moves the pieces on impulse and undoes everything without planning. She looks for your gaze.)",
+          "es": "(En la Torre de Londres, Mariana mueve las piezas por impulso y lo deshace todo sin planificar. Busca tu mirada.)"
+        },
+        {
+          "pt": "(Na Torre de Londres, Mariana mexe nas peças sem pensar e desfaz o que tinha montado. Ela ergue os olhos para você.)",
+          "en": "(On the Tower of London, Mariana moves the pieces without thinking and undoes what she had built. She looks up at you.)",
+          "es": "(En la Torre de Londres, Mariana mueve las piezas sin pensar y deshace lo que había armado. Levanta la vista hacia ti.)"
+        }
+      ]
+    },
+    {
+      "who": "parent",
+      "text": {
+        "pt": "(A avó pergunta.) 'Já sabe se ela tem TDAH?'",
+        "en": "(Her grandmother asks.) 'Do you already know if she has ADHD?'",
+        "es": "(La abuela pregunta.) '¿Ya sabe si tiene TDAH?'"
+      },
+      "note": {
+        "pt": "Testagem concluída. Mãe pergunta sobre o diagnóstico.",
+        "en": "Testing finished. Mother asks about the diagnosis.",
+        "es": "Evaluación concluida. La madre pregunta por el diagnóstico."
+      },
+      "options": {
+        "psicoeducacao": {
+          "pt": "Vou integrar os resultados da testagem com as escalas, a escola e a anamnese. Marcaremos uma devolutiva com o parecer completo.",
+          "en": "I'll integrate the test results with the scales, the school and the intake interview. We'll schedule a feedback session with the full opinion.",
+          "es": "Voy a integrar los resultados de la evaluación con las escalas, la escuela y la anamnesis. Agendaremos una devolución con el informe completo."
+        },
+        "acolhimento": {
+          "pt": "Percebo a ansiedade por uma resposta. Como tem sido esperar por isso?",
+          "en": "I can see the anxiety for an answer. How has the wait been?",
+          "es": "Percibo la ansiedad por una respuesta. ¿Cómo ha sido esperar esto?"
+        },
+        "comportamental": {
+          "pt": "Enquanto isso, podemos manter as rotinas de estudo em blocos curtos, que já ajudam.",
+          "en": "Meanwhile, we can keep study routines in short blocks, which already help.",
+          "es": "Mientras tanto, podemos mantener las rutinas de estudio en bloques cortos, que ya ayudan."
+        },
+        "diretiva": {
+          "pt": "Pelo desempenho na Torre de Londres, sim: ela tem TDAH, e já podemos falar de tratamento.",
+          "en": "From her performance on the Tower of London, yes: she has ADHD, and we can already talk about treatment.",
+          "es": "Por su desempeño en la Torre de Londres, sí: tiene TDAH, y ya podemos hablar del tratamiento."
+        }
+      },
+      "variants": [
+        {
+          "pt": "(A avó pergunta.) 'Já dá para saber se ela tem TDAH?'",
+          "en": "(The mother asks.) 'Can we tell yet if she has ADHD?'",
+          "es": "(La abuela pregunta.) '¿Ya se puede saber si tiene TDAH?'"
+        },
+        {
+          "pt": "(A avó se inclina para frente.) 'E então, ela tem TDAH? Já dá para dizer?'",
+          "en": "(The mother leans forward.) 'So, does she have ADHD? Can you say yet?'",
+          "es": "(La abuela se inclina hacia delante.) 'Entonces, ¿tiene TDAH? ¿Ya se puede decir?'"
+        }
+      ]
+    },
+    {
+      "who": "parent",
+      "text": {
+        "pt": "'Ela vai precisar de remédio? E se for TDAH, ela vai ficar dopada?'",
+        "en": "'Will she need medication? And if it's ADHD, will she be drugged up?'",
+        "es": "'¿Va a necesitar medicación? Y si es TDAH, ¿va a quedar dopada?'"
+      },
+      "note": {
+        "pt": "Mãe teme o tratamento medicamentoso e pergunta sobre remédio.",
+        "en": "Mother fears drug treatment and asks about medication.",
+        "es": "La madre teme el tratamiento con medicación y pregunta por los fármacos."
+      },
+      "mods": {
+        "psicoeducacao": 1,
+        "comportamental": -1,
+        "diretiva": 1
+      },
+      "options": {
+        "psicoeducacao": {
+          "pt": "Quem indica remédio é o médico, depois da avaliação completa. Posso explicar como isso costuma funcionar e quais outras ajudas existem.",
+          "en": "Medication is prescribed by the doctor, after a full assessment. I can explain how it usually works and what other supports exist.",
+          "es": "Quien indica medicación es el médico, tras la evaluación completa. Puedo explicar cómo suele funcionar y qué otras ayudas existen."
+        },
+        "acolhimento": {
+          "pt": "Esse receio é muito comum. O que a senhora já ouviu sobre o tratamento que mais te preocupa? Nomear o medo já tira um pouco do peso dele.",
+          "en": "This concern is very common. What have you heard about the treatment that worries you most? Naming the fear already lightens it a little.",
+          "es": "Esa preocupación es muy común. ¿Qué ha oído sobre el tratamiento que más le preocupa? Nombrar el miedo ya le quita un poco de peso."
+        },
+        "comportamental": {
+          "pt": "Mesmo antes de qualquer decisão, rotinas ajudam: horários fixos, tarefas em etapas e reforço quando ela conclui algo. Antes mesmo de decidir, isso já organiza a casa.",
+          "en": "Even before any decision, routines help: fixed schedules, tasks in steps and reinforcement when she finishes something. Even before any decision, this already brings order to the home.",
+          "es": "Aun antes de cualquier decisión, las rutinas ayudan: horarios fijos, tareas por etapas y refuerzo cuando termina algo. Incluso antes de decidir, esto ya ordena la casa."
+        },
+        "diretiva": {
+          "pt": "Pelo que vi, com remédio ela melhora rápido. A maioria das crianças com TDAH precisa, então é melhor começar logo.",
+          "en": "From what I saw, she improves quickly with medication. Most children with ADHD need it, so it's best to start soon.",
+          "es": "Por lo que vi, con medicación mejora rápido. La mayoría de los niños con TDAH la necesita, así que es mejor empezar pronto."
+        }
+      },
+      "variants": [
+        {
+          "pt": "'Vai ser preciso dar remédio? Tenho receio de que, se for TDAH, ela fique sedada.'",
+          "en": "'Will medication be needed? I'm worried that, if it's ADHD, she'll end up sedated.'",
+          "es": "'¿Hará falta medicarla? Me preocupa que, si es TDAH, quede sedada.'"
+        },
+        {
+          "pt": "'Vai ter que tomar remédio? Tenho medo de que ela fique apagada, sem energia, se for TDAH.'",
+          "en": "'Will she have to take medication? I'm afraid she'll be dull and drained if it's ADHD.'",
+          "es": "'¿Tendrá que tomar medicación? Me da miedo que quede apagada, sin energía, si es TDAH.'"
+        }
+      ]
+    }
+  ],
+  "kid": true,
+  "diagnosis": {
+    "answer": "tdah",
+    "options": [
+      "tdah",
+      "tag",
+      "tea",
+      "aprendizagem"
+    ],
+    "why": {
+      "pt": "Impulsividade na Torre de Londres, dificuldade de planejamento e de manter a tarefa até o fim compõem um perfil de TDAH. O cansaço e a inquietação no meio da testagem reforçam a hipótese, que ainda depende da história e das escalas.",
+      "en": "Impulsivity on the Tower of London, difficulty planning and sustaining the task to the end make up an ADHD profile. Fatigue and restlessness mid-testing reinforce the hypothesis, which still depends on history and rating scales.",
+      "es": "La impulsividad en la Torre de Londres, la dificultad para planificar y sostener la tarea hasta el final forman un perfil de TDAH. El cansancio y la inquietud durante la evaluación refuerzan la hipótesis, que aún depende de la historia y de las escalas."
+    }
+  },
+  "voice": {
+    "intro": {
+      "pt": "(a avó:) 'Esta é a Mariana, 10 anos, minha neta. Perde tudo, esquece tudo e não termina nada.' (Mariana:) 'Oi! Eu terminei um desenho ontem. Ah, mas esqueci em casa.'",
+      "en": "(her grandma:) 'This is Mariana, 10, my granddaughter. Loses everything, forgets everything and never finishes anything.' (Mariana:) 'Hi! I finished a drawing yesterday. Oh, but I left it at home.'",
+      "es": "(la abuela:) 'Esta es Mariana, 10 años, mi nieta. Lo pierde todo, lo olvida todo y no termina nada.' (Mariana:) '¡Hola! Ayer terminé un dibujo. Ah, pero lo dejé en casa.'"
+    },
+    "pre": [
+      {
+        "pt": "Ué, então...",
+        "en": "Well, so...",
+        "es": "Pues, entonces..."
+      },
+      {
+        "pt": "Peraí, o que eu ia falar?",
+        "en": "Wait, what was I going to say?",
+        "es": "Espera, ¿qué iba a decir?"
+      }
+    ],
+    "post": {
+      "pt": "Já falei isso, né?",
+      "en": "I already said that, right?",
+      "es": "Ya dije eso, ¿no?"
+    },
+    "ref": [
+      {
+        "pt": "Esqueci o material de novo e a vovó teve que voltar na escola.",
+        "en": "I forgot my stuff again and Grandma had to go back to school.",
+        "es": "Olvidé el material otra vez y la abuela tuvo que volver a la escuela."
+      },
+      {
+        "pt": "Usei a lista na mochila e só esqueci a garrafa d'água.",
+        "en": "I used the list in my backpack and only forgot the water bottle.",
+        "es": "Usé la lista en la mochila y solo olvidé la botella de agua."
+      },
+      {
+        "pt": "Arrumei a mochila sozinha e não esqueci nada!",
+        "en": "I packed my backpack by myself and forgot nothing!",
+        "es": "¡Preparé la mochila sola y no olvidé nada!"
+      }
+    ],
+    "hookA": {
+      "pt": "O que você sente quando a professora fala que você se distraiu?",
+      "en": "How do you feel when the teacher says you got distracted?",
+      "es": "¿Qué sientes cuando la profesora dice que te distrajiste?"
+    },
+    "hookB": {
+      "pt": "Vamos fazer uma lista visual pra mochila e ver quantos itens você lembra?",
+      "en": "Shall we make a visual list for the backpack and see how many items you remember?",
+      "es": "¿Hacemos una lista visual para la mochila y vemos cuántos objetos recuerdas?"
+    },
+    "sessoes": {
+      "s3": [
+        {
+          "pt": "'(a avó:) Ela perdeu o casaco de novo, doutora. É o terceiro do ano. (Mariana, girando na cadeira:) Eu lembrei que tinha deixado no banco da quadra! Só lembrei quando já tinha chegado em casa.'",
+          "en": "'(her grandma:) She lost her coat again, doctor. Third one this year. (Mariana, spinning in the chair:) I remembered I'd left it on the bench by the court! I only remembered once I was already home.'",
+          "es": "'(her grandma:) She lost her coat again, doctor. Third one this year. (Mariana, spinning in the chair:) I remembered I'd left it on the bench by the court! I only remembered once I was already home.'"
+        },
+        {
+          "pt": "'A professora me botou na frente pra eu prestar atenção. (fala rápido) Só que agora eu vejo ela o tempo todo e fico pensando se ela tá olhando pra mim, e aí eu perco mais ainda.'",
+          "en": "'The teacher moved me to the front so I'd pay attention. (speaking fast) Only now I see her all the time and I keep wondering if she's looking at me, and then I lose track even more.'",
+          "es": "'The teacher moved me to the front so I'd pay attention. (speaking fast) Only now I see her all the time and I keep wondering if she's looking at me, and then I lose track even more.'"
+        }
+      ],
+      "s4": [
+        {
+          "pt": "'(a avó:) Eu comprei aquele quadro de tarefas que a senhora falou. (sorri um pouco) Ela fez a lição cinco dias seguidos. Cinco. Eu não vejo isso desde que ela tinha sete anos.'",
+          "en": "'(her grandma:) I bought that task board you mentioned. (smiles a little) She did her homework five days in a row. Five. I haven't seen that since she was seven.'",
+          "es": "'(her grandma:) I bought that task board you mentioned. (smiles a little) She did her homework five days in a row. Five. I haven't seen that since she was seven.'"
+        },
+        {
+          "pt": "'(Mariana, com o quadro na mão:) Eu gosto porque eu vejo onde eu parei. Na minha cabeça some, sabe? Some do nada. No papel não some — o papel fica esperando eu voltar.'",
+          "en": "'(Mariana, holding the board:) I like it because I can see where I stopped. In my head it disappears, you know? Just vanishes. On paper it doesn't — the paper waits for me to come back.'",
+          "es": "'(Mariana, holding the board:) I like it because I can see where I stopped. In my head it disappears, you know? Just vanishes. On paper it doesn't — the paper waits for me to come back.'"
+        }
+      ]
+    },
+    "fecho": {
+      "s2": {
+        "pt": "(a avó:) 'Ela dormiu no caminho pra cá, de tão cansada de tentar prestar atenção o dia inteiro. Isso cansa mesmo, doutora?'",
+        "en": "(her grandma:) 'She fell asleep on the way here, that's how tired she was from trying to pay attention all day. Does that really tire you out, doctor?'",
+        "es": "(her grandma:) 'She fell asleep on the way here, that's how tired she was from trying to pay attention all day. Does that really tire you out, doctor?'"
+      },
+      "s3": {
+        "pt": "(Mariana, já girando a cadeira de novo) 'Semana que vem eu trago o quadro pra senhora ver? Eu colei adesivo em todos os dias que eu fiz.'",
+        "en": "(Mariana, already spinning the chair again) 'Can I bring the board next week for you to see? I put a sticker on every day I did it.'",
+        "es": "(Mariana, already spinning the chair again) 'Can I bring the board next week for you to see? I put a sticker on every day I did it.'"
+      },
+      "s4": {
+        "pt": "(a avó:) 'Eu criei três filhos e nunca vi isso.' (olha para a neta) 'Ainda bem que a senhora viu.'",
+        "en": "(her grandma:) 'I raised three children and never saw this.' (looks at her granddaughter) 'Thank goodness you did.'",
+        "es": "(her grandma:) 'I raised three children and never saw this.' (looks at her granddaughter) 'Thank goodness you did.'"
+      }
+    },
+    "opcoes": {
+      "s3": [
+        {
+          "acolhimento": {
+            "pt": "(para a Mariana) Você lembrou onde tinha deixado. O problema não foi a memória — foi a hora em que ela chegou.",
+            "en": "(to Mariana) You remembered where you left it. The problem was not memory — it was when it arrived.",
+            "es": "(to Mariana) You remembered where you left it. The problem was not memory — it was when it arrived."
+          },
+          "psicoeducacao": {
+            "pt": "É isso mesmo: a informação está lá, mas aparece tarde. Chamar de desatenção confunde a senhora e culpa a menina.",
+            "en": "That is exactly it: the information is there, but it shows up late. Calling it carelessness confuses you and blames the girl.",
+            "es": "That is exactly it: the information is there, but it shows up late. Calling it carelessness confuses you and blames the girl."
+          },
+          "comportamental": {
+            "pt": "Vamos pôr o casaco no mesmo lugar sempre, e uma conferida antes de sair da quadra. Lugar fixo poupa memória.",
+            "en": "Let's put the coat in the same place every time, and one check before leaving the court. A fixed place saves memory.",
+            "es": "Let's put the coat in the same place every time, and one check before leaving the court. A fixed place saves memory."
+          },
+          "diretiva": {
+            "pt": "Terceiro casaco do ano não se resolve com bronca. Resolve-se com sistema, e eu vou montar um com vocês.",
+            "en": "A third coat this year is not solved with scolding. It is solved with a system, and I will build one with you.",
+            "es": "A third coat this year is not solved with scolding. It is solved with a system, and I will build one with you."
+          }
+        },
+        {
+          "acolhimento": {
+            "pt": "Sentar na frente devia ajudar e está atrapalhando. Deve ser frustrante ouvir que é para o seu bem.",
+            "en": "Sitting at the front was supposed to help and it is getting in the way. It must be frustrating to be told it is for your own good.",
+            "es": "Sitting at the front was supposed to help and it is getting in the way. It must be frustrating to be told it is for your own good."
+          },
+          "psicoeducacao": {
+            "pt": "Adaptação escolar sem entender o mecanismo costuma sair assim: bem-intencionada e contraproducente. Não é a visão que falha, é a atenção dividida.",
+            "en": "School accommodations without understanding the mechanism often turn out like this: well meant and counterproductive. It is not sight that fails, it is divided attention.",
+            "es": "School accommodations without understanding the mechanism often turn out like this: well meant and counterproductive. It is not sight that fails, it is divided attention."
+          },
+          "comportamental": {
+            "pt": "Vamos testar o contrário: fila do meio, longe da janela, e a professora passa perto em vez de olhar de frente.",
+            "en": "Let's try the opposite: middle row, away from the window, and the teacher walks by instead of looking at her head on.",
+            "es": "Let's try the opposite: middle row, away from the window, and the teacher walks by instead of looking at her head on."
+          },
+          "diretiva": {
+            "pt": "Eu escrevo para a escola. Sentar na frente, neste caso, é piorar — e eu explico por quê.",
+            "en": "I will write to the school. Sitting at the front, in this case, makes it worse — and I will explain why.",
+            "es": "I will write to the school. Sitting at the front, in this case, makes it worse — and I will explain why."
+          }
+        }
+      ],
+      "s4": [
+        {
+          "acolhimento": {
+            "pt": "Cinco dias seguidos. (para a Mariana) Você percebeu que conseguiu cinco dias seguidos?",
+            "en": "Five days in a row. (to Mariana) Did you notice you managed five days in a row?",
+            "es": "Five days in a row. (to Mariana) Did you notice you managed five days in a row?"
+          },
+          "psicoeducacao": {
+            "pt": "O quadro faz o trabalho que a cabeça dela ainda não faz sozinha: guardar a sequência. É apoio, não muleta.",
+            "en": "The board does the job her head cannot yet do alone: holding the sequence. It is support, not a crutch.",
+            "es": "The board does the job her head cannot yet do alone: holding the sequence. It is support, not a crutch."
+          },
+          "comportamental": {
+            "pt": "Então mantém. E vamos acrescentar uma coisa só: marcar quando terminar, que é o que dá gosto de voltar.",
+            "en": "So keep it. And let's add just one thing: ticking it off when she finishes, which is what makes coming back feel good.",
+            "es": "So keep it. And let's add just one thing: ticking it off when she finishes, which is what makes coming back feel good."
+          },
+          "diretiva": {
+            "pt": "Não tire o quadro quando melhorar. É justamente o quadro que está fazendo a melhora.",
+            "en": "Do not take the board away when things improve. It is the board that is making the improvement.",
+            "es": "Do not take the board away when things improve. It is the board that is making the improvement."
+          }
+        },
+        {
+          "acolhimento": {
+            "pt": "'O papel fica esperando eu voltar.' Essa frase é sua e é a melhor explicação que eu ouvi hoje.",
+            "en": "'The paper waits for me to come back.' That sentence is yours and it is the best explanation I have heard today.",
+            "es": "'The paper waits for me to come back.' That sentence is yours and it is the best explanation I have heard today."
+          },
+          "psicoeducacao": {
+            "pt": "É exatamente isso que o apoio externo faz. Ela acabou de descrever, com palavras dela, por que funciona.",
+            "en": "That is exactly what external support does. She has just described, in her own words, why it works.",
+            "es": "That is exactly what external support does. She has just described, in her own words, why it works."
+          },
+          "comportamental": {
+            "pt": "Então vamos pôr papel em mais lugares: mochila, porta do quarto, geladeira. Onde some, entra papel.",
+            "en": "So let's put paper in more places: backpack, bedroom door, fridge. Where things vanish, paper goes in.",
+            "es": "So let's put paper in more places: backpack, bedroom door, fridge. Where things vanish, paper goes in."
+          },
+          "diretiva": {
+            "pt": "Guardem essa frase. Quando alguém disser que é preguiça, é ela que responde.",
+            "en": "Keep that sentence. When someone says it is laziness, it is the answer.",
+            "es": "Keep that sentence. When someone says it is laziness, it is the answer."
+          }
+        }
+      ]
+    }
+  },
+  "look": {
+    "skin": "#f0cfb0",
+    "hair": "#e0662a",
+    "hairStyle": "braids",
+    "top": "#e8c03a",
+    "eyeShape": "round",
+    "brow": "soft",
+    "mouth": "soft",
+    "freckles": true,
+    "rosto": "assets/rosto-mariana.png",
+    "corpo": "f"
+  }
+}

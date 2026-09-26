@@ -1,0 +1,560 @@
+{
+  "name": {
+    "pt": "Sofia Andrade",
+    "en": "Sofia Andrade",
+    "es": "Sofia Andrade"
+  },
+  "age": {
+    "pt": "12 anos",
+    "en": "12 years old",
+    "es": "12 años"
+  },
+  "complaint": {
+    "pt": "Dificuldades de atenção e memória; ansiosa com a testagem.",
+    "en": "Difficulties with attention and memory; anxious about the testing.",
+    "es": "Dificultades de atención y memoria; ansiosa por la evaluación."
+  },
+  "history": {
+    "pt": "Em avaliação neuropsicológica. Já passou pela anamnese.",
+    "en": "In neuropsychological assessment. Has already had the intake interview.",
+    "es": "En evaluación neuropsicológica. Ya pasó por la anamnesis."
+  },
+  "image": "assets/char-sofia.png",
+  "dot": "dot-blue",
+  "group": "neuro",
+  "parent": {
+    "name": {
+      "pt": "Dona Patrícia",
+      "en": "Dona Patrícia",
+      "es": "Dona Patrícia"
+    },
+    "image": "assets/par-patricia.png",
+    "look": {
+      "skin": "#ecc9a8",
+      "hair": "#1d1a26",
+      "hairStyle": "bob",
+      "top": "#e0b83a",
+      "style": "shirt",
+      "acc": "glasses",
+      "eyeShape": "round",
+      "brow": "soft",
+      "mouth": "neutral",
+      "corpo": "f"
+    },
+    "papel": "mae"
+  },
+  "type": {
+    "pt": "Sessão de Testagem",
+    "en": "Testing session",
+    "es": "Sesión de evaluación"
+  },
+  "info": {
+    "pt": "Aplicação do WISC-IV, com foco nos subtestes de Memória Operacional (Dígitos e Sequência de Números e Letras).",
+    "en": "Administration of the WISC-IV, focusing on the Working Memory subtests (Digit Span and Letter-Number Sequencing).",
+    "es": "Aplicación del WISC-IV, con foco en los subtests de Memoria Operativa (Dígitos y Secuencia de Números y Letras)."
+  },
+  "message": {
+    "from": {
+      "pt": "Dona Patrícia (mãe da Sofia)",
+      "en": "Dona Patrícia (Sofia's mother)",
+      "es": "Dona Patrícia (madre de Sofia)"
+    },
+    "text": {
+      "pt": "{doc}, a Sofia ficou ansiosa com a testagem. Ela acha que vai 'ser reprovada'. Pode ajudar?",
+      "en": "{doc}, Sofia got anxious about the testing. She thinks she will 'fail'. Can you help?",
+      "es": "{doc}, Sofia se puso ansiosa por la evaluación. Cree que va a 'reprobar'. ¿Puede ayudar?"
+    }
+  },
+  "fit": {
+    "acolhimento": 4,
+    "psicoeducacao": 3,
+    "comportamental": 3,
+    "tcc": 3,
+    "psicodinamica": 1,
+    "diretiva": 0
+  },
+  "why": {
+    "acolhimento": {
+      "pt": "Diante da ansiedade de desempenho, sentir que ali ninguém a julga reduz a tensão e melhora a qualidade dos dados.",
+      "en": "Facing performance anxiety, feeling that no one judges her here lowers tension and improves data quality.",
+      "es": "Ante la ansiedad de desempeño, sentir que nadie la juzga reduce la tensión y mejora la calidad de los datos."
+    },
+    "tcc": {
+      "pt": "Separar fato de pensamento ('sou péssima') funciona bem com adolescentes ansiosos, sem atrapalhar o protocolo.",
+      "en": "Separating fact from thought ('I'm terrible') works well with anxious adolescents, without disturbing the protocol.",
+      "es": "Separar hecho de pensamiento ('soy pésima') funciona bien con adolescentes ansiosos, sin perturbar el protocolo."
+    },
+    "comportamental": {
+      "pt": "Respirar, pausas e seguir o protocolo padronizado reduzem a ansiedade sem alterar a aplicação.",
+      "en": "Breathing, breaks and following the standardized protocol reduce anxiety without changing the administration.",
+      "es": "Respirar, pausas y seguir el protocolo estandarizado reducen la ansiedad sin alterar la aplicación."
+    },
+    "psicoeducacao": {
+      "pt": "Explicar como a testagem funciona e o que vem depois tranquiliza a paciente e a família.",
+      "en": "Explaining how the testing works and what comes next reassures the patient and the family.",
+      "es": "Explicar cómo funciona la evaluación y qué viene después tranquiliza a la paciente y a la familia."
+    },
+    "psicodinamica": {
+      "pt": "Interpretar conflitos não cabe numa testagem padronizada e desvia do objetivo da sessão.",
+      "en": "Interpreting conflicts does not fit a standardized test session and strays from its aim.",
+      "es": "Interpretar conflictos no cabe en una evaluación estandarizada y desvía del objetivo de la sesión."
+    }
+  },
+  "steps": [
+    {
+      "who": "patient",
+      "text": {
+        "pt": "(roendo a unha) 'Eu vou ser reprovada nesse teste, né? Eu sou péssima com números...'",
+        "en": "(biting her nails) 'I'm going to fail this test, right? I'm terrible with numbers...'",
+        "es": "(mordiéndose las uñas) 'Voy a reprobar esta prueba, ¿verdad? Soy pésima con los números...'"
+      },
+      "note": {
+        "pt": "Ansiedade de desempenho: acha que vai ser 'reprovada'.",
+        "en": "Performance anxiety: thinks she will 'fail'.",
+        "es": "Ansiedad de desempeño: cree que va a 'reprobar'."
+      },
+      "mods": {
+        "diretiva": 1
+      },
+      "options": {
+        "acolhimento": {
+          "pt": "Parece que você teme decepcionar. Aqui ninguém é aprovado ou reprovado: só quero entender como você pensa.",
+          "en": "It seems you fear letting people down. No one passes or fails here: I just want to understand how you think.",
+          "es": "Parece que temes decepcionar. Aquí nadie aprueba ni reprueba: solo quiero entender cómo piensas."
+        },
+        "tcc": {
+          "pt": "'Sou péssima com números' é um fato ou um pensamento? Vamos ver como você se sai na primeira tarefa. Um dado vale mais do que uma opinião sobre si mesma.",
+          "en": "Is 'I'm terrible with numbers' a fact or a thought? Let's see how you do on the first task. One piece of evidence is worth more than an opinion about oneself.",
+          "es": "'Soy pésima con los números', ¿es un hecho o un pensamiento? Veamos cómo te va en la primera tarea. Un dato vale más que una opinión sobre una misma."
+        },
+        "comportamental": {
+          "pt": "Vamos respirar juntas três vezes antes de começar. Você pode pedir uma pausa quando quiser.",
+          "en": "Let's breathe together three times before we start. You can ask for a break whenever you want.",
+          "es": "Respiremos juntas tres veces antes de empezar. Puedes pedir una pausa cuando quieras."
+        },
+        "diretiva": {
+          "pt": "Fique tranquila, você é inteligente e vai se sair bem. Só precisa acreditar mais em si mesma.",
+          "en": "Stay calm, you are smart and will do well. You just need to believe in yourself more.",
+          "es": "Tranquila, eres inteligente y te irá bien. Solo necesitas creer más en ti misma."
+        }
+      },
+      "variants": [
+        {
+          "pt": "(roendo a unha) 'Vou ser reprovada nesse teste, né? Eu sou péssima com números...'",
+          "en": "(biting her nail) 'I'm going to fail this test, right? I'm terrible with numbers...'",
+          "es": "(mordiéndose la uña) 'Voy a reprobar esta prueba, ¿verdad? Soy pésima con los números...'"
+        },
+        {
+          "pt": "(mordendo o lábio) 'Eu vou mal nesse teste, com certeza. Sou horrível com números...'",
+          "en": "(biting her lip) 'I'll do badly on this test, for sure. I'm awful with numbers...'",
+          "es": "(mordiéndose el labio) 'Me va a ir mal en esta prueba, seguro. Soy horrible con los números...'"
+        }
+      ]
+    },
+    {
+      "who": "patient",
+      "text": {
+        "pt": "(No meio da tarefa, Sofia erra, para e olha para você, esperando uma reação.)",
+        "en": "(In the middle of the task, Sofia gets it wrong, stops and looks at you, waiting for a reaction.)",
+        "es": "(En medio de la tarea, Sofia se equivoca, se detiene y te mira, esperando una reacción.)"
+      },
+      "note": {
+        "pt": "Errou no meio da tarefa e buscou reação da examinadora.",
+        "en": "Got it wrong mid-task and looked for a reaction from the examiner.",
+        "es": "Se equivocó a mitad de la tarea y buscó la reacción de la examinadora."
+      },
+      "mods": {
+        "comportamental": 1,
+        "acolhimento": -1
+      },
+      "options": {
+        "comportamental": {
+          "pt": "Manter tom neutro e seguir o manual: 'Obrigada, vamos para a próxima.'",
+          "en": "Keep a neutral tone and follow the manual: 'Thank you, let's move on.'",
+          "es": "Mantener un tono neutro y seguir el manual: 'Gracias, vamos a la siguiente.'"
+        },
+        "psicoeducacao": {
+          "pt": "Explicar: 'Eu não digo se está certo ou errado, é assim para todo mundo.'",
+          "en": "Explain: 'I don't say whether it's right or wrong, that's how it works for everyone.'",
+          "es": "Explicar: 'No digo si está bien o mal, es así para todos.'"
+        },
+        "acolhimento": {
+          "pt": "'Tudo bem errar, você está indo muito bem!'",
+          "en": "'It's okay to make mistakes, you're doing great!'",
+          "es": "'Está bien equivocarse, ¡lo estás haciendo muy bien!'"
+        },
+        "diretiva": {
+          "pt": "'Quase! O certo era 7 e não 9. Tenta de novo, com mais atenção.'",
+          "en": "'Almost! It was 7, not 9. Try again, paying more attention.'",
+          "es": "'¡Casi! Era 7 y no 9. Prueba otra vez, con más atención.'"
+        }
+      },
+      "variants": [
+        {
+          "pt": "(No meio da tarefa, Sofia se confunde numa sequência e logo procura o seu rosto, à espera de uma reação.)",
+          "en": "(In the Digits task, Sofia gets confused on a sequence and immediately looks at your face, waiting for a reaction.)",
+          "es": "(En medio de la tarea, Sofía se confunde en una secuencia y enseguida busca tu cara, esperando una reacción.)"
+        },
+        {
+          "pt": "(No meio da tarefa, Sofia troca uma sequência e logo procura o seu rosto, esperando ver sua reação.)",
+          "en": "(In the Digits task, Sofia mixes up a sequence and immediately looks for your face, waiting to see your reaction.)",
+          "es": "(En medio de la tarea, Sofía se equivoca en una secuencia y enseguida busca tu rostro, esperando ver tu reacción.)"
+        }
+      ],
+      "tarefa": "memoria"
+    },
+    {
+      "who": "parent",
+      "text": {
+        "pt": "(A mãe entra na sala.) 'Como a Sofia se saiu? Já dá para saber se ela tem algum problema?'",
+        "en": "(Her mother comes in.) 'How did Sofia do? Can we already tell if there is a problem?'",
+        "es": "(La madre entra en la sala.) '¿Cómo le fue a Sofia? ¿Ya se puede saber si tiene algún problema?'"
+      },
+      "note": {
+        "pt": "Testagem concluída. A mãe pergunta pelo resultado.",
+        "en": "Testing finished. The mother asks about the result.",
+        "es": "Evaluación concluida. La madre pregunta por el resultado."
+      },
+      "options": {
+        "psicoeducacao": {
+          "pt": "Os resultados serão analisados com cuidado, junto com outras informações, e explicados na devolutiva, com o contexto.",
+          "en": "The results will be analyzed carefully, together with other information, and explained in the feedback session, with context.",
+          "es": "Los resultados se analizarán con cuidado, junto con otra información, y se explicarán en la devolución, con el contexto."
+        },
+        "acolhimento": {
+          "pt": "Ela se esforçou muito. Como a senhora está lidando com a expectativa de saber?",
+          "en": "She tried very hard. How are you handling the wait to find out?",
+          "es": "Se esforzó mucho. ¿Cómo está llevando la expectativa de saber?"
+        },
+        "comportamental": {
+          "pt": "Ela ficou nervosa no começo, mas se acalmou com pausas. Isso pode ajudar nas provas em casa.",
+          "en": "She was nervous at first but calmed down with breaks. That may help with tests at home.",
+          "es": "Estuvo nerviosa al principio, pero se calmó con pausas. Eso puede ayudar en las pruebas en casa."
+        },
+        "diretiva": {
+          "pt": "O resultado foi 95, dentro da média. Os detalhes vão no relatório escrito, que explica tudo.",
+          "en": "The result was 95, within the average. The details are in the written report, which explains everything.",
+          "es": "El resultado fue 95, dentro del promedio. Los detalles están en el informe escrito, que lo explica todo."
+        }
+      },
+      "variants": [
+        {
+          "pt": "(A mãe aparece na porta.) 'E a Sofia, foi bem? Dá para saber se ela tem alguma dificuldade?'",
+          "en": "(The mother appears at the door.) 'And Sofia, did she do well? Can you tell if she has any difficulty?'",
+          "es": "(La madre aparece en la puerta.) 'Y Sofía, ¿le fue bien? ¿Se puede saber si tiene alguna dificultad?'"
+        },
+        {
+          "pt": "(A mãe abre a porta.) 'E a Sofia, como foi? Já dá para dizer se ela tem alguma dificuldade?'",
+          "en": "(The mother opens the door.) 'And Sofia, how did it go? Can you tell yet if she has any difficulty?'",
+          "es": "(La madre abre la puerta.) 'Y Sofía, ¿cómo le fue? ¿Ya se puede decir si tiene alguna dificultad?'"
+        }
+      ]
+    },
+    {
+      "who": "patient",
+      "text": {
+        "pt": "(guardando o lápis) 'Você vai contar para a minha mãe todas as vezes que eu errei?'",
+        "en": "(putting away her pencil) 'Are you going to tell my mother every time I got it wrong?'",
+        "es": "(guardando el lápiz) '¿Le vas a contar a mi mamá todas las veces que me equivoqué?'"
+      },
+      "note": {
+        "pt": "Teme a reação da mãe ao desempenho; associa erro a ser desaprovada.",
+        "en": "Fears her mother's reaction to her performance; links mistakes to disapproval.",
+        "es": "Teme la reacción de su madre ante su desempeño; asocia error con desaprobación."
+      },
+      "mods": {
+        "psicoeducacao": 1,
+        "acolhimento": -1
+      },
+      "options": {
+        "psicoeducacao": {
+          "pt": "Vou explicar a ela como você pensa: os acertos, o que foi mais difícil e o que ajuda. Erro em teste não define ninguém.",
+          "en": "I'll explain to her how you think: what went well, what was harder and what helps. A test error doesn't define anyone.",
+          "es": "Le voy a explicar cómo piensas: los aciertos, lo que fue más difícil y lo que ayuda. Un error en un test no define a nadie."
+        },
+        "acolhimento": {
+          "pt": "Percebo que você teme a reação dela. Posso te mostrar antes o que pretendo dizer, e você me diz se ficou bem assim?",
+          "en": "I can tell you fear her reaction. I can show you first what I plan to say, and you tell me if it feels okay?",
+          "es": "Noto que temes su reacción. ¿Puedo mostrarte antes lo que pienso decir y me dices si te parece bien?"
+        },
+        "tcc": {
+          "pt": "Que pensamento vem primeiro: 'se eu errei, ela vai ficar brava'? Vamos ver que provas você tem disso?",
+          "en": "What thought comes first: 'if I got it wrong, she will be angry'? Shall we look at what evidence you have?",
+          "es": "¿Qué pensamiento viene primero: 'si me equivoqué, se va a enojar'? ¿Vemos qué pruebas tienes de eso?"
+        },
+        "diretiva": {
+          "pt": "Sim, preciso contar tudo, inclusive todos os erros, porque é isso que o relatório exige. Não tem como esconder.",
+          "en": "Yes, I must tell everything, including every mistake, because that's what the report requires. There's no way to hide it.",
+          "es": "Sí, debo contar todo, incluso todos los errores, porque eso exige el informe. No hay cómo esconderlo."
+        }
+      },
+      "variants": [
+        {
+          "pt": "(recolhendo o lápis) 'Você vai contar para a minha mãe cada vez que eu errei aqui?'",
+          "en": "(gathering her pencil) 'Are you going to tell my mother each time I got it wrong here?'",
+          "es": "(recogiendo el lápiz) '¿Le vas a decir a mi mamá cada vez que me equivoqué aquí?'"
+        },
+        {
+          "pt": "(arrumando o estojo) 'A minha mãe vai saber de cada vez que eu errei aqui?'",
+          "en": "(tidying her pencil case) 'Will my mother find out every time I made a mistake here?'",
+          "es": "(ordenando el estuche) '¿Mi mamá se va a enterar de cada vez que me equivoqué aquí?'"
+        }
+      ]
+    }
+  ],
+  "kid": true,
+  "diagnosis": {
+    "answer": "tag",
+    "options": [
+      "tag",
+      "tdah",
+      "aprendizagem",
+      "social"
+    ],
+    "why": {
+      "pt": "Preocupação excessiva com o desempenho, roer as unhas, buscar aprovação e medo de reprovar sugerem ansiedade generalizada, que prejudica a memória operacional durante o teste. Vale confirmar com a história e outros instrumentos.",
+      "en": "Excessive worry about performance, nail-biting, seeking approval and fear of failing suggest generalized anxiety, which impairs working memory during the test. It is worth confirming with history and other instruments.",
+      "es": "La preocupación excesiva por el desempeño, morderse las uñas, buscar aprobación y el miedo a reprobar sugieren ansiedad generalizada, que perjudica la memoria operativa durante la prueba. Vale confirmarlo con la historia y otros instrumentos."
+    }
+  },
+  "voice": {
+    "intro": {
+      "pt": "(a mãe:) 'Esta é a Sofia, 12 anos. Ela se preocupa com tudo e dorme mal.' (Sofia, baixinho:) 'É que... e se eu errar alguma coisa?'",
+      "en": "(her mom:) 'This is Sofia, 12. She worries about everything and sleeps badly.' (Sofia, softly:) 'It's just... what if I get something wrong?'",
+      "es": "(la madre:) 'Ella es Sofia, 12 años. Se preocupa por todo y duerme mal.' (Sofia, bajito:) 'Es que... ¿y si me equivoco en algo?'"
+    },
+    "pre": [
+      {
+        "pt": "E se...",
+        "en": "What if...",
+        "es": "¿Y si..."
+      },
+      {
+        "pt": "Posso perguntar uma coisa? É rapidinho.",
+        "en": "Can I ask something? It's quick.",
+        "es": "¿Puedo preguntar algo? Es rapidito."
+      }
+    ],
+    "post": {
+      "pt": "Tá certo o que eu falei?",
+      "en": "Was what I said okay?",
+      "es": "¿Estuvo bien lo que dije?"
+    },
+    "ref": [
+      {
+        "pt": "Antes da prova eu passei mal e quase não fui.",
+        "en": "Before the test I felt sick and almost didn't go.",
+        "es": "Antes del examen me sentí mal y casi no fui."
+      },
+      {
+        "pt": "Fiquei nervosa na prova, mas fiz a respiração e deu pra terminar.",
+        "en": "I got nervous at the test, but I did the breathing and could finish.",
+        "es": "Me puse nerviosa en el examen, pero hice la respiración y pude terminar."
+      },
+      {
+        "pt": "Fiz a prova e nem lembrei de olhar pro relógio!",
+        "en": "I took the test and didn't even remember to check the clock!",
+        "es": "¡Hice el examen y ni me acordé de mirar el reloj!"
+      }
+    ],
+    "hookA": {
+      "pt": "Quando vem o 'e se...', em que parte do corpo você sente primeiro?",
+      "en": "When the 'what if...' comes, where in your body do you feel it first?",
+      "es": "Cuando viene el '¿y si...?', ¿en qué parte del cuerpo lo sientes primero?"
+    },
+    "hookB": {
+      "pt": "Vamos escolher uma preocupação e ver o que a gente sabe e o que a gente só imagina?",
+      "en": "Shall we pick one worry and see what we know and what we only imagine?",
+      "es": "¿Elegimos una preocupación y vemos lo que sabemos y lo que solo imaginamos?"
+    },
+    "sessoes": {
+      "s3": [
+        {
+          "pt": "'Semana de prova. (mexe na barra da blusa) Eu estudei tudo, juro, eu sabia. Aí eu sentei, olhei a folha e sumiu. Tipo, sumiu mesmo. Eu fiquei olhando o relógio e o coração batendo no ouvido. Entreguei metade. A professora falou que eu não estudei.'",
+          "en": "'Test week. (fiddles with the hem of her shirt) I studied everything, I swear, I knew it. Then I sat down, looked at the sheet and it was gone. Like, actually gone. I just watched the clock with my heart in my ears. I handed in half of it. The teacher said I hadn't studied.'",
+          "es": "'Test week. (fiddles with the hem of her shirt) I studied everything, I swear, I knew it. Then I sat down, looked at the sheet and it was gone. Like, actually gone. I just watched the clock with my heart in my ears. I handed in half of it. The teacher said I hadn't studied.'"
+        },
+        {
+          "pt": "'(a mãe:) Doutora, ela acorda com dor de barriga todo dia de aula. Já levei no pediatra duas vezes, não tem nada. (Sofia, baixinho:) Não é mentira, mãe. Dói de verdade. Só que no sábado não dói.'",
+          "en": "'(her mother:) Doctor, she wakes up with a stomach ache every school day. I've taken her to the paediatrician twice, there's nothing. (Sofia, quietly:) It isn't a lie, mum. It really hurts. It just doesn't hurt on Saturdays.'",
+          "es": "'(her mother:) Doctor, she wakes up with a stomach ache every school day. I've taken her to the paediatrician twice, there's nothing. (Sofia, quietly:) It isn't a lie, mum. It really hurts. It just doesn't hurt on Saturdays.'"
+        }
+      ],
+      "s4": [
+        {
+          "pt": "'(a mãe, abrindo uma pasta:) A professora refez as provas com ela numa sala vazia, sem cronômetro. Olha aqui. Quase tudo certo. (silêncio) Eu passei um ano achando que minha filha não dava conta de aprender.'",
+          "en": "'(her mother, opening a folder:) The teacher redid the tests with her in an empty room, untimed. Look at this. Almost all correct. (silence) I spent a year thinking my daughter couldn't learn.'",
+          "es": "'(her mother, opening a folder:) The teacher redid the tests with her in an empty room, untimed. Look at this. Almost all correct. (silence) I spent a year thinking my daughter couldn't learn.'"
+        },
+        {
+          "pt": "'Posso falar uma coisa? (respira fundo) Eu não tenho medo de prova. Eu tenho medo de todo mundo ver que eu não consegui. É diferente. Em casa, sozinha no meu quarto, eu também fico assim, esperando dar errado alguma coisa que nem aconteceu ainda.'",
+          "en": "'Can I say something? (takes a deep breath) I'm not afraid of the test. I'm afraid of everyone seeing that I couldn't do it. That's different. At home, alone in my room, I get like this too, waiting for something to go wrong that hasn't even happened yet.'",
+          "es": "'Can I say something? (takes a deep breath) I'm not afraid of the test. I'm afraid of everyone seeing that I couldn't do it. That's different. At home, alone in my room, I get like this too, waiting for something to go wrong that hasn't even happened yet.'"
+        }
+      ]
+    },
+    "fecho": {
+      "s2": {
+        "pt": "(a mãe:) 'Doutora, e na escola? Eu falo com a professora ou é pior?' (Sofia, baixinho, sem levantar a cabeça:) 'Mãe. Não fala.'",
+        "en": "(her mother:) 'Doctor, what about school? Should I talk to the teacher or does that make it worse?' (Sofia, quietly, without lifting her head:) 'Mum. Don't.'",
+        "es": "(her mother:) 'Doctor, what about school? Should I talk to the teacher or does that make it worse?' (Sofia, quietly, without lifting her head:) 'Mum. Don't.'"
+      },
+      "s3": {
+        "pt": "'Posso levar uma folha? (aponta o bloco) Pra quando der aquele negócio no peito eu desenhar em vez de ficar contando quanto falta pra acabar.'",
+        "en": "'Can I take a sheet? (points at the pad) For when that thing in my chest happens, so I can draw instead of counting how long until it's over.'",
+        "es": "'Can I take a sheet? (points at the pad) For when that thing in my chest happens, so I can draw instead of counting how long until it's over.'"
+      },
+      "s4": {
+        "pt": "(a mãe, na porta:) 'Obrigada por não ter dito que ela é preguiçosa.' (Sofia já está no corredor e finge não ter ouvido.)",
+        "en": "(her mother, at the door:) 'Thank you for not saying she's lazy.' (Sofia is already in the corridor and pretends not to have heard.)",
+        "es": "(her mother, at the door:) 'Thank you for not saying she's lazy.' (Sofia is already in the corridor and pretends not to have heard.)"
+      }
+    },
+    "opcoes": {
+      "s3": [
+        {
+          "acolhimento": {
+            "pt": "Você estudou, sabia, e a folha apagou tudo. Isso não é falta de estudo, Sofia — deve ter sido apavorante.",
+            "en": "You studied, you knew it, and the page wiped it all out. That is not a lack of studying, Sofia — it must have been terrifying.",
+            "es": "You studied, you knew it, and the page wiped it all out. That is not a lack of studying, Sofia — it must have been terrifying."
+          },
+          "tcc": {
+            "pt": "Entre sentar e olhar a folha, alguma frase passou pela sua cabeça? Do tipo 'eu não vou conseguir'?",
+            "en": "Between sitting down and looking at the page, did a sentence cross your mind? Something like 'I won't be able to'?",
+            "es": "Between sitting down and looking at the page, did a sentence cross your mind? Something like 'I won't be able to'?"
+          },
+          "psicodinamica": {
+            "pt": "Coração batendo no ouvido, olho no relógio. O que você acha que ia acontecer se você entregasse em branco?",
+            "en": "Heart beating in your ear, eye on the clock. What do you think would happen if you handed it in blank?",
+            "es": "Heart beating in your ear, eye on the clock. What do you think would happen if you handed it in blank?"
+          },
+          "psicoeducacao": {
+            "pt": "Vou explicar o que aconteceu: em alerta máximo, a parte da memória que busca o que você estudou fica em último lugar na fila. O conteúdo estava lá — o acesso é que fechou.",
+            "en": "Let me explain what happened: on top alert, the part of memory that fetches what you studied goes to the back of the queue. The content was there — it was access that shut down.",
+            "es": "Let me explain what happened: on top alert, the part of memory that fetches what you studied goes to the back of the queue. The content was there — it was access that shut down."
+          },
+          "comportamental": {
+            "pt": "Na próxima prova quero testar uma coisa: escrever na margem tudo que você lembrar, antes de ler a primeira pergunta.",
+            "en": "On the next test I want to try something: write in the margin everything you remember, before reading the first question.",
+            "es": "On the next test I want to try something: write in the margin everything you remember, before reading the first question."
+          },
+          "diretiva": {
+            "pt": "Isso precisa chegar à escola com essas palavras: não é falta de estudo. Eu escrevo.",
+            "en": "The school needs to hear this in these words: it is not a lack of studying. I will write it.",
+            "es": "The school needs to hear this in these words: it is not a lack of studying. I will write it."
+          }
+        },
+        {
+          "acolhimento": {
+            "pt": "(para a Sofia) Dói de verdade, eu acredito. (para a mãe) Dor que não aparece no exame continua sendo dor.",
+            "en": "(to Sofia) It really hurts, I believe you. (to her mother) Pain that does not show up in a test is still pain.",
+            "es": "(to Sofia) It really hurts, I believe you. (to her mother) Pain that does not show up in a test is still pain."
+          },
+          "tcc": {
+            "pt": "Dói em dia de aula e não dói no sábado. O que tem na segunda que não tem no sábado?",
+            "en": "It hurts on school days and not on Saturday. What does Monday have that Saturday does not?",
+            "es": "It hurts on school days and not on Saturday. What does Monday have that Saturday does not?"
+          },
+          "psicodinamica": {
+            "pt": "O corpo dela está dizendo alguma coisa que ainda não cabe em palavras. Desde quando começou essa dor?",
+            "en": "Her body is saying something that does not yet fit into words. How long has this pain been going on?",
+            "es": "Her body is saying something that does not yet fit into words. How long has this pain been going on?"
+          },
+          "psicoeducacao": {
+            "pt": "Isso se chama sintoma somático, e é comum: a ansiedade aperta o estômago de verdade. Levar ao pediatra foi certo — e o exame normal é parte da resposta, não o fim dela.",
+            "en": "This is called a somatic symptom, and it is common: anxiety really does clench the stomach. Taking her to the paediatrician was right — and the normal test is part of the answer, not the end of it.",
+            "es": "This is called a somatic symptom, and it is common: anxiety really does clench the stomach. Taking her to the paediatrician was right — and the normal test is part of the answer, not the end of it."
+          },
+          "comportamental": {
+            "pt": "Quero um registro simples por duas semanas: em que dias dói, que horas, e o que tinha na aula daquele dia.",
+            "en": "I want a simple record for two weeks: which days it hurts, what time, and what was on the timetable that day.",
+            "es": "I want a simple record for two weeks: which days it hurts, what time, and what was on the timetable that day."
+          },
+          "diretiva": {
+            "pt": "Nada de faltar à aula por causa da dor. A gente trata a ansiedade; a escola continua.",
+            "en": "No missing class because of the pain. We treat the anxiety; school goes on.",
+            "es": "No missing class because of the pain. We treat the anxiety; school goes on."
+          }
+        }
+      ],
+      "s4": [
+        {
+          "acolhimento": {
+            "pt": "(para a mãe) A senhora passou um ano carregando uma conclusão errada sozinha. (para a Sofia) E você, passou um ano carregando o quê?",
+            "en": "(to her mother) You carried a wrong conclusion alone for a year. (to Sofia) And you, what did you carry for a year?",
+            "es": "(to her mother) You carried a wrong conclusion alone for a year. (to Sofia) And you, what did you carry for a year?"
+          },
+          "tcc": {
+            "pt": "Sala vazia, sem cronômetro, quase tudo certo. Então o que derruba a nota não é o conteúdo: é a plateia e o relógio.",
+            "en": "Empty room, no clock, almost all correct. So what sinks the grade is not the content: it is the audience and the clock.",
+            "es": "Empty room, no clock, almost all correct. So what sinks the grade is not the content: it is the audience and the clock."
+          },
+          "psicodinamica": {
+            "pt": "A senhora achou por um ano que a filha não dava conta. O que isso fez com o jeito de vocês duas se olharem?",
+            "en": "For a year you thought your daughter could not cope. What did that do to the way you two look at each other?",
+            "es": "For a year you thought your daughter could not cope. What did that do to the way you two look at each other?"
+          },
+          "psicoeducacao": {
+            "pt": "Este papel é o que descarta dificuldade de aprendizagem. O que sobra é ansiedade — que tem tratamento, e bom.",
+            "en": "This sheet is what rules out a learning disorder. What is left is anxiety — which has treatment, and good treatment.",
+            "es": "This sheet is what rules out a learning disorder. What is left is anxiety — which has treatment, and good treatment."
+          },
+          "comportamental": {
+            "pt": "Então vamos pedir isso formalmente: prova sem cronômetro, em sala menor, enquanto a gente trabalha o resto.",
+            "en": "So let's ask for it formally: tests without a clock, in a smaller room, while we work on the rest.",
+            "es": "So let's ask for it formally: tests without a clock, in a smaller room, while we work on the rest."
+          },
+          "diretiva": {
+            "pt": "Guarde esse papel. É ele que muda a conversa com a escola a partir de hoje.",
+            "en": "Keep that sheet. It is what changes the conversation with the school from today on.",
+            "es": "Keep that sheet. It is what changes the conversation with the school from today on."
+          }
+        },
+        {
+          "acolhimento": {
+            "pt": "Você acabou de corrigir o seu próprio diagnóstico, e com uma precisão que muita gente grande não tem.",
+            "en": "You just corrected your own diagnosis, and with a precision many grown-ups do not have.",
+            "es": "You just corrected your own diagnosis, and with a precision many grown-ups do not have."
+          },
+          "tcc": {
+            "pt": "Então repara: sozinha no quarto, sem prova nenhuma, e a preocupação já está lá. O que ela está esperando dar errado?",
+            "en": "So notice: alone in your room, with no test at all, and the worry is already there. What is it waiting to go wrong?",
+            "es": "So notice: alone in your room, with no test at all, and the worry is already there. What is it waiting to go wrong?"
+          },
+          "psicodinamica": {
+            "pt": "'Medo de todo mundo ver que eu não consegui.' Quem foi a primeira pessoa que você sentiu que estava olhando?",
+            "en": "'Afraid everyone will see I couldn't do it.' Who was the first person you felt was watching?",
+            "es": "'Afraid everyone will see I couldn't do it.' Who was the first person you felt was watching?"
+          },
+          "psicoeducacao": {
+            "pt": "Isso que você descreveu muda o nome do que você tem — e muda para melhor, porque a preocupação que aparece sozinha tem um tratamento próprio.",
+            "en": "What you described changes the name of what you have — and for the better, because worry that appears on its own has a treatment of its own.",
+            "es": "What you described changes the name of what you have — and for the better, because worry that appears on its own has a treatment of its own."
+          },
+          "comportamental": {
+            "pt": "Vamos escrever a lista do que você espera dar errado numa semana. Depois a gente confere quantas aconteceram.",
+            "en": "Let's write the list of what you expect to go wrong in a week. Then we check how many happened.",
+            "es": "Let's write the list of what you expect to go wrong in a week. Then we check how many happened."
+          },
+          "diretiva": {
+            "pt": "Isso é importante demais para ficar só entre nós duas: sua mãe precisa ouvir com essas palavras.",
+            "en": "This is too important to stay between the two of us: your mother needs to hear it in these words.",
+            "es": "This is too important to stay between the two of us: your mother needs to hear it in these words."
+          }
+        }
+      ]
+    }
+  },
+  "look": {
+    "skin": "#ecc9a8",
+    "hair": "#3a2a22",
+    "hairStyle": "long",
+    "top": "#b9a8e0",
+    "acc": "glasses",
+    "eyeShape": "round",
+    "brow": "soft",
+    "mouth": "neutral",
+    "rosto": "assets/rosto-sofia.png",
+    "corpo": "f"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "segunda": [
+    {
+      "time": "08:00–08:50",
+      "caseId": "lucas"
+    },
+    {
+      "time": "09:00–09:50",
+      "caseId": "maria"
+    },
+    {
+      "time": "10:00–10:50",
+      "caseId": "helena"
+    }
+  ],
+  "terca": [
+    {
+      "time": "08:00–08:50",
+      "caseId": "sofia"
+    },
+    {
+      "time": "09:00–09:50",
+      "caseId": "rafael"
+    },
+    {
+      "time": "10:00–10:50",
+      "caseId": "beatriz"
+    }
+  ],
+  "quarta": [
+    {
+      "time": "08:00–08:50",
+      "caseId": "gabriel"
+    },
+    {
+      "time": "09:00–09:50",
+      "caseId": "carlos"
+    },
+    {
+      "time": "10:00–10:50",
+      "caseId": "tiago"
+    }
+  ],
+  "quinta": [
+    {
+      "time": "08:00–08:50",
+      "caseId": "enzo"
+    },
+    {
+      "time": "09:00–09:50",
+      "caseId": "jonas"
+    },
+    {
+      "time": "10:00–10:50",
+      "caseId": "marcos"
+    }
+  ],
+  "sexta": [
+    {
+      "time": "08:00–08:50",
+      "caseId": "mariana"
+    },
+    {
+      "time": "09:00–09:50",
+      "caseId": "vitoria"
+    },
+    {
+      "time": "10:00–10:50",
+      "caseId": "iris"
+    }
+  ]
+}

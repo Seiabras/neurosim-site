@@ -1,0 +1,554 @@
+{
+  "name": {
+    "pt": "Íris Campos",
+    "en": "Íris Campos",
+    "es": "Íris Campos"
+  },
+  "age": {
+    "pt": "26 anos",
+    "en": "26 years old",
+    "es": "26 años"
+  },
+  "complaint": {
+    "pt": "Humor que muda em horas, relações intensas e impulsividade. Já a chamaram de bipolar e de 'dramática'.",
+    "en": "Mood that shifts within hours, intense relationships and impulsivity. She has been called bipolar and 'dramatic'.",
+    "es": "Ánimo que cambia en horas, relaciones intensas e impulsividad. Ya la llamaron bipolar y 'dramática'."
+  },
+  "history": {
+    "pt": "Designer. Passou por dois psiquiatras e dois diagnósticos diferentes, sem melhora com o primeiro remédio. Procurou psicoterapia por conta própria.",
+    "en": "Designer. Went through two psychiatrists and two different diagnoses, with no improvement on the first medication. Sought psychotherapy on her own.",
+    "es": "Diseñadora. Pasó por dos psiquiatras y dos diagnósticos distintos, sin mejoría con el primer fármaco. Buscó psicoterapia por cuenta propia."
+  },
+  "image": "assets/char-iris.png",
+  "parent": null,
+  "dot": "dot-pink",
+  "group": "personalidade",
+  "type": {
+    "pt": "1ª Sessão: Anamnese",
+    "en": "1st session: intake interview",
+    "es": "1.ª sesión: anamnesis"
+  },
+  "info": {
+    "pt": "Caso complexo: diagnósticos prévios divergentes, instabilidade afetiva e autolesão. Exige diagnóstico diferencial.",
+    "en": "Complex case: divergent previous diagnoses, affective instability and self-harm. Requires differential diagnosis.",
+    "es": "Caso complejo: diagnósticos previos divergentes, inestabilidad afectiva y autolesión. Exige diagnóstico diferencial."
+  },
+  "message": {
+    "from": {
+      "pt": "Íris Campos (e-mail)",
+      "en": "Íris Campos (email)",
+      "es": "Íris Campos (correo)"
+    },
+    "text": {
+      "pt": "Já ouvi 'bipolar', 'borderline' e 'só carência'. Estou cansada de ser um rótulo. Você vai me ouvir antes de decidir?",
+      "en": "I've heard 'bipolar', 'borderline' and 'just needy'. I'm tired of being a label. Will you listen to me before deciding?",
+      "es": "He oído 'bipolar', 'límite' y 'solo carencia'. Estoy cansada de ser una etiqueta. ¿Me vas a escuchar antes de decidir?"
+    }
+  },
+  "fit": {
+    "acolhimento": 4,
+    "comportamental": 3,
+    "tcc": 3,
+    "psicoeducacao": 3,
+    "psicodinamica": 2,
+    "diretiva": 0
+  },
+  "why": {
+    "acolhimento": {
+      "pt": "Com muitos rótulos e muita dor, sentir-se ouvida sem etiqueta vem antes de tudo e cria a segurança que a instabilidade exige.",
+      "en": "With many labels and much pain, feeling heard without a label comes before anything else and builds the safety that instability requires.",
+      "es": "Con muchas etiquetas y mucho dolor, sentirse escuchada sin etiqueta viene antes que nada y crea la seguridad que la inestabilidad exige."
+    },
+    "comportamental": {
+      "pt": "Registrar humor, sono e o que aconteceu antes de cada mudança separa quadros parecidos e mostra os gatilhos.",
+      "en": "Logging mood, sleep and what happened before each shift separates similar conditions and reveals triggers.",
+      "es": "Registrar ánimo, sueño y lo ocurrido antes de cada cambio separa cuadros parecidos y muestra los gatillos."
+    },
+    "tcc": {
+      "pt": "A TCC mapeia pensamentos e gatilhos e ensina a regular emoções, mas exige vínculo e validação antes de desafiar ideias.",
+      "en": "CBT maps thoughts and triggers and teaches emotion regulation, but requires bond and validation before challenging ideas.",
+      "es": "La TCC mapea pensamientos y gatillos y enseña a regular emociones, pero exige vínculo y validación antes de desafiar ideas."
+    },
+    "psicoeducacao": {
+      "pt": "Explicar como se distinguem os quadros e o papel de cada profissional reduz a confusão, se vier depois de ouvir.",
+      "en": "Explaining how conditions are told apart and each professional's role reduces confusion, if it comes after listening.",
+      "es": "Explicar cómo se distinguen los cuadros y el papel de cada profesional reduce la confusión, si llega después de escuchar."
+    },
+    "psicodinamica": {
+      "pt": "Os padrões de relação têm valor, mas interpretar cedo pode soar como mais um rótulo ou uma acusação.",
+      "en": "Relationship patterns matter, but interpreting early can sound like yet another label or an accusation.",
+      "es": "Los patrones de relación importan, pero interpretar pronto puede sonar como otra etiqueta o una acusación."
+    }
+  },
+  "diagnosis": {
+    "answer": "borderline",
+    "options": [
+      "borderline",
+      "bipolar2",
+      "ciclotimico",
+      "histrionica"
+    ],
+    "why": {
+      "pt": "As mudanças de humor duram horas e seguem eventos de relação (medo de abandono, raiva intensa, autolesão sozinha). Na bipolaridade, os episódios duram dias ou semanas e não dependem do que aconteceu no dia. A insônia após o término foi reativa, não uma fase hipomaníaca. A hipótese pede confirmação ao longo do tempo e com o psiquiatra.",
+      "en": "The mood shifts last hours and follow relationship events (fear of abandonment, intense anger, self-harm when alone). In bipolar disorder, episodes last days or weeks and do not depend on what happened that day. The insomnia after the breakup was reactive, not a hypomanic phase. The hypothesis needs confirmation over time and with the psychiatrist.",
+      "es": "Los cambios de ánimo duran horas y siguen a eventos de relación (miedo al abandono, rabia intensa, autolesión estando sola). En el trastorno bipolar, los episodios duran días o semanas y no dependen de lo que ocurrió ese día. El insomnio tras la ruptura fue reactivo, no una fase hipomaníaca. La hipótesis necesita confirmación con el tiempo y con el psiquiatra."
+    }
+  },
+  "steps": [
+    {
+      "who": "patient",
+      "text": {
+        "pt": "'Já me disseram que sou bipolar, depois que sou 'só dramática'. Eu não sei mais o que eu tenho. Você vai me dizer algo diferente?'",
+        "en": "'They told me I'm bipolar, then that I'm 'just dramatic'. I don't know what I have anymore. Will you tell me something different?'",
+        "es": "'Me dijeron que soy bipolar, luego que soy 'solo dramática'. Ya no sé qué tengo. ¿Vas a decirme algo distinto?'"
+      },
+      "note": {
+        "pt": "Cansada de rótulos divergentes; testa se será ouvida.",
+        "en": "Tired of divergent labels; tests whether she will be heard.",
+        "es": "Cansada de etiquetas divergentes; pone a prueba si será escuchada."
+      },
+      "mods": {
+        "diretiva": 1
+      },
+      "options": {
+        "acolhimento": {
+          "pt": "Hoje não vou te dar rótulo nenhum. Quero ouvir a sua história e entender o que aconteceu antes de cada momento difícil.",
+          "en": "Today I won't give you any label. I want to hear your story and understand what happened before each hard moment.",
+          "es": "Hoy no te daré ninguna etiqueta. Quiero escuchar tu historia y entender qué pasó antes de cada momento difícil."
+        },
+        "psicoeducacao": {
+          "pt": "Faz sentido a confusão: quadros de humor se parecem. Vamos investigar com calma, com dados da sua vida e da sua rotina. Uma boa investigação evita anos de tratamento errado.",
+          "en": "The confusion makes sense: mood conditions look alike. We'll investigate calmly, with data from your life and routine. A good investigation avoids years on the wrong treatment.",
+          "es": "La confusión tiene sentido: los cuadros del ánimo se parecen. Investigaremos con calma, con datos de tu vida y de tu rutina. Una buena investigación evita años de tratamiento equivocado."
+        },
+        "psicodinamica": {
+          "pt": "Ser tantas coisas para tantas pessoas deve ter um custo. Como é para você não saber quem você é?",
+          "en": "Being so many things to so many people must have a cost. What is it like for you not knowing who you are?",
+          "es": "Ser tantas cosas para tantas personas debe tener un costo. ¿Cómo es para ti no saber quién eres?"
+        },
+        "diretiva": {
+          "pt": "Pela sua história, o mais provável é transtorno borderline. Vamos direto ao tratamento indicado para ele.",
+          "en": "From your history, borderline disorder is the most likely. Let's go straight to the treatment indicated for it.",
+          "es": "Por tu historia, lo más probable es el trastorno límite. Vayamos directo al tratamiento indicado para él."
+        }
+      },
+      "variants": [
+        {
+          "pt": "'Já me disseram que sou bipolar e depois que sou 'só dramática'. Não sei mais o que eu tenho. Você vai me dizer algo diferente?'",
+          "en": "'They told me I was bipolar, and then that I was 'just dramatic'. I don't know what I have anymore. Are you going to tell me something different?'",
+          "es": "'Me dijeron que soy bipolar y después que soy 'solo dramática'. Ya no sé qué tengo. ¿Vas a decirme algo distinto?'"
+        },
+        {
+          "pt": "'Um médico disse bipolar, outro disse que é drama. Estou perdida sobre o que tenho. Você vai me dar mais um rótulo?'",
+          "en": "'One doctor said bipolar, another said it's just drama. I'm lost about what I have. Are you going to give me one more label?'",
+          "es": "'Un médico dijo bipolar, otro dijo que es puro drama. Estoy perdida sobre lo que tengo. ¿Vas a darme una etiqueta más?'"
+        }
+      ]
+    },
+    {
+      "who": "patient",
+      "text": {
+        "pt": "'Meu humor muda em horas. De manhã estou bem, no almoço uma discussão e eu desabo. Teve uma semana em que quase não dormi, mas foi depois que terminei com meu ex.'",
+        "en": "'My mood changes in hours. In the morning I'm fine, at lunch an argument and I collapse. There was a week I barely slept, but that was after I broke up with my ex.'",
+        "es": "'Mi ánimo cambia en horas. Por la mañana estoy bien, al almuerzo una discusión y me derrumbo. Hubo una semana en que casi no dormí, pero fue después de terminar con mi ex.'"
+      },
+      "note": {
+        "pt": "Mudanças de humor em horas, ligadas a discussões; insônia após término (contexto).",
+        "en": "Mood shifts within hours, linked to arguments; insomnia after a breakup (context).",
+        "es": "Cambios de ánimo en horas, ligados a discusiones; insomnio tras una ruptura (contexto)."
+      },
+      "mods": {
+        "tcc": 1,
+        "acolhimento": -1,
+        "psicoeducacao": -2
+      },
+      "options": {
+        "tcc": {
+          "pt": "Vamos montar uma linha do tempo: o que aconteceu antes de cada virada, quanto ela durou e como estava o seu sono. Isso separa muita coisa.",
+          "en": "Let's build a timeline: what happened before each shift, how long it lasted and how your sleep was. That separates a lot.",
+          "es": "Armemos una línea de tiempo: qué pasó antes de cada cambio, cuánto duró y cómo estaba tu sueño. Eso separa muchas cosas."
+        },
+        "comportamental": {
+          "pt": "Nas próximas semanas, anote todo dia seu humor de 0 a 10 três vezes, as horas dormidas e o que aconteceu. Trazemos isso aqui.",
+          "en": "Over the next weeks, note your mood 0 to 10 three times a day, hours slept and what happened. We'll bring it here.",
+          "es": "En las próximas semanas, anota todos los días tu ánimo de 0 a 10 tres veces, las horas dormidas y lo ocurrido. Lo traemos aquí."
+        },
+        "acolhimento": {
+          "pt": "Não saber como você vai estar no fim do dia deve ser exaustivo. Você é muito mais do que essas oscilações.",
+          "en": "Not knowing how you'll feel by the end of the day must be exhausting. You are much more than these swings.",
+          "es": "No saber cómo estarás al final del día debe ser agotador. Eres mucho más que esas oscilaciones."
+        },
+        "psicoeducacao": {
+          "pt": "Semana com pouco sono e muita energia costuma indicar bipolaridade. Vou passar um material sobre esse transtorno. Entender o nome da própria experiência costuma aliviar.",
+          "en": "A week with little sleep and lots of energy usually points to bipolar disorder. I'll give you material about it. Understanding the name of one's own experience tends to bring relief.",
+          "es": "Una semana con poco sueño y mucha energía suele indicar bipolaridad. Te pasaré material sobre ese trastorno. Entender el nombre de la propia experiencia suele aliviar."
+        }
+      },
+      "variants": [
+        {
+          "pt": "'Meu humor vira em poucas horas. Estou bem de manhã, uma discussão no almoço e vou ao chão. Já passei uma semana quase sem dormir, logo depois do fim com meu ex.'",
+          "en": "'My mood turns in a few hours. I'm fine in the morning, an argument at lunch and I hit the floor. I once went a week almost without sleeping, right after the end with my ex.'",
+          "es": "'Mi ánimo da un vuelco en pocas horas. Estoy bien por la mañana, una discusión en el almuerzo y me hundo. Una vez pasé una semana casi sin dormir, justo tras el final con mi ex.'"
+        },
+        {
+          "pt": "'Meu humor vira de uma hora para outra: de manhã tudo bem, uma briga no almoço e eu desmorono. Uma vez passei uma semana sem dormir direito, logo depois de terminar com meu ex.'",
+          "en": "'My mood flips from one hour to the next: fine in the morning, a fight at lunch and I collapse. Once I went a week barely sleeping, right after breaking up with my ex.'",
+          "es": "'Mi ánimo cambia de una hora a otra: bien por la mañana, una pelea en el almuerzo y me desmorono. Una vez pasé una semana sin dormir bien, justo después de terminar con mi ex.'"
+        }
+      ]
+    },
+    {
+      "who": "patient",
+      "text": {
+        "pt": "'Quando alguém que eu amo demora a responder, eu entro em pânico. Já me cortei duas vezes, mas só quando estou sozinha e sem ninguém.'",
+        "en": "'When someone I love takes long to reply, I panic. I've cut myself twice, but only when I'm alone with no one around.'",
+        "es": "'Cuando alguien que amo tarda en responder, entro en pánico. Me corté dos veces, pero solo cuando estoy sola y sin nadie.'"
+      },
+      "note": {
+        "pt": "Revela autolesão e medo de abandono: avaliar o risco com cuidado.",
+        "en": "Discloses self-harm and fear of abandonment: assess risk carefully.",
+        "es": "Revela autolesión y miedo al abandono: evaluar el riesgo con cuidado."
+      },
+      "mods": {
+        "tcc": -1
+      },
+      "options": {
+        "acolhimento": {
+          "pt": "Isso não é fácil de dizer, eu sei. Posso perguntar com clareza: quando você se corta, pensa em tirar a própria vida?",
+          "en": "This isn't easy to say, I know. May I ask clearly: when you cut, do you think of ending your life?",
+          "es": "Sé que esto no es fácil de decir. ¿Puedo preguntar con claridad: cuando te cortas, piensas en quitarte la vida?"
+        },
+        "psicoeducacao": {
+          "pt": "Vamos combinar um plano de segurança: sinais de alerta, o que fazer antes de se machucar e quem chamar. Podemos escrevê-lo juntas.",
+          "en": "Let's agree on a safety plan: warning signs, what to do before hurting yourself and who to call. We can write it together.",
+          "es": "Acordemos un plan de seguridad: señales de alerta, qué hacer antes de lastimarte y a quién llamar. Podemos escribirlo juntas."
+        },
+        "tcc": {
+          "pt": "Vamos anotar o que passa pela sua cabeça nos minutos antes de cada vez e o que você sente logo depois.",
+          "en": "Let's note what goes through your mind in the minutes before each time and how you feel right after.",
+          "es": "Anotemos qué pasa por tu cabeza en los minutos previos a cada vez y cómo te sientes justo después."
+        },
+        "diretiva": {
+          "pt": "Você precisa prometer que nunca mais vai fazer isso. Sem essa promessa, eu não consigo continuar o atendimento.",
+          "en": "You must promise you will never do that again. Without that promise, I can't continue treating you.",
+          "es": "Debes prometer que nunca más lo harás. Sin esa promesa, no puedo continuar la atención."
+        }
+      },
+      "variants": [
+        {
+          "pt": "'Se alguém que eu amo demora para responder, eu entro em desespero. Me cortei duas vezes, sempre sozinha, sem ninguém por perto.'",
+          "en": "'If someone I love is slow to reply, I fall into despair. I cut myself twice, always alone, with nobody nearby.'",
+          "es": "'Si alguien que amo tarda en contestar, me desespero. Me corté dos veces, siempre sola, sin nadie cerca.'"
+        },
+        {
+          "pt": "'Se alguém que eu amo demora para me responder, eu entro em desespero. Duas vezes eu me cortei, sempre sozinha, quando não tinha ninguém por perto.'",
+          "en": "'If someone I love is slow to answer me, I fall into despair. Twice I cut myself, always alone, when no one was around.'",
+          "es": "'Si alguien que amo tarda en responderme, me desespero. Dos veces me corté, siempre sola, cuando no había nadie cerca.'"
+        }
+      ]
+    },
+    {
+      "who": "patient",
+      "text": {
+        "pt": "'Você é a única pessoa que me entende de verdade. Posso te mandar mensagem a qualquer hora, quando eu estiver mal?'",
+        "en": "'You are the only person who truly understands me. Can I message you any time, when I'm doing badly?'",
+        "es": "'Eres la única persona que me entiende de verdad. ¿Puedo escribirte a cualquier hora, cuando esté mal?'"
+      },
+      "note": {
+        "pt": "Idealização da terapeuta e pedido de disponibilidade total: manejar limites.",
+        "en": "Idealization of the therapist and a request for total availability: manage boundaries.",
+        "es": "Idealización de la terapeuta y pedido de disponibilidad total: manejar los límites."
+      },
+      "mods": {
+        "comportamental": 1,
+        "acolhimento": -3,
+        "diretiva": 1
+      },
+      "options": {
+        "comportamental": {
+          "pt": "Vamos combinar um jeito: mensagens só para horário da sessão e, nos momentos difíceis, um plano com passos e contatos que você pode usar na hora.",
+          "en": "Let's agree on a way: messages only about session times and, for hard moments, a plan with steps and contacts you can use right then.",
+          "es": "Acordemos una forma: mensajes solo para el horario de la sesión y, en los momentos difíciles, un plan con pasos y contactos que puedes usar en el momento."
+        },
+        "psicodinamica": {
+          "pt": "Me colocar nesse lugar de única pessoa que entende talvez já tenha acontecido com outras pessoas. Isso acompanha a sua história?",
+          "en": "Placing me in that spot of the only one who understands may have happened with other people. Does this follow your story?",
+          "es": "Ponerme en ese lugar de única persona que entiende quizá ya haya pasado con otras personas. ¿Esto acompaña tu historia?"
+        },
+        "acolhimento": {
+          "pt": "Claro, pode me mandar mensagem a qualquer hora. Eu vou responder sempre que puder, não quero que você se sinta sozinha.",
+          "en": "Of course, you can message me any time. I'll reply whenever I can, I don't want you to feel alone.",
+          "es": "Claro, puedes escribirme a cualquier hora. Responderé siempre que pueda, no quiero que te sientas sola."
+        },
+        "diretiva": {
+          "pt": "Não posso responder mensagens de jeito nenhum. Nossa relação só existe dentro da sessão, e ponto. Sem essa linha clara, a terapia se confunde com outra coisa.",
+          "en": "I can't answer messages under any circumstances. Our relationship exists only within the session, period. Without that clear line, therapy gets confused with something else.",
+          "es": "No puedo responder mensajes de ninguna manera. Nuestra relación solo existe dentro de la sesión y punto. Sin esa línea clara, la terapia se confunde con otra cosa."
+        }
+      },
+      "variants": [
+        {
+          "pt": "'Ninguém me entende como você. Será que eu posso te procurar a qualquer hora em que eu esteja mal?'",
+          "en": "'Nobody understands me like you do. Could I reach out to you at any hour when I'm feeling bad?'",
+          "es": "'Nadie me entiende como tú. ¿Podría buscarte a cualquier hora en que me sienta mal?'"
+        },
+        {
+          "pt": "'Só você me entende de verdade. Posso te chamar a qualquer hora quando eu estiver mal?'",
+          "en": "'Only you truly understand me. Can I reach out to you at any hour when I'm doing badly?'",
+          "es": "'Solo tú me entiendes de verdad. ¿Puedo buscarte a cualquier hora cuando esté mal?'"
+        }
+      ]
+    },
+    {
+      "who": "patient",
+      "text": {
+        "pt": "(mais calma) 'Então, no fim das contas, eu sou bipolar ou não?'",
+        "en": "(calmer) 'So, in the end, am I bipolar or not?'",
+        "es": "(más calmada) 'Entonces, al final, ¿soy bipolar o no?'"
+      },
+      "note": {
+        "pt": "Pede um veredito ao fim da primeira sessão.",
+        "en": "Asks for a verdict at the end of the first session.",
+        "es": "Pide un veredicto al final de la primera sesión."
+      },
+      "mods": {
+        "psicoeducacao": 1,
+        "acolhimento": -2,
+        "tcc": -1
+      },
+      "options": {
+        "psicoeducacao": {
+          "pt": "Ainda é cedo para afirmar. O que vimos hoje pesa para um lado, mas vamos acompanhar seus registros e conversar com seu psiquiatra antes de concluir.",
+          "en": "It's still early to say. What we saw today leans one way, but we will follow your records and talk with your psychiatrist before concluding.",
+          "es": "Aún es pronto para afirmarlo. Lo que vimos hoy pesa hacia un lado, pero seguiremos tus registros y hablaremos con tu psiquiatra antes de concluir."
+        },
+        "acolhimento": {
+          "pt": "Entendo a pressa de ter uma resposta. Independente do nome, o seu sofrimento é real e a gente vai cuidar dele. É simples e rápido.",
+          "en": "I understand the rush for an answer. Whatever the name, your suffering is real and we will take care of it. It is simple and quick.",
+          "es": "Entiendo la prisa por una respuesta. Sea cual sea el nombre, tu sufrimiento es real y lo vamos a cuidar. Es simple y rápido."
+        },
+        "tcc": {
+          "pt": "Que tal olharmos as duas hipóteses, bipolar e outra, e listarmos o que a favor e contra cada uma na sua vida?",
+          "en": "How about looking at both hypotheses, bipolar and another, and listing what supports and contradicts each in your life?",
+          "es": "¿Qué tal mirar las dos hipótesis, bipolar y otra, y listar lo que apoya y contradice cada una en tu vida?"
+        },
+        "diretiva": {
+          "pt": "Você não é bipolar: é borderline. Já dá para encerrar essa dúvida e mudar o tratamento. Um diagnóstico errado só atrasa o que realmente ajuda.",
+          "en": "You are not bipolar: you are borderline. We can end this doubt now and change the treatment. A wrong diagnosis only delays what really helps.",
+          "es": "No eres bipolar: eres límite. Ya podemos cerrar esta duda y cambiar el tratamiento. Un diagnóstico equivocado solo retrasa lo que de verdad ayuda."
+        }
+      },
+      "variants": [
+        {
+          "pt": "(mais calma) 'Então me diz: no fim, eu sou bipolar ou não sou?'",
+          "en": "(calmer) 'So tell me: in the end, am I bipolar or not?'",
+          "es": "(más tranquila) 'Entonces dime: al final, ¿soy bipolar o no?'"
+        },
+        {
+          "pt": "(respirando fundo) 'Diga logo: afinal, eu sou bipolar ou não sou?'",
+          "en": "(taking a deep breath) 'Just tell me: am I bipolar or not, after all?'",
+          "es": "(respirando hondo) 'Dime de una vez: al final, ¿soy bipolar o no?'"
+        }
+      ]
+    }
+  ],
+  "voice": {
+    "intro": {
+      "pt": "(entra rápido, senta e levanta o queixo) 'Íris, 26. Já passei por três terapeutas e todos me decepcionaram. Você é diferente? Eu sou intensa, tá? Ou você aguenta, ou não.'",
+      "en": "(walks in fast, sits and lifts her chin) 'Íris, 26. I've been through three therapists and all of them let me down. Are you different? I'm intense, okay? Either you can handle it or you can't.'",
+      "es": "(entra rápido, se sienta y levanta la barbilla) 'Íris, 26. Pasé por tres terapeutas y todos me decepcionaron. ¿Tú eres distinta? Soy intensa, ¿vale? O aguantas o no.'"
+    },
+    "pre": [
+      {
+        "pt": "Sabe o que é?",
+        "en": "You know what it is?",
+        "es": "¿Sabes qué pasa?"
+      },
+      {
+        "pt": "Sempre acontece a mesma coisa:",
+        "en": "The same thing always happens:",
+        "es": "Siempre pasa lo mismo:"
+      }
+    ],
+    "post": {
+      "pt": "Ninguém entende. Você entende?",
+      "en": "Nobody gets it. Do you?",
+      "es": "Nadie lo entiende. ¿Tú sí?"
+    },
+    "ref": [
+      {
+        "pt": "Briguei com ela de novo e quis sumir. Depois quis ligar pedindo perdão.",
+        "en": "I fought with her again and wanted to disappear. Then wanted to call and beg forgiveness.",
+        "es": "Peleé con ella otra vez y quise desaparecer. Luego quise llamar pidiendo perdón."
+      },
+      {
+        "pt": "Discuti, mas respirei antes de mandar a mensagem. Não mandei nada.",
+        "en": "I argued, but breathed before sending the message. I sent nothing.",
+        "es": "Discutí, pero respiré antes de mandar el mensaje. No mandé nada."
+      },
+      {
+        "pt": "Ela demorou a responder e eu aguentei sem surtar. Me senti orgulhosa.",
+        "en": "She took a while to answer and I held on without freaking out. I felt proud.",
+        "es": "Ella tardó en contestar y aguanté sin descontrolarme. Me sentí orgullosa."
+      }
+    ],
+    "hookA": {
+      "pt": "O que acontece dentro de você quando sente que alguém pode ir embora?",
+      "en": "What happens inside you when you feel someone might leave?",
+      "es": "¿Qué pasa dentro de ti cuando sientes que alguien puede irse?"
+    },
+    "hookB": {
+      "pt": "Vamos treinar uma habilidade de regulação de emoções para a próxima vez que a raiva subir?",
+      "en": "Shall we practice an emotion-regulation skill for the next time the anger rises?",
+      "es": "¿Practicamos una habilidad de regulación emocional para la próxima vez que suba la rabia?"
+    },
+    "sessoes": {
+      "s3": [
+        {
+          "pt": "'Briguei com a minha melhor amiga e bloqueei ela em tudo. (mexe no anel) Três horas depois eu desbloqueei e mandei quarenta mensagens pedindo desculpa. Ela não respondeu ainda.'",
+          "en": "'I fought with my best friend and blocked her everywhere. (fidgets with her ring) Three hours later I unblocked her and sent forty messages apologising. She hasn't answered yet.'",
+          "es": "'I fought with my best friend and blocked her everywhere. (fidgets with her ring) Three hours later I unblocked her and sent forty messages apologising. She hasn't answered yet.'"
+        },
+        {
+          "pt": "'O psiquiatra falou em bipolar e minha mãe achou ótimo, porque aí tem remédio. (a voz endurece) Mas não é de semanas, doutora. É de horas. Muda quando alguém me olha torto.'",
+          "en": "'The psychiatrist said bipolar and my mother was thrilled, because then there's medication. (her voice hardens) But it isn't weeks, doctor. It's hours. It changes when someone looks at me wrong.'",
+          "es": "'The psychiatrist said bipolar and my mother was thrilled, because then there's medication. (her voice hardens) But it isn't weeks, doctor. It's hours. It changes when someone looks at me wrong.'"
+        }
+      ],
+      "s4": [
+        {
+          "pt": "'Eu me cortei de novo sexta. (mostra o pulso, sem drama) Foi depois da briga. Doeu menos do que o que eu tava sentindo, e aí eu parei de sentir por um tempo. É isso que serve pra mim.'",
+          "en": "'I cut myself again on Friday. (shows her wrist, without drama) It was after the fight. It hurt less than what I was feeling, and then I stopped feeling for a while. That's what it does for me.'",
+          "es": "'I cut myself again on Friday. (shows her wrist, without drama) It was after the fight. It hurt less than what I was feeling, and then I stopped feeling for a while. That's what it does for me.'"
+        },
+        {
+          "pt": "'A senhora não fez cara de susto agora. (olha de verdade) Todo mundo faz. Aí eu paro de contar. É a primeira vez que eu conto isso e continuo na sala.'",
+          "en": "'You didn't make the shocked face just now. (really looks at you) Everyone does. Then I stop telling them. This is the first time I've said this and stayed in the room.'",
+          "es": "'You didn't make the shocked face just now. (really looks at you) Everyone does. Then I stop telling them. This is the first time I've said this and stayed in the room.'"
+        }
+      ]
+    },
+    "fecho": {
+      "s2": {
+        "pt": "(na porta) 'Você vai desistir de mim também?' (não é provocação: é pergunta de verdade, e ela espera a resposta.)",
+        "en": "(at the door) 'Are you going to give up on me too?' (it isn't a taunt: it's a real question, and she waits for the answer.)",
+        "es": "(at the door) 'Are you going to give up on me too?' (it isn't a taunt: it's a real question, and she waits for the answer.)"
+      },
+      "s3": {
+        "pt": "'Ela me respondeu.' (mostra o celular, sem soltar) 'Três palavras. Eu li umas quarenta vezes.'",
+        "en": "'She answered me.' (shows the phone, without letting go of it) 'Three words. I've read them about forty times.'",
+        "es": "'She answered me.' (shows the phone, without letting go of it) 'Three words. I've read them about forty times.'"
+      },
+      "s4": {
+        "pt": "'Eu vou voltar semana que vem.' (olha para você) 'Tô falando isso em voz alta de propósito, pra ficar mais difícil de eu não vir.'",
+        "en": "'I'm coming back next week.' (looks at you) 'I'm saying it out loud on purpose, to make it harder not to come.'",
+        "es": "'I'm coming back next week.' (looks at you) 'I'm saying it out loud on purpose, to make it harder not to come.'"
+      }
+    },
+    "opcoes": {
+      "s3": [
+        {
+          "acolhimento": {
+            "pt": "Bloquear e desbloquear em três horas cansa. Como você está agora, esperando a resposta dela?",
+            "en": "Blocking and unblocking within three hours is exhausting. How are you now, waiting for her answer?",
+            "es": "Blocking and unblocking within three hours is exhausting. How are you now, waiting for her answer?"
+          },
+          "tcc": {
+            "pt": "Entre o bloqueio e as quarenta mensagens, o que mudou dentro de você? Foi a raiva virando o quê?",
+            "en": "Between blocking her and the forty messages, what changed inside you? The anger turned into what?",
+            "es": "Between blocking her and the forty messages, what changed inside you? The anger turned into what?"
+          },
+          "psicoeducacao": {
+            "pt": "Essa virada rápida da mesma pessoa de ótima para péssima e de volta tem nome, e a velocidade é o dado clínico — é ela que diferencia o seu caso de outros.",
+            "en": "That quick flip of the same person from wonderful to awful and back has a name, and the speed is the clinical fact — it is what tells your case apart from others.",
+            "es": "That quick flip of the same person from wonderful to awful and back has a name, and the speed is the clinical fact — it is what tells your case apart from others."
+          },
+          "diretiva": {
+            "pt": "Regra nova: mensagem mandada depois da terceira fica em rascunho até o dia seguinte.",
+            "en": "New rule: any message after the third goes into drafts until the next day.",
+            "es": "New rule: any message after the third goes into drafts until the next day."
+          }
+        },
+        {
+          "acolhimento": {
+            "pt": "Você corrigiu o psiquiatra e a sua mãe, e está certa. Horas não é semanas.",
+            "en": "You corrected the psychiatrist and your mother, and you are right. Hours is not weeks.",
+            "es": "You corrected the psychiatrist and your mother, and you are right. Hours is not weeks."
+          },
+          "tcc": {
+            "pt": "Vamos cronometrar: da próxima vez, quanto tempo passa entre o olhar torto e o estouro, e quanto dura depois?",
+            "en": "Let's time it: next time, how long between the sideways look and the blow-up, and how long it lasts afterwards?",
+            "es": "Let's time it: next time, how long between the sideways look and the blow-up, and how long it lasts afterwards?"
+          },
+          "psicoeducacao": {
+            "pt": "É essa a diferença que separa os dois diagnósticos: bipolaridade é episódio de semanas, o seu é reatividade de horas ligada a relação. Muda o tratamento inteiro.",
+            "en": "That is the difference that separates the two diagnoses: bipolar disorder is episodes of weeks, yours is reactivity of hours tied to relationships. It changes the whole treatment.",
+            "es": "That is the difference that separates the two diagnoses: bipolar disorder is episodes of weeks, yours is reactivity of hours tied to relationships. It changes the whole treatment."
+          },
+          "diretiva": {
+            "pt": "Vou escrever para o psiquiatra o que você acabou de me dizer, com essas palavras.",
+            "en": "I will write to the psychiatrist what you just told me, in those words.",
+            "es": "I will write to the psychiatrist what you just told me, in those words."
+          }
+        }
+      ],
+      "s4": [
+        {
+          "acolhimento": {
+            "pt": "Você contou sem drama, e eu ouvi sem drama. Isso aqui pode ser um lugar onde não precisa doer para ser levado a sério.",
+            "en": "You told me without drama, and I heard it without drama. This can be a place where it does not have to hurt to be taken seriously.",
+            "es": "You told me without drama, and I heard it without drama. This can be a place where it does not have to hurt to be taken seriously."
+          },
+          "tcc": {
+            "pt": "Então serve para parar de sentir. O que a gente precisa descobrir é o que mais poderia servir para isso, com um preço menor.",
+            "en": "So it serves to stop the feeling. What we need to find is what else could serve that, at a smaller price.",
+            "es": "So it serves to stop the feeling. What we need to find is what else could serve that, at a smaller price."
+          },
+          "psicoeducacao": {
+            "pt": "Isso é regulação, não tentativa — e tratar as duas coisas como iguais é o erro mais comum. O que não quer dizer que seja seguro.",
+            "en": "That is regulation, not an attempt — and treating the two as the same is the most common mistake. Which does not mean it is safe.",
+            "es": "That is regulation, not an attempt — and treating the two as the same is the most common mistake. Which does not mean it is safe."
+          },
+          "diretiva": {
+            "pt": "Vamos combinar o que fazer no lugar, com passos na ordem, e eu quero isso escrito num papel que fique com você.",
+            "en": "Let's agree what to do instead, in order, and I want it written on a paper that stays with you.",
+            "es": "Let's agree what to do instead, in order, and I want it written on a paper that stays with you."
+          }
+        },
+        {
+          "acolhimento": {
+            "pt": "Eu não vou fazer essa cara. E você pode continuar contando.",
+            "en": "I am not going to make that face. And you can keep telling me.",
+            "es": "I am not going to make that face. And you can keep telling me."
+          },
+          "tcc": {
+            "pt": "Repare no que aconteceu: você contou, ninguém se assustou, e o mundo continuou. Guarde essa sequência.",
+            "en": "Notice what happened: you told, nobody was startled, and the world went on. Keep that sequence.",
+            "es": "Notice what happened: you told, nobody was startled, and the world went on. Keep that sequence."
+          },
+          "psicoeducacao": {
+            "pt": "A cara de susto é o que faz a pessoa parar de contar — e quem para de contar fica sem tratamento. Por isso eu não faço.",
+            "en": "The startled face is what makes a person stop telling — and whoever stops telling goes without treatment. That is why I do not make it.",
+            "es": "The startled face is what makes a person stop telling — and whoever stops telling goes without treatment. That is why I do not make it."
+          },
+          "diretiva": {
+            "pt": "Então a gente combina o seguinte: aqui dentro não tem assunto proibido. Nem o feio.",
+            "en": "So we agree on this: in here there is no forbidden subject. Not even the ugly one.",
+            "es": "So we agree on this: in here there is no forbidden subject. Not even the ugly one."
+          }
+        }
+      ]
+    }
+  },
+  "look": {
+    "skin": "#f0d3b8",
+    "hair": "#8a2f5a",
+    "hairStyle": "bob",
+    "top": "#d94f8a",
+    "eyeShape": "round",
+    "brow": "arched",
+    "mouth": "soft",
+    "rosto": "assets/rosto-iris.png",
+    "corpo": "f"
+  }
+}

@@ -1,0 +1,1 @@
+import{L as e,R as t,n,s as r}from"./index-client-7cIQnejj.js";import"./disclose-version-xihTtKlq.js";import"./legacy-DCZ4PTYB.js";function i(i,a){t(a,!1),n(()=>{document.documentElement.dataset.svelte=`on`}),r(),e()}export{i as default};

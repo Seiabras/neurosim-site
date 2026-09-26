@@ -1,0 +1,514 @@
+{
+  "name": {
+    "pt": "Gabriel Costa",
+    "en": "Gabriel Costa",
+    "es": "Gabriel Costa"
+  },
+  "age": {
+    "pt": "15 anos",
+    "en": "15 years old",
+    "es": "15 años"
+  },
+  "complaint": {
+    "pt": "Dificuldades escolares persistentes (atenção e organização).",
+    "en": "Persistent school difficulties (attention and organization).",
+    "es": "Dificultades escolares persistentes (atención y organización)."
+  },
+  "history": {
+    "pt": "Avaliação neuropsicológica concluída. Devolutiva com os pais.",
+    "en": "Neuropsychological assessment completed. Feedback session with his parents.",
+    "es": "Evaluación neuropsicológica concluida. Devolución con los padres."
+  },
+  "image": "assets/char-gabriel.png",
+  "dot": "dot-green",
+  "group": "neuro",
+  "parent": {
+    "name": {
+      "pt": "Sr. Roberto",
+      "en": "Sr. Roberto",
+      "es": "Sr. Roberto"
+    },
+    "image": "assets/par-roberto.png",
+    "look": {
+      "skin": "#c99a6e",
+      "hair": "#2a2530",
+      "top": "#4a7ac8",
+      "style": "shirt",
+      "eyeShape": "almond",
+      "brow": "thick",
+      "mouth": "neutral",
+      "corpo": "m"
+    },
+    "papel": "pai"
+  },
+  "type": {
+    "pt": "Devolutiva & Laudo",
+    "en": "Feedback & report",
+    "es": "Devolución e informe"
+  },
+  "info": {
+    "pt": "Entrega do laudo neuropsicológico e orientações à família e à escola.",
+    "en": "Delivery of the neuropsychological report and guidance for the family and school.",
+    "es": "Entrega del informe neuropsicológico y orientaciones a la familia y a la escuela."
+  },
+  "message": {
+    "from": {
+      "pt": "Sr. Roberto (pai do Gabriel)",
+      "en": "Mr. Roberto (Gabriel's father)",
+      "es": "Sr. Roberto (padre de Gabriel)"
+    },
+    "text": {
+      "pt": "{doc}, estamos ansiosos pela devolutiva. A escola já perguntou se o laudo sai hoje.",
+      "en": "{doc}, we are anxious about the feedback session. The school already asked if the report is ready today.",
+      "es": "{doc}, estamos ansiosos por la devolución. La escuela ya preguntó si el informe sale hoy."
+    }
+  },
+  "fit": {
+    "psicoeducacao": 4,
+    "acolhimento": 4,
+    "comportamental": 3,
+    "tcc": 2,
+    "psicodinamica": 1,
+    "diretiva": 0
+  },
+  "why": {
+    "psicoeducacao": {
+      "pt": "Numa devolutiva, explicar o perfil, os pontos fortes e as orientações é o centro do trabalho.",
+      "en": "In a feedback session, explaining the profile, strengths and guidance is the heart of the work.",
+      "es": "En una devolución, explicar el perfil, los puntos fuertes y las orientaciones es el centro del trabajo."
+    },
+    "acolhimento": {
+      "pt": "Acolher o impacto emocional do laudo é essencial, mas a família também precisa de informação clara.",
+      "en": "Supporting the emotional impact of the report is essential, but the family also needs clear information.",
+      "es": "Acoger el impacto emocional del informe es esencial, pero la familia también necesita información clara."
+    },
+    "tcc": {
+      "pt": "Rever pensamentos como 'sou burro' ajuda o adolescente, desde que antes se acolha o que ele sentiu.",
+      "en": "Reviewing thoughts like 'I'm dumb' helps the teenager, as long as what he felt is supported first.",
+      "es": "Revisar pensamientos como 'soy tonto' ayuda al adolescente, siempre que antes se acoja lo que sintió."
+    },
+    "comportamental": {
+      "pt": "Estratégias práticas e metas pequenas para casa e escola têm bom efeito no TDAH.",
+      "en": "Practical strategies and small goals for home and school work well in ADHD.",
+      "es": "Estrategias prácticas y metas pequeñas para casa y escuela funcionan bien en el TDAH."
+    },
+    "psicodinamica": {
+      "pt": "Investigar significados profundos não é o foco de uma devolutiva de avaliação.",
+      "en": "Exploring deep meanings is not the focus of an assessment feedback session.",
+      "es": "Investigar significados profundos no es el foco de una devolución de evaluación."
+    }
+  },
+  "steps": [
+    {
+      "who": "parent",
+      "text": {
+        "pt": "'{doc}, vamos direto ao ponto: o Gabriel tem ou não tem alguma coisa?'",
+        "en": "'{doc}, let's get straight to the point: does Gabriel have something or not?'",
+        "es": "'{doc}, vamos directo al grano: ¿Gabriel tiene algo o no?'"
+      },
+      "note": {
+        "pt": "Pai ansioso por uma resposta direta.",
+        "en": "Father anxious for a direct answer.",
+        "es": "Padre ansioso por una respuesta directa."
+      },
+      "mods": {
+        "acolhimento": -1
+      },
+      "options": {
+        "psicoeducacao": {
+          "pt": "Vou explicar com calma: os pontos fortes do Gabriel, as dificuldades e como podemos apoiá-lo.",
+          "en": "I'll explain calmly: Gabriel's strengths, his difficulties and how we can support him.",
+          "es": "Voy a explicar con calma: los puntos fuertes de Gabriel, las dificultades y cómo podemos apoyarlo."
+        },
+        "acolhimento": {
+          "pt": "Percebo o quanto vocês estão ansiosos. Vamos ver tudo juntos, no ritmo de vocês. Ir com calma não atrasa o cuidado, ele fica mais firme.",
+          "en": "I can see how anxious you both are. Let's go through everything together, at your pace. Taking it slow doesn't delay the care, it makes it steadier.",
+          "es": "Percibo lo ansiosos que están. Veamos todo juntos, a su ritmo. Ir con calma no atrasa el cuidado, lo hace más firme."
+        },
+        "comportamental": {
+          "pt": "Vou mostrar o que já funciona na rotina dele e o que podemos ajustar.",
+          "en": "I'll show what already works in his routine and what we can adjust.",
+          "es": "Voy a mostrar lo que ya funciona en su rutina y qué podemos ajustar."
+        },
+        "diretiva": {
+          "pt": "Sim, ele tem TDAH. Os detalhes estão no laudo e eu deixo uma cópia com vocês.",
+          "en": "Yes, he has ADHD. The details are in the report and I'll leave you a copy.",
+          "es": "Sí, tiene TDAH. Los detalles están en el informe y les dejo una copia."
+        }
+      },
+      "variants": [
+        {
+          "pt": "'{doc}, vou direto ao ponto: o Gabriel tem ou não tem alguma coisa?'",
+          "en": "'{doc}, I'll get straight to the point: does Gabriel have something or not?'",
+          "es": "'{doc}, voy directo al grano: ¿Gabriel tiene algo o no?'"
+        },
+        {
+          "pt": "'{doc}, sem rodeios: o que o Gabriel tem? Tem alguma coisa, sim ou não?'",
+          "en": "'{doc}, no beating around the bush: what does Gabriel have? Is there something, yes or no?'",
+          "es": "'{doc}, sin rodeos: ¿qué tiene Gabriel? ¿Tiene algo, sí o no?'"
+        }
+      ]
+    },
+    {
+      "who": "patient",
+      "text": {
+        "pt": "(de cabeça baixa) 'Então eu sou burro, né?'",
+        "en": "(head down) 'So I'm dumb, right?'",
+        "es": "(con la cabeza baja) 'Entonces soy tonto, ¿no?'"
+      },
+      "note": {
+        "pt": "Gabriel interpreta o resultado como 'ser burro'.",
+        "en": "Gabriel takes the result to mean he is 'dumb'.",
+        "es": "Gabriel interpreta el resultado como 'ser tonto'."
+      },
+      "mods": {
+        "tcc": 1
+      },
+      "options": {
+        "acolhimento": {
+          "pt": "Percebo que isso doeu. Quer me dizer o que você sentiu ao ouvir tudo isso?",
+          "en": "I can see that hurt. Would you like to tell me what you felt hearing all this?",
+          "es": "Veo que eso dolió. ¿Quieres decirme qué sentiste al escuchar todo esto?"
+        },
+        "psicoeducacao": {
+          "pt": "Sua inteligência está preservada. O TDAH muda o jeito de manter a atenção, não a inteligência.",
+          "en": "Your intelligence is intact. ADHD changes how attention is kept, not intelligence.",
+          "es": "Tu inteligencia está preservada. El TDAH cambia la forma de mantener la atención, no la inteligencia."
+        },
+        "tcc": {
+          "pt": "'Sou burro' é um pensamento forte. O que os resultados realmente mostram? Vamos ver os seus pontos fortes.",
+          "en": "'I'm dumb' is a strong thought. What do the results actually show? Let's look at your strengths.",
+          "es": "'Soy tonto' es un pensamiento fuerte. ¿Qué muestran realmente los resultados? Veamos tus puntos fuertes."
+        },
+        "diretiva": {
+          "pt": "Esse é o resultado e ele precisa aceitar isso para poder evoluir na escola.",
+          "en": "That is the result and he needs to accept it in order to progress at school.",
+          "es": "Ese es el resultado y necesita aceptarlo para poder avanzar en la escuela."
+        }
+      },
+      "variants": [
+        {
+          "pt": "(olhando para o chão) 'Quer dizer que eu não sou inteligente, é isso?'",
+          "en": "(looking at the floor) 'You mean I'm not smart, is that it?'",
+          "es": "(mirando el suelo) '¿O sea que no soy inteligente, es eso?'"
+        },
+        {
+          "pt": "(mexendo no zíper da mochila) 'Quer dizer que eu sou burro, então.'",
+          "en": "(fiddling with his backpack zipper) 'So that means I'm dumb, then.'",
+          "es": "(jugando con el cierre de la mochila) 'O sea que soy tonto, entonces.'"
+        }
+      ]
+    },
+    {
+      "who": "parent",
+      "text": {
+        "pt": "'E a escola? Como a gente conta isso para eles?'",
+        "en": "'And the school? How do we tell them this?'",
+        "es": "'¿Y la escuela? ¿Cómo se lo contamos?'"
+      },
+      "note": {
+        "pt": "Família pergunta como comunicar o resultado à escola.",
+        "en": "The family asks how to share the result with the school.",
+        "es": "La familia pregunta cómo comunicar el resultado a la escuela."
+      },
+      "options": {
+        "psicoeducacao": {
+          "pt": "Preparo um resumo com orientações (tempo extra, instruções curtas) e converso com a coordenação, se vocês autorizarem.",
+          "en": "I'll prepare a summary with guidance (extra time, short instructions) and talk to the coordinator, if you authorize it.",
+          "es": "Preparo un resumen con orientaciones (tiempo extra, instrucciones cortas) y hablo con la coordinación, si ustedes lo autorizan."
+        },
+        "comportamental": {
+          "pt": "Podemos combinar com a escola um plano com metas pequenas e retorno frequente.",
+          "en": "We can agree with the school on a plan with small goals and frequent feedback.",
+          "es": "Podemos acordar con la escuela un plan con metas pequeñas y retroalimentación frecuente."
+        },
+        "acolhimento": {
+          "pt": "Como vocês querem contar para o Gabriel e para a escola? Vamos decidir juntos. Contar junto evita que ele se sinta escondido de algo.",
+          "en": "How do you want to tell Gabriel and the school? Let's decide together. Telling him together keeps him from feeling something is being hidden.",
+          "es": "¿Cómo quieren contárselo a Gabriel y a la escuela? Decidamos juntos. Contarlo juntos evita que él sienta que le esconden algo."
+        },
+        "diretiva": {
+          "pt": "Basta mandar o laudo inteiro para a escola; assim eles sabem tudo e se organizam.",
+          "en": "Just send the whole report to the school; that way they know everything and get organized.",
+          "es": "Basta con enviar el informe completo a la escuela; así saben todo y se organizan."
+        }
+      },
+      "variants": [
+        {
+          "pt": "'E na escola, o que a gente diz? Precisa contar para os professores?'",
+          "en": "'And at school, what do we say? Do we need to tell the teachers?'",
+          "es": "'¿Y en la escuela, qué decimos? ¿Hace falta contárselo a los profesores?'"
+        },
+        {
+          "pt": "'E a escola vai ficar sabendo? De que jeito a gente conversa com eles sobre isso?'",
+          "en": "'Will the school find out? How do we talk to them about this?'",
+          "es": "'¿Y la escuela se va a enterar? ¿De qué manera hablamos con ellos de esto?'"
+        }
+      ]
+    },
+    {
+      "who": "parent",
+      "text": {
+        "pt": "'Doutor(a), e agora? O que a gente faz amanhã, na prática? Ele já está desanimado.'",
+        "en": "'Doctor, and now? What do we do tomorrow, in practice? He is already discouraged.'",
+        "es": "'Doctor(a), ¿y ahora? ¿Qué hacemos mañana, en la práctica? Ya está desanimado.'"
+      },
+      "note": {
+        "pt": "Família pede um plano prático depois da devolutiva; Gabriel está desanimado.",
+        "en": "Family asks for a practical plan after the feedback; Gabriel is discouraged.",
+        "es": "La familia pide un plan práctico tras la devolutiva; Gabriel está desanimado."
+      },
+      "mods": {
+        "comportamental": 1,
+        "psicoeducacao": -1,
+        "acolhimento": -1
+      },
+      "options": {
+        "comportamental": {
+          "pt": "Comecem por duas mudanças pequenas: um local fixo e sem distrações para estudar e tarefas divididas em blocos curtos, com pausa.",
+          "en": "Start with two small changes: a fixed, distraction-free place to study and tasks split into short blocks with breaks.",
+          "es": "Empiecen con dos cambios pequeños: un lugar fijo y sin distracciones para estudiar y tareas divididas en bloques cortos, con pausa."
+        },
+        "psicoeducacao": {
+          "pt": "Vou entregar um resumo escrito com o que o laudo diz, os pontos fortes dele e as orientações, para vocês consultarem quando quiserem.",
+          "en": "I'll give you a written summary of what the report says, his strengths and the guidance, for you to consult whenever you want.",
+          "es": "Les entregaré un resumen escrito con lo que dice el informe, sus puntos fuertes y las orientaciones, para consultar cuando quieran."
+        },
+        "acolhimento": {
+          "pt": "O desânimo dele também é uma questão. Vale reservar um momento por dia em que vocês só conversem, sem falar de escola.",
+          "en": "His discouragement matters too. It's worth setting aside a daily moment where you just talk, without mentioning school.",
+          "es": "El desánimo de él también importa. Vale reservar un momento al día para conversar, sin hablar de la escuela."
+        },
+        "diretiva": {
+          "pt": "Ele precisa se esforçar mais e cortar o videogame até as notas subirem. Sem cobrança firme, ele não muda.",
+          "en": "He needs to try harder and cut video games until his grades go up. Without firm demands, he won't change.",
+          "es": "Necesita esforzarse más y dejar los videojuegos hasta que suban las notas. Sin exigencia firme, no cambia."
+        }
+      },
+      "variants": [
+        {
+          "pt": "'Doutor(a), e a partir de amanhã? O que muda na rotina dele? Ele já anda desanimado com tudo.'",
+          "en": "'Doctor, and from tomorrow on? What changes in his routine? He is already down about everything.'",
+          "es": "'Doctor(a), ¿y desde mañana? ¿Qué cambia en su rutina? Ya anda desanimado con todo.'"
+        },
+        {
+          "pt": "'Então o que muda amanhã, na prática? Ele já está bem desanimado, e eu não sei por onde começar.'",
+          "en": "'So what changes tomorrow, in practice? He is already quite discouraged, and I don't know where to start.'",
+          "es": "'Entonces, ¿qué cambia mañana, en la práctica? Ya está muy desanimado y no sé por dónde empezar.'"
+        }
+      ]
+    }
+  ],
+  "diagnosis": {
+    "answer": "aprendizagem",
+    "options": [
+      "aprendizagem",
+      "tdah",
+      "tdi",
+      "social"
+    ],
+    "why": {
+      "pt": "Dificuldades escolares persistentes, com inteligência preservada e sofrimento pela autoimagem ('sou burro'), são compatíveis com um transtorno específico da aprendizagem. A parte da atenção e da organização deve ser avaliada como possível comorbidade.",
+      "en": "Persistent school difficulties, with preserved intelligence and distress about self-image ('I am stupid'), fit a specific learning disorder. The attention and organization part should be assessed as a possible comorbidity.",
+      "es": "Las dificultades escolares persistentes, con inteligencia preservada y sufrimiento por la autoimagen ('soy tonto'), son compatibles con un trastorno específico del aprendizaje. La parte de atención y organización debe evaluarse como posible comorbilidad."
+    }
+  },
+  "voice": {
+    "intro": {
+      "pt": "(o pai:) 'Este é o Gabriel, 15 anos, tá mal na escola.' (Gabriel, olhando pro chão:) 'Não é que eu não queira, tá? Só não entra.'",
+      "en": "(his dad:) 'This is Gabriel, 15, doing badly in school.' (Gabriel, staring at the floor:) 'It's not that I don't want to, okay? It just doesn't sink in.'",
+      "es": "(el padre:) 'Este es Gabriel, 15 años, va mal en la escuela.' (Gabriel, mirando al suelo:) 'No es que no quiera, ¿vale? Es que no entra.'"
+    },
+    "pre": [
+      {
+        "pt": "Cara,",
+        "en": "Man,",
+        "es": "Tío,"
+      },
+      {
+        "pt": "Ah, sei lá...",
+        "en": "Ah, I dunno...",
+        "es": "Ah, no sé..."
+      }
+    ],
+    "post": {
+      "pt": "Enfim.",
+      "en": "Anyway.",
+      "es": "En fin."
+    },
+    "ref": [
+      {
+        "pt": "Tirei outra nota vermelha e nem mostrei pro meu pai.",
+        "en": "Got another red grade and didn't even show my dad.",
+        "es": "Saqué otra nota roja y ni se la enseñé a mi padre."
+      },
+      {
+        "pt": "Li uma página inteira sem chutar palavra. Uma só.",
+        "en": "Read a whole page without guessing words. Just one.",
+        "es": "Leí una página entera sin adivinar palabras. Solo una."
+      },
+      {
+        "pt": "A professora me deixou fazer a prova oral e eu fui bem!",
+        "en": "The teacher let me do the oral test and I did well!",
+        "es": "¡La profesora me dejó hacer el examen oral y me fue bien!"
+      }
+    ],
+    "hookA": {
+      "pt": "Como é chegar em casa depois de uma nota ruim?",
+      "en": "What is it like getting home after a bad grade?",
+      "es": "¿Cómo es llegar a casa después de una nota mala?"
+    },
+    "hookB": {
+      "pt": "Que estratégias ajudaram você a ler hoje: áudio, letra maior, pausa?",
+      "en": "What strategies helped you read today: audio, bigger font, breaks?",
+      "es": "¿Qué estrategias te ayudaron a leer hoy: audio, letra más grande, pausas?"
+    },
+    "sessoes": {
+      "s3": [
+        {
+          "pt": "'(o pai:) Doutora, eu contratei professor particular. Duas vezes por semana. (Gabriel, sem tirar os olhos do chão:) Eu sento lá e leio a mesma linha umas cinco vezes. Aí ele explica de novo e eu finjo que entendi pra acabar logo.'",
+          "en": "'(his father:) Doctor, I hired a private tutor. Twice a week. (Gabriel, not lifting his eyes from the floor:) I sit there and read the same line about five times. Then he explains again and I pretend I understood so it ends sooner.'",
+          "es": "'(his father:) Doctor, I hired a private tutor. Twice a week. (Gabriel, not lifting his eyes from the floor:) I sit there and read the same line about five times. Then he explains again and I pretend I understood so it ends sooner.'"
+        },
+        {
+          "pt": "'Todo mundo acha que eu não tento. (a voz endurece) Eu tento. Eu passo mais tempo na lição que o pessoal da minha sala e tiro nota pior. Aí pra que continuar tentando?'",
+          "en": "'Everyone thinks I don't try. (his voice hardens) I do try. I spend more time on homework than anyone in my class and get worse marks. So what's the point in trying?'",
+          "es": "'Everyone thinks I don't try. (his voice hardens) I do try. I spend more time on homework than anyone in my class and get worse marks. So what's the point in trying?'"
+        }
+      ],
+      "s4": [
+        {
+          "pt": "'(o pai, mais baixo:) A escola mandou o relatório. (folheia) Diz que a leitura dele está dois anos atrás, mas que o raciocínio é normal. Eu li isso três vezes. Eu passei quatro anos brigando com ele por causa de nota.'",
+          "en": "'(his father, quieter:) The school sent the report. (leafs through it) It says his reading is two years behind, but that his reasoning is normal. I read it three times. I spent four years fighting with him over marks.'",
+          "es": "'(his father, quieter:) The school sent the report. (leafs through it) It says his reading is two years behind, but that his reasoning is normal. I read it three times. I spent four years fighting with him over marks.'"
+        },
+        {
+          "pt": "'(Gabriel, olhando para o pai pela primeira vez:) Então não é que eu sou burro. (pausa longa) Eu achava que era isso. Desde a quinta série eu achava que era isso.'",
+          "en": "'(Gabriel, looking at his father for the first time:) So it isn't that I'm stupid. (long pause) I thought that was it. Since year five I thought that was it.'",
+          "es": "'(Gabriel, looking at his father for the first time:) So it isn't that I'm stupid. (long pause) I thought that was it. Since year five I thought that was it.'"
+        }
+      ]
+    },
+    "fecho": {
+      "s2": {
+        "pt": "'A senhora vai contar pro meu pai o que eu falei?' (não espera a resposta) 'Porque se for, tudo bem. Eu só queria saber antes.'",
+        "en": "'Are you going to tell my dad what I said?' (doesn't wait for an answer) 'Because if you are, that's fine. I just wanted to know first.'",
+        "es": "'Are you going to tell my dad what I said?' (doesn't wait for an answer) 'Because if you are, that's fine. I just wanted to know first.'"
+      },
+      "s3": {
+        "pt": "(pega a mochila e para na porta) 'Aquela coisa que a senhora falou, de ler em voz alta sozinho... eu tentei. Deu certo umas duas vezes.'",
+        "en": "(picks up his backpack and stops at the door) 'That thing you said about reading out loud on my own... I tried it. It worked a couple of times.'",
+        "es": "(picks up his backpack and stops at the door) 'That thing you said about reading out loud on my own... I tried it. It worked a couple of times.'"
+      },
+      "s4": {
+        "pt": "(o pai estende a mão para ele, desajeitado. Gabriel olha, demora, e segura.) 'Vamos embora, pai.'",
+        "en": "(his father holds out a hand to him, awkwardly. Gabriel looks, takes his time, and takes it.) 'Let's go, Dad.'",
+        "es": "(his father holds out a hand to him, awkwardly. Gabriel looks, takes his time, and takes it.) 'Let's go, Dad.'"
+      }
+    },
+    "opcoes": {
+      "s3": [
+        {
+          "acolhimento": {
+            "pt": "Ler a mesma linha cinco vezes e fingir que entendeu é cansativo de um jeito que ninguém vê.",
+            "en": "Reading the same line five times and pretending you understood is tiring in a way nobody sees.",
+            "es": "Reading the same line five times and pretending you understood is tiring in a way nobody sees."
+          },
+          "psicoeducacao": {
+            "pt": "Mais aula do mesmo jeito não resolve dificuldade de leitura — só aumenta o tempo de exposição ao que não funciona. O reforço precisa ser de OUTRO jeito.",
+            "en": "More of the same lessons does not solve a reading difficulty — it only increases the time exposed to what does not work. The extra help has to be of a different kind.",
+            "es": "More of the same lessons does not solve a reading difficulty — it only increases the time exposed to what does not work. The extra help has to be of a different kind."
+          },
+          "comportamental": {
+            "pt": "Vamos testar leitura em voz alta com o dedo acompanhando, em trechos curtos. Quero ver se muda alguma coisa.",
+            "en": "Let's try reading aloud with a finger following along, in short passages. I want to see whether anything changes.",
+            "es": "Let's try reading aloud with a finger following along, in short passages. I want to see whether anything changes."
+          },
+          "diretiva": {
+            "pt": "Professor particular duas vezes por semana, e ele relê a mesma linha. Isso não é falta de esforço: é o método errado.",
+            "en": "A private tutor twice a week, and he rereads the same line. That is not lack of effort: it is the wrong method.",
+            "es": "A private tutor twice a week, and he rereads the same line. That is not lack of effort: it is the wrong method."
+          }
+        },
+        {
+          "acolhimento": {
+            "pt": "Você estuda mais que os colegas e tira nota pior. Eu acredito em você — e entendo o 'pra quê'.",
+            "en": "You study more than your classmates and get worse marks. I believe you — and I understand the 'what for'.",
+            "es": "You study more than your classmates and get worse marks. I believe you — and I understand the 'what for'."
+          },
+          "psicoeducacao": {
+            "pt": "Quando o esforço não aparece na nota, a pessoa para de se esforçar. É o caminho normal, e é por isso que a gente precisa de uma avaliação, não de mais cobrança.",
+            "en": "When effort does not show up in the grade, a person stops making it. That is the normal path, and it is why we need an assessment, not more pressure.",
+            "es": "When effort does not show up in the grade, a person stops making it. That is the normal path, and it is why we need an assessment, not more pressure."
+          },
+          "comportamental": {
+            "pt": "Antes de desistir, vamos medir: quanto tempo você leva para ler uma página, e quanto entende dela. Sem nota, só medida.",
+            "en": "Before giving up, let's measure: how long it takes you to read a page, and how much of it you understand. No grades, just a measure.",
+            "es": "Before giving up, let's measure: how long it takes you to read a page, and how much of it you understand. No grades, just a measure."
+          },
+          "diretiva": {
+            "pt": "Não desista esta semana. Me dá uma semana, que eu te mostro de onde vem isso.",
+            "en": "Do not give up this week. Give me one week, and I will show you where this comes from.",
+            "es": "Do not give up this week. Give me one week, and I will show you where this comes from."
+          }
+        }
+      ],
+      "s4": [
+        {
+          "acolhimento": {
+            "pt": "Quatro anos de briga, e o relatório em três leituras. (para o Gabriel) E você, ouvindo isso agora?",
+            "en": "Four years of fighting, and the report read three times. (to Gabriel) And you, hearing this now?",
+            "es": "Four years of fighting, and the report read three times. (to Gabriel) And you, hearing this now?"
+          },
+          "psicoeducacao": {
+            "pt": "Leitura dois anos atrás com raciocínio normal é exatamente o perfil de um transtorno específico de aprendizagem. Descarta preguiça e descarta deficiência intelectual de uma vez.",
+            "en": "Reading two years behind with normal reasoning is exactly the profile of a specific learning disorder. It rules out laziness and intellectual disability at once.",
+            "es": "Reading two years behind with normal reasoning is exactly the profile of a specific learning disorder. It rules out laziness and intellectual disability at once."
+          },
+          "comportamental": {
+            "pt": "Com esse papel dá para pedir adaptação: mais tempo, prova lida em voz alta, nota do conteúdo e não da ortografia.",
+            "en": "With that report we can ask for accommodations: extra time, the test read aloud, marks for content and not spelling.",
+            "es": "With that report we can ask for accommodations: extra time, the test read aloud, marks for content and not spelling."
+          },
+          "diretiva": {
+            "pt": "O senhor precisa levar esse relatório à escola esta semana. Eu escrevo o que pedir.",
+            "en": "You need to take that report to the school this week. I will write down what to ask for.",
+            "es": "You need to take that report to the school this week. I will write down what to ask for."
+          }
+        },
+        {
+          "acolhimento": {
+            "pt": "Desde a quinta série. (pausa) Você carregou isso sozinho por muito tempo, Gabriel.",
+            "en": "Since fifth grade. (pause) You carried that alone for a long time, Gabriel.",
+            "es": "Since fifth grade. (pause) You carried that alone for a long time, Gabriel."
+          },
+          "psicoeducacao": {
+            "pt": "Não, não é. E é importante ouvir isso do seu pai também — o diagnóstico aqui serve para tirar um rótulo, não para pôr outro.",
+            "en": "No, it is not. And it matters to hear that from your father too — the diagnosis here is to take a label off, not to put one on.",
+            "es": "No, it is not. And it matters to hear that from your father too — the diagnosis here is to take a label off, not to put one on."
+          },
+          "comportamental": {
+            "pt": "Toda vez que vier o 'sou burro', quero que você lembre do relatório. Se precisar, carregue uma cópia na mochila.",
+            "en": "Every time 'I am stupid' comes, I want you to remember the report. If it helps, keep a copy in your backpack.",
+            "es": "Every time 'I am stupid' comes, I want you to remember the report. If it helps, keep a copy in your backpack."
+          },
+          "diretiva": {
+            "pt": "(para o pai) É isso que ele acreditava. O senhor tem uma conversa para ter com ele, e não é hoje aqui — é em casa.",
+            "en": "(to his father) That is what he believed. You have a conversation to have with him, and not here today — at home.",
+            "es": "(to his father) That is what he believed. You have a conversation to have with him, and not here today — at home."
+          }
+        }
+      ]
+    }
+  },
+  "look": {
+    "skin": "#c99a6e",
+    "hair": "#1d1a26",
+    "top": "#8a8f98",
+    "eyeShape": "almond",
+    "brow": "thick",
+    "mouth": "neutral",
+    "rosto": "assets/rosto-gabriel.png",
+    "corpo": "m"
+  }
+}

@@ -1,0 +1,578 @@
+{
+  "name": {
+    "pt": "Lucas Silva",
+    "en": "Lucas Silva",
+    "es": "Lucas Silva"
+  },
+  "age": {
+    "pt": "8 anos",
+    "en": "8 years old",
+    "es": "8 años"
+  },
+  "complaint": {
+    "pt": "Agitação, desatenção e dificuldades na alfabetização.",
+    "en": "Restlessness, inattention and difficulties with literacy.",
+    "es": "Agitación, desatención y dificultades en la alfabetización."
+  },
+  "history": {
+    "pt": "Encaminhado pela escola. Acompanhado pela mãe (Dona Márcia).",
+    "en": "Referred by the school. Accompanied by his mother (Dona Márcia).",
+    "es": "Derivado por la escuela. Acompañado por su madre (Dona Márcia)."
+  },
+  "image": "assets/char-lucas.png",
+  "dot": "dot-pink",
+  "group": "neuro",
+  "parent": {
+    "name": {
+      "pt": "Dona Márcia",
+      "en": "Dona Márcia",
+      "es": "Dona Márcia"
+    },
+    "image": "assets/par-marcia.png",
+    "look": {
+      "skin": "#e8c2a0",
+      "hair": "#6a4526",
+      "hairStyle": "bob",
+      "top": "#e8a8c0",
+      "eyeShape": "round",
+      "brow": "soft",
+      "mouth": "neutral",
+      "corpo": "f"
+    },
+    "papel": "mae"
+  },
+  "type": {
+    "pt": "1ª Sessão: Anamnese",
+    "en": "1st session: intake interview",
+    "es": "1.ª sesión: anamnesis"
+  },
+  "info": {
+    "pt": "Queixa escolar: agitação, desatenção e dificuldades na alfabetização. Acompanhado da mãe (Dona Márcia).",
+    "en": "School complaint: restlessness, inattention and literacy difficulties. Accompanied by his mother (Dona Márcia).",
+    "es": "Queja escolar: agitación, desatención y dificultades en la alfabetización. Acompañado de su madre (Dona Márcia)."
+  },
+  "message": {
+    "from": {
+      "pt": "Profª Cláudia (Escola Viver)",
+      "en": "Ms. Cláudia (Viver School)",
+      "es": "Profa. Cláudia (Escuela Viver)"
+    },
+    "text": {
+      "pt": "{doc}, enviamos o relatório do Lucas. Ele continua com bastante dificuldade de foco nas aulas de matemática.",
+      "en": "{doc}, we sent Lucas's report. He still has a lot of difficulty focusing in math class.",
+      "es": "{doc}, enviamos el informe de Lucas. Sigue teniendo mucha dificultad para concentrarse en las clases de matemáticas."
+    }
+  },
+  "fit": {
+    "psicoeducacao": 4,
+    "comportamental": 4,
+    "acolhimento": 3,
+    "tcc": 2,
+    "psicodinamica": 1,
+    "diretiva": 0
+  },
+  "why": {
+    "psicoeducacao": {
+      "pt": "Com uma queixa escolar e uma mãe cansada, explicar e orientar sobre a avaliação organiza a família e guia a investigação.",
+      "en": "With a school complaint and a tired mother, explaining and guiding about the assessment organizes the family and steers the investigation.",
+      "es": "Con una queja escolar y una madre cansada, explicar y orientar sobre la evaluación organiza a la familia y guía la investigación."
+    },
+    "comportamental": {
+      "pt": "No TDAH, entender o que vem antes e depois do comportamento e ajustar a rotina é a base da intervenção.",
+      "en": "In ADHD, understanding what comes before and after the behavior and adjusting the routine is the basis of intervention.",
+      "es": "En el TDAH, entender qué viene antes y después de la conducta y ajustar la rutina es la base de la intervención."
+    },
+    "acolhimento": {
+      "pt": "Acolher o cansaço da mãe fortalece a aliança, mas sozinho não avança a investigação do caso.",
+      "en": "Supporting the mother's exhaustion strengthens the alliance, but on its own it does not advance the case.",
+      "es": "Acoger el cansancio de la madre fortalece la alianza, pero por sí solo no hace avanzar el caso."
+    },
+    "tcc": {
+      "pt": "Com crianças pequenas, a TCC rende mais de forma lúdica e com os pais; falar de pensamentos, aqui, rende pouco.",
+      "en": "With young children, CBT works better through play and with the parents; talking about thoughts yields little here.",
+      "es": "Con niños pequeños, la TCC rinde más de forma lúdica y con los padres; hablar de pensamientos rinde poco aquí."
+    },
+    "psicodinamica": {
+      "pt": "Interpretar 'o que ele quer dizer' com o comportamento não ajuda numa avaliação de TDAH, que pede dados objetivos.",
+      "en": "Interpreting 'what he means' by his behavior does not help in an ADHD assessment, which needs objective data.",
+      "es": "Interpretar 'lo que quiere decir' con la conducta no ayuda en una evaluación de TDAH, que pide datos objetivos."
+    }
+  },
+  "steps": [
+    {
+      "who": "parent",
+      "text": {
+        "pt": "'{doc}, muito obrigada por nos atender! O Lucas não consegue parar quieto na escola, perde todo o material e a professora disse que não sabe mais o que fazer...'",
+        "en": "'{doc}, thank you so much for seeing us! Lucas can't sit still at school, loses all his materials and the teacher said she doesn't know what else to do...'",
+        "es": "'{doc}, ¡muchas gracias por atendernos! Lucas no puede quedarse quieto en la escuela, pierde todo el material y la profesora dijo que no sabe qué más hacer...'"
+      },
+      "note": {
+        "pt": "Queixa inicial na escola: agitação e perda de material.",
+        "en": "Initial school complaint: restlessness and losing materials.",
+        "es": "Queja inicial en la escuela: agitación y pérdida de material."
+      },
+      "options": {
+        "acolhimento": {
+          "pt": "Compreendo, Dona Márcia, deve ser cansativo. Como a senhora tem se sentido com tudo isso?",
+          "en": "I understand, Dona Márcia, it must be exhausting. How have you been feeling through all this?",
+          "es": "Comprendo, Dona Márcia, debe ser agotador. ¿Cómo se ha sentido con todo esto?"
+        },
+        "psicoeducacao": {
+          "pt": "Vou explicar a avaliação: onde isso acontece, desde quando e como afeta o Lucas no dia a dia.",
+          "en": "I'll explain the assessment: where this happens, since when and how it affects Lucas day to day.",
+          "es": "Voy a explicar la evaluación: dónde ocurre esto, desde cuándo y cómo afecta a Lucas en el día a día."
+        },
+        "comportamental": {
+          "pt": "Em que situações a agitação aparece mais? O que costuma acontecer antes e depois?",
+          "en": "In which situations does the restlessness show up most? What usually happens before and after?",
+          "es": "¿En qué situaciones aparece más la agitación? ¿Qué suele ocurrir antes y después?"
+        },
+        "diretiva": {
+          "pt": "Ele já teve limites claros em casa? Às vezes agitação assim é falta de rotina e de disciplina.",
+          "en": "Has he had clear limits at home? Sometimes restlessness like this is a lack of routine and discipline.",
+          "es": "¿Ha tenido límites claros en casa? A veces una agitación así es falta de rutina y disciplina."
+        }
+      },
+      "variants": [
+        {
+          "pt": "'{doc}, muito obrigada por nos atender! O Lucas não para quieto na escola, perde todo o material e a professora disse que já não sabe o que fazer...'",
+          "en": "'{doc}, thank you so much for seeing us! Lucas can't sit still at school, loses all his supplies and the teacher said she no longer knows what to do...'",
+          "es": "'{doc}, ¡muchas gracias por atendernos! Lucas no puede quedarse quieto en la escuela, pierde todo el material y la maestra dijo que ya no sabe qué hacer...'"
+        },
+        {
+          "pt": "'{doc}, que bom que conseguimos horário! O Lucas vive perdendo o material, não para na cadeira e a professora está sem saber como agir...'",
+          "en": "'{doc}, so glad we got an appointment! Lucas keeps losing his supplies, can't stay in his seat and the teacher doesn't know how to handle it...'",
+          "es": "'{doc}, ¡qué bueno que conseguimos cita! Lucas pierde siempre el material, no se queda en la silla y la maestra no sabe cómo actuar...'"
+        }
+      ]
+    },
+    {
+      "who": "parent",
+      "text": {
+        "pt": "'Em casa é do mesmo jeito! Ele esquece de escovar os dentes, não consegue fazer a lição se eu não ficar do lado o tempo todo e perde os brinquedos pela casa.'",
+        "en": "'It's the same at home! He forgets to brush his teeth, can't do homework unless I sit next to him the whole time and loses his toys around the house.'",
+        "es": "'¡En casa es igual! Se olvida de cepillarse los dientes, no puede hacer la tarea si no me quedo a su lado todo el tiempo y pierde los juguetes por la casa.'"
+      },
+      "note": {
+        "pt": "Sintomas também em casa (esquecimento, precisa de supervisão na lição).",
+        "en": "Symptoms at home too (forgetfulness, needs supervision with homework).",
+        "es": "Síntomas también en casa (olvidos, necesita supervisión en la tarea)."
+      },
+      "options": {
+        "psicoeducacao": {
+          "pt": "Isso ajuda muito: os sintomas aparecem em casa e na escola. Desde que idade a senhora percebe?",
+          "en": "That helps a lot: the symptoms appear at home and at school. From what age do you notice it?",
+          "es": "Eso ayuda mucho: los síntomas aparecen en casa y en la escuela. ¿Desde qué edad lo nota usted?"
+        },
+        "comportamental": {
+          "pt": "Que rotina ajuda mais na hora da lição? Vamos ver o que já funcionou e o que não funcionou.",
+          "en": "Which routine helps most at homework time? Let's look at what has worked and what has not.",
+          "es": "¿Qué rutina ayuda más a la hora de la tarea? Veamos qué ha funcionado y qué no."
+        },
+        "tcc": {
+          "pt": "Como o Lucas fala de si mesmo quando erra ou esquece as coisas? Que pensamentos ele tem?",
+          "en": "How does Lucas talk about himself when he makes mistakes or forgets things? What thoughts does he have?",
+          "es": "¿Cómo habla Lucas de sí mismo cuando se equivoca o olvida las cosas? ¿Qué pensamientos tiene?"
+        },
+        "psicodinamica": {
+          "pt": "O que a senhora acha que o Lucas quer dizer com esse comportamento?",
+          "en": "What do you think Lucas is trying to say with this behavior?",
+          "es": "¿Qué cree que Lucas quiere decir con esta conducta?"
+        }
+      },
+      "variants": [
+        {
+          "pt": "'Em casa é igual! Ele esquece de escovar os dentes, não faz a lição se eu não ficar do lado o tempo todo e perde os brinquedos pela casa.'",
+          "en": "'At home it's the same! He forgets to brush his teeth, doesn't do homework unless I stay next to him the whole time and loses his toys all over the house.'",
+          "es": "'¡En casa es igual! Se olvida de cepillarse los dientes, no hace la tarea si no me quedo a su lado todo el tiempo y pierde los juguetes por toda la casa.'"
+        },
+        {
+          "pt": "'Em casa também! Ele esquece a escova de dentes, só faz a tarefa se eu sentar junto e larga os brinquedos espalhados por todo canto.'",
+          "en": "'At home too! He forgets to brush his teeth, only does homework if I sit with him and leaves his toys scattered everywhere.'",
+          "es": "'¡En casa también! Se olvida del cepillo de dientes, solo hace la tarea si me siento con él y deja los juguetes esparcidos por todas partes.'"
+        }
+      ]
+    },
+    {
+      "who": "parent",
+      "text": {
+        "pt": "'Desde bem pequeno ele é assim! Aos 5 anos já era supersagitado na creche.'",
+        "en": "'He's been like this since he was very little! At 5 he was already super restless at daycare.'",
+        "es": "'¡Desde muy pequeño es así! A los 5 años ya era súper inquieto en la guardería.'"
+      },
+      "note": {
+        "pt": "Início precoce: já agitado na creche, aos 5 anos.",
+        "en": "Early onset: already restless at daycare, at age 5.",
+        "es": "Inicio temprano: ya inquieto en la guardería, a los 5 años."
+      },
+      "mods": {
+        "comportamental": -1
+      },
+      "options": {
+        "psicoeducacao": {
+          "pt": "Obrigada. Vou marcar a testagem de atenção e funções executivas e explico os resultados depois.",
+          "en": "Thank you. I'll schedule attention and executive-function testing and explain the results afterwards.",
+          "es": "Gracias. Voy a agendar la evaluación de atención y funciones ejecutivas y luego explico los resultados."
+        },
+        "acolhimento": {
+          "pt": "A senhora tem feito um trabalho enorme com ele. Como está o seu cansaço no dia a dia?",
+          "en": "You have done tremendous work with him. How is your own tiredness day to day?",
+          "es": "Usted ha hecho un trabajo enorme con él. ¿Cómo está su cansancio en el día a día?"
+        },
+        "comportamental": {
+          "pt": "Vamos começar já com um combinado simples de rotina em casa, com pontos e pequenas recompensas.",
+          "en": "Let's start right away with a simple routine agreement at home, with points and small rewards.",
+          "es": "Empecemos ya con un acuerdo sencillo de rutina en casa, con puntos y pequeñas recompensas."
+        },
+        "diretiva": {
+          "pt": "Certo. Com o que a senhora contou, já posso fechar o laudo e encaminhar para o tratamento. É simples e rápido.",
+          "en": "Right. With what you have told me, I can already close the report and refer him for treatment. It is simple and quick.",
+          "es": "Bien. Con lo que usted contó, ya puedo cerrar el informe y derivarlo al tratamiento. Es simple y rápido."
+        }
+      },
+      "variants": [
+        {
+          "pt": "'Desde bem pequeno ele é assim! Aos 5 anos já era superagitado na creche.'",
+          "en": "'He has been like this since he was very little! At 5 he was already super restless at daycare.'",
+          "es": "'¡Desde muy pequeño es así! A los 5 años ya era muy inquieto en la guardería.'"
+        },
+        {
+          "pt": "'Isso vem de longe! Com 5 anos a educadora da creche já reclamava de como ele era agitado.'",
+          "en": "'This goes way back! At 5 the daycare teacher was already complaining about how restless he was.'",
+          "es": "'¡Esto viene de lejos! A los 5 años la educadora de la guardería ya se quejaba de lo inquieto que era.'"
+        }
+      ]
+    },
+    {
+      "who": "parent",
+      "text": {
+        "pt": "'E até a testagem, o que eu faço com ele? Não aguento mais os bilhetes da escola...'",
+        "en": "'And until the testing, what do I do with him? I can't take any more notes from the school...'",
+        "es": "'¿Y hasta la evaluación, qué hago con él? Ya no aguanto más las notas de la escuela...'"
+      },
+      "note": {
+        "pt": "Mãe sobrecarregada pede orientação prática para o dia a dia.",
+        "en": "Overwhelmed mother asks for practical guidance for daily life.",
+        "es": "Madre sobrecargada pide orientación práctica para el día a día."
+      },
+      "mods": {
+        "psicoeducacao": -2
+      },
+      "options": {
+        "comportamental": {
+          "pt": "Vamos combinar uma rotina simples: horário fixo para a lição, lista de tarefas com figuras e elogio na hora em que ele cumprir.",
+          "en": "Let's set up a simple routine: fixed homework time, a picture task list and praise right when he completes something.",
+          "es": "Acordemos una rutina simple: horario fijo para la tarea, lista de tareas con figuras y elogio en el momento en que cumpla."
+        },
+        "acolhimento": {
+          "pt": "Cuidar sozinha desgasta. Quero que a senhora também se cuide: há alguém que possa dividir a lição com a senhora?",
+          "en": "Caring for him alone wears you down. I want you to look after yourself too: is there someone who can share homework duty with you?",
+          "es": "Cuidar sola desgasta. Quiero que usted también se cuide: ¿hay alguien que pueda compartir la tarea con usted?"
+        },
+        "psicoeducacao": {
+          "pt": "Enquanto isso, vale a senhora ler sobre como a atenção se desenvolve nessa idade; passo alguns materiais depois da testagem.",
+          "en": "Meanwhile, it's worth reading about how attention develops at this age; I'll pass on some materials after the testing.",
+          "es": "Mientras tanto, vale que lea sobre cómo se desarrolla la atención a esta edad; paso algunos materiales después de la evaluación."
+        },
+        "diretiva": {
+          "pt": "Corte telas e doces, e aplique castigo quando ele não obedecer: é o caminho mais rápido. Em duas semanas a senhora já vê diferença.",
+          "en": "Cut screens and sweets, and punish him when he doesn't obey: it's the quickest path. In two weeks you will see a difference.",
+          "es": "Quite pantallas y dulces, y castíguelo cuando no obedezca: es el camino más rápido. En dos semanas ya verá diferencia."
+        }
+      },
+      "variants": [
+        {
+          "pt": "'E enquanto a testagem não sai, o que faço com ele? Não aguento mais receber bilhetes da escola...'",
+          "en": "'And until the testing is done, what do I do with him? I can't take getting notes from the school anymore...'",
+          "es": "'Y mientras no sale la evaluación, ¿qué hago con él? Ya no soporto recibir notas de la escuela...'"
+        },
+        {
+          "pt": "'E enquanto não sai a avaliação, o que eu faço? Estou exausta dos bilhetes da escola...'",
+          "en": "'And while the evaluation isn't ready, what do I do? I'm exhausted by the school notes...'",
+          "es": "'Y mientras no sale la evaluación, ¿qué hago? Estoy agotada de las notas de la escuela...'"
+        }
+      ]
+    }
+  ],
+  "kid": true,
+  "diagnosis": {
+    "answer": "tdah",
+    "options": [
+      "tdah",
+      "aprendizagem",
+      "tea",
+      "tdi"
+    ],
+    "why": {
+      "pt": "Agitação, desatenção e desorganização em casa e na escola, desde os 5 anos, apontam para TDAH. As dificuldades de alfabetização merecem investigação à parte, porque podem coexistir com um transtorno de aprendizagem.",
+      "en": "Restlessness, inattention and disorganization at home and school, since age 5, point to ADHD. The literacy difficulties deserve separate investigation, since they may coexist with a learning disorder.",
+      "es": "La agitación, la desatención y la desorganización en casa y en la escuela, desde los 5 años, apuntan a TDAH. Las dificultades de alfabetización merecen una investigación aparte, porque pueden coexistir con un trastorno del aprendizaje."
+    }
+  },
+  "voice": {
+    "intro": {
+      "pt": "(a mãe:) 'Doutora, esse é o Lucas, tem 8 anos. A escola ligou de novo: ele não para e não presta atenção.' (Lucas, mexendo nos pés:) 'Eu presto! ...às vezes.'",
+      "en": "(his mom:) 'Doctor, this is Lucas, he's 8. The school called again: he won't stop and doesn't pay attention.' (Lucas, fidgeting:) 'I do! ...sometimes.'",
+      "es": "(la madre:) 'Doctora, este es Lucas, tiene 8 años. La escuela llamó otra vez: no para y no presta atención.' (Lucas, moviendo los pies:) '¡Sí presto! ...a veces.'"
+    },
+    "pre": [
+      {
+        "pt": "Ah, eu lembrei!",
+        "en": "Oh, I remembered!",
+        "es": "¡Ah, me acordé!"
+      },
+      {
+        "pt": "Posso contar uma coisa?",
+        "en": "Can I tell you something?",
+        "es": "¿Puedo contarte una cosa?"
+      }
+    ],
+    "post": {
+      "pt": "Já acabou? Posso ir brincar?",
+      "en": "Is it over? Can I go play?",
+      "es": "¿Ya acabó? ¿Puedo ir a jugar?"
+    },
+    "ref": [
+      {
+        "pt": "A professora brigou porque eu levantei da cadeira um monte de vezes.",
+        "en": "The teacher scolded me because I got out of my chair a lot.",
+        "es": "La profesora me regañó porque me levanté de la silla un montón de veces."
+      },
+      {
+        "pt": "Fiz metade da lição sentado! A outra metade, não.",
+        "en": "I did half the homework sitting down! The other half, no.",
+        "es": "¡Hice la mitad de la tarea sentado! La otra mitad, no."
+      },
+      {
+        "pt": "Consegui ficar sentado a aula toda e ganhei um adesivo!",
+        "en": "I sat through the whole class and got a sticker!",
+        "es": "¡Logré quedarme sentado toda la clase y gané una pegatina!"
+      }
+    ],
+    "hookA": {
+      "pt": "Como você se sente quando a professora chama a sua atenção?",
+      "en": "How do you feel when the teacher calls you out?",
+      "es": "¿Cómo te sientes cuando la profesora te llama la atención?"
+    },
+    "hookB": {
+      "pt": "Vamos combinar um jeito de você lembrar o material e um prêmio pra quando conseguir?",
+      "en": "Shall we agree on a way for you to remember your stuff and a prize for when you do?",
+      "es": "¿Acordamos una forma de que recuerdes el material y un premio para cuando lo logres?"
+    },
+    "sessoes": {
+      "s3": [
+        {
+          "pt": "'(a mãe:) Essa semana teve três bilhetes, doutora. (Lucas, balançando a perna:) Eu não fiz nada! A professora falou pra copiar da lousa e eu tava copiando, aí o menino do lado falou comigo e quando eu voltei já tinha apagado. Aí eu copiei do caderno do Téo e ela falou que eu tava colando.'",
+          "en": "'(his mother:) Three notes home this week, doctor. (Lucas, bouncing his leg:) I didn't do anything! The teacher said to copy from the board and I was copying, then the boy next to me talked to me and when I looked back it was already wiped off. So I copied from Téo's notebook and she said I was cheating.'",
+          "es": "'(his mother:) Three notes home this week, doctor. (Lucas, bouncing his leg:) I didn't do anything! The teacher said to copy from the board and I was copying, then the boy next to me talked to me and when I looked back it was already wiped off. So I copied from Téo's notebook and she said I was cheating.'"
+        },
+        {
+          "pt": "'Eu não sou burro, viu. (fala mais rápido) Eu sei todos os dinossauros, todos mesmo, e eu monto lego sozinho o dia inteiro. Só que na lição eu leio a mesma linha três vezes e não entra. Aí eu levo bronca, aí eu fico com raiva, aí eu levo mais bronca.'",
+          "en": "'I'm not stupid, you know. (speaks faster) I know all the dinosaurs, all of them, and I build lego on my own all day. It's just that with homework I read the same line three times and it doesn't go in. Then I get told off, then I get angry, then I get told off more.'",
+          "es": "'I'm not stupid, you know. (speaks faster) I know all the dinosaurs, all of them, and I build lego on my own all day. It's just that with homework I read the same line three times and it doesn't go in. Then I get told off, then I get angry, then I get told off more.'"
+        },
+        {
+          "pt": "(a mãe, juntando as coisas:) 'A gente tenta de novo essa semana, então. Os dez minutos com pausa.' (Lucas, já na porta:) 'Eu posso trazer o meu lego da próxima vez? Pra senhora ver que eu consigo.'",
+          "en": "(his mother, gathering her things:) 'We'll try again this week, then. The ten minutes with a break.' (Lucas, already at the door:) 'Can I bring my lego next time? So you can see that I can do it.'",
+          "es": "(his mother, gathering her things:) 'We'll try again this week, then. The ten minutes with a break.' (Lucas, already at the door:) 'Can I bring my lego next time? So you can see that I can do it.'"
+        }
+      ],
+      "s4": [
+        {
+          "pt": "'(a mãe:) A professora tentou uma coisa. Dez minutos de lição, pausa, mais dez. (abre o caderno) Ele fez tudo. Tudo certo, doutora. (Lucas, orgulhoso:) Eu fiz sozinho!'",
+          "en": "'(his mother:) The teacher tried something. Ten minutes of work, a break, ten more. (opens the notebook) He did all of it. All correct, doctor. (Lucas, proudly:) I did it on my own!'",
+          "es": "'(his mother:) The teacher tried something. Ten minutes of work, a break, ten more. (opens the notebook) He did all of it. All correct, doctor. (Lucas, proudly:) I did it on my own!'"
+        },
+        {
+          "pt": "'(a mãe, mexendo na alça da bolsa:) O pai dele foi igualzinho, doutora. Os pais dele achavam que ele era sem-vergonha.' (pausa) 'Semana passada ele bateu no menino por causa de lição de casa. Depois ficou sentado na cozinha até tarde, sozinho.' (silêncio) 'O que a gente faz com isso agora?'",
+          "en": "'(his mother, fiddling with her bag strap:) His father was exactly the same, doctor. His parents thought he was shameless.' (pause) 'Last week he hit the boy over homework. Then he sat in the kitchen until late, on his own.' (silence) 'What do we do with that now?'",
+          "es": "'(his mother, fiddling with her bag strap:) His father was exactly the same, doctor. His parents thought he was shameless.' (pause) 'Last week he hit the boy over homework. Then he sat in the kitchen until late, on his own.' (silence) 'What do we do with that now?'"
+        },
+        {
+          "pt": "(a mãe, já de pé, com a mão no ombro do Lucas:) 'Ele me pediu pra dizer à senhora que vai pedir desculpa pro Lucas. Que não sabe como, mas vai.' (Lucas, sem entender bem o que está acontecendo, segura a mão da mãe.)",
+          "en": "(his mother, on her feet now, a hand on Lucas's shoulder:) 'He asked me to tell you he is going to apologise to Lucas. That he does not know how, but he will.' (Lucas, not quite understanding what is happening, takes his mother's hand.)",
+          "es": "(his mother, on her feet now, a hand on Lucas's shoulder:) 'He asked me to tell you he is going to apologise to Lucas. That he does not know how, but he will.' (Lucas, not quite understanding what is happening, takes his mother's hand.)"
+        }
+      ],
+      "s1": [
+        {
+          "pt": "(a mãe:) '{doc}, muito obrigada por nos atender. Esse é o Lucas, tem 8 anos.' (Lucas acena rápido e volta a olhar para os próprios tênis.) 'A escola ligou três vezes esse mês. Dizem que ele não para na cadeira e não presta atenção em nada.'",
+          "en": "(his mother:) '{doc}, thank you so much for seeing us. This is Lucas, he's 8.' (Lucas waves quickly and goes back to looking at his own trainers.) 'The school has called three times this month. They say he won't stay in his chair and doesn't pay attention to anything.'",
+          "es": "(his mother:) '{doc}, thank you so much for seeing us. This is Lucas, he's 8.' (Lucas waves quickly and goes back to looking at his own trainers.) 'The school has called three times this month. They say he won't stay in his chair and doesn't pay attention to anything.'"
+        },
+        {
+          "pt": "(Lucas, mexendo os pés sem parar:) 'Eu presto atenção! ...às vezes. É que a professora fala e aí eu penso numa coisa e quando eu volto ela já tá em outra.' (a mãe:) 'Em casa é igual, doutora. Eu peço pra escovar os dentes e cinco minutos depois ele tá brincando, de escova na mão.'",
+          "en": "(Lucas, jiggling his feet nonstop:) 'I do pay attention! ...sometimes. It's just that the teacher talks and then I think about something and when I come back she's already on something else.' (his mother:) 'It's the same at home, doctor. I ask him to brush his teeth and five minutes later he's playing, with the brush still in his hand.'",
+          "es": "(Lucas, jiggling his feet nonstop:) 'I do pay attention! ...sometimes. It's just that the teacher talks and then I think about something and when I come back she's already on something else.' (his mother:) 'It's the same at home, doctor. I ask him to brush his teeth and five minutes later he's playing, with the brush still in his hand.'"
+        },
+        {
+          "pt": "(a mãe, mais baixo:) 'O que me dói é que ele já começou a dizer que é burro.' (Lucas encolhe os ombros e não desmente.) 'Ele não é. Ele monta lego sozinho a tarde inteira. Eu só queria entender por que na escola é assim.'",
+          "en": "(his mother, quieter:) 'What hurts me is that he's started saying he's stupid.' (Lucas shrugs and doesn't deny it.) 'He isn't. He builds lego on his own all afternoon. I just want to understand why school is like this.'",
+          "es": "(his mother, quieter:) 'What hurts me is that he's started saying he's stupid.' (Lucas shrugs and doesn't deny it.) 'He isn't. He builds lego on his own all afternoon. I just want to understand why school is like this.'"
+        }
+      ],
+      "s2": [
+        {
+          "pt": "(a mãe:) 'Doutora, eu anotei a semana como a senhora pediu.' (tira do bolso um papel dobrado várias vezes) 'Segunda: bilhete. Quarta: perdeu o estojo. Sexta: a professora disse que ele levantou seis vezes na aula de matemática.'",
+          "en": "(his mother:) 'Doctor, I wrote down the week like you asked.' (takes a much-folded piece of paper from her pocket) 'Monday: note home. Wednesday: lost his pencil case. Friday: the teacher said he got up six times during maths.'",
+          "es": "(his mother:) 'Doctor, I wrote down the week like you asked.' (takes a much-folded piece of paper from her pocket) 'Monday: note home. Wednesday: lost his pencil case. Friday: the teacher said he got up six times during maths.'"
+        },
+        {
+          "pt": "(Lucas, falando rápido:) 'Matemática é a pior! É depois do recreio e a sala fica quente e o Téo fica batendo o lápis na mesa, tuc, tuc, tuc, e eu não consigo parar de ouvir o tuc.' (a mãe olha para ele, surpresa.) 'Ele nunca tinha me contado isso.'",
+          "en": "(Lucas, talking fast:) 'Maths is the worst! It's right after break and the room gets hot and Téo keeps tapping his pencil on the desk, tap, tap, tap, and I can't stop hearing the tap.' (his mother looks at him, surprised.) 'He'd never told me that.'",
+          "es": "(Lucas, talking fast:) 'Maths is the worst! It's right after break and the room gets hot and Téo keeps tapping his pencil on the desk, tap, tap, tap, and I can't stop hearing the tap.' (his mother looks at him, surprised.) 'He'd never told me that.'"
+        },
+        {
+          "pt": "(a mãe:) 'Então não é que ele não queira.' (pausa) 'Doutora, me diz uma coisa: isso tem nome? Porque se tiver nome, tem o que fazer. Se não tiver, eu volto pra casa só com a bronca de sempre.'",
+          "en": "(his mother:) 'So it isn't that he doesn't want to.' (pause) 'Doctor, tell me something: does this have a name? Because if it has a name, there's something to be done. If it doesn't, I go home with the same telling-off as always.'",
+          "es": "(his mother:) 'So it isn't that he doesn't want to.' (pause) 'Doctor, tell me something: does this have a name? Because if it has a name, there's something to be done. If it doesn't, I go home with the same telling-off as always.'"
+        }
+      ]
+    },
+    "opcoes": {
+      "s3": [
+        {
+          "acolhimento": {
+            "pt": "Espera, Lucas. Você disse que estava copiando e mesmo assim levou bilhete. Isso deve dar uma raiva danada.",
+            "en": "Wait, Lucas. You said you were copying and still got a note home. That must make you furious.",
+            "es": "Wait, Lucas. You said you were copying and still got a note home. That must make you furious."
+          },
+          "tcc": {
+            "pt": "Vamos por partes: você olhou para a lousa, escreveu uma palavra, e aí? O que aconteceu na sua cabeça antes de você levantar?",
+            "en": "Let's take it in parts: you looked at the board, wrote a word, and then? What happened in your head before you got up?",
+            "es": "Let's take it in parts: you looked at the board, wrote a word, and then? What happened in your head before you got up?"
+          },
+          "psicodinamica": {
+            "pt": "Três bilhetes numa semana. E em casa, quando o bilhete chega, o que acontece?",
+            "en": "Three notes in one week. And at home, when the note arrives, what happens?",
+            "es": "Three notes in one week. And at home, when the note arrives, what happens?"
+          },
+          "psicoeducacao": {
+            "pt": "Eu vou explicar uma coisa para os dois: copiar da lousa exige segurar a frase na cabeça no caminho até o caderno. É aí que ele perde, e não na vontade.",
+            "en": "Let me explain something to you both: copying from the board means holding the sentence in your head on the way to the notebook. That is where he loses it, not in willingness.",
+            "es": "Let me explain something to you both: copying from the board means holding the sentence in your head on the way to the notebook. That is where he loses it, not in willingness."
+          },
+          "comportamental": {
+            "pt": "Me conta quantas vezes você levantou nessa aula, mais ou menos. E se a professora tivesse deixado você levantar de propósito, de dez em dez minutos?",
+            "en": "Tell me roughly how many times you got up in that class. And what if the teacher had let you get up on purpose, every ten minutes?",
+            "es": "Tell me roughly how many times you got up in that class. And what if the teacher had let you get up on purpose, every ten minutes?"
+          },
+          "diretiva": {
+            "pt": "Esta semana quero um combinado com a escola: lição em blocos de dez minutos, com pausa. E a senhora me traz o caderno.",
+            "en": "This week I want an agreement with the school: homework in ten-minute blocks, with a break. And you bring me the notebook.",
+            "es": "This week I want an agreement with the school: homework in ten-minute blocks, with a break. And you bring me the notebook."
+          }
+        },
+        {
+          "acolhimento": {
+            "pt": "Você sabe todos os dinossauros e monta lego o dia inteiro. Quem te chamou de burro, Lucas?",
+            "en": "You know every dinosaur and build lego all day. Who called you stupid, Lucas?",
+            "es": "You know every dinosaur and build lego all day. Who called you stupid, Lucas?"
+          },
+          "tcc": {
+            "pt": "Então repara: no lego a atenção fica, na lição ela some. O que a lição tem que o lego não tem?",
+            "en": "So notice: with lego the attention stays, with homework it goes. What does the homework have that lego does not?",
+            "es": "So notice: with lego the attention stays, with homework it goes. What does the homework have that lego does not?"
+          },
+          "psicodinamica": {
+            "pt": "Quando você lê a mesma linha três vezes, o que você começa a pensar sobre você mesmo?",
+            "en": "When you read the same line three times, what do you start to think about yourself?",
+            "es": "When you read the same line three times, what do you start to think about yourself?"
+          },
+          "psicoeducacao": {
+            "pt": "Isso tem nome e tem explicação: a atenção dele funciona bem no que dá retorno rápido e trava no que é longo e igual. Não é falta de inteligência — ele acabou de provar que não é.",
+            "en": "This has a name and an explanation: his attention works well with quick feedback and stalls on what is long and samey. It is not a lack of intelligence — he has just proved that.",
+            "es": "This has a name and an explanation: his attention works well with quick feedback and stalls on what is long and samey. It is not a lack of intelligence — he has just proved that."
+          },
+          "comportamental": {
+            "pt": "Vamos usar o lego a favor: lição primeiro, em pedaços curtos, e o lego é o que vem depois de cada pedaço.",
+            "en": "Let's use the lego in our favour: homework first, in short pieces, and the lego comes after each piece.",
+            "es": "Let's use the lego in our favour: homework first, in short pieces, and the lego comes after each piece."
+          },
+          "diretiva": {
+            "pt": "Lucas, olha para mim: burro não é. O que a gente vai arrumar é o jeito da lição, não você.",
+            "en": "Lucas, look at me: stupid you are not. What we are going to fix is the way the homework is done, not you.",
+            "es": "Lucas, look at me: stupid you are not. What we are going to fix is the way the homework is done, not you."
+          }
+        }
+      ],
+      "s4": [
+        {
+          "acolhimento": {
+            "pt": "Ele fez tudo certo. (para o Lucas) Como foi para você, dessa vez?",
+            "en": "He got it all right. (to Lucas) What was it like for you this time?",
+            "es": "He got it all right. (to Lucas) What was it like for you this time?"
+          },
+          "tcc": {
+            "pt": "Então o que mudou não foi ele: foi o tamanho do pedaço. Se a gente fizer o mesmo em casa, o que você acha que acontece?",
+            "en": "So what changed was not him: it was the size of the chunk. If we do the same at home, what do you think happens?",
+            "es": "So what changed was not him: it was the size of the chunk. If we do the same at home, what do you think happens?"
+          },
+          "psicodinamica": {
+            "pt": "A senhora falou 'ele fez tudo' como quem não acreditava. O que a senhora achava até ontem?",
+            "en": "You said 'he did it all' like someone who did not believe it. What did you think until yesterday?",
+            "es": "You said 'he did it all' like someone who did not believe it. What did you think until yesterday?"
+          },
+          "psicoeducacao": {
+            "pt": "É exatamente isso que eu esperava ver. A dificuldade é de sustentar atenção ao longo do tempo, e o tempo partido resolve boa parte — a lição não ficou mais fácil, ficou mais curta.",
+            "en": "This is exactly what I expected to see. The difficulty is sustaining attention over time, and splitting the time solves much of it — the homework did not get easier, it got shorter.",
+            "es": "This is exactly what I expected to see. The difficulty is sustaining attention over time, and splitting the time solves much of it — the homework did not get easier, it got shorter."
+          },
+          "comportamental": {
+            "pt": "Dez, pausa, dez. Vamos escrever isso como combinado fixo, e a professora marca no caderno quando funciona.",
+            "en": "Ten, break, ten. Let's write that down as a fixed agreement, and the teacher notes in the book when it works.",
+            "es": "Ten, break, ten. Let's write that down as a fixed agreement, and the teacher notes in the book when it works."
+          },
+          "diretiva": {
+            "pt": "Então fica assim para todas as matérias, e eu mando isso por escrito para a escola.",
+            "en": "Then it stays that way for every subject, and I will send it to the school in writing.",
+            "es": "Then it stays that way for every subject, and I will send it to the school in writing."
+          }
+        },
+        {
+          "acolhimento": {
+            "pt": "A senhora acabou de dizer que o pai dele foi chamado de sem-vergonha a vida inteira. Como é ouvir isso agora, com um nome na mão?",
+            "en": "You just said his father was called shameless his whole life. What is it like to hear that now, with a name in hand?",
+            "es": "You just said his father was called shameless his whole life. What is it like to hear that now, with a name in hand?"
+          },
+          "tcc": {
+            "pt": "Se o pai dele passou por isso e ninguém explicou, o que o Lucas corre o risco de acreditar sobre ele mesmo daqui a vinte anos?",
+            "en": "If his father went through this and nobody explained it, what does Lucas risk believing about himself twenty years from now?",
+            "es": "If his father went through this and nobody explained it, what does Lucas risk believing about himself twenty years from now?"
+          },
+          "psicodinamica": {
+            "pt": "Tem uma história de família aqui: dois meninos chamados da mesma coisa. O que a senhora quer que seja diferente desta vez?",
+            "en": "There is a family story here: two boys called the same thing. What do you want to be different this time?",
+            "es": "There is a family story here: two boys called the same thing. What do you want to be different this time?"
+          },
+          "psicoeducacao": {
+            "pt": "Isso costuma vir de família, e saber disso muda o que se faz: não é caráter, é um jeito de funcionar que tem manejo e tem apoio.",
+            "en": "This often runs in families, and knowing it changes what you do: it is not character, it is a way of functioning that has management and support.",
+            "es": "This often runs in families, and knowing it changes what you do: it is not character, it is a way of functioning that has management and support."
+          },
+          "comportamental": {
+            "pt": "O que o pai fizer com o Lucas a partir de agora vale mais que qualquer explicação. Que tal um combinado só dos dois, dez minutos por dia?",
+            "en": "What his father does with Lucas from now on is worth more than any explanation. How about an agreement just between the two of them, ten minutes a day?",
+            "es": "What his father does with Lucas from now on is worth more than any explanation. How about an agreement just between the two of them, ten minutes a day?"
+          },
+          "diretiva": {
+            "pt": "Quero o pai aqui na próxima. Isso que a senhora contou precisa ser dito na frente dele.",
+            "en": "I want his father here next time. What you just told me needs to be said in front of him.",
+            "es": "I want his father here next time. What you just told me needs to be said in front of him."
+          }
+        }
+      ]
+    }
+  },
+  "look": {
+    "skin": "#eec49a",
+    "hair": "#7a5030",
+    "top": "#5aa85a",
+    "eyeShape": "round",
+    "brow": "soft",
+    "mouth": "soft",
+    "freckles": true,
+    "rosto": "assets/rosto-lucas.png",
+    "corpo": "m"
+  }
+}

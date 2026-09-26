@@ -1,0 +1,504 @@
+{
+  "name": {
+    "pt": "Helena Rocha",
+    "en": "Helena Rocha",
+    "es": "Helena Rocha"
+  },
+  "age": {
+    "pt": "34 anos",
+    "en": "34 years old",
+    "es": "34 años"
+  },
+  "complaint": {
+    "pt": "Cansaço profundo e falta de vontade de fazer qualquer coisa há meses.",
+    "en": "Deep tiredness and no desire to do anything for months.",
+    "es": "Cansancio profundo y falta de ganas de hacer cualquier cosa desde hace meses."
+  },
+  "history": {
+    "pt": "Professora, separada há um ano. Diz que 'nada mais tem graça' e que dorme mal. A irmã insistiu para ela procurar ajuda.",
+    "en": "A teacher, separated a year ago. Says 'nothing is fun anymore' and sleeps poorly. Her sister insisted she seek help.",
+    "es": "Profesora, separada hace un año. Dice que 'nada tiene gracia' y que duerme mal. Su hermana insistió en que buscara ayuda."
+  },
+  "image": "assets/char-helena.png",
+  "parent": null,
+  "dot": "dot-pink",
+  "group": "depressivos",
+  "type": {
+    "pt": "1ª Sessão: Anamnese",
+    "en": "1st session: intake interview",
+    "es": "1.ª sesión: anamnesis"
+  },
+  "info": {
+    "pt": "Adulta com humor rebaixado, perda de prazer e alteração do sono. Primeira sessão.",
+    "en": "Adult with low mood, loss of pleasure and sleep changes. First session.",
+    "es": "Adulta con ánimo bajo, pérdida de placer y alteración del sueño. Primera sesión."
+  },
+  "message": {
+    "from": {
+      "pt": "Irmã da paciente (Renata)",
+      "en": "Patient's sister (Renata)",
+      "es": "Hermana de la paciente (Renata)"
+    },
+    "text": {
+      "pt": "A Helena não está bem. Parou de sair, quase não come. Ela aceitou marcar com você, mas está com vergonha.",
+      "en": "Helena is not well. She stopped going out and barely eats. She agreed to book with you, but she feels ashamed.",
+      "es": "Helena no está bien. Dejó de salir y casi no come. Aceptó agendar contigo, pero le da vergüenza."
+    }
+  },
+  "fit": {
+    "acolhimento": 4,
+    "tcc": 3,
+    "comportamental": 3,
+    "psicoeducacao": 2,
+    "psicodinamica": 2,
+    "diretiva": 0
+  },
+  "why": {
+    "acolhimento": {
+      "pt": "Na depressão, a pessoa costuma se sentir um peso. Ser ouvida sem cobrança é o primeiro passo para ela voltar a confiar e a aderir ao cuidado.",
+      "en": "In depression, people often feel like a burden. Being heard without pressure is the first step to trusting and staying in care.",
+      "es": "En la depresión, la persona suele sentirse una carga. Ser escuchada sin exigencias es el primer paso para volver a confiar y adherir al cuidado."
+    },
+    "tcc": {
+      "pt": "A TCC ajuda a identificar pensamentos como 'sou um fracasso' e a testá-los, mas rende mais depois que a pessoa se sente acolhida.",
+      "en": "CBT helps identify thoughts like 'I am a failure' and test them, but works better once the person feels supported.",
+      "es": "La TCC ayuda a identificar pensamientos como 'soy un fracaso' y a ponerlos a prueba, pero rinde más cuando la persona se siente acogida."
+    },
+    "comportamental": {
+      "pt": "Ativação comportamental (pequenas tarefas agradáveis e possíveis) é uma das intervenções mais eficazes na depressão, se for pequena e realista.",
+      "en": "Behavioral activation (small, pleasant, doable tasks) is one of the most effective depression interventions, if small and realistic.",
+      "es": "La activación conductual (pequeñas tareas agradables y posibles) es una de las intervenciones más eficaces en la depresión, si es pequeña y realista."
+    },
+    "psicoeducacao": {
+      "pt": "Explicar que a depressão é um quadro tratável tira a culpa, mas informação sem escuta pode soar como aula.",
+      "en": "Explaining that depression is treatable removes guilt, but information without listening may sound like a lecture.",
+      "es": "Explicar que la depresión es un cuadro tratable quita la culpa, pero la información sin escucha puede sonar a clase."
+    },
+    "psicodinamica": {
+      "pt": "A história da separação e as perdas têm valor, mas explorar cedo demais pode pesar num momento de pouca energia.",
+      "en": "The separation story and losses matter, but exploring too early can weigh on someone with little energy.",
+      "es": "La historia de la separación y las pérdidas importan, pero explorar demasiado pronto puede pesar en un momento de poca energía."
+    }
+  },
+  "steps": [
+    {
+      "who": "patient",
+      "text": {
+        "pt": "(voz baixa, sem olhar direto) 'Não sei nem por que vim. Acho que estou dando trabalho para todo mundo.'",
+        "en": "(soft voice, avoiding eye contact) 'I don't even know why I came. I think I'm being a burden to everyone.'",
+        "es": "(voz baja, sin mirar directo) 'No sé ni por qué vine. Creo que les estoy dando trabajo a todos.'"
+      },
+      "note": {
+        "pt": "Sente-se um peso para os outros.",
+        "en": "Feels like a burden to others.",
+        "es": "Se siente una carga para los demás."
+      },
+      "mods": {
+        "psicoeducacao": -1
+      },
+      "options": {
+        "acolhimento": {
+          "pt": "Fico feliz que você tenha vindo. Aqui não tem pressa. Como tem sido acordar, dia após dia?",
+          "en": "I'm glad you came. There is no rush here. What has it been like waking up, day after day?",
+          "es": "Me alegra que hayas venido. Aquí no hay prisa. ¿Cómo ha sido despertar, día tras día?"
+        },
+        "tcc": {
+          "pt": "Que pensamentos aparecem quando você diz que dá trabalho? Vamos olhar juntas o que sustenta essa ideia?",
+          "en": "What thoughts come up when you say you are a burden? Shall we look together at what supports that idea?",
+          "es": "¿Qué pensamientos aparecen cuando dices que das trabajo? ¿Miramos juntas qué sostiene esa idea?"
+        },
+        "psicodinamica": {
+          "pt": "Essa sensação de ser um peso já existia antes da separação? De quando você se lembra dela?",
+          "en": "Did this feeling of being a burden exist before the separation? When do you first remember it?",
+          "es": "¿Esta sensación de ser una carga ya existía antes de la separación? ¿Desde cuándo la recuerdas?"
+        },
+        "diretiva": {
+          "pt": "Você não dá trabalho nenhum. Tente pensar positivo e ver o lado bom, que logo passa.",
+          "en": "You are no trouble at all. Try to think positive and see the bright side, it will pass soon.",
+          "es": "No das ningún trabajo. Intenta pensar en positivo y ver el lado bueno, que pronto pasa."
+        }
+      },
+      "variants": [
+        {
+          "pt": "(voz baixa, sem olhar direto) 'Nem sei por que vim. Acho que só estou dando trabalho para todo mundo.'",
+          "en": "(low voice, not looking directly) 'I don't even know why I came. I think I'm just being a burden to everyone.'",
+          "es": "(voz baja, sin mirar directamente) 'Ni sé por qué vine. Creo que solo le doy trabajo a todo el mundo.'"
+        },
+        {
+          "pt": "(olhando as próprias mãos) 'Não sei se deveria estar aqui. Sinto que só atrapalho e incomodo quem está perto de mim.'",
+          "en": "(looking at her own hands) 'I'm not sure I should be here. I feel like I just get in the way and bother the people around me.'",
+          "es": "(mirándose las manos) 'No sé si debería estar aquí. Siento que solo estorbo y molesto a quien está cerca.'"
+        }
+      ]
+    },
+    {
+      "who": "patient",
+      "text": {
+        "pt": "'Não tenho vontade de nada. Antes eu corrigia prova ouvindo música, adorava cozinhar. Agora fico deitada olhando o teto e me sinto culpada.'",
+        "en": "'I have no desire for anything. I used to grade papers listening to music, loved cooking. Now I lie looking at the ceiling and feel guilty.'",
+        "es": "'No tengo ganas de nada. Antes corregía exámenes escuchando música, me encantaba cocinar. Ahora me quedo mirando el techo y me siento culpable.'"
+      },
+      "note": {
+        "pt": "Perda de prazer, isolamento, culpa; sono ruim.",
+        "en": "Loss of pleasure, isolation, guilt; poor sleep.",
+        "es": "Pérdida de placer, aislamiento, culpa; mal sueño."
+      },
+      "mods": {
+        "comportamental": 1,
+        "tcc": 0
+      },
+      "options": {
+        "acolhimento": {
+          "pt": "Perder o prazer com o que amávamos dói. Você não está sozinha nisso. O que ainda dá algum alívio, mesmo pequeno?",
+          "en": "Losing pleasure in what we loved hurts. You are not alone in this. What still gives some relief, even small?",
+          "es": "Perder el placer en lo que amábamos duele. No estás sola en esto. ¿Qué aún da algún alivio, aunque sea pequeño?"
+        },
+        "comportamental": {
+          "pt": "Vamos anotar a semana: o que você fez, a hora e como se sentiu. Depois escolhemos uma tarefa bem pequena para experimentar.",
+          "en": "Let's log the week: what you did, when and how you felt. Then we pick one very small task to try.",
+          "es": "Anotemos la semana: qué hiciste, a qué hora y cómo te sentiste. Luego elegimos una tarea muy pequeña para probar."
+        },
+        "psicoeducacao": {
+          "pt": "Isso que você descreve (perda de prazer, culpa, sono ruim) é comum na depressão. Não é falta de caráter.",
+          "en": "What you describe (loss of pleasure, guilt, poor sleep) is common in depression. It is not a character flaw.",
+          "es": "Lo que describes (pérdida de placer, culpa, mal sueño) es común en la depresión. No es falta de carácter."
+        },
+        "diretiva": {
+          "pt": "Rotina ajuda: levante cedo, saia de casa e faça exercício todo dia, mesmo sem vontade. Sei que parece simples demais, mas o corpo puxa a mente.",
+          "en": "Routine helps: get up early, leave the house and exercise every day, even if you don't feel like it. I know it sounds too simple, but the body pulls the mind along.",
+          "es": "La rutina ayuda: levántate temprano, sal de casa y haz ejercicio todos los días, aunque no tengas ganas. Sé que parece demasiado simple, pero el cuerpo arrastra a la mente."
+        }
+      },
+      "variants": [
+        {
+          "pt": "'Perdi o gosto por tudo. Eu corrigia prova com música e adorava cozinhar; hoje passo horas deitada, encarando o teto, e me acho culpada por isso.'",
+          "en": "'I've lost my taste for everything. I used to grade exams with music and loved cooking; now I spend hours lying down, staring at the ceiling, and blame myself for it.'",
+          "es": "'He perdido el gusto por todo. Corregía exámenes con música y me encantaba cocinar; hoy paso horas acostada, mirando el techo, y me siento culpable por eso.'"
+        },
+        {
+          "pt": "'Nada me anima mais. Eu gostava de cozinhar e de corrigir prova com música. Hoje passo o tempo deitada, olhando o teto, e ainda me culpo por isso.'",
+          "en": "'Nothing cheers me up anymore. I liked cooking and grading exams with music. Today I spend my time lying down, staring at the ceiling, and I blame myself for it.'",
+          "es": "'Nada me anima ya. Me gustaba cocinar y corregir exámenes con música. Hoy paso el tiempo acostada, mirando el techo, y encima me culpo por eso.'"
+        }
+      ]
+    },
+    {
+      "who": "patient",
+      "text": {
+        "pt": "(pausa longa) 'Às vezes eu penso que seria mais fácil se eu não estivesse aqui.'",
+        "en": "(long pause) 'Sometimes I think it would be easier if I were not here.'",
+        "es": "(pausa larga) 'A veces pienso que sería más fácil si yo no estuviera aquí.'"
+      },
+      "note": {
+        "pt": "Aparecem pensamentos passivos de morte: avaliar o risco com cuidado.",
+        "en": "Passive thoughts of death appear: assess risk carefully.",
+        "es": "Aparecen pensamientos pasivos de muerte: evaluar el riesgo con cuidado."
+      },
+      "mods": {
+        "acolhimento": 1,
+        "tcc": -1,
+        "comportamental": -1,
+        "psicodinamica": -1,
+        "psicoeducacao": 0
+      },
+      "options": {
+        "acolhimento": {
+          "pt": "Você foi corajosa em me contar isso. Posso perguntar com clareza: você pensa em se machucar ou em tirar a própria vida?",
+          "en": "You were brave to tell me this. May I ask clearly: are you thinking of hurting yourself or ending your life?",
+          "es": "Fuiste valiente al contarme esto. ¿Puedo preguntar con claridad: piensas en hacerte daño o en quitarte la vida?"
+        },
+        "psicoeducacao": {
+          "pt": "Pensamentos assim aparecem em depressões e podem melhorar com tratamento. Vamos combinar um plano de segurança e ver apoio psiquiátrico.",
+          "en": "Thoughts like this appear in depression and can improve with treatment. Let's agree on a safety plan and consider psychiatric support.",
+          "es": "Pensamientos así aparecen en depresiones y pueden mejorar con tratamiento. Acordemos un plan de seguridad y veamos apoyo psiquiátrico."
+        },
+        "tcc": {
+          "pt": "Vamos anotar esse pensamento, o que o dispara e o que você pode dizer a si mesma quando ele vem?",
+          "en": "Shall we write down this thought, what triggers it and what you can tell yourself when it comes?",
+          "es": "¿Anotamos este pensamiento, qué lo dispara y qué puedes decirte cuando aparece?"
+        },
+        "diretiva": {
+          "pt": "Não pense assim, você tem tanta coisa boa na vida, e isso é só uma fase que vai passar logo.",
+          "en": "Don't think like that, you have so many good things in life, and this is just a phase that will pass soon.",
+          "es": "No pienses así, tienes tantas cosas buenas en la vida, y esto es solo una etapa que pasará pronto."
+        }
+      },
+      "variants": [
+        {
+          "pt": "(longo silêncio) 'Tem horas em que acho que seria mais simples se eu não existisse.'",
+          "en": "(long silence) 'There are times I think it would be simpler if I didn't exist.'",
+          "es": "(largo silencio) 'Hay ratos en que pienso que sería más simple si yo no existiera.'"
+        },
+        {
+          "pt": "(silêncio) 'Tem dias em que eu penso que todo mundo ficaria mais leve sem mim por aqui.'",
+          "en": "(silence) 'There are days I think everyone would be lighter without me around.'",
+          "es": "(silencio) 'Hay días en que pienso que todos estarían más aliviados sin mí.'"
+        }
+      ]
+    },
+    {
+      "who": "patient",
+      "text": {
+        "pt": "(levantando-se devagar) 'Não sei se vou conseguir voltar semana que vem. Tudo pesa tanto...'",
+        "en": "(getting up slowly) 'I don't know if I will manage to come back next week. Everything feels so heavy...'",
+        "es": "(levantándose despacio) 'No sé si podré volver la semana que viene. Todo pesa tanto...'"
+      },
+      "note": {
+        "pt": "Ambivalência quanto a continuar: a energia baixa dificulta até comparecer.",
+        "en": "Ambivalence about continuing: low energy makes even attending hard.",
+        "es": "Ambivalencia sobre continuar: la poca energía dificulta incluso asistir."
+      },
+      "mods": {
+        "comportamental": 1,
+        "acolhimento": -1
+      },
+      "options": {
+        "comportamental": {
+          "pt": "Combinado: até a próxima sessão, só uma coisa pequena e agradável por dia, tipo uma caminhada curta. E eu lembro você por mensagem.",
+          "en": "Agreed: until next session, just one small pleasant thing a day, like a short walk. And I'll remind you by message.",
+          "es": "Acordado: hasta la próxima sesión, solo una cosa pequeña y agradable al día, como una caminata corta. Y te recuerdo por mensaje."
+        },
+        "acolhimento": {
+          "pt": "Eu entendo que pese. Se ficar difícil vir, podemos fazer a próxima sessão por vídeo, para você não ficar sem apoio. O importante é você não desaparecer do tratamento.",
+          "en": "I understand it feels heavy. If coming in gets hard, we can do the next session by video so you're not without support. What matters is that you don't disappear from treatment.",
+          "es": "Entiendo que pese. Si venir se hace difícil, podemos hacer la próxima sesión por video para que no te quedes sin apoyo. Lo importante es que no desaparezcas del tratamiento."
+        },
+        "psicoeducacao": {
+          "pt": "É comum a depressão fazer tudo parecer pesado. Vou te passar um material curto sobre como ela funciona e como se trata.",
+          "en": "It's common for depression to make everything feel heavy. I'll give you a short handout on how it works and how it's treated.",
+          "es": "Es común que la depresión haga que todo parezca pesado. Te daré un material corto sobre cómo funciona y cómo se trata."
+        },
+        "diretiva": {
+          "pt": "Se você faltar, vai perder o ritmo e a melhora. Então, por favor, faça um esforço e venha, mesmo sem vontade.",
+          "en": "If you skip, you'll lose momentum and progress. So please make an effort and come, even if you don't feel like it.",
+          "es": "Si faltas, perderás el ritmo y la mejoría. Así que, por favor, haz un esfuerzo y ven, aunque no tengas ganas."
+        }
+      },
+      "variants": [
+        {
+          "pt": "(ajeitando a bolsa devagar) 'Não tenho certeza de que consigo voltar na próxima semana. Está tudo tão difícil...'",
+          "en": "(slowly adjusting her bag) 'I'm not sure I can come back next week. Everything is so hard...'",
+          "es": "(acomodando el bolso despacio) 'No estoy segura de poder volver la próxima semana. Todo está tan difícil...'"
+        },
+        {
+          "pt": "(pegando a bolsa devagar) 'Talvez eu não consiga voltar na próxima semana. Está tudo tão pesado...'",
+          "en": "(slowly picking up her bag) 'Maybe I won't be able to come back next week. It's all so heavy...'",
+          "es": "(agarrando el bolso despacio) 'Quizás no pueda volver la próxima semana. Está todo tan pesado...'"
+        }
+      ]
+    }
+  ],
+  "diagnosis": {
+    "answer": "tdm",
+    "options": [
+      "tdm",
+      "distimia",
+      "bipolar2",
+      "tag"
+    ],
+    "why": {
+      "pt": "Humor deprimido, perda de prazer, alteração do sono, culpa, sensação de ser um peso e pensamentos passivos de morte por semanas sustentam o transtorno depressivo maior. A distimia seria mais crônica e leve, e não há relato de fases de humor elevado.",
+      "en": "Depressed mood, loss of pleasure, sleep changes, guilt, feeling like a burden and passive thoughts of death for weeks support major depressive disorder. Dysthymia would be more chronic and milder, and there is no report of elevated-mood phases.",
+      "es": "Ánimo deprimido, pérdida de placer, alteración del sueño, culpa, sensación de ser una carga y pensamientos pasivos de muerte durante semanas sostienen el trastorno depresivo mayor. La distimia sería más crónica y leve, y no hay relato de fases de ánimo elevado."
+    }
+  },
+  "voice": {
+    "intro": {
+      "pt": "(entra com passos lentos, senta na ponta da poltrona) 'Boa tarde. Eu sou a Helena, 34 anos... Desculpa, não sei bem por que vim. Minha irmã insistiu. Tudo perdeu a graça.'",
+      "en": "(walks in slowly, sits on the edge of the chair) 'Good afternoon. I'm Helena, 34... Sorry, I don't really know why I came. My sister insisted. Everything lost its color.'",
+      "es": "(entra con pasos lentos, se sienta en la punta del sillón) 'Buenas tardes. Soy Helena, 34 años... Perdón, no sé bien por qué vine. Mi hermana insistió. Todo perdió la gracia.'"
+    },
+    "pre": [
+      {
+        "pt": "(suspira)",
+        "en": "(sighs)",
+        "es": "(suspira)"
+      },
+      {
+        "pt": "Desculpa a demora...",
+        "en": "Sorry for the delay...",
+        "es": "Perdón la demora..."
+      }
+    ],
+    "post": {
+      "pt": "Desculpa, eu falo demais.",
+      "en": "Sorry, I talk too much.",
+      "es": "Perdón, hablo demasiado."
+    },
+    "ref": [
+      {
+        "pt": "Dei aula essa semana só no automático e cheguei em casa sem forças.",
+        "en": "I taught this week on autopilot and got home with no strength.",
+        "es": "Di clase esta semana en automático y llegué a casa sin fuerzas."
+      },
+      {
+        "pt": "Tomei banho todo dia, mas acordei cedo outra vez.",
+        "en": "I showered every day, but woke up early again.",
+        "es": "Me bañé todos los días, pero me desperté temprano otra vez."
+      },
+      {
+        "pt": "Almocei com uma colega e até ri de uma coisa. Faz tempo que não ria.",
+        "en": "I had lunch with a colleague and even laughed at something. It's been a while.",
+        "es": "Almorcé con una colega e incluso me reí de algo. Hacía tiempo que no me reía."
+      }
+    ],
+    "hookA": {
+      "pt": "Como foram as suas manhãs, quando você acorda cedo demais?",
+      "en": "What have your mornings been like, when you wake up too early?",
+      "es": "¿Cómo han sido tus mañanas, cuando te despiertas demasiado temprano?"
+    },
+    "hookB": {
+      "pt": "Vamos escolher uma coisa pequena para esta semana, como caminhar dez minutos?",
+      "en": "Shall we pick one small thing for this week, like a ten-minute walk?",
+      "es": "¿Elegimos una cosa pequeña para esta semana, como caminar diez minutos?"
+    },
+    "sessoes": {
+      "s3": [
+        {
+          "pt": "'Consegui levantar e tomar banho três dias essa semana. (pausa) Falando assim parece pouco, né. Pra mim foi como carregar pedra.'",
+          "en": "'I managed to get up and shower three days this week. (pause) Said out loud it sounds like nothing, doesn't it. For me it was like carrying stones.'",
+          "es": "'I managed to get up and shower three days this week. (pause) Said out loud it sounds like nothing, doesn't it. For me it was like carrying stones.'"
+        },
+        {
+          "pt": "'Minha irmã disse pra eu fazer exercício, que é bom pro ânimo. (olha as mãos) Eu sei que é. Eu sei tudo que eu deveria fazer. Saber não é o que tá faltando.'",
+          "en": "'My sister told me to exercise, that it's good for the mood. (looks at her hands) I know it is. I know everything I should be doing. Knowing isn't what's missing.'",
+          "es": "'My sister told me to exercise, that it's good for the mood. (looks at her hands) I know it is. I know everything I should be doing. Knowing isn't what's missing.'"
+        }
+      ],
+      "s4": [
+        {
+          "pt": "'Teve uma hora na quinta que eu ri de uma coisa boba na televisão. (a voz falha) Eu parei e pensei: faz quanto tempo que eu não faço isso? E aí chorei, mas foi um choro diferente.'",
+          "en": "'There was a moment on Thursday when I laughed at something silly on TV. (her voice breaks) I stopped and thought: how long has it been? And then I cried, but it was a different kind of crying.'",
+          "es": "'There was a moment on Thursday when I laughed at something silly on TV. (her voice breaks) I stopped and thought: how long has it been? And then I cried, but it was a different kind of crying.'"
+        },
+        {
+          "pt": "'A senhora me perguntou uma vez se eu já tinha pensado em não estar mais aqui. (silêncio) Eu falei que não. Eu menti. Não é que eu queira morrer — é que eu queria parar de acordar cansada assim.'",
+          "en": "'You asked me once if I'd thought about not being here anymore. (silence) I said no. I lied. It isn't that I want to die — it's that I wanted to stop waking up this tired.'",
+          "es": "'You asked me once if I'd thought about not being here anymore. (silence) I said no. I lied. It isn't that I want to die — it's that I wanted to stop waking up this tired.'"
+        }
+      ]
+    },
+    "fecho": {
+      "s2": {
+        "pt": "(já de casaco, sem se levantar) 'O mais difícil não é vir. É levantar da cama sabendo que vou ter que vir. Mas eu venho.'",
+        "en": "(coat already on, not standing up) 'The hardest part isn't coming here. It's getting out of bed knowing I'll have to come. But I come.'",
+        "es": "(coat already on, not standing up) 'The hardest part isn't coming here. It's getting out of bed knowing I'll have to come. But I come.'"
+      },
+      "s3": {
+        "pt": "'Eu ia cancelar hoje. Escrevi a mensagem e não mandei.' (quase sorri) 'Acho que isso conta como alguma coisa.'",
+        "en": "'I was going to cancel today. I wrote the message and didn't send it.' (almost smiles) 'I think that counts as something.'",
+        "es": "'I was going to cancel today. I wrote the message and didn't send it.' (almost smiles) 'I think that counts as something.'"
+      },
+      "s4": {
+        "pt": "(na porta, de costas) 'Obrigada por ter perguntado daquele jeito. Ninguém pergunta daquele jeito.'",
+        "en": "(at the door, with her back to you) 'Thank you for asking it the way you did. Nobody asks it that way.'",
+        "es": "(at the door, with her back to you) 'Thank you for asking it the way you did. Nobody asks it that way.'"
+      }
+    },
+    "opcoes": {
+      "s3": [
+        {
+          "acolhimento": {
+            "pt": "Três banhos numa semana, quando cada um custa carregar pedra, não é pouco. É a sua régua que vale aqui, não a de fora.",
+            "en": "Three baths in a week, when each one costs as much as carrying stone, is not little. It is your measure that counts here, not the one outside.",
+            "es": "Three baths in a week, when each one costs as much as carrying stone, is not little. It is your measure that counts here, not the one outside."
+          },
+          "tcc": {
+            "pt": "Nos três dias em que você conseguiu, o que foi diferente? Alguém em casa, horário, alguma coisa antes?",
+            "en": "On the three days you managed it, what was different? Someone at home, the time of day, something beforehand?",
+            "es": "On the three days you managed it, what was different? Someone at home, the time of day, something beforehand?"
+          },
+          "psicoeducacao": {
+            "pt": "Na depressão a iniciativa é o que falta primeiro — por isso a gente mede em banhos e não em ânimo. Ânimo vem depois do movimento, não antes.",
+            "en": "In depression, initiative is the first thing to go — that is why we measure in baths and not in mood. Mood follows movement, it does not come first.",
+            "es": "In depression, initiative is the first thing to go — that is why we measure in baths and not in mood. Mood follows movement, it does not come first."
+          },
+          "diretiva": {
+            "pt": "Então a meta da semana é quatro. Não é para se sentir melhor: é para fazer, sentindo o que for.",
+            "en": "So the target for the week is four. Not to feel better: to do it, feeling whatever you feel.",
+            "es": "So the target for the week is four. Not to feel better: to do it, feeling whatever you feel."
+          }
+        },
+        {
+          "acolhimento": {
+            "pt": "Saber não é o que está faltando. Isso você disse melhor do que qualquer manual.",
+            "en": "Knowing is not what is missing. You said that better than any textbook.",
+            "es": "Knowing is not what is missing. You said that better than any textbook."
+          },
+          "tcc": {
+            "pt": "Quando sua irmã fala isso, o que passa pela sua cabeça logo depois? É desânimo ou é uma cobrança?",
+            "en": "When your sister says that, what goes through your head right after? Is it discouragement or is it self-blame?",
+            "es": "When your sister says that, what goes through your head right after? Is it discouragement or is it self-blame?"
+          },
+          "psicoeducacao": {
+            "pt": "Conselho bem-intencionado costuma piorar, porque trata como ignorância o que é falta de iniciativa — e falta de iniciativa é sintoma, não escolha.",
+            "en": "Well-meant advice usually makes it worse, because it treats as ignorance what is a lack of initiative — and lack of initiative is a symptom, not a choice.",
+            "es": "Well-meant advice usually makes it worse, because it treats as ignorance what is a lack of initiative — and lack of initiative is a symptom, not a choice."
+          },
+          "diretiva": {
+            "pt": "Eu não vou te dizer para fazer exercício. Vou te dizer o que fazer com a manhã de amanhã, que é onde dá para mexer.",
+            "en": "I am not going to tell you to exercise. I am going to tell you what to do with tomorrow morning, which is where we can act.",
+            "es": "I am not going to tell you to exercise. I am going to tell you what to do with tomorrow morning, which is where we can act."
+          }
+        }
+      ],
+      "s4": [
+        {
+          "acolhimento": {
+            "pt": "Você riu. E chorou depois, de um jeito diferente. Os dois contam.",
+            "en": "You laughed. And cried afterwards, in a different way. Both count.",
+            "es": "You laughed. And cried afterwards, in a different way. Both count."
+          },
+          "tcc": {
+            "pt": "O prazer costuma voltar antes do humor, e volta assim: pequeno e de surpresa. O que você fez logo depois de rir?",
+            "en": "Pleasure usually comes back before mood, and it comes back like that: small and by surprise. What did you do right after you laughed?",
+            "es": "Pleasure usually comes back before mood, and it comes back like that: small and by surprise. What did you do right after you laughed?"
+          },
+          "psicoeducacao": {
+            "pt": "É o primeiro sinal de melhora que eu esperava ver — e ele costuma assustar, porque lembra o tamanho do tempo que passou.",
+            "en": "It is the first sign of improvement I was hoping to see — and it usually frightens, because it reminds you how much time has passed.",
+            "es": "It is the first sign of improvement I was hoping to see — and it usually frightens, because it reminds you how much time has passed."
+          },
+          "diretiva": {
+            "pt": "Anote o dia. Quando voltar a semana ruim, esse dia é a prova de que a coisa se move.",
+            "en": "Write down the day. When the bad week comes back, that day is the proof that this moves.",
+            "es": "Write down the day. When the bad week comes back, that day is the proof that this moves."
+          }
+        },
+        {
+          "acolhimento": {
+            "pt": "Obrigada por me contar agora. (pausa) E obrigada por não ter ido embora com essa frase sozinha.",
+            "en": "Thank you for telling me now. (pause) And thank you for not leaving alone with that sentence.",
+            "es": "Thank you for telling me now. (pause) And thank you for not leaving alone with that sentence."
+          },
+          "tcc": {
+            "pt": "Querer parar de acordar cansada é diferente de querer morrer, e essa diferença importa. Me ajuda a entender: o que você imagina quando pensa em parar?",
+            "en": "Wanting to stop waking up tired is different from wanting to die, and that difference matters. Help me understand: what do you picture when you think of stopping?",
+            "es": "Wanting to stop waking up tired is different from wanting to die, and that difference matters. Help me understand: what do you picture when you think of stopping?"
+          },
+          "psicoeducacao": {
+            "pt": "Isso se chama ideação passiva, é mais comum do que se diz, e é exatamente por existir que a gente precisa falar disso abertamente — não é sinal de que você vai fazer algo.",
+            "en": "That is called passive ideation, it is more common than people say, and it is precisely because it exists that we have to speak of it openly — it is not a sign that you will act.",
+            "es": "That is called passive ideation, it is more common than people say, and it is precisely because it exists that we have to speak of it openly — it is not a sign that you will act."
+          },
+          "diretiva": {
+            "pt": "Agora a gente para tudo e faz uma coisa juntas: eu preciso saber se há plano, meio e o que te segura.",
+            "en": "Now we stop everything and do one thing together: I need to know whether there is a plan, a means, and what holds you here.",
+            "es": "Now we stop everything and do one thing together: I need to know whether there is a plan, a means, and what holds you here."
+          }
+        }
+      ]
+    }
+  },
+  "look": {
+    "skin": "#e8c2a0",
+    "hair": "#7a4a2a",
+    "hairStyle": "wavy",
+    "top": "#8fa6bd",
+    "eyeShape": "sleepy",
+    "brow": "soft",
+    "mouth": "neutral",
+    "rosto": "assets/rosto-helena.png",
+    "corpo": "f"
+  }
+}

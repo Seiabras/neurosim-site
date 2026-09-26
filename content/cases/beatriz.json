@@ -1,0 +1,502 @@
+{
+  "name": {
+    "pt": "Beatriz Lima",
+    "en": "Beatriz Lima",
+    "es": "Beatriz Lima"
+  },
+  "age": {
+    "pt": "22 anos",
+    "en": "22 years old",
+    "es": "22 años"
+  },
+  "complaint": {
+    "pt": "Pensamentos de contaminação e rituais de lavagem que tomam horas do dia.",
+    "en": "Thoughts of contamination and washing rituals that take hours of the day.",
+    "es": "Pensamientos de contaminación y rituales de lavado que ocupan horas del día."
+  },
+  "history": {
+    "pt": "Estudante de Biologia. Lava as mãos até machucar e refaz o ritual 'até sentir certo'. Começou a faltar às aulas.",
+    "en": "Biology student. Washes hands until they hurt and repeats the ritual 'until it feels right'. Began missing classes.",
+    "es": "Estudiante de Biología. Se lava las manos hasta lastimarse y repite el ritual 'hasta sentirlo correcto'. Empezó a faltar a clases."
+  },
+  "image": "assets/char-beatriz.png",
+  "parent": null,
+  "dot": "dot-pink",
+  "group": "toc",
+  "type": {
+    "pt": "1ª Sessão: Anamnese",
+    "en": "1st session: intake interview",
+    "es": "1.ª sesión: anamnesis"
+  },
+  "info": {
+    "pt": "Jovem com obsessões de contaminação e compulsões de lavagem. Primeira sessão.",
+    "en": "Young woman with contamination obsessions and washing compulsions. First session.",
+    "es": "Joven con obsesiones de contaminación y compulsiones de lavado. Primera sesión."
+  },
+  "message": {
+    "from": {
+      "pt": "Beatriz Lima (e-mail)",
+      "en": "Beatriz Lima (email)",
+      "es": "Beatriz Lima (correo)"
+    },
+    "text": {
+      "pt": "Sei que é exagero, mas não consigo parar. Se eu não lavar, acho que algo terrível vai acontecer. Tenho vergonha de contar.",
+      "en": "I know it's excessive, but I can't stop. If I don't wash, I think something terrible will happen. I'm ashamed to say it.",
+      "es": "Sé que es exagerado, pero no puedo parar. Si no me lavo, creo que va a pasar algo terrible. Me da vergüenza contarlo."
+    }
+  },
+  "fit": {
+    "comportamental": 4,
+    "tcc": 3,
+    "psicoeducacao": 3,
+    "acolhimento": 2,
+    "psicodinamica": 1,
+    "diretiva": 0
+  },
+  "why": {
+    "comportamental": {
+      "pt": "A exposição com prevenção de resposta (enfrentar o gatilho sem fazer o ritual) é o tratamento mais eficaz para o TOC.",
+      "en": "Exposure and response prevention (facing the trigger without doing the ritual) is the most effective treatment for OCD.",
+      "es": "La exposición con prevención de respuesta (enfrentar el gatillo sin hacer el ritual) es el tratamiento más eficaz para el TOC."
+    },
+    "tcc": {
+      "pt": "A TCC ajuda a entender a ligação entre obsessão, ansiedade e ritual e a rever a crença de que o pensamento é perigoso.",
+      "en": "CBT helps understand the link between obsession, anxiety and ritual and revise the belief that the thought is dangerous.",
+      "es": "La TCC ayuda a entender el vínculo entre obsesión, ansiedad y ritual y a revisar la creencia de que el pensamiento es peligroso."
+    },
+    "psicoeducacao": {
+      "pt": "Saber que o TOC é um quadro conhecido, com tratamento, e que os pensamentos são intrusivos e não desejos, alivia a vergonha.",
+      "en": "Knowing OCD is a known condition with treatment, and that thoughts are intrusive and not wishes, relieves shame.",
+      "es": "Saber que el TOC es un cuadro conocido, con tratamiento, y que los pensamientos son intrusivos y no deseos, alivia la vergüenza."
+    },
+    "acolhimento": {
+      "pt": "Acolher a vergonha ajuda a criar vínculo, mas sozinho o acolhimento pode reforçar rituais se virar tranquilização repetida.",
+      "en": "Supporting the shame helps build the bond, but alone it can reinforce rituals if it becomes repeated reassurance.",
+      "es": "Acoger la vergüenza ayuda a crear vínculo, pero por sí solo puede reforzar rituales si se vuelve tranquilización repetida."
+    },
+    "psicodinamica": {
+      "pt": "Explorar significados simbólicos da sujeira tem interesse, mas o sintoma central se trata com técnicas específicas.",
+      "en": "Exploring symbolic meanings of dirt has interest, but the core symptom is treated with specific techniques.",
+      "es": "Explorar significados simbólicos de la suciedad tiene interés, pero el síntoma central se trata con técnicas específicas."
+    }
+  },
+  "steps": [
+    {
+      "who": "patient",
+      "text": {
+        "pt": "(escondendo as mãos vermelhas) 'Eu sei que é ridículo. Mas se eu toco na maçaneta e não lavo, fico pensando que vou contaminar minha família.'",
+        "en": "(hiding her red hands) 'I know it's ridiculous. But if I touch a doorknob and don't wash, I keep thinking I will contaminate my family.'",
+        "es": "(escondiendo las manos enrojecidas) 'Sé que es ridículo. Pero si toco la manija y no me lavo, pienso que voy a contaminar a mi familia.'"
+      },
+      "note": {
+        "pt": "Obsessão de contaminação; críticas a si mesma; mãos machucadas.",
+        "en": "Contamination obsession; self-criticism; hurt hands.",
+        "es": "Obsesión de contaminación; autocrítica; manos lastimadas."
+      },
+      "mods": {
+        "acolhimento": 1,
+        "tcc": -1
+      },
+      "options": {
+        "acolhimento": {
+          "pt": "Não é ridículo. Deve ser muito cansativo carregar isso sozinha. Obrigada por me contar.",
+          "en": "It's not ridiculous. It must be exhausting to carry this alone. Thank you for telling me.",
+          "es": "No es ridículo. Debe ser muy agotador cargar esto sola. Gracias por contármelo."
+        },
+        "psicoeducacao": {
+          "pt": "Isso que você descreve tem nome: TOC, com obsessões (pensamentos) e compulsões (rituais). Muita gente passa por isso e tem tratamento.",
+          "en": "What you describe has a name: OCD, with obsessions (thoughts) and compulsions (rituals). Many people go through it and it is treatable.",
+          "es": "Eso que describes tiene nombre: TOC, con obsesiones (pensamientos) y compulsiones (rituales). Mucha gente lo vive y tiene tratamiento."
+        },
+        "comportamental": {
+          "pt": "Vamos mapear os rituais: o que dispara, o que você faz, quanto tempo leva e como fica a ansiedade depois.",
+          "en": "Let's map the rituals: what triggers them, what you do, how long it takes and how the anxiety feels afterwards.",
+          "es": "Mapeemos los rituales: qué los dispara, qué haces, cuánto tiempo toma y cómo queda la ansiedad después."
+        },
+        "diretiva": {
+          "pt": "Isso é só um hábito ruim. Se você tentar lavar menos as mãos, com o tempo vai passar.",
+          "en": "That's just a bad habit. If you try to wash your hands less, it will pass with time.",
+          "es": "Eso es solo un mal hábito. Si intentas lavarte menos las manos, con el tiempo pasará."
+        }
+      },
+      "variants": [
+        {
+          "pt": "(escondendo as mãos vermelhas) 'Sei que parece bobagem. Mas quando encosto na maçaneta e não lavo, não consigo parar de imaginar que vou contaminar minha família.'",
+          "en": "(hiding her red hands) 'I know it sounds silly. But when I touch the doorknob and don't wash, I can't stop imagining I'll contaminate my family.'",
+          "es": "(escondiendo las manos enrojecidas) 'Sé que suena tonto. Pero cuando toco el picaporte y no me lavo, no dejo de imaginar que voy a contaminar a mi familia.'"
+        },
+        {
+          "pt": "(puxando as mangas para cobrir as mãos) 'Eu sei que é exagero, mas se eu toco em algo e não lavo logo, vem a certeza de que vou fazer mal a quem eu amo.'",
+          "en": "(pulling her sleeves over her hands) 'I know it's exaggerated, but if I touch something and don't wash right away, I become certain I'll harm the people I love.'",
+          "es": "(tirando de las mangas para cubrirse las manos) 'Sé que es exagerado, pero si toco algo y no me lavo enseguida, me invade la certeza de que voy a hacerle daño a quien quiero.'"
+        }
+      ]
+    },
+    {
+      "who": "patient",
+      "text": {
+        "pt": "'Se eu lavo, a ansiedade cai. Mas volta depois, e eu preciso lavar de novo. Já passo umas três horas por dia nisso.'",
+        "en": "'If I wash, the anxiety drops. But it comes back, and I need to wash again. I already spend about three hours a day on it.'",
+        "es": "'Si me lavo, la ansiedad baja. Pero vuelve y necesito lavarme de nuevo. Ya paso unas tres horas al día en esto.'"
+      },
+      "note": {
+        "pt": "Ritual alivia por pouco tempo; ~3 horas por dia; prejuízo na faculdade.",
+        "en": "Ritual relieves briefly; ~3 hours a day; impairment at university.",
+        "es": "El ritual alivia poco; ~3 horas al día; deterioro en la universidad."
+      },
+      "mods": {
+        "comportamental": 1,
+        "tcc": 1,
+        "acolhimento": -1
+      },
+      "options": {
+        "tcc": {
+          "pt": "O alívio é curto porque o ritual confirma ao cérebro que havia perigo. Vamos entender esse ciclo passo a passo?",
+          "en": "The relief is short because the ritual tells the brain there was danger. Shall we understand this cycle step by step?",
+          "es": "El alivio es corto porque el ritual le confirma al cerebro que había peligro. ¿Entendemos este ciclo paso a paso?"
+        },
+        "comportamental": {
+          "pt": "Que tal listarmos situações da mais fácil à mais difícil e praticarmos tocar sem lavar, esperando a ansiedade baixar sozinha?",
+          "en": "How about listing situations from easiest to hardest and practicing touching without washing, waiting for the anxiety to drop by itself?",
+          "es": "¿Qué tal listar situaciones de la más fácil a la más difícil y practicar tocar sin lavarnos, esperando que la ansiedad baje sola?"
+        },
+        "psicodinamica": {
+          "pt": "O que a sujeira representa para você? Isso lembra alguma outra fase da sua vida?",
+          "en": "What does dirt represent for you? Does this remind you of another phase of your life?",
+          "es": "¿Qué representa la suciedad para ti? ¿Te recuerda otra etapa de tu vida?"
+        },
+        "acolhimento": {
+          "pt": "Deve ser muito desgastante. Se quiser, pode me ligar para eu te tranquilizar quando bater a dúvida, em vez de repetir o ritual sozinha.",
+          "en": "It must be very draining. If you like, you can call me for reassurance when the doubt hits, instead of repeating the ritual alone.",
+          "es": "Debe ser muy desgastante. Si quieres, puedes llamarme para tranquilizarte cuando aparezca la duda, en lugar de repetir el ritual sola."
+        }
+      },
+      "variants": [
+        {
+          "pt": "'Lavando, a ansiedade cai. Só que volta rapidinho e eu tenho que lavar outra vez. Já perco umas três horas por dia com isso.'",
+          "en": "'When I wash, the anxiety drops. But it comes right back and I have to wash again. I already lose about three hours a day to it.'",
+          "es": "'Cuando me lavo, la ansiedad baja. Pero vuelve enseguida y tengo que lavarme otra vez. Ya pierdo unas tres horas al día en eso.'"
+        },
+        {
+          "pt": "'Depois que lavo, me sinto aliviada por pouco tempo. Aí o pensamento volta e recomeço. No fim do dia foram umas três horas assim.'",
+          "en": "'After I wash, I feel relieved for a little while. Then the thought returns and I start over. By the end of the day it adds up to about three hours.'",
+          "es": "'Después de lavarme me siento aliviada un rato. Luego vuelve el pensamiento y empiezo otra vez. Al final del día son unas tres horas así.'"
+        }
+      ]
+    },
+    {
+      "who": "patient",
+      "text": {
+        "pt": "'E se eu ficar sem lavar e acontecer alguma coisa? Eu não vou aguentar. Você pode me garantir que nada vai acontecer?'",
+        "en": "'And if I don't wash and something happens? I won't cope. Can you guarantee that nothing will happen?'",
+        "es": "'¿Y si no me lavo y pasa algo? No voy a aguantar. ¿Puedes garantizarme que no va a pasar nada?'"
+      },
+      "note": {
+        "pt": "Pede garantias (busca de tranquilização); intolerância à incerteza.",
+        "en": "Asks for guarantees (reassurance seeking); intolerance of uncertainty.",
+        "es": "Pide garantías (búsqueda de tranquilización); intolerancia a la incertidumbre."
+      },
+      "mods": {
+        "psicoeducacao": 1,
+        "comportamental": 1,
+        "acolhimento": -1
+      },
+      "options": {
+        "psicoeducacao": {
+          "pt": "Ninguém pode dar essa garantia, e pedi-la mantém o ciclo. O tratamento ensina a viver com a dúvida sem precisar do ritual.",
+          "en": "No one can give that guarantee, and asking for it keeps the cycle going. Treatment teaches living with doubt without needing the ritual.",
+          "es": "Nadie puede dar esa garantía, y pedirla mantiene el ciclo. El tratamiento enseña a vivir con la duda sin necesitar el ritual."
+        },
+        "comportamental": {
+          "pt": "Vamos combinar um plano: na semana que vem você toca a maçaneta e espera 10 minutos sem lavar, anotando a ansiedade.",
+          "en": "Let's agree on a plan: next week you touch the doorknob and wait 10 minutes without washing, noting your anxiety.",
+          "es": "Acordemos un plan: la semana que viene tocas la manija y esperas 10 minutos sin lavarte, anotando la ansiedad."
+        },
+        "tcc": {
+          "pt": "Que probabilidade você dá de algo grave acontecer? E o que você acha que aconteceria de fato se esperasse?",
+          "en": "What probability do you give to something serious happening? And what do you think would actually happen if you waited?",
+          "es": "¿Qué probabilidad le das a que pase algo grave? ¿Y qué crees que pasaría de verdad si esperaras?"
+        },
+        "diretiva": {
+          "pt": "Claro, eu garanto: nada vai acontecer se você não lavar. Pode ficar tranquila.",
+          "en": "Of course, I guarantee it: nothing will happen if you don't wash. You can rest easy.",
+          "es": "Claro, te lo garantizo: no pasará nada si no te lavas. Puedes estar tranquila."
+        }
+      },
+      "variants": [
+        {
+          "pt": "'E se eu ficar sem lavar e algo acontecer? Eu não aguento. Dá para você me garantir que nada de ruim vai acontecer?'",
+          "en": "'And if I don't wash and something happens? I can't stand it. Can you guarantee that nothing bad will happen?'",
+          "es": "'¿Y si no me lavo y pasa algo? No lo soporto. ¿Puedes garantizarme que no va a pasar nada malo?'"
+        },
+        {
+          "pt": "'Se eu resistir e algo der errado, a culpa é minha. Você consegue me prometer que nada vai acontecer se eu não lavar?'",
+          "en": "'If I hold back and something goes wrong, it's my fault. Can you promise me nothing will happen if I don't wash?'",
+          "es": "'Si me aguanto y algo sale mal, es culpa mía. ¿Puedes prometerme que no pasará nada si no me lavo?'"
+        }
+      ]
+    },
+    {
+      "who": "patient",
+      "text": {
+        "pt": "(já na porta) 'Vou sair e tocar em tudo sem lavar... e se eu não aguentar e lavar? Falhei?'",
+        "en": "(already at the door) 'I'm going to leave and touch everything without washing... what if I can't stand it and wash? Did I fail?'",
+        "es": "(ya en la puerta) 'Voy a salir y tocar todo sin lavarme... ¿y si no aguanto y me lavo? ¿Fracasé?'"
+      },
+      "note": {
+        "pt": "Antecipa a exposição e teme falhar: pensamento de tudo ou nada.",
+        "en": "Anticipates exposure and fears failing: all-or-nothing thinking.",
+        "es": "Anticipa la exposición y teme fallar: pensamiento de todo o nada."
+      },
+      "mods": {},
+      "options": {
+        "comportamental": {
+          "pt": "Não é falhar: se lavar, anote quando e quanto durou. Na próxima vez, espere um pouco mais antes. O objetivo é praticar, não ser perfeita.",
+          "en": "It's not failing: if you wash, note when and how long it lasted. Next time, wait a little longer first. The goal is to practice, not be perfect.",
+          "es": "No es fallar: si te lavas, anota cuándo y cuánto duró. La próxima vez, espera un poco más antes. El objetivo es practicar, no ser perfecta."
+        },
+        "tcc": {
+          "pt": "Repare no pensamento 'se lavar, falhei'. Existe um meio-termo entre lavar sempre e nunca? Anote o que vier à cabeça.",
+          "en": "Notice the thought 'if I wash, I failed'. Is there a middle ground between always and never? Write down what comes to mind.",
+          "es": "Fíjate en el pensamiento 'si me lavo, fracasé'. ¿Hay un punto medio entre siempre y nunca? Anota lo que se te venga a la cabeza."
+        },
+        "acolhimento": {
+          "pt": "Tenho muito respeito pela coragem que isso exige. Eu confio em você, e a gente ajusta o que for preciso na próxima sessão.",
+          "en": "I have great respect for the courage this takes. I trust you, and we adjust whatever is needed next session.",
+          "es": "Tengo mucho respeto por el valor que esto exige. Confío en ti, y ajustamos lo que haga falta en la próxima sesión."
+        },
+        "diretiva": {
+          "pt": "Você não pode lavar de jeito nenhum. Se lavar, o exercício não vale e voltamos à estaca zero na próxima sessão. Sei que parece duro, mas é assim que a compulsão perde força.",
+          "en": "You can't wash under any circumstances. If you wash, the exercise doesn't count and we're back to zero next session. I know it sounds harsh, but this is how the compulsion loses its grip.",
+          "es": "No puedes lavarte de ninguna manera. Si te lavas, el ejercicio no vale y volvemos a cero en la próxima sesión. Sé que suena duro, pero así la compulsión pierde fuerza."
+        }
+      },
+      "variants": [
+        {
+          "pt": "(já na porta) 'Vou sair e encostar em tudo sem lavar... mas e se eu não aguentar e lavar? Aí eu falhei?'",
+          "en": "(already at the door) 'I'll go out and touch everything without washing... but what if I can't take it and wash? Did I fail then?'",
+          "es": "(ya en la puerta) 'Voy a salir y tocar todo sin lavarme... pero ¿y si no aguanto y me lavo? ¿Entonces fallé?'"
+        },
+        {
+          "pt": "(pegando a bolsa) 'Vou tentar tocar nas coisas sem lavar. E se eu lavar mesmo assim, significa que não deu certo?'",
+          "en": "(picking up her bag) 'I'll try to touch things without washing. And if I wash anyway, does it mean it didn't work?'",
+          "es": "(agarrando el bolso) 'Voy a intentar tocar las cosas sin lavarme. Y si me lavo igual, ¿significa que no funcionó?'"
+        }
+      ]
+    }
+  ],
+  "diagnosis": {
+    "answer": "toc",
+    "options": [
+      "toc",
+      "tag",
+      "obsessivo-compulsiva-pers",
+      "ansiedade-doenca"
+    ],
+    "why": {
+      "pt": "Obsessões de contaminação, rituais de lavagem que aliviam por pouco tempo, cerca de 3 horas por dia e sofrimento por saber que é excessivo caracterizam o TOC. Na personalidade obsessivo-compulsiva não há esse ciclo de obsessão e ritual.",
+      "en": "Contamination obsessions, washing rituals that relieve only briefly, about 3 hours a day and distress at knowing it is excessive characterize OCD. In obsessive-compulsive personality there is no such cycle of obsession and ritual.",
+      "es": "Las obsesiones de contaminación, los rituales de lavado que alivian poco tiempo, unas 3 horas al día y el sufrimiento por saber que es excesivo caracterizan el TOC. En la personalidad obsesivo-compulsiva no hay ese ciclo de obsesión y ritual."
+    }
+  },
+  "voice": {
+    "intro": {
+      "pt": "(fala baixo, escondendo as mãos nas mangas) 'Oi... eu sou a Beatriz, 22 anos. Perdão, eu lavo as mãos demais, é meio vergonhoso. Já perdi aula por isso.'",
+      "en": "(speaks softly, hiding her hands in her sleeves) 'Hi... I'm Beatriz, 22. Sorry, I wash my hands too much, it's kind of embarrassing. I've already missed class because of it.'",
+      "es": "(habla bajo, escondiendo las manos en las mangas) 'Hola... soy Beatriz, 22 años. Perdón, me lavo demasiado las manos, es algo vergonzoso. Ya perdí clases por eso.'"
+    },
+    "pre": [
+      {
+        "pt": "Desculpa, é que...",
+        "en": "Sorry, it's just that...",
+        "es": "Perdón, es que..."
+      },
+      {
+        "pt": "Eu sei que é bobo, mas...",
+        "en": "I know it's silly, but...",
+        "es": "Sé que es una tontería, pero..."
+      }
+    ],
+    "post": {
+      "pt": "Desculpa por falar isso.",
+      "en": "Sorry for saying that.",
+      "es": "Perdón por decir esto."
+    },
+    "ref": [
+      {
+        "pt": "Lavei as mãos tantas vezes que rachou. Fiquei com vergonha de mostrar.",
+        "en": "I washed my hands so much they cracked. I was too embarrassed to show it.",
+        "es": "Me lavé tanto las manos que se agrietaron. Me dio vergüenza mostrarlas."
+      },
+      {
+        "pt": "Consegui encostar na maçaneta e esperar dois minutos antes de lavar.",
+        "en": "I managed to touch the doorknob and wait two minutes before washing.",
+        "es": "Logré tocar el picaporte y esperar dos minutos antes de lavar."
+      },
+      {
+        "pt": "Encostei na maçaneta e nem lavei na hora. Lavei só depois, uma vez.",
+        "en": "I touched the doorknob and didn't wash right away. I washed only later, once.",
+        "es": "Toqué el picaporte y no lavé enseguida. Lavé solo después, una vez."
+      }
+    ],
+    "hookA": {
+      "pt": "Como é, por dentro, aquele momento antes de lavar as mãos?",
+      "en": "What is it like, inside, that moment before washing your hands?",
+      "es": "¿Cómo es, por dentro, ese momento antes de lavarte las manos?"
+    },
+    "hookB": {
+      "pt": "Vamos combinar um exercício de exposição com prevenção de resposta, no seu ritmo?",
+      "en": "Shall we agree on an exposure and response-prevention exercise, at your pace?",
+      "es": "¿Acordamos un ejercicio de exposición con prevención de respuesta, a tu ritmo?"
+    },
+    "sessoes": {
+      "s3": [
+        {
+          "pt": "'Eu contei o tempo, como a senhora pediu. (mostra o celular) Duas horas e quarenta na terça. Só lavando mão. (esfrega os dedos) Elas racharam de novo.'",
+          "en": "'I timed it, like you asked. (shows her phone) Two hours forty on Tuesday. Just washing my hands. (rubs her fingers) They've cracked again.'",
+          "es": "'I timed it, like you asked. (shows her phone) Two hours forty on Tuesday. Just washing my hands. (rubs her fingers) They've cracked again.'"
+        },
+        {
+          "pt": "'Eu sei que é absurdo, tá? Essa é a pior parte. Eu sei. Eu tenho faculdade, eu não sou boba. E mesmo assim eu volto e lavo mais uma vez.'",
+          "en": "'I know it's absurd, okay? That's the worst part. I know. I've been to university, I'm not stupid. And even so I go back and wash one more time.'",
+          "es": "'I know it's absurd, okay? That's the worst part. I know. I've been to university, I'm not stupid. And even so I go back and wash one more time.'"
+        }
+      ],
+      "s4": [
+        {
+          "pt": "'Eu esperei. (respira) Quinze minutos sem lavar, como a gente combinou. A vontade subiu, subiu, e depois ela... desceu sozinha. Ninguém tinha me dito que ela descia sozinha.'",
+          "en": "'I waited. (breathes) Fifteen minutes without washing, like we agreed. The urge climbed and climbed, and then it… came down on its own. Nobody had ever told me it came down on its own.'",
+          "es": "'I waited. (breathes) Fifteen minutes without washing, like we agreed. The urge climbed and climbed, and then it… came down on its own. Nobody had ever told me it came down on its own.'"
+        },
+        {
+          "pt": "'Minha mãe lava a casa inteira todo sábado desde que eu era pequena. (pausa) Eu nunca tinha pensado nisso como parecido com o meu. Agora eu penso.'",
+          "en": "'My mother has cleaned the whole house every Saturday since I was small. (pause) I'd never thought of that as being like mine. Now I do.'",
+          "es": "'My mother has cleaned the whole house every Saturday since I was small. (pause) I'd never thought of that as being like mine. Now I do.'"
+        }
+      ]
+    },
+    "fecho": {
+      "s2": {
+        "pt": "(esconde as mãos nas mangas) 'Não repara nelas, tá? Eu sei como está. Eu sou a pessoa que mais sabe como está.'",
+        "en": "(hides her hands in her sleeves) 'Don't look at them, okay? I know what state they're in. I'm the person who knows best.'",
+        "es": "(hides her hands in her sleeves) 'Don't look at them, okay? I know what state they're in. I'm the person who knows best.'"
+      },
+      "s3": {
+        "pt": "'Quinze minutos.' (olha as próprias mãos) 'Semana que vem eu tento vinte. Não promete nada, mas eu tento.'",
+        "en": "'Fifteen minutes.' (looks at her own hands) 'Next week I'll try twenty. That's not a promise, but I'll try.'",
+        "es": "'Fifteen minutes.' (looks at her own hands) 'Next week I'll try twenty. That's not a promise, but I'll try.'"
+      },
+      "s4": {
+        "pt": "'Eu sempre achei que era só eu que era assim.' (pausa) 'Saber que tem nome e que tem gente estudando isso... muda alguma coisa.'",
+        "en": "'I always thought I was the only one like this.' (pause) 'Knowing it has a name and that people study it... that changes something.'",
+        "es": "'I always thought I was the only one like this.' (pause) 'Knowing it has a name and that people study it... that changes something.'"
+      }
+    },
+    "opcoes": {
+      "s3": [
+        {
+          "tcc": {
+            "pt": "Duas horas e quarenta. Quando você lava a décima vez, o que você acha que aconteceria se parasse na nona?",
+            "en": "Two hours forty. When you wash for the tenth time, what do you think would happen if you stopped at the ninth?",
+            "es": "Two hours forty. When you wash for the tenth time, what do you think would happen if you stopped at the ninth?"
+          },
+          "psicoeducacao": {
+            "pt": "Você trouxe o número, e o número é o que vai mostrar a melhora depois. Anotar o tempo já é parte do tratamento, não só medida.",
+            "en": "You brought the number, and the number is what will show the improvement later. Timing it is already part of the treatment, not just a measure.",
+            "es": "You brought the number, and the number is what will show the improvement later. Timing it is already part of the treatment, not just a measure."
+          },
+          "comportamental": {
+            "pt": "Vamos usar esse cronômetro a favor: na próxima vez, antes de lavar, espere cinco minutos. Só cinco, com o relógio na mão.",
+            "en": "Let's use that timer in our favour: next time, before washing, wait five minutes. Just five, with the clock in your hand.",
+            "es": "Let's use that timer in our favour: next time, before washing, wait five minutes. Just five, with the clock in your hand."
+          },
+          "diretiva": {
+            "pt": "As mãos em carne viva são a conta que o ritual está cobrando. Vamos tratar isso como o problema principal.",
+            "en": "Your raw hands are the bill the ritual is charging. Let's treat that as the main problem.",
+            "es": "Your raw hands are the bill the ritual is charging. Let's treat that as the main problem."
+          }
+        },
+        {
+          "tcc": {
+            "pt": "Você sabe que é absurdo e mesmo assim volta. Então o que a lavagem promete, na hora, que é mais forte do que saber?",
+            "en": "You know it is absurd and you go back anyway. So what does the washing promise, in the moment, that is stronger than knowing?",
+            "es": "You know it is absurd and you go back anyway. So what does the washing promise, in the moment, that is stronger than knowing?"
+          },
+          "psicoeducacao": {
+            "pt": "Saber que é exagero e não conseguir parar é o retrato do quadro, não uma falha sua — é exatamente isso que separa o seu caso de outras coisas parecidas.",
+            "en": "Knowing it is excessive and not being able to stop is the picture of this condition, not a failure of yours — it is exactly what separates your case from other similar things.",
+            "es": "Knowing it is excessive and not being able to stop is the picture of this condition, not a failure of yours — it is exactly what separates your case from other similar things."
+          },
+          "comportamental": {
+            "pt": "Nada de discutir com o pensamento. A gente trabalha o que o corpo faz: adiar, esperar, e ver a vontade descer sozinha.",
+            "en": "No arguing with the thought. We work on what the body does: delay, wait, and watch the urge come down on its own.",
+            "es": "No arguing with the thought. We work on what the body does: delay, wait, and watch the urge come down on its own."
+          },
+          "diretiva": {
+            "pt": "Inteligência não protege disso, Beatriz. Não é sobre ser boba — é sobre um mecanismo que tem tratamento.",
+            "en": "Intelligence does not protect you from this, Beatriz. It is not about being foolish — it is about a mechanism that has treatment.",
+            "es": "Intelligence does not protect you from this, Beatriz. It is not about being foolish — it is about a mechanism that has treatment."
+          }
+        }
+      ],
+      "s4": [
+        {
+          "tcc": {
+            "pt": "Ela desceu sozinha. Guarde essa frase: é a prova de que o ritual não é o que faz a ansiedade passar.",
+            "en": "It came down on its own. Hold on to that sentence: it is the proof that the ritual is not what makes the anxiety pass.",
+            "es": "It came down on its own. Hold on to that sentence: it is the proof that the ritual is not what makes the anxiety pass."
+          },
+          "psicoeducacao": {
+            "pt": "Isso que você sentiu tem nome: a curva da ansiedade. Ela sobe, chega no topo e cai — mesmo sem lavar. O ritual só ensinava a você que era ele quem derrubava.",
+            "en": "What you felt has a name: the anxiety curve. It rises, peaks and falls — even without washing. The ritual was only teaching you that it was what brought it down.",
+            "es": "What you felt has a name: the anxiety curve. It rises, peaks and falls — even without washing. The ritual was only teaching you that it was what brought it down."
+          },
+          "comportamental": {
+            "pt": "Quinze foi ótimo. Semana que vem, vinte — e quero o tempo anotado, como você fez agora.",
+            "en": "Fifteen was great. Next week, twenty — and I want the time written down, the way you did now.",
+            "es": "Fifteen was great. Next week, twenty — and I want the time written down, the way you did now."
+          },
+          "diretiva": {
+            "pt": "Foi a semana mais importante do tratamento. O que você fez ali é o tratamento.",
+            "en": "That was the most important week of the treatment. What you did there is the treatment.",
+            "es": "That was the most important week of the treatment. What you did there is the treatment."
+          }
+        },
+        {
+          "tcc": {
+            "pt": "Sua mãe lava a casa todo sábado. O que você aprendeu, vendo aquilo, sobre o que é estar limpo?",
+            "en": "Your mother cleans the whole house every Saturday. What did you learn, watching that, about what being clean means?",
+            "es": "Your mother cleans the whole house every Saturday. What did you learn, watching that, about what being clean means?"
+          },
+          "psicoeducacao": {
+            "pt": "Isso costuma aparecer em famílias, e serve para entender — não para culpar ninguém. O que se faz com essa informação é ligá-la ao seu padrão, não à sua mãe.",
+            "en": "This often runs in families, and it is there to be understood — not to blame anyone. What you do with it is connect it to your pattern, not to your mother.",
+            "es": "This often runs in families, and it is there to be understood — not to blame anyone. What you do with it is connect it to your pattern, not to your mother."
+          },
+          "comportamental": {
+            "pt": "Repare nos sábados então: quero saber se a sua vontade de lavar muda nos dias em que você está na casa dela.",
+            "en": "Let's watch Saturdays then: I want to know whether your urge to wash changes on the days you are at her place.",
+            "es": "Let's watch Saturdays then: I want to know whether your urge to wash changes on the days you are at her place."
+          },
+          "diretiva": {
+            "pt": "Bom que você tenha pensado nisso. E a partir daqui a gente cuida do seu, que é o que dá para mudar.",
+            "en": "Good that you thought of it. And from here we take care of yours, which is what can be changed.",
+            "es": "Good that you thought of it. And from here we take care of yours, which is what can be changed."
+          }
+        }
+      ]
+    }
+  },
+  "look": {
+    "skin": "#f0d3b8",
+    "hair": "#1d1a26",
+    "hairStyle": "bob",
+    "top": "#cfc6ea",
+    "style": "shirt",
+    "eyeShape": "round",
+    "brow": "soft",
+    "mouth": "neutral",
+    "rosto": "assets/rosto-beatriz.png",
+    "corpo": "f"
+  }
+}

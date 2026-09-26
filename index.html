@@ -1,0 +1,1155 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="theme-color" content="#15131f">
+  <link rel="manifest" href="./assets/manifest-CuQhccgf.webmanifest">
+  <link rel="icon" href="./assets/app-icon-Dl1tawyX.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="./assets/app-icon-Dl1tawyX.svg">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="NeuroClin">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>NeuroClin Games</title>
+  <script type="module" crossorigin src="./assets/index-Cu1iBnKv.js"></script>
+  <link rel="modulepreload" crossorigin href="./assets/preload-helper-uBIymjUX.js">
+  <link rel="stylesheet" crossorigin href="./assets/index-hoFdGgxN.css">
+</head>
+<body>
+
+  <!-- Barra superior: personagem, status e ícones de navegação -->
+  <header class="top-bar">
+    <div id="hud-svelte"></div><!-- Svelte: HUD.svelte (sem o build, vale o .game-stats abaixo) -->
+    <div class="game-stats" data-legacy-hud>
+      <div class="hud-player" id="hud-player" title="" role="button" tabindex="0" data-i18n-attr="aria-label:char.open;title:char.open">
+        <span class="hud-avatar" id="hud-avatar" aria-hidden="true"></span>
+        <span class="hud-name" id="hud-name"></span>
+      </div>
+      <div class="stat-item hidden" id="stat-stress" title="Estresse"><span class="stat-label">😰</span> <span id="stress-score">0%</span></div>
+      <div class="stat-item stat-bar" id="stat-vida"><span class="stat-label" data-i18n="hud.vida">Vida</span> <span id="vida-score">50%</span><i class="bar life" aria-hidden="true"><b id="vida-fill"></b></i></div>
+      <div class="stat-item stat-bar only-talk" id="stat-vinculo"><span class="stat-label" data-i18n="hud.vinculo">Vínculo</span> <span id="affinity-score">60%</span><i class="bar" aria-hidden="true"><b id="vinculo-fill"></b></i></div>
+      <div class="stat-item stat-bar only-talk" id="stat-defesa" data-i18n-attr="title:hud.defesa.info"><span class="stat-label" data-i18n="hud.defesa">Defesa</span> <span id="defesa-score">40%</span><i class="bar" aria-hidden="true"><b id="defesa-fill"></b></i></div>
+      <div class="stat-item stat-bar" id="stat-energy"><span class="stat-label" data-i18n="hud.energy">Energia</span> <span id="energy-score">80%</span><i class="bar energy" aria-hidden="true"><b id="energy-fill"></b></i></div>
+      <div class="stat-item" id="stat-coins"><span class="stat-label" data-i18n="hud.coins">Moedas</span> 🪙 <span id="coins-score">0</span></div>
+      <div class="stat-item stat-bar" id="stat-level"><span class="stat-label" data-i18n="hud.level">Nível</span> <span id="player-level">Neuropsicólogo Jr.</span><i class="bar xp" aria-hidden="true"><b id="xp-fill"></b></i></div>
+      <div class="stat-item" id="stat-clock" title="Horário"><span id="clock-icon" class="e-inv">🕗</span> <span id="clock-label">07:30</span></div>
+      <div class="stat-item" id="stat-day"><span class="stat-label" data-i18n="hud.day">Dia</span> <span id="current-day-label">Segunda-feira</span></div>
+    </div>
+
+    <nav class="nav-icons" aria-label="Navegação" data-i18n-attr="aria-label:nav.label">
+      <button type="button" class="dev-chip hidden" id="nav-dev" title="Painel do desenvolvedor">DEV</button>
+      <button type="button" class="nav-btn hidden" id="nav-back" data-i18n-attr="aria-label:nav.back;title:nav.back">
+        <img src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2090%2090'%20width='90'%20height='90'%20fill='none'%20stroke='%2315131f'%20stroke-width='5'%20stroke-linecap='round'%20stroke-linejoin='round'%3e%3cpath%20d='M34%2022%20L14%2042%20L34%2062'/%3e%3cpath%20d='M16%2042%20C40%2040%2068%2040%2074%2062%20C76%2068%2074%2074%2072%2078'/%3e%3c/svg%3e" alt="">
+      </button>
+      <button type="button" class="nav-btn" id="nav-door" data-i18n-attr="aria-label:nav.door;title:nav.door">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAABuCAQAAAANSswyAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAACYktHRAD/h4/MvwAAAAd0SU1FB+oJFAIJJEcluwsAAAAldEVYdGRhdGU6Y3JlYXRlADIwMjYtMDktMjBUMDI6MDk6MzYrMDA6MDAFBJ0wAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDI2LTA5LTIwVDAyOjA5OjM2KzAwOjAwdFkljAAAACh0RVh0ZGF0ZTp0aW1lc3RhbXAAMjAyNi0wOS0yMFQwMjowOTozNiswMDowMCNMBFMAAAS1SURBVHja7ZxPaBVHHMc/7yXqRpMYq0EtatpgUesfMEo99M+hlx56apFehFJvFqSWgII3T0XagoigHgQtFQQRPLUU2mNvPUilKcVIS2xN0zb+S0yNSZ/bw868vM2bt5nZmTfZgfd9h5ndnf3tZ2d/s/vb2ZkHLbXU0mKozOrFRmippZZSKllb6GElEb2sZppxZulijH5gmCnW08kEFfpYSzf7OFC39zd8wV3uUGIFQ80/3QvEzn+at7XGNT3IDip00M0oU1SYZpw+BptaERbX/XgT6lDvp6l2xboHTa3N85yjjVlidnOYfXlMqKAnNPc9zQV+arBtgH46mGEGuA68SMQv8+pyiMsip13HjXVWXKzbPORXKnzLDb5jkC32phvoB3v3GAbgEZubBjlfL5gVLyvWRYCLO7i+VtlDdwEwagmy3KDsI3voCgBbLaH/taQwLN7cW55Kj+1NbDVryw406uKIvqEnzI5o6E3FUDGgDX26GNBLXRhJPKzLG/RMiA3xZhgNcWNqaaULk8l5v+HtFB64c4+vvUGPu4P259UjYfi0FUUxoDtChK6ECN0ZIvSSEKGnQ4QOMsprCxE6yIb4JETocXfQI96gb4j0SxsjSfjyuTfoV8URraop6YfYaGPCUEZxpdo9rgDwu0foRLM2O+8gJuZ9j7hJPY/ZmGgnJuaed+h/9Aqr3aMfgOc8Qidq1yumhvb3SpuWYVyd1oD3ng8Hd4/7HnHT0nrxUkNPibTXO7RWvKeGjkS63THS0aobnHB/vtuE6bedWr2V+qT8UWrbmFi7TseQuqZlKzYMzjP1My+llk+nli6KVCtIVUPPOIRNNMi2unUf1+SHTY6cHU+bwqvbfhcohqfAqZq8/KL2fH7oXSI1dQ/1xZ0EBkT+EiWOi/yzmjLSIbWCUzW0fJNw59NJVHGGg8z1ctQeu1+kn+Q/xF7Rlvc7g/6QmJheYINyUMpRk2eiuqa7M7fm0TkA/iauidJrW4zRM1iNZdiLmVOf1uRv2pt7XVyq9xwinlhgxJK1e8i7wDMdE9rQaR3Lb0oNLT9GWsW3dSpxiEmRP8BnTm0z5x7vuDacIWv3kHJb086UHTAVVNnQkb6h4kD7uV87gpYxR0HdJBt6St/Q4kPLOMzBKC5/0GtEGpRPy3g6KJ+WXa5BQUufDgr6z0UkejMv9C2Ruuz3WEhfifS1vNBSTsbLaeqkSDU+z2VDu6npTVqlvhfpQ1voP5xA39EqtUekaxYuWpx4WpJojNHLhl7rEVpOVNF4L82GfssjtISdXLhoNvQRj9AGMzCKMQoB4D+RavTUFgdad/JVBrThCAwHks8Ei1ue7PA2nOtjob9EavFEvCbSPHNeluWC3qS/dyPo33IdONHTXHvJqVAW0D3VXJ8FvolGxNX9Mb+JSPSsmUwbs9cQt+0MnCTmKm34neSnqcYD+ZKm4fNFwIuK82gKVZ01Qan/QUE5VfDLXq5bXsfL1XxB+6fnq5R6rHQT8Up1OWLnvFjE35Q0bUnAMqtYAcAS1rOBZZ4fOZpKnEaNVu8y+QIk53qXD6qXfg69wM1T9ccgCW5PURpmfe3dS22NiICIMrBU9KaWKOkOsGyO/geuG5Lx03zhtAAAAABJRU5ErkJggg==" alt="">
+      </button>
+      <button type="button" class="nav-btn" id="nav-home" data-i18n-attr="aria-label:nav.home;title:nav.home">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAABuCAQAAAANSswyAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAACYktHRAD/h4/MvwAAAAd0SU1FB+oJFAIJJEcluwsAAAAldEVYdGRhdGU6Y3JlYXRlADIwMjYtMDktMjBUMDI6MDk6MzYrMDA6MDAFBJ0wAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDI2LTA5LTIwVDAyOjA5OjM2KzAwOjAwdFkljAAAACh0RVh0ZGF0ZTp0aW1lc3RhbXAAMjAyNi0wOS0yMFQwMjowOTozNiswMDowMCNMBFMAAALYSURBVHja7Zo/aNdAFMe/FV0sWIR2EQWhgzgKnRxaqujioCi4lEJdRJBOjk6CgiAOTh1V7KDo4FIq6NBBLCg/lKr4D1tRFylaRGrBWuPQpMkll1/uXd7lfgfvkyEpvffepy/H/ZLrDxAEQRAEQRCCoA9APzb71jDnIqLMccS3jhn9OJ6RnrNPtIgIhwEM4nRD6qm2NQ+VW/abGL2ENXL5X/WlRxVpMy4rMdTyDJ22SZJXPu+qHuci06UU7GLM7FA6Ea11g03YZDCml5TxSnze4VpdRzrHbpHiWnHUtHU9FmlamtdxzII76fLpcTtzTZn5PfH5W52O2Urfz1wvEjJ+tPKY2Lg6VefP6bGcII/iiGekaqRK5Z3+qfw0Zlx+S3zeVadj9kxa9fqxxd2Z2IhZqq+dlT5pGDNrIZ1W2corbSrxlCw9xLNGJxxVpLuNYl7UeNAa55BWe/3OKGKOKD3C22cAmCZPkBZRIc1+g0ta7bXJ2ktbPRb4+wwAX4m9niRJpJmHOKXVXg9Ujp4iSNs+lBlwgZTcfOTZzNhD3NK0jpiOHM+MfMKvnNc+wyB9zuXU0GvfqSmt7qpcdSed/1AfqBxVxgclzyeXysDunLb+3bG99PVcDrapUb5jMVMouY0gPVaIjnDQbZ/XuVcoe8xI+q5GOMKeJpQBYF+h9Ju20nvxQCv8uSnholhyvNL87gvea3UjRH5exl6W6lQfJ3wIrzNqJbzTn3ACTXi/b90Es363fGvm6W4jO+tbrh3DuIQo3r1r4DGIf78+lXX2vwCTTfWOg1u6rwlpmR5NIdIiLdKmPA9ResWdtKzTTSHSCm9DlHb4PO1O+m+I0kF2ei1E6X8hSq+GKB3knP4TovSyO2leBpX9pZXM9TXfajpGKvfzOo7hSuXvvhV1VEnTvjvWEdo3eUvxvl3MoBfAKn7gAOaxHcuY5/5KhCAIgiAIgiAIgiAIgiDU5z/Ozcu4CfiUlwAAAABJRU5ErkJggg==" alt="">
+      </button>
+      <button type="button" class="nav-btn" id="nav-phone" data-i18n-attr="aria-label:nav.phone;title:nav.phone">
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAABuCAQAAAANSswyAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAACYktHRAD/h4/MvwAAAAd0SU1FB+oJFAIJJEcluwsAAAAldEVYdGRhdGU6Y3JlYXRlADIwMjYtMDktMjBUMDI6MDk6MzYrMDA6MDAFBJ0wAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDI2LTA5LTIwVDAyOjA5OjM2KzAwOjAwdFkljAAAACh0RVh0ZGF0ZTp0aW1lc3RhbXAAMjAyNi0wOS0yMFQwMjowOTozNiswMDowMCNMBFMAAAPnSURBVHja7ZtdZBxRFMdPq6ppK5UqJUQJqX0KEVqlTyUv+7QVWhVKKUupkqcSyr6UvoYoSwmlNKEsIQ8VpSylLKuEVAklwpIKrdaq7vRhd/bOTubee86dc+5OmP952Enmzjm/OffMnY87A5ArV65cuXJlWlOwDUHPPsPssHFsCoz2bth4SfpmgVa2MmzUrgpoYGWjw4amI4f2cFjIv1NAh9aCm7SgJ1LnmU9olpOpwjQYkQEC+MDqTxsmtAMAmI38vQeFhPbT0LIWy7YvZGqRvLCi/5WH3nPa/i3UjODEw5OGnPZgbGixBaGrA/93PeftyGN/0jqOhpx28FyGSsTDFie0ORvzqTMmkmvldMYh+CIEUDRu95gfuknKxCjcS9wVkwr80GlPBUuwBxVji7IktJQWTBFcrj3mxVCVLnA7VHmWw2fvS/niUDHWk1amuTS9Kwgd6iKPmx0PeVaZfsPrThK6yRtj3GtFM8Xo9N0dHh9oH3lWUeY4nD3xDD2SvJr2CCFw3tItiiaG6zgth4wQBXrXM9ttDieqnpcFUa9wHjVjng7CVc4oW55HDpZiVMjjXqAr6V0VPOV5iTNKu++sIwrd5oRWeb4jCh1GKfFCyyqMMmlqhD2zWU+tbNCIKLgzYt0T8gLv/vstjk1zM1zmMlUcuPJ4IAqqdInTmZorfCoKHd7OvrI1xHR3xooDUx5lUVClG7z7HxrrgKSNU7c3tXd45orDXh4f+0trosik11hs+5XBPONvbH+JIrNKTa3J3q10OC8T1j1fc7zmdCYL/VLmcWNJFJo1NayPTbRSxw3Li1g/vT7nIEQxDXlner+nBJHVDPlV/EamwZw04DvK6eSlz/RzQdSj+sGVg66dFkR1nMXSd0pmi0NfHmO93/cIHyVH5GvcOdhCdtt+ZMgKYJEUQ213jgan6xZccRzdqT9wlgBto9DIfGl63bg26RXCEXSx3O8vfaUhm7JgL45AY5QIAQQwwYlsDn851ooGPSc3lTyBaBWqRoKg90xER2v6UWT5H8HTeccUsZwHsDkYbFMkZa4kVxxmhxu9NvtQhXpkmwNSDKZ3SfHVljx2YJ5Dqdar/NC4AqEOeLv8957FGITp2ZrbGJ1q5OBAqZMRRiPtx1BboLSdgP3F0L4FHQjQ8wUieQYA+J5YrYcsr0wofy1e6HhG4jbD4lVEVSN412okjwvy0PHMmI3qbUMOmgY+RfAjrqLmKxSbNfs3UvE1Hr+/dfnK072YWDUBt44b8qBWBl7IwpmvmUmL7F8ZZibLg6ojgInPN/xoGRqwqQGeTO9eWs+gDQDhN54Cn0PmypUrV65crPoP556DZZ/A6T8AAAAASUVORK5CYII=" alt="">
+        <span class="notification-badge" id="phone-badge">1</span>
+      </button>
+      <button type="button" class="nav-btn" id="nav-city" data-i18n-attr="aria-label:nav.city;title:nav.city">
+        <img src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2090%2090'%20width='90'%20height='90'%20fill='none'%20stroke='%2315131f'%20stroke-width='5'%20stroke-linecap='round'%20stroke-linejoin='round'%3e%3cpath%20d='M10%2022%20L32%2016%20L58%2024%20L80%2017%20L79%2068%20L57%2076%20L32%2068%20L11%2074%20Z'/%3e%3cpath%20d='M32%2016%20L33%2068%20M58%2024%20L57%2076'/%3e%3cpath%20d='M66%2036%20C66%2030%2074%2030%2074%2036%20C74%2041%2070%2044%2070%2046%20C70%2044%2066%2041%2066%2036'%20stroke-width='3.5'/%3e%3cpath%20d='M16%2046%20C22%2040%2026%2052%2028%2044'%20stroke-width='3.5'/%3e%3c/svg%3e" alt="">
+      </button>
+      <button type="button" class="nav-btn" id="nav-shop" data-i18n-attr="aria-label:nav.shop;title:nav.shop">
+        <img src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2090%20110'%20width='90'%20height='110'%20fill='none'%20stroke='%2315131f'%20stroke-width='5'%20stroke-linecap='round'%20stroke-linejoin='round'%3e%3cpath%20d='M14%2042%20L76%2039%20L82%2098%20L9%20101%20Z'/%3e%3cpath%20d='M30%2041%20C28%2014%2062%2012%2060%2040'/%3e%3cpath%20d='M12%2060%20C34%2065%2056%2062%2079%2058'/%3e%3ccircle%20cx='45'%20cy='80'%20r='10'/%3e%3cpath%20d='M45%2074%20L45%2086%20M41%2077%20C44%2074%2048%2075%2049%2078%20C50%2081%2041%2080%2041%2083%20C42%2086%2047%2086%2049%2083'/%3e%3c/svg%3e" alt="">
+      </button>
+      <button type="button" class="nav-btn gear-btn" id="nav-sound" data-i18n-attr="aria-label:nav.sound;title:nav.sound"><img src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2090%2090'%20width='90'%20height='90'%20fill='none'%20stroke='%2315131f'%20stroke-width='5'%20stroke-linecap='round'%20stroke-linejoin='round'%3e%3cpath%20d='M12%2034%20L28%2033%20L46%2018%20L47%2070%20L28%2057%20L12%2056%20Z'/%3e%3cpath%20d='M58%2032%20C66%2040%2066%2050%2058%2058'/%3e%3cpath%20d='M67%2022%20C81%2034%2081%2056%2067%2068'/%3e%3c/svg%3e" alt=""></button>
+      <button type="button" class="nav-btn gear-btn" id="nav-options" data-i18n-attr="aria-label:nav.options;title:nav.options"><img src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2090%2090'%20width='90'%20height='90'%20fill='none'%20stroke='%2315131f'%20stroke-width='5'%20stroke-linecap='round'%20stroke-linejoin='round'%3e%3ccircle%20cx='45'%20cy='45'%20r='13'/%3e%3cpath%20d='M45%2010%20L52%2018%20L63%2015%20L66%2026%20L77%2029%20L73%2040%20L80%2048%20L71%2055%20L73%2066%20L62%2066%20L56%2076%20L46%2071%20L36%2077%20L30%2067%20L19%2066%20L20%2055%20L11%2048%20L18%2039%20L14%2028%20L25%2025%20L28%2014%20L39%2017%20Z'/%3e%3c/svg%3e" alt=""></button>
+    </nav>
+  </header>
+
+  <!-- TELA INICIAL -->
+  <main id="screen-title" class="screen watercolor title-screen">
+    <div class="title-box">
+      <img class="title-psi" id="title-psi" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAFoAAABuCAQAAAANSswyAAAAIGNIUk0AAHomAACAhAAA+gAAAIDoAAB1MAAA6mAAADqYAAAXcJy6UTwAAAACYktHRAD/h4/MvwAAAAd0SU1FB+oJFAIJJEcluwsAAAAldEVYdGRhdGU6Y3JlYXRlADIwMjYtMDktMjBUMDI6MDk6MzYrMDA6MDAFBJ0wAAAAJXRFWHRkYXRlOm1vZGlmeQAyMDI2LTA5LTIwVDAyOjA5OjM2KzAwOjAwdFkljAAAACh0RVh0ZGF0ZTp0aW1lc3RhbXAAMjAyNi0wOS0yMFQwMjowOTozNiswMDowMCNMBFMAAALYSURBVHja7Zo/aNdAFMe/FV0sWIR2EQWhgzgKnRxaqujioCi4lEJdRJBOjk6CgiAOTh1V7KDo4FIq6NBBLCg/lKr4D1tRFylaRGrBWuPQpMkll1/uXd7lfgfvkyEpvffepy/H/ZLrDxAEQRAEQRCCoA9APzb71jDnIqLMccS3jhn9OJ6RnrNPtIgIhwEM4nRD6qm2NQ+VW/abGL2ENXL5X/WlRxVpMy4rMdTyDJ22SZJXPu+qHuci06UU7GLM7FA6Ea11g03YZDCml5TxSnze4VpdRzrHbpHiWnHUtHU9FmlamtdxzII76fLpcTtzTZn5PfH5W52O2Urfz1wvEjJ+tPKY2Lg6VefP6bGcII/iiGekaqRK5Z3+qfw0Zlx+S3zeVadj9kxa9fqxxd2Z2IhZqq+dlT5pGDNrIZ1W2corbSrxlCw9xLNGJxxVpLuNYl7UeNAa55BWe/3OKGKOKD3C22cAmCZPkBZRIc1+g0ta7bXJ2ktbPRb4+wwAX4m9niRJpJmHOKXVXg9Ujp4iSNs+lBlwgZTcfOTZzNhD3NK0jpiOHM+MfMKvnNc+wyB9zuXU0GvfqSmt7qpcdSed/1AfqBxVxgclzyeXysDunLb+3bG99PVcDrapUb5jMVMouY0gPVaIjnDQbZ/XuVcoe8xI+q5GOMKeJpQBYF+h9Ju20nvxQCv8uSnholhyvNL87gvea3UjRH5exl6W6lQfJ3wIrzNqJbzTn3ACTXi/b90Es363fGvm6W4jO+tbrh3DuIQo3r1r4DGIf78+lXX2vwCTTfWOg1u6rwlpmR5NIdIiLdKmPA9ResWdtKzTTSHSCm9DlHb4PO1O+m+I0kF2ei1E6X8hSq+GKB3knP4TovSyO2leBpX9pZXM9TXfajpGKvfzOo7hSuXvvhV1VEnTvjvWEdo3eUvxvl3MoBfAKn7gAOaxHcuY5/5KhCAIgiAIgiAIgiAIgiDU5z/Ozcu4CfiUlwAAAABJRU5ErkJggg==" alt="">
+      <h1 class="title-logo">NeuroClin Games</h1>
+      <p class="title-sub" data-i18n="title.sub">Simulação clínica</p>
+      <div class="title-menu">
+        <button type="button" class="menu-btn primary hidden" id="btn-continue-game" data-i18n="title.continue">▶ Continuar</button>
+        <button type="button" class="menu-btn" id="btn-new" data-i18n="title.new">✨ Novo jogo</button>
+        <button type="button" class="menu-btn" id="btn-help" data-i18n="title.help">❓ Como jogar</button>
+        <button type="button" class="menu-btn hidden" id="btn-ranking" data-i18n="title.ranking">🏆 Ranking</button>
+        <button type="button" class="menu-btn hidden" id="btn-secret" data-i18n="title.secret">🎁 Modo secreto</button>
+        <button type="button" class="menu-btn" id="btn-title-options" data-i18n="title.options">⚙️ Opções</button>
+      </div>
+      <div class="lang-row" id="lang-row" role="group" data-i18n-attr="aria-label:lang.label"></div>
+      <p class="title-version" id="title-version"></p>
+    </div>
+  </main>
+
+  <!-- CRIAÇÃO DO PERSONAGEM -->
+  <main id="screen-create" class="screen watercolor hidden">
+    <div class="page">
+      <div class="create-card">
+        <h1 class="page-title" data-i18n="create.title">Quem é você?</h1>
+        <div class="create-grid">
+          <div class="create-preview">
+            <div class="create-views" id="create-views" data-view="2d">
+              <div class="create-stage">
+                <div class="create-aquarela" id="create-aquarela" aria-hidden="true"><canvas id="create-aquarela-tela" width="310" height="368"></canvas></div>
+                <div class="create-3d" id="create-3d" aria-hidden="true"></div>
+              </div>
+              <div class="create-toggle" role="tablist">
+                <button type="button" class="pill-btn small active" id="view-aquarela" role="tab" aria-selected="true" data-i18n="char.viewart">Aquarela</button>
+                <button type="button" class="pill-btn small" id="view-3d" role="tab" aria-selected="false" data-i18n="char.view3d">3D</button>
+              </div>
+            </div>
+            <button type="button" class="link-btn hidden" id="create-base" data-i18n="create.base">🎨 Voltar à personagem base</button>
+            <div class="create-doc" id="create-doc"></div>
+          </div>
+          <div class="create-form">
+            <label class="create-field"><span data-i18n="create.name">Seu nome</span>
+              <input type="text" id="create-name" maxlength="16" autocomplete="off">
+            </label>
+            <fieldset class="create-field">
+              <legend data-i18n="create.gender">Como devemos tratar você?</legend>
+              <div class="create-choices" id="create-gender"></div>
+            </fieldset>
+            <div class="create-field"><span data-i18n="create.skin">Tom de pele</span><div class="create-choices" id="create-skin"></div></div>
+            <div class="create-field"><span data-i18n="create.hair">Cabelo</span><div class="create-choices" id="create-hairstyle"></div></div>
+            <div class="create-field"><span data-i18n="create.hand">Mão dominante</span><div class="create-choices" id="create-hand"></div>
+              <p class="opt-note" data-i18n="create.hand.info">É a mão com que você vai segurar as coisas: a caneca, a prancheta, o livro e o regador.</p></div>
+            <div class="create-field"><span data-i18n="create.haircolor">Cor do cabelo</span><div class="create-choices" id="create-haircolor"></div></div>
+            <div class="create-field"><span data-i18n="create.eye">Cor dos olhos</span><div class="create-choices" id="create-eyes"></div></div>
+            <div class="create-field"><span data-i18n="create.face">Formato do rosto</span><div class="create-choices" id="create-face"></div></div>
+            <div class="create-field"><span data-i18n="create.eyeshape">Formato dos olhos</span><div class="create-choices" id="create-eyeshape"></div></div>
+            <div class="create-field"><span data-i18n="create.brow">Sobrancelhas</span><div class="create-choices" id="create-brow"></div></div>
+            <div class="create-field"><span data-i18n="create.mouth">Boca</span><div class="create-choices" id="create-mouth"></div></div>
+            <div class="create-field"><span data-i18n="create.freckles">Sardas</span><div class="create-choices" id="create-freckles"></div></div>
+            <div class="create-field"><span data-i18n="create.outfit">Roupa</span><div class="create-choices" id="create-outfit"></div></div>
+          </div>
+        </div>
+        <div class="home-actions">
+          <button type="button" class="continue-btn" id="create-go" data-i18n="create.go">Começar ▶</button>
+          <button type="button" class="link-btn" id="create-back" data-i18n="create.back">← Voltar</button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- INTRODUÇÃO: DE CASA ATÉ O CONSULTÓRIO -->
+  <main id="screen-intro" class="screen hidden">
+    <div class="intro-stage" id="intro-stage">
+      <button type="button" class="link-btn intro-skip" id="intro-skip" data-i18n="intro.skip">Pular introdução ▶▶</button>
+      <div class="intro-art" id="intro-art"></div>
+      <span class="intro-badge" id="intro-scene-badge" aria-hidden="true"></span>
+      <div class="intro-bar" aria-hidden="true"><i id="intro-progress"></i></div>
+      <div class="intro-box">
+        <p class="intro-text" id="intro-text" aria-live="polite"></p>
+        <div class="intro-popup hidden" id="intro-popup">
+          <strong id="intro-popup-from"></strong>
+          <p id="intro-popup-text"></p>
+        </div>
+        <button type="button" class="continue-btn" id="intro-next">Continuar ▶</button>
+        <div class="intro-dots" id="intro-dots" aria-hidden="true"></div>
+      </div>
+    </div>
+  </main>
+
+  <!-- PÁGINA PRINCIPAL: AGENDA DO DIA -->
+  <main id="screen-home" class="screen watercolor hidden">
+    <div class="page">
+      <h1 class="page-title" id="home-title">Agenda do dia</h1>
+      <p class="day-over-note hidden" id="home-dayover" role="status"></p>
+      <div class="appointment-list" id="appointment-list"></div>
+
+      <div class="home-actions">
+        <button type="button" class="pill-btn" id="btn-decor" data-i18n="home.decor">🪑 Organizar salas</button>
+        <button type="button" class="pill-btn" id="btn-fauna" data-i18n="home.fauna">🦋 Guia da fauna</button>
+        <button type="button" class="pill-btn" id="btn-planner" data-i18n="home.planner">📅 Planner semanal</button>
+        <button type="button" class="pill-btn" id="btn-legend" data-i18n="home.legend">🔵 Legenda das bolinhas</button>
+        <button type="button" class="pill-btn" id="btn-appendix" data-i18n="home.appendix">📋 Apêndice de pacientes</button>
+        <button type="button" class="pill-btn" id="btn-index" data-i18n="home.index">🧭 Índice do jogo</button>
+        <button type="button" class="pill-btn" id="btn-wheel" data-i18n="home.wheel">🎡 Roda do psicólogo</button>
+        <button type="button" class="pill-btn" id="btn-quests">📜 Missões</button>
+        <button type="button" class="pill-btn" id="btn-ach" data-i18n="home.ach">🏆 Conquistas</button>
+        <button type="button" class="pill-btn hidden" id="btn-aq" data-i18n="home.aq">🐠 Aquário</button>
+        <button type="button" class="link-btn" id="btn-title" data-i18n="home.menu">Menu inicial</button>
+        <button type="button" class="link-btn" id="btn-reset" data-i18n="home.reset">Reiniciar jogo</button>
+      </div>
+    </div>
+  </main>
+
+  <!-- PLANNER SEMANAL (folha de papel) -->
+  <main id="screen-planner" class="screen watercolor hidden">
+    <div class="page">
+      <div class="paper">
+        <h1 class="paper-title" data-i18n="planner.title">Planner Semanal</h1>
+        <p class="paper-quote" data-i18n-html="planner.quote">Frase da semana: <span>A escuta é o primeiro instrumento clínico.</span></p>
+        <div class="paper-grid" id="paper-grid"></div>
+      </div>
+      <div class="planner-detail" id="planner-detail"></div>
+      <div class="home-actions">
+        <button type="button" class="pill-btn" id="btn-legend-2" data-i18n="home.legend">🔵 Legenda das bolinhas</button>
+      </div>
+    </div>
+  </main>
+
+  <!-- MENSAGENS (celular) -->
+  <main id="screen-phone" class="screen neutral-bg hidden">
+    <div class="page">
+      <div id="phone-svelte"></div><!-- Svelte: Celular.svelte (sem o build, vale a moldura clássica abaixo) -->
+      <div class="phone-frame" data-legacy-phone>
+        <div class="phone-notch" aria-hidden="true"></div>
+        <div class="phone-status" aria-hidden="true"><span id="phone-clock">9:41</span><span class="e-inv">📶 🔋</span></div>
+        <h1 class="phone-title" data-i18n="phone.title">Mensagens & Recados</h1>
+        <div class="shop-tabs phone-tabs" id="phone-tabs" role="tablist"></div>
+        <div class="message-list phone-chat" id="message-list"></div>
+      </div>
+    </div>
+  </main>
+
+  <!-- LOJA, CASA E CONSULTÓRIO -->
+  <!-- MAPA: locais clicáveis, o carro leva você até lá -->
+  <main id="screen-map" class="screen map-screen hidden">
+    <div class="map-head"><h1 class="map-title" id="map-title"></h1><p class="map-hint" id="map-hint"></p></div>
+    <div class="map-wrap" id="map-wrap">
+      <svg class="map-art" viewBox="0 0 1000 620" preserveAspectRatio="none" aria-hidden="true">
+        <!-- MAPA PINTADO. Antes a ilha era uma silhueta verde chapada com emojis por cima. Agora ela é
+             desenhada como ilha: o mar com profundidade, o raso em volta da costa, a faixa de praia
+             contornando tudo, o gramado por dentro, dois patamares de terreno com a parede do barranco
+             à mostra, a serra ao norte com face de sol, face de sombra, neve e sombra comprida deitada
+             no chão, e a floresta em moitas com sombra própria. O sol vem de cima e da esquerda: é o que
+             decide qual face de cada coisa é clara e para que lado cai cada sombra. -->
+        <defs>
+          <linearGradient id="seaGrad" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8fdcf7"/><stop offset="1" stop-color="#2f96d4"/></linearGradient>
+          <radialGradient id="rasoGrad" cx="0.5" cy="0.5" r="0.5"><stop offset="0.55" stop-color="#bdeefb" stop-opacity=".95"/><stop offset="1" stop-color="#7fd0ee" stop-opacity="0"/></radialGradient>
+          <linearGradient id="areiaGrad" x1="0.1" y1="0" x2="0.7" y2="1"><stop offset="0" stop-color="#fdf3d2"/><stop offset="1" stop-color="#e3c78d"/></linearGradient>
+          <linearGradient id="terraGrad" x1="0.1" y1="0" x2="0.8" y2="1"><stop offset="0" stop-color="#d9f2c0"/><stop offset="0.5" stop-color="#bfe6a8"/><stop offset="1" stop-color="#93c47b"/></linearGradient>
+          <linearGradient id="patamarGrad" x1="0.2" y1="0" x2="0.7" y2="1"><stop offset="0" stop-color="#e2f7ca"/><stop offset="1" stop-color="#a8d08d"/></linearGradient>
+          <linearGradient id="serraLuz" x1="0" y1="0" x2="0.6" y2="1"><stop offset="0" stop-color="#e6eddf"/><stop offset="0.45" stop-color="#b9cfa8"/><stop offset="1" stop-color="#93ae83"/></linearGradient>
+          <linearGradient id="serraSombra" x1="0.3" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7d9a6e"/><stop offset="1" stop-color="#586f4c"/></linearGradient>
+          <linearGradient id="barranco" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8fb178"/><stop offset="1" stop-color="#6b8e57"/></linearGradient>
+          <filter id="sombraChao" x="-40%" y="-40%" width="180%" height="190%"><feGaussianBlur stdDeviation="10"/></filter>
+          <filter id="sombraCurta" x="-50%" y="-50%" width="200%" height="210%"><feGaussianBlur stdDeviation="4"/></filter>
+          <filter id="sombraLonga" x="-50%" y="-50%" width="200%" height="220%"><feGaussianBlur stdDeviation="7"/></filter>
+        </defs>
+
+        <rect width="1000" height="620" fill="url(#seaGrad)"/>
+        <g fill="none" stroke="#fff" stroke-opacity=".38" stroke-width="4" stroke-linecap="round">
+          <path d="M30 60q30-16 60 0t60 0"/><path d="M820 30q30-16 60 0t60 0"/><path d="M40 300q30-16 60 0t60 0"/><path d="M880 330q30-16 60 0"/><path d="M60 590q30-16 60 0t60 0"/><path d="M700 600q30-16 60 0t60 0"/><path d="M910 520q30-16 60 0"/>
+        </g>
+
+        <!-- o raso: a água clara que contorna a ilha, e a sombra dela no fundo do mar -->
+        <ellipse cx="505" cy="318" rx="500" ry="310" fill="url(#rasoGrad)"/>
+        <path d="M60,140 C40,60 200,20 330,40 C480,10 700,10 860,60 C960,100 980,240 950,340 C990,440 940,560 800,590 C600,620 300,610 150,570 C40,530 20,440 60,360 C30,280 70,200 60,140 Z" transform="translate(16 20)" fill="#14536e" fill-opacity=".34" filter="url(#sombraChao)"/>
+
+        <!-- a praia contorna a ilha inteira, e o gramado fica por dentro dela -->
+        <path d="M60,140 C40,60 200,20 330,40 C480,10 700,10 860,60 C960,100 980,240 950,340 C990,440 940,560 800,590 C600,620 300,610 150,570 C40,530 20,440 60,360 C30,280 70,200 60,140 Z" fill="url(#areiaGrad)" stroke="#15131f" stroke-width="5" stroke-linejoin="round"/>
+        <path d="M60,140 C40,60 200,20 330,40 C480,10 700,10 860,60 C960,100 980,240 950,340 C990,440 940,560 800,590 C600,620 300,610 150,570 C40,530 20,440 60,360 C30,280 70,200 60,140 Z" transform="translate(500 310) scale(0.955) translate(-500 -310)" fill="url(#terraGrad)" stroke="#a8874f" stroke-width="3" stroke-opacity=".5" stroke-linejoin="round"/>
+        <path d="M60,140 C40,60 200,20 330,40 C480,10 700,10 860,60 C960,100 980,240 950,340 C990,440 940,560 800,590 C600,620 300,610 150,570 C40,530 20,440 60,360 C30,280 70,200 60,140 Z" transform="translate(500 310) scale(0.978) translate(-500 -310)" fill="none" stroke="#fff" stroke-width="3" stroke-opacity=".45"/>
+
+        <g id="map-relevo">
+          <!-- PATAMAR DO NORTE: o terreno sobe um degrau, e a parede do barranco aparece embaixo dele -->
+          <path d="M150,255 C300,205 560,195 780,225 C880,240 930,265 930,290 C700,320 380,330 170,300 C130,292 120,268 150,255 Z" fill="url(#barranco)"/>
+          <path d="M150,245 C300,195 560,185 780,215 C880,230 930,255 930,280 C700,310 380,320 170,290 C130,282 120,258 150,245 Z" fill="url(#patamarGrad)" stroke="#6b8e57" stroke-width="2" stroke-opacity=".6"/>
+          <path d="M175,244 C320,204 560,196 770,222 C560,212 330,220 175,244 Z" fill="#effbdf" fill-opacity=".8"/>
+
+          <!-- SERRA. Sombra comprida primeiro, depois os picos: face de sol à esquerda, sombra à direita. -->
+          <path d="M690,150 C780,120 900,130 966,168 C940,236 800,250 700,220 C650,196 650,168 690,150 Z" fill="#4f6b44" fill-opacity=".4" filter="url(#sombraLonga)"/>
+          <path d="M660,170 L702,108 L742,142 L788,72 L842,140 L880,96 L936,172 Z" fill="url(#serraLuz)" stroke="#2c3b26" stroke-width="3" stroke-opacity=".55" stroke-linejoin="round"/>
+          <path d="M702,108 L742,142 L724,172 L660,170 Z" fill="url(#serraSombra)" fill-opacity=".55"/>
+          <path d="M788,72 L842,140 L806,170 L760,140 Z" fill="url(#serraSombra)" fill-opacity=".6"/>
+          <path d="M880,96 L936,172 L890,172 L862,132 Z" fill="url(#serraSombra)" fill-opacity=".65"/>
+          <path d="M702,108 L720,132 L704,138 L690,130 Z" fill="#fbfdfb"/>
+          <path d="M788,72 L816,110 L800,118 L784,106 L770,116 Z" fill="#fbfdfb"/>
+          <path d="M880,96 L904,130 L886,136 L868,124 Z" fill="#fbfdfb"/>
+          <g fill="none" stroke="#55705c" stroke-opacity=".45" stroke-width="2">
+            <path d="M788,86 L770,130"/><path d="M788,86 L808,128"/><path d="M880,110 L866,142"/><path d="M702,120 L692,148"/>
+          </g>
+
+          <!-- PATAMAR DO MEIO: outro degrau, mais baixo, com a parede à mostra -->
+          <path d="M300,392 C430,362 600,360 720,388 C780,402 800,420 780,436 C620,462 400,462 290,436 C258,428 262,404 300,392 Z" fill="url(#barranco)"/>
+          <path d="M300,384 C430,354 600,352 720,380 C780,394 800,412 780,428 C620,454 400,454 290,428 C258,420 262,396 300,384 Z" fill="url(#patamarGrad)" stroke="#6b8e57" stroke-width="2" stroke-opacity=".55"/>
+          <path d="M322,382 C440,356 596,356 706,380 C596,372 434,372 322,382 Z" fill="#effbdf" fill-opacity=".8"/>
+
+          <!-- FLORESTA: moitas com sombra própria. Densidade é o que faz ler como mata. -->
+          <g id="map-mata">
+            <ellipse cx="154" cy="168" rx="38" ry="10" fill="#4f7b45" fill-opacity=".32" filter="url(#sombraCurta)"/><circle cx="134" cy="150" r="15" fill="#79ad63"/><circle cx="152" cy="142" r="20" fill="#8cc275"/><circle cx="168" cy="154" r="14" fill="#6d9f59"/><circle cx="146" cy="136" r="10" fill="#a3d489" fill-opacity=".85"/>
+            <ellipse cx="216" cy="143" rx="32" ry="8" fill="#4f7b45" fill-opacity=".32" filter="url(#sombraCurta)"/><circle cx="198" cy="128" r="13" fill="#79ad63"/><circle cx="214" cy="121" r="17" fill="#8cc275"/><circle cx="227" cy="131" r="12" fill="#6d9f59"/><circle cx="209" cy="116" r="8" fill="#a3d489" fill-opacity=".85"/>
+            <ellipse cx="276" cy="184" rx="34" ry="9" fill="#4f7b45" fill-opacity=".32" filter="url(#sombraCurta)"/><circle cx="258" cy="168" r="14" fill="#79ad63"/><circle cx="274" cy="161" r="18" fill="#8cc275"/><circle cx="288" cy="172" r="13" fill="#6d9f59"/><circle cx="268" cy="155" r="9" fill="#a3d489" fill-opacity=".85"/>
+            <ellipse cx="424" cy="126" rx="30" ry="8" fill="#4f7b45" fill-opacity=".32" filter="url(#sombraCurta)"/><circle cx="407" cy="112" r="12" fill="#79ad63"/><circle cx="422" cy="106" r="16" fill="#8cc275"/><circle cx="434" cy="115" r="11" fill="#6d9f59"/><circle cx="417" cy="101" r="8" fill="#a3d489" fill-opacity=".85"/>
+            <ellipse cx="482" cy="167" rx="36" ry="10" fill="#4f7b45" fill-opacity=".32" filter="url(#sombraCurta)"/><circle cx="463" cy="150" r="14" fill="#79ad63"/><circle cx="480" cy="142" r="19" fill="#8cc275"/><circle cx="495" cy="154" r="13" fill="#6d9f59"/><circle cx="474" cy="137" r="10" fill="#a3d489" fill-opacity=".85"/>
+            <ellipse cx="542" cy="132" rx="30" ry="8" fill="#4f7b45" fill-opacity=".32" filter="url(#sombraCurta)"/><circle cx="525" cy="118" r="12" fill="#79ad63"/><circle cx="540" cy="112" r="16" fill="#8cc275"/><circle cx="552" cy="121" r="11" fill="#6d9f59"/><circle cx="535" cy="107" r="8" fill="#a3d489" fill-opacity=".85"/>
+            <ellipse cx="122" cy="248" rx="34" ry="9" fill="#4f7b45" fill-opacity=".32" filter="url(#sombraCurta)"/><circle cx="104" cy="232" r="14" fill="#79ad63"/><circle cx="120" cy="225" r="18" fill="#8cc275"/><circle cx="134" cy="236" r="13" fill="#6d9f59"/><circle cx="114" cy="219" r="9" fill="#a3d489" fill-opacity=".85"/>
+            <ellipse cx="190" cy="226" rx="30" ry="8" fill="#4f7b45" fill-opacity=".32" filter="url(#sombraCurta)"/><circle cx="173" cy="212" r="12" fill="#79ad63"/><circle cx="188" cy="206" r="16" fill="#8cc275"/><circle cx="200" cy="215" r="11" fill="#6d9f59"/><circle cx="183" cy="201" r="8" fill="#a3d489" fill-opacity=".85"/>
+            <ellipse cx="262" cy="315" rx="32" ry="8" fill="#4f7b45" fill-opacity=".32" filter="url(#sombraCurta)"/><circle cx="244" cy="300" r="13" fill="#79ad63"/><circle cx="260" cy="293" r="17" fill="#8cc275"/><circle cx="273" cy="303" r="12" fill="#6d9f59"/><circle cx="255" cy="288" r="8" fill="#a3d489" fill-opacity=".85"/>
+            <ellipse cx="394" cy="248" rx="34" ry="9" fill="#4f7b45" fill-opacity=".32" filter="url(#sombraCurta)"/><circle cx="376" cy="232" r="14" fill="#79ad63"/><circle cx="392" cy="225" r="18" fill="#8cc275"/><circle cx="406" cy="236" r="13" fill="#6d9f59"/><circle cx="386" cy="219" r="9" fill="#a3d489" fill-opacity=".85"/>
+            <ellipse cx="458" cy="314" rx="30" ry="8" fill="#4f7b45" fill-opacity=".32" filter="url(#sombraCurta)"/><circle cx="441" cy="300" r="12" fill="#79ad63"/><circle cx="456" cy="294" r="16" fill="#8cc275"/><circle cx="468" cy="303" r="11" fill="#6d9f59"/><circle cx="451" cy="289" r="8" fill="#a3d489" fill-opacity=".85"/>
+            <ellipse cx="560" cy="237" rx="32" ry="8" fill="#4f7b45" fill-opacity=".32" filter="url(#sombraCurta)"/><circle cx="542" cy="222" r="13" fill="#79ad63"/><circle cx="558" cy="215" r="17" fill="#8cc275"/><circle cx="571" cy="225" r="12" fill="#6d9f59"/><circle cx="553" cy="210" r="8" fill="#a3d489" fill-opacity=".85"/>
+            <ellipse cx="154" cy="374" rx="38" ry="10" fill="#4f7b45" fill-opacity=".32" filter="url(#sombraCurta)"/><circle cx="134" cy="356" r="15" fill="#79ad63"/><circle cx="152" cy="348" r="20" fill="#8cc275"/><circle cx="168" cy="360" r="14" fill="#6d9f59"/><circle cx="146" cy="342" r="10" fill="#a3d489" fill-opacity=".85"/>
+            <ellipse cx="220" cy="419" rx="32" ry="8" fill="#4f7b45" fill-opacity=".32" filter="url(#sombraCurta)"/><circle cx="202" cy="404" r="13" fill="#79ad63"/><circle cx="218" cy="397" r="17" fill="#8cc275"/><circle cx="231" cy="407" r="12" fill="#6d9f59"/><circle cx="213" cy="392" r="8" fill="#a3d489" fill-opacity=".85"/>
+            <ellipse cx="276" cy="354" rx="30" ry="8" fill="#4f7b45" fill-opacity=".32" filter="url(#sombraCurta)"/><circle cx="259" cy="340" r="12" fill="#79ad63"/><circle cx="274" cy="334" r="16" fill="#8cc275"/><circle cx="286" cy="343" r="11" fill="#6d9f59"/><circle cx="269" cy="329" r="8" fill="#a3d489" fill-opacity=".85"/>
+            <ellipse cx="396" cy="502" rx="34" ry="9" fill="#4f7b45" fill-opacity=".32" filter="url(#sombraCurta)"/><circle cx="378" cy="486" r="14" fill="#79ad63"/><circle cx="394" cy="479" r="18" fill="#8cc275"/><circle cx="408" cy="490" r="13" fill="#6d9f59"/><circle cx="388" cy="473" r="9" fill="#a3d489" fill-opacity=".85"/>
+            <ellipse cx="456" cy="428" rx="30" ry="8" fill="#4f7b45" fill-opacity=".32" filter="url(#sombraCurta)"/><circle cx="439" cy="414" r="12" fill="#79ad63"/><circle cx="454" cy="408" r="16" fill="#8cc275"/><circle cx="466" cy="417" r="11" fill="#6d9f59"/><circle cx="449" cy="403" r="8" fill="#a3d489" fill-opacity=".85"/>
+            <ellipse cx="524" cy="513" rx="32" ry="8" fill="#4f7b45" fill-opacity=".32" filter="url(#sombraCurta)"/><circle cx="506" cy="498" r="13" fill="#79ad63"/><circle cx="522" cy="491" r="17" fill="#8cc275"/><circle cx="535" cy="501" r="12" fill="#6d9f59"/><circle cx="517" cy="486" r="8" fill="#a3d489" fill-opacity=".85"/>
+            <ellipse cx="112" cy="485" rx="36" ry="10" fill="#4f7b45" fill-opacity=".32" filter="url(#sombraCurta)"/><circle cx="93" cy="468" r="14" fill="#79ad63"/><circle cx="110" cy="460" r="19" fill="#8cc275"/><circle cx="125" cy="472" r="13" fill="#6d9f59"/><circle cx="104" cy="455" r="10" fill="#a3d489" fill-opacity=".85"/>
+            <ellipse cx="172" cy="534" rx="30" ry="8" fill="#4f7b45" fill-opacity=".32" filter="url(#sombraCurta)"/><circle cx="155" cy="520" r="12" fill="#79ad63"/><circle cx="170" cy="514" r="16" fill="#8cc275"/><circle cx="182" cy="523" r="11" fill="#6d9f59"/><circle cx="165" cy="509" r="8" fill="#a3d489" fill-opacity=".85"/>
+            <ellipse cx="250" cy="556" rx="34" ry="9" fill="#4f7b45" fill-opacity=".32" filter="url(#sombraCurta)"/><circle cx="232" cy="540" r="14" fill="#79ad63"/><circle cx="248" cy="533" r="18" fill="#8cc275"/><circle cx="262" cy="544" r="13" fill="#6d9f59"/><circle cx="242" cy="527" r="9" fill="#a3d489" fill-opacity=".85"/>
+            <ellipse cx="564" cy="571" rx="32" ry="8" fill="#4f7b45" fill-opacity=".32" filter="url(#sombraCurta)"/><circle cx="546" cy="556" r="13" fill="#79ad63"/><circle cx="562" cy="549" r="17" fill="#8cc275"/><circle cx="575" cy="559" r="12" fill="#6d9f59"/><circle cx="557" cy="544" r="8" fill="#a3d489" fill-opacity=".85"/>
+            <ellipse cx="704" cy="316" rx="34" ry="9" fill="#4f7b45" fill-opacity=".32" filter="url(#sombraCurta)"/><circle cx="686" cy="300" r="14" fill="#79ad63"/><circle cx="702" cy="293" r="18" fill="#8cc275"/><circle cx="716" cy="304" r="13" fill="#6d9f59"/><circle cx="696" cy="287" r="9" fill="#a3d489" fill-opacity=".85"/>
+            <ellipse cx="770" cy="366" rx="30" ry="8" fill="#4f7b45" fill-opacity=".32" filter="url(#sombraCurta)"/><circle cx="753" cy="352" r="12" fill="#79ad63"/><circle cx="768" cy="346" r="16" fill="#8cc275"/><circle cx="780" cy="355" r="11" fill="#6d9f59"/><circle cx="763" cy="341" r="8" fill="#a3d489" fill-opacity=".85"/>
+            <ellipse cx="824" cy="421" rx="32" ry="8" fill="#4f7b45" fill-opacity=".32" filter="url(#sombraCurta)"/><circle cx="806" cy="406" r="13" fill="#79ad63"/><circle cx="822" cy="399" r="17" fill="#8cc275"/><circle cx="835" cy="409" r="12" fill="#6d9f59"/><circle cx="817" cy="394" r="8" fill="#a3d489" fill-opacity=".85"/>
+            <ellipse cx="884" cy="310" rx="30" ry="8" fill="#4f7b45" fill-opacity=".32" filter="url(#sombraCurta)"/><circle cx="867" cy="296" r="12" fill="#79ad63"/><circle cx="882" cy="290" r="16" fill="#8cc275"/><circle cx="894" cy="299" r="11" fill="#6d9f59"/><circle cx="877" cy="285" r="8" fill="#a3d489" fill-opacity=".85"/>
+            <ellipse cx="720" cy="500" rx="30" ry="8" fill="#4f7b45" fill-opacity=".32" filter="url(#sombraCurta)"/><circle cx="703" cy="486" r="12" fill="#79ad63"/><circle cx="718" cy="480" r="16" fill="#8cc275"/><circle cx="730" cy="489" r="11" fill="#6d9f59"/><circle cx="713" cy="475" r="8" fill="#a3d489" fill-opacity=".85"/>
+            <ellipse cx="304" cy="250" rx="28" ry="8" fill="#4f7b45" fill-opacity=".32" filter="url(#sombraCurta)"/><circle cx="288" cy="236" r="11" fill="#79ad63"/><circle cx="302" cy="230" r="15" fill="#8cc275"/><circle cx="314" cy="239" r="10" fill="#6d9f59"/><circle cx="297" cy="226" r="8" fill="#a3d489" fill-opacity=".85"/>
+          </g>
+
+          <!-- a descida para a areia, no sudeste -->
+          <path d="M700,520 C770,484 860,490 940,514" fill="none" stroke="#efdcab" stroke-width="13" stroke-linecap="round" opacity=".85"/>
+          <path d="M706,532 C774,500 862,506 942,528" fill="none" stroke="#faf0d8" stroke-width="6" stroke-linecap="round" opacity=".75"/>
+        </g>
+
+        <!-- estradas -->
+        <g fill="none" stroke="#efe0b0" stroke-width="17" stroke-linecap="round"><path d="M140,190 C300,170 420,150 580,130"/><path d="M200,330 C400,300 560,280 700,260"/><path d="M180,450 C340,470 480,450 600,430"/><path d="M340,150 L340,420"/><path d="M640,140 L640,470"/></g>
+        <g fill="none" stroke="#fff" stroke-width="3" stroke-dasharray="14 12" stroke-linecap="round" opacity=".75"><path d="M140,190 C300,170 420,150 580,130"/><path d="M200,330 C400,300 560,280 700,260"/><path d="M180,450 C340,470 480,450 600,430"/><path d="M340,150 L340,420"/><path d="M640,140 L640,470"/></g>
+
+        <!-- o lago, com raso na borda -->
+        <ellipse cx="640" cy="440" rx="84" ry="40" fill="#7fc0e8"/>
+        <ellipse cx="640" cy="440" rx="76" ry="33" fill="#9fcdf0"/>
+        <ellipse cx="640" cy="440" rx="84" ry="40" fill="none" stroke="#15131f" stroke-width="4"/>
+        <path d="M596,428 C620,420 660,420 684,428" fill="none" stroke="#fff" stroke-width="3" stroke-opacity=".6"/>
+
+        <g fill="#fff" fill-opacity=".8"><ellipse cx="180" cy="40" rx="60" ry="18"/><ellipse cx="220" cy="32" rx="40" ry="14"/><ellipse cx="760" cy="592" rx="55" ry="16"/></g>
+        <g font-size="30"><text x="398" y="582">🌴</text><text x="874" y="566">🌴</text><text x="836" y="52">🚩</text></g>
+        <g font-size="34"><text x="30" y="200">⛵</text><text x="920" y="420">🐋</text></g>
+      </svg>
+      <div class="map-estacao" id="map-estacao" aria-live="polite"></div>
+      <div id="map-spots"></div>
+      <div id="map-street" class="map-street hidden"></div>
+      <div id="map-car" class="map-car" aria-hidden="true">🚗</div>
+      <button type="button" class="map-mode hidden" id="map-mode"></button>
+      <button type="button" class="city-act hidden" id="map-enter"></button>
+      <div id="map-joy" class="city-joy" aria-label="Joystick"><div id="map-joy-knob" class="city-joy-knob"></div></div>
+    </div>
+  </main>
+
+  <!-- CIDADE: passeio livre entre os lugares -->
+  <main id="screen-city" class="screen hidden">
+    <div class="city-wrap" id="city-wrap">
+      <div id="city-pixi"></div><!-- Svelte: CidadeView.svelte (PixiJS, opcional) -->
+      <canvas id="city-canvas" class="city-canvas" aria-label="Mapa da cidade"></canvas>
+      <canvas id="city-mini" class="city-mini" width="190" height="105" aria-hidden="true"></canvas>
+      <div id="city-toast" class="city-toast hidden" role="status"></div>
+      <button type="button" class="city-modebtn" id="city-mode" aria-label="Deslocamento">🚶</button>
+      <button type="button" class="city-mapbtn" id="city-mapbtn">🗺️ <span data-i18n="map.btn">Mapa</span></button>
+      <p class="city-help" id="city-help"></p>
+      <button type="button" class="city-act hidden" id="city-act"></button>
+      <div id="city-joy" class="city-joy" aria-label="Joystick"><div id="city-joy-knob" class="city-joy-knob"></div></div>
+      <div id="city-dlg" class="city-dlg hidden" role="dialog" aria-live="polite">
+        <img id="city-dlg-face" class="city-dlg-face hidden" alt="">
+        <div class="city-dlg-name" id="city-dlg-name"></div>
+        <p id="city-dlg-text"></p>
+        <div class="city-dlg-friend" id="city-dlg-friend"></div>
+        <div class="city-dlg-btns"><button type="button" class="pill-btn small hidden" id="city-dlg-alt"></button><button type="button" class="pill-btn small hidden" id="city-dlg-alt2"></button><button type="button" class="pill-btn small" id="city-dlg-ok" data-i18n="city.ok">Ok</button></div>
+      </div>
+    </div>
+  </main>
+
+  <main id="screen-shop" class="screen watercolor hidden">
+    <div class="page page-wide">
+      <h1 class="page-title" data-i18n="shop.title">Loja</h1>
+      <p class="shop-where" id="shop-where" role="status"></p>
+      <p class="shop-coins">🪙 <strong id="shop-coins">0</strong> <span data-i18n="shop.coins">moedas</span></p>
+      <div class="shop-tabs" id="shop-tabs" role="tablist"></div>
+      <div class="room room-preview" id="shop-room" role="img" data-i18n-attr="aria-label:shop.preview"></div>
+      <div class="wardrobe hidden" id="wardrobe">
+        <div class="wardrobe-avatar" id="wardrobe-avatar" aria-hidden="true"></div>
+        <div class="wardrobe-info" id="wardrobe-info"></div>
+      </div>
+      <p class="shop-msg" id="shop-msg" role="status"></p>
+      <div id="shop-list"></div>
+    </div>
+  </main>
+
+  <!-- INTERVALO ENTRE SESSÕES -->
+  <main id="screen-break" class="screen hidden">
+    <div class="break-stage">
+      <div class="room break-room" id="break-room" aria-hidden="true"></div>
+      <div class="break-panel">
+        <h2 id="break-title" data-i18n="break.title">Intervalo</h2>
+        <p class="break-sub" id="break-sub"></p>
+        <div class="break-energy"><span data-i18n="hud.energy">Energia</span> <span id="break-energy-num"></span><i class="bar energy" aria-hidden="true"><b id="break-energy-fill"></b></i></div>
+        <div class="break-actions" id="break-actions"></div>
+        <div class="break-toast hidden" id="break-toast" role="status"></div>
+        <div class="break-buttons">
+          <button type="button" class="continue-btn" id="break-next" data-i18n="break.next">Próximo paciente ▶</button>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <!-- MODO SECRETO (Natal, Páscoa e Halloween) -->
+  <main id="screen-secret" class="screen watercolor hidden">
+    <div class="page">
+      <h1 class="page-title" data-i18n="secret.title">🎁 Modo secreto</h1>
+      <p class="secret-sub" data-i18n="secret.sub">Três visitas especiais chegaram ao consultório. Converse com cada uma usando as suas abordagens.</p>
+      <div class="secret-list" id="secret-list"></div>
+      <div class="home-actions">
+        <button type="button" class="link-btn" id="secret-back" data-i18n="create.back">← Voltar</button>
+      </div>
+    </div>
+  </main>
+
+  <!-- CONSULTÓRIO -->
+  <main id="screen-consult" class="screen hidden">
+    <section class="stage">
+      <div class="room room-bg" id="consult-room" aria-hidden="true"></div>
+      <button type="button" class="fp-btn" id="btn-fp" aria-pressed="false" data-i18n-attr="aria-label:fp.label" title="Visão do terapeuta"><img src="data:image/svg+xml,%3csvg%20xmlns='http://www.w3.org/2000/svg'%20viewBox='0%200%2090%2090'%20width='90'%20height='90'%20fill='none'%20stroke='%2315131f'%20stroke-width='5'%20stroke-linecap='round'%20stroke-linejoin='round'%3e%3cpath%20d='M8%2045%20C22%2022%2068%2022%2082%2045%20C68%2068%2022%2068%208%2045%20Z'/%3e%3ccircle%20cx='45'%20cy='45'%20r='13'/%3e%3ccircle%20cx='45'%20cy='45'%20r='4'%20fill='%2315131f'/%3e%3c/svg%3e" alt=""></button>
+      <div class="progress-bar" aria-hidden="true"><div class="progress-fill" id="progress-fill"></div></div>
+
+      <div class="speech-bubble" id="dialogue-text" aria-live="polite"></div>
+      <button type="button" class="fala-mais hidden" id="fala-mais" aria-label="Continuar a fala">▾</button>
+      <div class="character-container">
+        <div class="character-art" id="patient-sprite" aria-hidden="true"></div>
+        <div class="character-name-tag" id="character-name-tag"></div>
+      </div>
+      <div class="intuicao hidden" id="intuicao" aria-live="polite"></div>
+
+      <div class="character-row">
+        <button type="button" class="prop-btn ficha-btn" id="btn-ficha" data-i18n-attr="aria-label:consult.ficha;title:consult.ficha">
+          <img src="./assets/ficha-DRN55Hnk.png" alt="">
+          <span class="new-dot hidden" id="ficha-new"></span>
+        </button>
+        <button type="button" class="pill-btn small invest-btn hidden" id="btn-invest"></button>
+        <button type="button" class="pill-btn small invest-btn test-btn hidden" id="btn-test">🧪</button>
+        <button type="button" class="pill-btn small invest-btn proj-btn hidden" id="btn-proj">🎨</button>
+        <!-- deitar no divã tira o seu rosto do campo de visão dela: ela alcança o que não alcançava, e você perde a cara dela -->
+        <button type="button" class="pill-btn small invest-btn diva-btn hidden" id="btn-diva">🛋️</button>
+        <!-- habilidades ativas dos dois eixos que não tinham fala: 📝 Laudo costura o que você já tem, 🩺 Articulação diz onde olhar -->
+        <button type="button" class="pill-btn small invest-btn hidden" id="btn-sintese">📝</button>
+        <button type="button" class="pill-btn small invest-btn hidden" id="btn-parecer">🩺</button>
+
+        <button type="button" class="prop-btn caderno-btn" id="btn-caderno" data-i18n-attr="aria-label:caderno.title;title:caderno.title">
+          <span aria-hidden="true">🗒️</span>
+          <span class="new-dot hidden" id="caderno-new"></span>
+        </button>
+
+        <button type="button" class="prop-btn manual-btn" id="btn-manual" data-i18n-attr="aria-label:consult.manual;title:consult.manual">
+          <img src="./assets/manual-DL8Vo_uQ.png" alt="">
+        </button>
+      </div>
+
+      <div class="choices-panel">
+        <div class="choices-container" id="choices-container"></div>
+
+        <div class="feedback-panel hidden" id="feedback-panel" role="status">
+          <div class="feedback-title" id="feedback-title"></div>
+          <p id="feedback-text"></p>
+          <button type="button" class="continue-btn" id="btn-continue">Continuar ▶</button>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- MODAL: FICHA DO PACIENTE -->
+  <!-- O CADERNO É SEU, a ficha é o registro clínico. Ficavam na mesma janela, em abas, e isso apagava a
+       diferença: um é o que o caso tem, o outro é o que você acha. Agora são duas coisas separadas. -->
+  <!-- Reportar um problema. Quem joga vê a tela quebrar, não vê o erro: o jogo junta sozinho a parte
+       técnica (versão, tela, aparelho, o erro de verdade) e o jogador só conta o que viu. -->
+  <div id="bug-modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="bug-title">
+    <div class="modal-content bug-content">
+      <button type="button" class="close-btn" data-close="bug-modal" data-i18n-attr="aria-label:close">&times;</button>
+      <h2 id="bug-title" data-i18n="bug.title">🐞 Reportar um problema</h2>
+      <div id="bug-body"></div>
+    </div>
+  </div>
+
+  <div id="caderno-modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="caderno-title">
+    <div class="modal-content caderno-content">
+      <button type="button" class="close-btn" data-close="caderno-modal" data-i18n-attr="aria-label:close">&times;</button>
+      <h2 id="caderno-title" class="cad-alca" data-i18n="caderno.title">Caderno de campo</h2>
+      <div id="caderno-body"></div>
+    </div>
+  </div>
+
+  <div id="ficha-modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="ficha-title">
+    <div class="modal-content ficha-content">
+      <button type="button" class="close-btn" data-close="ficha-modal" data-i18n-attr="aria-label:close">&times;</button>
+      <h2 id="ficha-title" data-i18n="ficha.title">Ficha:</h2>
+      <div id="ficha-svelte"></div><!-- ficha em abas do Svelte (src/lib/components/FichaClinica.svelte); sem o build do Vite o desenho antigo abaixo continua valendo -->
+      <div class="shop-tabs dx-tabs hidden" id="dx-tabs" data-legacy></div>
+      <div id="dx-panel" class="dx-panel hidden" data-legacy></div>
+      <div id="ficha-main" data-legacy>
+      <dl class="ficha-fields" id="ficha-fields"></dl>
+      <div class="ficha-notes">
+        <strong data-i18n="ficha.notes">Anotações da sessão</strong>
+        <ul id="ficha-notes-list"></ul>
+      </div>
+      <p class="ficha-tip" data-i18n="ficha.tip">A ficha se desbloqueia conforme você descobre coisas sobre o paciente. Boas perguntas revelam mais.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL: ATIVIDADES INTERATIVAS (pesca, escavar conchas, buscar a bolinha) -->
+  <div id="act-modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="act-title">
+    <div class="modal-content act-content">
+      <button type="button" class="close-btn" data-close="act-modal" data-i18n-attr="aria-label:close">&times;</button>
+      <h2 id="act-title">🎣</h2>
+      <div id="act-body"></div>
+    </div>
+  </div>
+
+  <!-- MODAL: MISSÕES -->
+  <div id="quests-modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="quests-title">
+    <div class="modal-content">
+      <button type="button" class="close-btn" data-close="quests-modal" data-i18n-attr="aria-label:close">&times;</button>
+      <h2 id="quests-title">📜</h2>
+      <div id="quests-body"></div>
+    </div>
+  </div>
+
+  <!-- MODAL: INVESTIGAR (áreas de pergunta da consulta) -->
+  <div id="invest-modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="invest-title">
+    <div class="modal-content">
+      <button type="button" class="close-btn" data-close="invest-modal" data-i18n-attr="aria-label:close">&times;</button>
+      <h2 id="invest-title">🔎</h2>
+      <div id="invest-body"></div>
+    </div>
+  </div>
+
+  <!-- MODAL: RESPOSTA DA PESSOA À PERGUNTA DE INVESTIGAÇÃO -->
+  <div id="invest-say" class="modal hidden" role="dialog" aria-modal="true" aria-label="Investigar">
+    <div class="modal-content say-content">
+      <div id="invest-say-body"></div>
+    </div>
+  </div>
+
+  <!-- MODAL: TESTES, PROJETIVAS, DESCARTE, LAUDO E DEVOLUTIVA (psicodx.js) -->
+  <div id="psico-modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="psico-title">
+    <div class="modal-content say-content">
+      <h2 id="psico-title"></h2>
+      <div id="psico-body"></div>
+    </div>
+  </div>
+
+  <!-- MODAL: MANUAL DIAGNÓSTICO (índice, grupo e critérios) -->
+  <div id="manual-modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="manual-title">
+    <div class="modal-content manual-content">
+      <button type="button" class="close-btn" data-close="manual-modal" data-i18n-attr="aria-label:close">&times;</button>
+      <button type="button" class="link-btn back-btn hidden" id="manual-back" data-i18n="create.back">← Voltar</button>
+      <h2 id="manual-title"></h2>
+      <div class="manual-tabs" id="manual-tabs" role="tablist">
+        <button type="button" class="manual-tab on" id="manual-tab-index" role="tab" data-i18n="manual.tab.index">📖 Índice</button>
+        <button type="button" class="manual-tab" id="manual-tab-search" role="tab" data-i18n="manual.tab.search">🔎 Pesquisar</button>
+      </div>
+      <div class="manual-search hidden" id="manual-search">
+        <input type="search" id="manual-q" autocomplete="off" spellcheck="false" data-i18n-attr="placeholder:manual.search.ph;aria-label:manual.tab.search">
+      </div>
+      <p class="manual-intro" id="manual-intro"></p>
+      <div class="hint-box" id="hint-box">
+        <button type="button" class="pill-btn small" id="btn-hint"></button>
+        <p class="hint-text" id="hint-text" role="status"></p>
+      </div>
+      <div id="manual-body"></div>
+      <p class="manual-disclaimer" data-i18n="manual.disclaimer">Resumo de consulta rápida, escrito com palavras próprias a partir do DSM-5-TR. Para diagnosticar, use o manual completo.</p>
+    </div>
+  </div>
+
+  <!-- MODAL: VERSÃO E MAPA DE ATUALIZAÇÕES -->
+  <div id="versions-modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="versions-title">
+    <div class="modal-content versions-content">
+      <button type="button" class="close-btn" data-close="versions-modal" data-i18n-attr="aria-label:close">&times;</button>
+      <h2 id="versions-title" data-i18n="ver.title">📜 Mapa de atualizações</h2>
+      <div id="versions-body"></div>
+    </div>
+  </div>
+
+  <!-- MODAL: OPÇÕES -->
+  <div id="options-modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="options-title">
+    <div class="modal-content options-content">
+      <button type="button" class="close-btn" data-close="options-modal" data-i18n-attr="aria-label:close">&times;</button>
+      <h2 id="options-title" data-i18n="opt.title">⚙️ Opções</h2>
+
+      <section class="opt-section">
+        <h3 data-i18n="opt.language">Idioma</h3>
+        <div class="lang-row" id="opt-lang" role="group"></div>
+      </section>
+
+      <section class="opt-section">
+        <h3 data-i18n="opt.saves">Jogos salvos</h3>
+        <p class="opt-note" data-i18n="opt.saves.sobre">O jogo guarda uma cópia por semana sozinho. Você também pode salvar quando quiser — e voltar a qualquer uma delas.</p>
+        <div class="uni-row">
+          <button type="button" class="pill-btn" id="btn-save-novo">💾 <span data-i18n="opt.saves.novo">Salvar agora</span></button>
+          <!-- levar o jogo embora: o save vive preso ao endereço do site, e um arquivo atravessa endereço, navegador e computador -->
+          <button type="button" class="pill-btn" id="btn-save-exportar">⬇️ <span data-i18n="opt.saves.exportar">Baixar o jogo</span></button>
+          <button type="button" class="pill-btn" id="btn-save-importar">⬆️ <span data-i18n="opt.saves.importar">Carregar de um arquivo</span></button>
+          <input type="file" id="save-arquivo" accept="application/json,.json" hidden>
+        </div>
+        <p class="opt-note" data-i18n="opt.saves.arquivo">O arquivo leva a partida e as cópias salvas. Guarde-o onde quiser: ele abre o jogo em qualquer navegador, computador ou endereço.</p>
+        <div id="opt-saves"></div>
+      </section>
+
+      <section class="opt-section">
+        <h3 data-i18n="opt.look">Aparência do site</h3>
+        <div class="create-field"><span data-i18n="opt.theme">Tema</span><div class="create-choices" id="opt-theme"></div></div>
+        <div class="create-field"><span data-i18n="opt.fontsize">Tamanho da letra</span><div class="create-choices" id="opt-fontsize"></div></div>
+        <div class="create-field"><span data-i18n="opt.font">Fonte</span><div class="create-choices" id="opt-font"></div></div>
+        <!-- acessibilidade: não é preferência, é acesso — e não pode depender só do ajuste do sistema -->
+        <label class="opt-check"><input type="checkbox" id="opt-contraste"> <span data-i18n="opt.contraste">Alto contraste</span></label>
+        <p class="opt-note" data-i18n="opt.contraste.info">Engrossa as bordas, escurece o texto e tira as transparências e as sombras. Vale junto com qualquer tema.</p>
+        <label class="opt-check"><input type="checkbox" id="opt-motion"> <span data-i18n="opt.motion">Reduzir movimento</span></label>
+        <p class="opt-note" data-i18n="opt.motion.info">Corta animações, balanços e transições em todo o jogo. Já vem ligado se o seu aparelho pede isso.</p>
+        <p class="opt-help" id="opt-look-hint"></p>
+      </section>
+
+      <section class="opt-section">
+        <h3 data-i18n="opt.sound">Som</h3>
+        <label class="opt-check"><input type="checkbox" id="opt-mute"> <span data-i18n="opt.mute">Silenciar tudo</span></label>
+        <label class="opt-range"><span data-i18n="opt.sfx">Efeitos</span> <input type="range" id="opt-sfx" min="0" max="100" step="5" data-i18n-attr="aria-label:opt.sfx"> <output id="opt-sfx-out"></output></label>
+        <label class="opt-range"><span data-i18n="opt.music">Música</span> <input type="range" id="opt-music" min="0" max="100" step="5" data-i18n-attr="aria-label:opt.music"> <output id="opt-music-out"></output></label>
+        <label class="opt-range"><span data-i18n="opt.amb">Ambiente</span> <input type="range" id="opt-amb" min="0" max="100" step="5" data-i18n-attr="aria-label:opt.amb"> <output id="opt-amb-out"></output></label>
+        <div class="create-field"><span data-i18n="opt.instrument">Instrumento da música</span><div class="create-choices" id="opt-instr"></div></div>
+        <label class="opt-check"><input type="checkbox" id="opt-emptyoffice"> <span data-i18n="opt.emptyoffice">No fim do expediente, mostrar o consultório vazio</span></label>
+        <label class="opt-check"><input type="checkbox" id="opt-typesound"> <span data-i18n="opt.typesound">Som de digitação nas falas</span></label>
+      </section>
+
+      <section class="opt-section">
+        <h3 data-i18n="opt.perf">Desempenho</h3>
+        <div class="create-field"><span data-i18n="opt.perf.level">Modo</span><div class="create-choices" id="opt-perf"></div></div>
+        <p class="opt-help" id="opt-perf-info"></p>
+        <div class="opt-row"><button type="button" class="pill-btn small" id="opt-perf-test"></button> <label class="opt-check"><input type="checkbox" id="opt-fps"> <span data-i18n="opt.perf.fps">Mostrar quadros por segundo</span></label></div>
+    <h3 data-i18n="opt.game">Jogo</h3>
+        <label class="opt-check"><input type="checkbox" id="opt-typing"> <span data-i18n="opt.typing">Efeito de digitação nas falas</span></label>
+        <label class="opt-check"><input type="checkbox" id="opt-fp"> <span data-i18n="opt.fp">Ver a consulta pelos olhos do terapeuta (1ª pessoa)</span></label>
+        <label class="opt-check"><input type="checkbox" id="opt-showap"> <span data-i18n="opt.showap">Mostrar a abordagem em cada opção (modo aprendizado)</span></label>
+        <label class="opt-check"><input type="checkbox" id="opt-freedx"> <span data-i18n="opt.freedx">Diagnóstico livre (escolher a hipótese sem descartar as concorrentes antes)</span></label>
+        <label class="opt-check"><input type="checkbox" id="opt-sens"> <span data-i18n="opt.sens">Ocultar temas sensíveis</span></label>
+        <p class="opt-note" data-i18n="opt.sens.info">Inclui suicídio, automutilação e assuntos parecidos: tira do jogo a área de risco, o plano de segurança e as crises no celular, e omite frases sobre o tema. O Manual (critérios clínicos) continua com a descrição técnica.</p>
+        <label class="opt-check"><input type="checkbox" id="opt-pixi"> <span data-i18n="opt.pixi">Cidade em WebGL (PixiJS)</span></label>
+        <p class="opt-note" data-i18n="opt.pixi.info">Vem ligada sozinha em aparelhos com placa de vídeo, onde deixa a cidade mais rápida. Em aparelhos sem aceleração o jogo usa o desenho comum, que ali roda melhor.</p>
+        <label class="opt-check"><input type="checkbox" id="opt-activities"> <span data-i18n="opt.activities">Atividades interativas (pesca, conchas, bolinha)</span></label>
+        <label class="opt-check"><input type="checkbox" id="opt-tips"> <span data-i18n="opt.tips">Dicas do tutorial durante o jogo</span></label>
+        <label class="opt-check"><input type="checkbox" id="opt-3d"> <span data-i18n="opt.3d">Cenário em 3D</span> <span class="opt-note" data-i18n="opt.3dnote">(vale a partir da próxima cena)</span></label>
+        <div class="opt-row">
+          <button type="button" class="pill-btn" id="opt-versions"></button>
+          <button type="button" class="pill-btn" id="opt-bug" data-i18n="bug.abrir">🐞 Reportar um problema</button>
+          <p class="opt-legal"><a href="privacidade.html" target="_blank" rel="noopener">Privacidade</a> · <a href="termos.html" target="_blank" rel="noopener">Termos de uso</a></p>
+          <button type="button" class="pill-btn" id="opt-reset" data-i18n="opt.reset">🔄 Reiniciar jogo</button>
+        </div>
+      </section>
+
+      <section class="opt-section hidden" id="opt-cloud">
+        <h3 data-i18n="cloud.title">☁️ Conta e sincronização</h3>
+        <div id="cloud-out">
+          <p class="opt-help cloud-help" data-i18n="cloud.intro">Entre para levar seu progresso a outros aparelhos e aparecer no ranking.</p>
+          <label class="create-field"><span data-i18n="cloud.name">Apelido</span>
+            <input type="text" id="cloud-name" maxlength="20" autocomplete="username">
+          </label>
+          <label class="create-field"><span data-i18n="cloud.pass">Senha</span>
+            <input type="password" id="cloud-pass" maxlength="100" autocomplete="current-password">
+          </label>
+          <div class="opt-row">
+            <button type="button" class="pill-btn" id="cloud-login" data-i18n="cloud.login">Entrar</button>
+            <button type="button" class="pill-btn" id="cloud-register" data-i18n="cloud.register">Criar conta</button>
+          </div>
+        </div>
+        <div id="cloud-in" class="hidden">
+          <p id="cloud-who"></p>
+          <div class="opt-row">
+            <button type="button" class="pill-btn" id="cloud-sync" data-i18n="cloud.sync">Sincronizar agora</button>
+            <button type="button" class="pill-btn" id="cloud-ranking" data-i18n="title.ranking">🏆 Ranking</button>
+            <button type="button" class="pill-btn" id="cloud-logout" data-i18n="cloud.logout">Sair da conta</button>
+          </div>
+        </div>
+        <p class="cloud-msg" id="cloud-msg" role="status"></p>
+      </section>
+
+      <section class="opt-section">
+        <h3 data-i18n="opt.dev">Desenvolvedor</h3>
+        <label class="opt-check"><input type="checkbox" id="opt-dev"> <span data-i18n="opt.devon">Ativar modo desenvolvedor</span></label>
+        <p class="opt-help" data-i18n="opt.devhelp">Mostra o botão DEV no topo, com ferramentas para testar o jogo.</p>
+        <div class="opt-row">
+          <button type="button" class="pill-btn hidden" id="btn-open-dev" data-i18n="opt.opendev">🛠 Abrir painel do desenvolvedor</button>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <!-- MODAL: PAINEL DO DESENVOLVEDOR (fundo preto, alto contraste; fica só em português) -->
+  <div id="dev-modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="dev-title">
+    <div class="modal-content dev-content">
+      <button type="button" class="close-btn" data-close="dev-modal" aria-label="Fechar">&times;</button>
+      <h2 id="dev-title">Painel do desenvolvedor</h2>
+      <p class="dev-status" id="dev-status"></p>
+
+      <div class="dev-tabs" role="tablist" aria-label="Seções do painel">
+        <button type="button" role="tab" class="dev-tab active" data-tab="nav" aria-selected="true">Navegar</button>
+        <button type="button" role="tab" class="dev-tab" data-tab="vals" aria-selected="false">Valores</button>
+        <button type="button" role="tab" class="dev-tab" data-tab="test" aria-selected="false">Testar</button>
+        <button type="button" role="tab" class="dev-tab" data-tab="clin" aria-selected="false">Clínica</button>
+        <button type="button" role="tab" class="dev-tab" data-tab="save" aria-selected="false">Save</button>
+      </div>
+
+      <section class="dev-panel" data-panel="nav" role="tabpanel">
+        <div class="dev-row">
+          <div class="dev-what"><strong>Pular consulta</strong><span>Vai para a próxima consulta. A pulada fica com 0 estrelas.</span></div>
+          <button type="button" class="dev-btn" id="dev-skip-appt">Pular</button>
+        </div>
+        <div class="dev-row">
+          <div class="dev-what"><strong>Pular dia</strong><span>Pula as consultas que faltam hoje e vai para o dia seguinte.</span></div>
+          <button type="button" class="dev-btn" id="dev-skip-day">Pular</button>
+        </div>
+        <div class="dev-row">
+          <div class="dev-what"><strong>Concluir semana</strong><span>Termina a semana agora e mostra o resumo final.</span></div>
+          <button type="button" class="dev-btn" id="dev-finish-week">Concluir</button>
+        </div>
+        <div class="dev-row">
+          <div class="dev-what"><strong>Ir para o dia</strong><span>Vai para o dia escolhido e apaga os resultados dele em diante, para jogar de novo.</span></div>
+          <div class="dev-inline">
+            <select id="dev-day" aria-label="Dia da semana"></select>
+            <button type="button" class="dev-btn" id="dev-goto-day">Ir</button>
+          </div>
+        </div>
+        <div class="dev-row">
+          <div class="dev-what"><strong>Refazer consulta</strong><span>Reinicia a consulta em andamento, ou começa a próxima da agenda.</span></div>
+          <button type="button" class="dev-btn" id="dev-redo">Refazer</button>
+        </div>
+      </section>
+
+      <section class="dev-panel hidden" data-panel="vals" role="tabpanel">
+        <div class="dev-row">
+          <div class="dev-what"><strong>Vínculo <span class="dev-val" id="dev-val-vinculo"></span></strong><span>Vale só durante a consulta (0 a 100%).</span></div>
+          <div class="dev-inline">
+            <button type="button" class="dev-btn" data-vinculo="-10">−10</button>
+            <button type="button" class="dev-btn" data-vinculo="10">+10</button>
+          </div>
+        </div>
+        <div class="dev-row">
+          <div class="dev-what"><strong>Energia <span class="dev-val" id="dev-val-energy"></span></strong><span>Cai a cada consulta; abaixo de 30 atrapalha as respostas.</span></div>
+          <div class="dev-inline">
+            <button type="button" class="dev-btn danger" data-energy="-20">−20</button>
+            <button type="button" class="dev-btn" data-energy="20">+20</button>
+          </div>
+        </div>
+        <div class="dev-row">
+          <div class="dev-what"><strong>Moedas <span class="dev-val" id="dev-val-coins"></span></strong><span>Usadas na loja e na dica do manual.</span></div>
+          <div class="dev-inline">
+            <button type="button" class="dev-btn" data-coins="10">+10</button>
+            <button type="button" class="dev-btn" data-coins="50">+50</button>
+            <button type="button" class="dev-btn" data-coins="100">+100</button>
+            <button type="button" class="dev-btn" data-coins="200">+200</button>
+            <button type="button" class="dev-btn danger" data-coins="0">Zerar</button>
+          </div>
+        </div>
+        <div class="dev-row">
+          <div class="dev-what"><strong>XP <span class="dev-val" id="dev-val-xp"></span></strong><span>Sobe o nível: 50, 110 e 160 XP.</span></div>
+          <div class="dev-inline">
+            <button type="button" class="dev-btn" data-xp="10">+10</button>
+            <button type="button" class="dev-btn" data-xp="50">+50</button>
+            <button type="button" class="dev-btn danger" data-xp="0">Zerar</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="dev-panel hidden" data-panel="test" role="tabpanel">
+        <div class="dev-row">
+          <div class="dev-what"><strong>Mostrar resposta ideal</strong><span>Na consulta, marca a melhor opção e mostra quanto cada uma muda o vínculo.</span></div>
+          <label class="dev-switch"><input type="checkbox" id="opt-showbest"> <span>Ligado</span></label>
+        </div>
+        <div class="dev-row">
+          <div class="dev-what"><strong>Mensagens não lidas</strong><span>Faz o indicador vermelho do celular voltar.</span></div>
+          <button type="button" class="dev-btn" id="dev-clear-phone">Marcar</button>
+        </div>
+        <div class="dev-row">
+          <div class="dev-what"><strong>Liberar a loja inteira</strong><span>Deixa todos os itens, expansões e roupas como comprados, sem gastar moedas.</span></div>
+          <button type="button" class="dev-btn" id="dev-unlock-shop">Liberar</button>
+        </div>
+        <div class="dev-row">
+          <div class="dev-what"><strong>Liberar o modo secreto</strong><span>Mostra o botão do modo secreto na tela inicial.</span></div>
+          <button type="button" class="dev-btn" id="dev-secret">Liberar</button>
+        </div>
+      </section>
+
+      <section class="dev-panel hidden" data-panel="clin" role="tabpanel">
+        <p class="dev-status" id="dev-clin-estado"></p>
+        <div class="dev-row">
+          <div class="dev-what"><strong>Abrir uma consulta</strong><span>Entra direto na sessão do paciente escolhido, sem esperar a agenda.</span></div>
+          <div class="dev-inline">
+            <select id="dev-clin-caso" aria-label="Paciente"></select>
+            <select id="dev-clin-sess" aria-label="Número da consulta"></select>
+            <button type="button" class="dev-btn" id="dev-clin-abrir">Abrir</button>
+          </div>
+        </div>
+        <div class="dev-row">
+          <div class="dev-what"><strong>Vínculo do paciente</strong><span>Muda o vínculo e, com ele, a Defesa. Abaixo de 45 as áreas delicadas se fecham.</span></div>
+          <div class="dev-inline">
+            <button type="button" class="dev-btn" data-vinc="10">10%</button>
+            <button type="button" class="dev-btn" data-vinc="50">50%</button>
+            <button type="button" class="dev-btn" data-vinc="85">85%</button>
+          </div>
+        </div>
+        <div class="dev-row">
+          <div class="dev-what"><strong>Eixos da Roda</strong><span>Sobe os 8 eixos para o nível escolhido: é assim que aparecem as intuições da psicóloga.</span></div>
+          <div class="dev-inline">
+            <button type="button" class="dev-btn" data-eixos="0">Zerar</button>
+            <button type="button" class="dev-btn" data-eixos="4">Nível 4</button>
+            <button type="button" class="dev-btn" data-eixos="8">Nível 8</button>
+          </div>
+        </div>
+        <div class="dev-row">
+          <div class="dev-what"><strong>Revelar todos os achados</strong><span>Marca as 12 áreas do paciente atual como investigadas, para ver a ficha cheia e montar o raciocínio.</span></div>
+          <button type="button" class="dev-btn" id="dev-clin-achados">Revelar</button>
+        </div>
+        <div class="dev-row">
+          <div class="dev-what"><strong>Devolver o tempo da sessão</strong><span>Recarrega as perguntas e o relógio da consulta em andamento.</span></div>
+          <button type="button" class="dev-btn" id="dev-clin-tempo">Recarregar</button>
+        </div>
+      </section>
+
+      <section class="dev-panel hidden" data-panel="save" role="tabpanel">
+        <p class="dev-help">O texto abaixo é o save atual. Copie para guardar, ou cole outro e clique em Importar.</p>
+        <textarea id="dev-save" rows="8" spellcheck="false" aria-label="Save do jogo em JSON"></textarea>
+        <div class="dev-inline">
+          <button type="button" class="dev-btn" id="dev-export">Atualizar texto</button>
+          <button type="button" class="dev-btn primary" id="dev-import">Importar</button>
+        </div>
+      </section>
+
+      <p class="dev-msg" id="dev-msg" role="status"></p>
+    </div>
+  </div>
+
+  <!-- MODAL: RANKING -->
+  <div id="ranking-modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="ranking-title">
+    <div class="modal-content">
+      <button type="button" class="close-btn" data-close="ranking-modal" data-i18n-attr="aria-label:close">&times;</button>
+      <h2 id="ranking-title" data-i18n="ranking.title">🏆 Ranking</h2>
+      <p class="opt-help ranking-help" id="ranking-help"></p>
+      <ol class="ranking-list" id="ranking-list"></ol>
+      <p class="ranking-me hidden" id="ranking-me"></p>
+    </div>
+  </div>
+
+  <!-- MODAL: QUAL PROGRESSO MANTER (aparelho x nuvem) -->
+  <div id="cloud-choice-modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="cloud-choice-title">
+    <div class="modal-content">
+      <button type="button" class="close-btn" data-close="cloud-choice-modal" data-i18n-attr="aria-label:close">&times;</button>
+      <h2 id="cloud-choice-title" data-i18n="cloud.choice.title">Qual progresso manter?</h2>
+      <p data-i18n="cloud.choice.text">Este aparelho e a nuvem têm progressos diferentes. Escolha qual deve valer; o outro será substituído.</p>
+      <ul class="cloud-choice-list">
+        <li id="cloud-choice-local"></li>
+        <li id="cloud-choice-cloud"></li>
+      </ul>
+      <div class="opt-row">
+        <button type="button" class="pill-btn" id="cloud-use-local" data-i18n="cloud.choice.local">Manter o deste aparelho</button>
+        <button type="button" class="pill-btn" id="cloud-use-cloud" data-i18n="cloud.choice.cloud">Usar o da nuvem</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- MODAL: UNIVERSIDADE (perguntas do Manual) -->
+  <div id="uni-modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="uni-title">
+    <div class="modal-content">
+      <button type="button" class="close-btn" data-close="uni-modal" data-i18n-attr="aria-label:close">&times;</button>
+      <h2 id="uni-title"></h2>
+      <div id="uni-body"></div>
+    </div>
+  </div>
+
+  <div id="hosp-modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="hosp-title">
+    <div class="modal-content">
+      <button type="button" class="close-btn" data-close="hosp-modal" data-i18n-attr="aria-label:close">&times;</button>
+      <h2 id="hosp-title"></h2>
+      <div id="hosp-body"></div>
+    </div>
+  </div>
+
+  <div id="adopt-modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="adopt-title">
+    <div class="modal-content">
+      <button type="button" class="close-btn" data-close="adopt-modal" data-i18n-attr="aria-label:close">&times;</button>
+      <h2 id="adopt-title" data-i18n="adopt.title">Centro de adoção</h2>
+      <div id="adopt-body"></div>
+    </div>
+  </div>
+
+  <!-- MODAL: APÊNDICE DE PACIENTES -->
+  <div id="appendix-modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="appendix-title">
+    <div class="modal-content appendix-content">
+      <button type="button" class="close-btn" data-close="appendix-modal" data-i18n-attr="aria-label:close">&times;</button>
+      <h2 id="appendix-title" data-i18n="appx.title">📋 Apêndice de pacientes</h2>
+      <p class="opt-help appx-help" data-i18n="appx.help">Todas as pessoas da sua agenda: quem já passou, quem está agora e em que fase a consulta está.</p>
+      <ol class="appx-list" id="appendix-list"></ol>
+    </div>
+  </div>
+
+  <!-- MODAL: AQUÁRIO -->
+  <div id="aq-modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="aq-title">
+    <div class="modal-content">
+      <button type="button" class="close-btn" data-close="aq-modal" data-i18n-attr="aria-label:close">&times;</button>
+      <h2 id="aq-title" data-i18n="home.aq">🐠 Aquário</h2>
+      <div id="aq-body"></div>
+    </div>
+  </div>
+
+  <!-- MODAL: CONQUISTAS -->
+  <div id="ach-modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="ach-title">
+    <div class="modal-content appendix-content">
+      <button type="button" class="close-btn" data-close="ach-modal" data-i18n-attr="aria-label:close">&times;</button>
+      <h2 id="ach-title" data-i18n="home.ach">🏆 Conquistas</h2>
+      <div id="ach-body"></div>
+    </div>
+  </div>
+
+  <!-- MODAL: RODA DO PSICÓLOGO -->
+  <div id="wheel-modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="wheel-title">
+    <div class="modal-content">
+      <button type="button" class="close-btn" data-close="wheel-modal" data-i18n-attr="aria-label:close">&times;</button>
+      <h2 id="wheel-title" data-i18n="wheel.title">🎡 Roda do psicólogo</h2>
+      <div id="wheel-svelte"></div><!-- Svelte: RodaDoPsicologo.svelte; sem o build, vale o #wheel-body abaixo -->
+      <div id="wheel-body" data-legacy-wheel></div>
+    </div>
+  </div>
+
+  <!-- MODAL: ÍNDICE DO JOGO -->
+
+  <!-- LUDOTECA DA MENTE: minijogos -->
+  <div id="mg-modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="mg-title">
+    <div class="modal-content mg-content">
+      <button type="button" class="close-btn" data-close="mg-modal" data-i18n-attr="aria-label:close">&times;</button>
+      <h2 id="mg-title"></h2>
+      <div id="mg-body"></div>
+    </div>
+  </div>
+
+  <!-- EDITAR A PERSONAGEM (clique no ícone dela no topo) -->
+  <div id="char-modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="char-title">
+    <div class="modal-content char-content">
+      <button type="button" class="close-btn" id="char-close" data-i18n-attr="aria-label:close">&times;</button>
+      <h2 id="char-title" data-i18n="char.title">🎭 Minha personagem</h2>
+      <div id="char-host"></div>
+      <div class="char-actions">
+        <button type="button" class="continue-btn" id="char-save" data-i18n="char.save">Salvar</button>
+        <button type="button" class="link-btn" id="char-cancel" data-i18n="char.cancel">Cancelar</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- GUIA DA FAUNA -->
+  <div id="fauna-modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="fauna-title">
+    <div class="modal-content fg-content">
+      <button type="button" class="close-btn" id="fauna-close" data-i18n-attr="aria-label:close">&times;</button>
+      <h2 id="fauna-title" data-i18n="guide.title">🦋 Guia da fauna</h2>
+      <div id="fauna-body"></div>
+    </div>
+  </div>
+
+  <!-- ORGANIZAR A SALA -->
+  <div id="decor-modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="decor-title">
+    <div class="modal-content decor-content">
+      <button type="button" class="close-btn" data-close="decor-modal" data-i18n-attr="aria-label:close">&times;</button>
+      <h2 id="decor-title" data-i18n="decor.title">🪑 Organizar a sala</h2>
+      <div class="shop-tabs" id="decor-tabs" role="tablist"></div>
+      <div class="decor-body">
+        <div class="decor-3d" id="decor-3d"></div>
+        <div class="decor-plan-wrap"><canvas id="decor-plan" aria-label="Planta da sala"></canvas></div>
+      </div>
+      <p id="decor-msg" class="decor-msg"></p>
+      <!-- mover a poltrona do paciente é mover a consulta: o jogo não impede, mas diz o que aquele arranjo faz com a sessão -->
+      <p id="decor-aviso" class="decor-aviso hidden"></p>
+      <div class="decor-tools">
+        <strong id="decor-sel"></strong>
+        <button type="button" class="pill-btn small" id="decor-rot" data-i18n="decor.rotate">↻ Girar</button>
+        <button type="button" class="pill-btn small" id="decor-reset" data-i18n="decor.reset">↺ Posição original</button>
+        <button type="button" class="pill-btn small" id="decor-resetall" data-i18n="decor.resetall">🧹 Restaurar tudo</button>
+        <button type="button" class="continue-btn small" id="decor-done" data-i18n="decor.done">Pronto</button>
+      </div>
+      <div class="decor-chips" id="decor-chips"></div>
+    </div>
+  </div>
+
+  <div id="index-modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="index-title">
+    <div class="modal-content appendix-content">
+      <button type="button" class="close-btn" data-close="index-modal" data-i18n-attr="aria-label:close">&times;</button>
+      <h2 id="index-title" data-i18n="idx.title">🧭 Índice do jogo</h2>
+      <p class="opt-help appx-help" data-i18n="idx.help">Tudo o que dá para fazer, e onde.</p>
+      <ul class="idx-list" id="index-list"></ul>
+    </div>
+  </div>
+
+  <!-- MODAL: LEGENDA DAS BOLINHAS -->
+  <div id="legend-modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="legend-title">
+    <div class="modal-content">
+      <button type="button" class="close-btn" data-close="legend-modal" data-i18n-attr="aria-label:close">&times;</button>
+      <h2 id="legend-title" data-i18n="legend.title">Legenda das bolinhas</h2>
+      <ul class="legend-list">
+        <li><i class="dot dot-pink"></i><div data-i18n-html="legend.anam"></div></li>
+        <li><i class="dot dot-blue"></i><div data-i18n-html="legend.test"></div></li>
+        <li><i class="dot dot-green"></i><div data-i18n-html="legend.dev"></div></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- MODAL: RESULTADO DA SESSÃO -->
+  <div id="result-modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="result-title">
+    <div class="modal-content result-content">
+      <h2 id="result-title"></h2>
+      <div class="stars" id="result-stars" aria-hidden="true"></div>
+      <p id="result-text"></p>
+      <button type="button" class="pill-btn hidden" id="btn-result-debrief" style="margin-bottom:8px"></button>
+      <button type="button" class="continue-btn" id="btn-result-ok" data-i18n="result.back">Voltar à agenda</button>
+    </div>
+  </div>
+
+  <div id="deny-flash" class="deny-flash" aria-hidden="true"></div>
+  <div id="toast" class="toast hidden" role="status" aria-live="polite"></div>
+
+  <!-- TUTORIAL GUIADO DA PRIMEIRA CONSULTA -->
+  <div id="tutor" class="tutor hidden" role="dialog" aria-modal="true" aria-labelledby="tutor-title">
+    <div id="tutor-shade" class="tutor-shade"></div>
+    <div id="tutor-spot" class="tutor-spot"></div>
+    <div id="tutor-card" class="tutor-card" data-pos="bottom">
+      <div class="tutor-title" id="tutor-title"></div>
+      <p id="tutor-text"></p>
+      <div class="tutor-actions">
+        <button type="button" class="pill-btn small" id="tutor-next" data-i18n="tut.next">Continuar ▶</button>
+        <span class="tutor-hint hidden" id="tutor-hint" data-i18n="tut.hint">Toque no destaque para continuar</span>
+        <button type="button" class="link-btn" id="tutor-skip" data-i18n="tut.skip">Pular tutorial</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- DICA DO TUTORIAL -->
+  <aside id="coach" class="coach hidden" role="status" aria-live="polite">
+    <div class="coach-title" id="coach-title"></div>
+    <p id="coach-text"></p>
+    <div class="coach-actions">
+      <button type="button" class="pill-btn small" id="coach-ok" data-i18n="coach.ok">Entendi</button>
+      <button type="button" class="link-btn" id="coach-off" data-i18n="coach.off">Desligar dicas</button>
+    </div>
+  </aside>
+
+  <!-- CARTÃO DE INÍCIO DE DIA -->
+  <div id="daycard" class="daycard hidden" role="status">
+    <div class="daycard-box">
+      <div class="daycard-num" id="daycard-num"></div>
+      <div class="daycard-day" id="daycard-day"></div>
+      <div class="daycard-sub" id="daycard-sub"></div>
+    </div>
+  </div>
+
+  <!-- ANIMAÇÃO DE VIAGEM (ir à loja, voltar para casa...) -->
+  <div id="travel" class="travel hidden" aria-hidden="true">
+    <div class="travel-sky">
+      <div class="travel-city" id="travel-city"></div>
+      <div class="travel-walker" id="travel-walker"></div>
+      <div class="travel-ground"></div>
+    </div>
+    <div class="travel-text" id="travel-text"></div>
+  </div>
+
+  <!-- MODAL: COMO JOGAR -->
+  <div id="help-modal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="help-title">
+    <div class="modal-content help-content">
+      <button type="button" class="close-btn" data-close="help-modal" data-i18n-attr="aria-label:close">&times;</button>
+      <h2 id="help-title" data-i18n="help.title">Como jogar</h2>
+      <p data-i18n="help.intro">Você é um(a) neuropsicólogo(a) em início de carreira. A cada dia, atenda os pacientes da agenda e construa vínculo com eles.</p>
+      <ol class="help-list">
+        <li data-i18n-html="help.l1"></li>
+        <li data-i18n-html="help.l2"></li>
+        <li data-i18n-html="help.l3"></li>
+        <li data-i18n-html="help.l4"></li>
+        <li data-i18n-html="help.l5"></li>
+        <li data-i18n-html="help.l6"></li>
+        <li data-i18n-html="help.l7"></li>
+        <li data-i18n-html="help.l8"></li>
+        <li data-i18n-html="help.l9"></li>
+      </ol>
+      <div class="opt-row">
+        <button type="button" class="pill-btn" id="btn-replay-tips" data-i18n="help.replay">↺ Rever as dicas do tutorial</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="js/i18n/i18n.js"></script>
+  <script src="js/i18n/ui-strings.js"></script>
+  <script src="js/i18n/i18n-extra.js"></script>
+  <script src="js/i18n/i18n-extra2.js"></script>
+  <script src="js/i18n/names-i18n.js"></script>
+  <script src="js/core/changelog.js"></script>
+  <script src="js/core/bugreport.js"></script>
+  <script src="js/core/arrastavel.js"></script>
+  <script src="js/core/money.js"></script>
+  <script src="vendor/three.min.js"></script>
+  <script>
+    // As texturas embutidas em base64 (4,8 MB) só fazem falta quando o jogo é aberto DIRETO DO DISCO
+    // (file://), onde o Chrome recusa carregar imagens locais. Servido por HTTP — que é o caso do site e
+    // do servidor local — os PNG originais carregam normalmente e pesam ~33% menos que o base64.
+    // Quem lê TEX_DATA já cai no caminho do arquivo quando ele não existe.
+    if (location.protocol === "file:") document.write('<script src="assets/tex-data.js"><\/script>');
+  </script>
+  <script src="assets/tex-psi.js"></script>
+  <script src="js/world/aquarium-data.js"></script>
+  <script src="js/render/aquarium3d.js"></script>
+  <script src="js/render/rig.js"></script><!-- a armação articulada: o corpo que anda, senta e deita -->
+  <script src="js/render/scene3d.js"></script>
+  <script src="js/render/furniture.js"></script>
+  <script src="js/render/furniture-lojas.js"></script>
+  <script src="js/game/decor.js"></script>
+  <script src="js/game/faunaguide.js"></script>
+  <script src="js/game/charedit.js"></script>
+  <script src="js/game/minigames.js"></script>
+  <script src="js/game/minijogos-clinicos.js"></script>
+  <script src="js/game/clinic-fsm.js"></script>
+  <script src="js/game/testagem.js"></script>
+  <script src="js/game/rede.js"></script><!-- reunião de rede nos serviços do mapa -->
+  <script src="js/game/defesas.js"></script><!-- morfologia das defesas por quadro: usada pela investigação -->
+  <script src="js/game/escuta.js"></script>
+  <script src="js/game/capsi.js"></script>
+  <script src="js/game/supervisao.js"></script>
+  <script src="js/game/xadrez.js"></script>
+  <script src="js/audio/sound.js"></script>
+  <script src="content/bundle.js"></script>
+  <script src="js/core/content-loader.js"></script>
+  <script src="js/game/pins.js"></script>
+  <script src="js/game/player.js"></script>
+  <script src="js/core/retrato.js"></script>
+  <script src="js/core/app-core.js"></script>
+  <script src="js/game/followup.js"></script>
+  <script src="js/world/town.js"></script>
+  <script src="js/game/phone.js"></script>
+  <script src="js/game/wheel.js"></script>
+  <script src="js/world/life.js"></script>
+  <script src="js/world/culture.js"></script>
+  <script src="js/world/places.js"></script>
+  <script src="js/world/zoo.js"></script>
+  <script src="js/world/aquarium.js"></script>
+  <script src="js/game/app-shop.js"></script>
+  <script src="js/game/sensivel.js"></script>
+  <script src="js/game/dxlab.js"></script>
+  <script src="js/game/psicodx.js"></script>
+  <script src="js/game/risco.js"></script>
+  <script src="js/game/terapia.js"></script>
+  <script src="js/game/gerador.js"></script>
+  <script src="js/game/carreira.js"></script>
+  <script src="js/game/eventos.js"></script>
+  <script src="js/game/dicas.js"></script>
+  <script src="js/game/quests.js"></script>
+  <script src="js/game/missoes.js"></script>
+  <script src="js/game/activities.js"></script>
+  <script src="js/game/atividades-novas.js"></script>
+  <script src="js/game/activities-esportes.js"></script>
+  <script src="js/game/app-play.js"></script>
+  <script src="js/game/app-extras.js"></script>
+  <script src="js/core/emoji-chip.js"></script>
+  <script src="js/world/city-icons.js"></script>
+  <script src="js/world/city-art.js"></script>
+  <script src="js/world/fauna.js"></script>
+  <script src="js/world/nature.js"></script>
+  <script src="js/world/city.js"></script>
+  <script src="js/core/tutorial.js"></script>
+  <script src="config.js"></script>
+  <script src="js/core/perf.js"></script>
+  <script src="js/core/sync.js"></script>
+  <script src="js/app.js"></script>
+  <div id="svelte-root" hidden></div>
+</body>
+</html>

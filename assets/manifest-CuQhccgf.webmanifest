@@ -1,0 +1,16 @@
+{
+  "name": "NeuroClin Games",
+  "short_name": "NeuroClin",
+  "description": "Simulador clínico educativo: atenda pacientes, explore a cidade e aprenda psicologia.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#15131f",
+  "theme_color": "#15131f",
+  "lang": "pt-BR",
+  "icons": [
+    { "src": "assets/app-icon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any" },
+    { "src": "assets/app-icon-maskable.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "maskable" }
+  ]
+}

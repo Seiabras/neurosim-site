@@ -1,0 +1,502 @@
+{
+  "name": {
+    "pt": "Rafael Duarte",
+    "en": "Rafael Duarte",
+    "es": "Rafael Duarte"
+  },
+  "age": {
+    "pt": "27 anos",
+    "en": "27 years old",
+    "es": "27 años"
+  },
+  "complaint": {
+    "pt": "Crises de falta de ar e coração disparado, e medo de ter outra.",
+    "en": "Attacks of breathlessness and racing heart, and fear of having another.",
+    "es": "Crisis de falta de aire y corazón acelerado, y miedo de tener otra."
+  },
+  "history": {
+    "pt": "Desenvolvedor de software. Foi ao pronto-socorro duas vezes e os exames deram normais. Passou a evitar metrô e reuniões.",
+    "en": "Software developer. Went to the ER twice and tests were normal. Started avoiding the subway and meetings.",
+    "es": "Desarrollador de software. Fue dos veces a urgencias y los exámenes dieron normales. Empezó a evitar el metro y las reuniones."
+  },
+  "image": "assets/char-rafael.png",
+  "parent": null,
+  "dot": "dot-pink",
+  "group": "ansiedade",
+  "type": {
+    "pt": "1ª Sessão: Anamnese",
+    "en": "1st session: intake interview",
+    "es": "1.ª sesión: anamnesis"
+  },
+  "info": {
+    "pt": "Adulto jovem com crises súbitas de ansiedade intensa e evitação crescente. Primeira sessão.",
+    "en": "Young adult with sudden intense anxiety attacks and growing avoidance. First session.",
+    "es": "Adulto joven con crisis súbitas de ansiedad intensa y evitación creciente. Primera sesión."
+  },
+  "message": {
+    "from": {
+      "pt": "Rafael Duarte (WhatsApp)",
+      "en": "Rafael Duarte (WhatsApp)",
+      "es": "Rafael Duarte (WhatsApp)"
+    },
+    "text": {
+      "pt": "Oi. Achei que estava tendo um infarto. Os médicos falaram que é ansiedade, mas eu não acredito. Dá para me ajudar?",
+      "en": "Hi. I thought I was having a heart attack. Doctors said it is anxiety, but I don't believe it. Can you help me?",
+      "es": "Hola. Pensé que estaba teniendo un infarto. Los médicos dijeron que es ansiedad, pero no lo creo. ¿Puedes ayudarme?"
+    }
+  },
+  "fit": {
+    "tcc": 4,
+    "psicoeducacao": 3,
+    "acolhimento": 3,
+    "comportamental": 3,
+    "psicodinamica": 1,
+    "diretiva": 0
+  },
+  "why": {
+    "tcc": {
+      "pt": "No pânico, a TCC trabalha a interpretação catastrófica das sensações do corpo e a exposição gradual: é o tratamento com mais evidência.",
+      "en": "In panic, CBT works on catastrophic interpretation of bodily sensations and graded exposure: it has the strongest evidence.",
+      "es": "En el pánico, la TCC trabaja la interpretación catastrófica de las sensaciones del cuerpo y la exposición gradual: es el tratamiento con más evidencia."
+    },
+    "psicoeducacao": {
+      "pt": "Explicar o ciclo do pânico (sensação, medo, mais sensação) reduz o medo do próprio corpo e dá sentido às crises.",
+      "en": "Explaining the panic cycle (sensation, fear, more sensation) reduces fear of one's own body and makes sense of the attacks.",
+      "es": "Explicar el ciclo del pánico (sensación, miedo, más sensación) reduce el miedo al propio cuerpo y da sentido a las crisis."
+    },
+    "acolhimento": {
+      "pt": "Validar o susto real que ele sentiu cria confiança; ele chega sem acreditar no diagnóstico e precisa se sentir levado a sério.",
+      "en": "Validating the real fright he felt builds trust; he arrives disbelieving the diagnosis and needs to feel taken seriously.",
+      "es": "Validar el susto real que sintió crea confianza; llega sin creer en el diagnóstico y necesita sentirse tomado en serio."
+    },
+    "comportamental": {
+      "pt": "Registrar as crises e praticar respiração e exposição gradual ajuda, desde que ele entenda o porquê.",
+      "en": "Logging attacks and practicing breathing and graded exposure helps, as long as he understands why.",
+      "es": "Registrar las crisis y practicar respiración y exposición gradual ayuda, siempre que entienda el porqué."
+    },
+    "psicodinamica": {
+      "pt": "Entender o que estava acontecendo na vida dele antes das crises tem valor, mas o sintoma agudo pede primeiro manejo e informação.",
+      "en": "Understanding what was happening in his life before the attacks has value, but the acute symptom first calls for management and information.",
+      "es": "Entender qué pasaba en su vida antes de las crisis tiene valor, pero el síntoma agudo pide primero manejo e información."
+    }
+  },
+  "steps": [
+    {
+      "who": "patient",
+      "text": {
+        "pt": "'Eu senti que ia morrer. O coração parecia sair do peito. Os exames deram normais, então eu só fico pensando: e se eles erraram?'",
+        "en": "'I felt I was going to die. My heart felt like it was leaving my chest. Tests were normal, so I just keep thinking: what if they got it wrong?'",
+        "es": "'Sentí que me iba a morir. El corazón parecía salirse del pecho. Los exámenes dieron normales, así que solo pienso: ¿y si se equivocaron?'"
+      },
+      "note": {
+        "pt": "Crise súbita com medo de morrer; exames normais; preocupação de que 'erraram'.",
+        "en": "Sudden attack with fear of dying; normal tests; worry that 'they got it wrong'.",
+        "es": "Crisis súbita con miedo a morir; exámenes normales; preocupación de que 'se equivocaron'."
+      },
+      "mods": {
+        "acolhimento": 1
+      },
+      "options": {
+        "acolhimento": {
+          "pt": "Deve ter sido assustador. Eu levo a sua experiência a sério. Pode me contar como foi, do começo ao fim?",
+          "en": "That must have been frightening. I take your experience seriously. Can you tell me how it went, from start to finish?",
+          "es": "Debe haber sido aterrador. Me tomo en serio tu experiencia. ¿Puedes contarme cómo fue, de principio a fin?"
+        },
+        "psicoeducacao": {
+          "pt": "Isso é bem típico de uma crise de pânico: o corpo dispara o alarme sem perigo real. Posso explicar como isso funciona?",
+          "en": "This is quite typical of a panic attack: the body sets off the alarm without real danger. May I explain how it works?",
+          "es": "Esto es bien típico de una crisis de pánico: el cuerpo dispara la alarma sin peligro real. ¿Puedo explicarte cómo funciona?"
+        },
+        "tcc": {
+          "pt": "Quando o coração dispara, que pensamento vem primeiro? E qual a sensação no corpo logo antes?",
+          "en": "When your heart races, what thought comes first? And what is the body sensation right before?",
+          "es": "Cuando el corazón se acelera, ¿qué pensamiento viene primero? ¿Y qué sensación hay en el cuerpo justo antes?"
+        },
+        "diretiva": {
+          "pt": "Se os exames deram normais, seu coração está bem. É só relaxar e não pensar mais nisso.",
+          "en": "If the tests were normal, your heart is fine. Just relax and stop thinking about it.",
+          "es": "Si los exámenes dieron normales, tu corazón está bien. Solo relájate y no pienses más en eso."
+        }
+      },
+      "variants": [
+        {
+          "pt": "'Senti que ia morrer. O coração parecia sair do peito. Os exames deram normais, então eu só fico pensando: e se eles erraram?'",
+          "en": "'I felt like I was going to die. My heart felt like it would leave my chest. The tests came back normal, so I just keep wondering: what if they got it wrong?'",
+          "es": "'Sentí que me iba a morir. El corazón parecía salirse del pecho. Los exámenes salieron normales, así que solo pienso: ¿y si se equivocaron?'"
+        },
+        {
+          "pt": "'Foi como se eu fosse morrer ali. O coração disparou. Fiz todos os exames, deram normais, mas eu não paro de pensar que podem ter errado.'",
+          "en": "'It was as if I was going to die right there. My heart raced. I did all the tests, they were normal, but I can't stop thinking they may have gotten it wrong.'",
+          "es": "'Fue como si me fuera a morir ahí mismo. El corazón se disparó. Hice todos los exámenes, salieron normales, pero no dejo de pensar que pudieron equivocarse.'"
+        }
+      ]
+    },
+    {
+      "who": "patient",
+      "text": {
+        "pt": "'Agora eu evito o metrô, evito reunião, evito até academia. Se sinto o coração acelerar, saio na hora. Não posso passar por aquilo de novo.'",
+        "en": "'Now I avoid the subway, avoid meetings, even the gym. If I feel my heart speed up, I leave right away. I can't go through that again.'",
+        "es": "'Ahora evito el metro, evito reuniones, evito hasta el gimnasio. Si siento el corazón acelerarse, me voy al instante. No puedo pasar por eso de nuevo.'"
+      },
+      "note": {
+        "pt": "Evitação crescente de metrô, reuniões e academia; foge ao primeiro sinal.",
+        "en": "Growing avoidance of subway, meetings and gym; escapes at the first sign.",
+        "es": "Evitación creciente de metro, reuniones y gimnasio; huye a la primera señal."
+      },
+      "mods": {
+        "tcc": 1,
+        "comportamental": 1,
+        "psicodinamica": -1
+      },
+      "options": {
+        "tcc": {
+          "pt": "Sair alivia agora, mas ensina ao cérebro que havia perigo. Que tal montar uma escada de situações, da mais fácil à mais difícil?",
+          "en": "Leaving relieves you now but teaches the brain there was danger. How about building a ladder of situations, easiest to hardest?",
+          "es": "Salir alivia ahora, pero le enseña al cerebro que había peligro. ¿Qué tal armar una escalera de situaciones, de la más fácil a la más difícil?"
+        },
+        "comportamental": {
+          "pt": "Vamos registrar cada crise: onde estava, o que sentiu e quanto durou. E treinar uma respiração lenta para usar no momento.",
+          "en": "Let's log each attack: where you were, what you felt and how long it lasted. And practice slow breathing to use in the moment.",
+          "es": "Registremos cada crisis: dónde estabas, qué sentiste y cuánto duró. Y practiquemos una respiración lenta para usar en el momento."
+        },
+        "acolhimento": {
+          "pt": "Faz sentido querer se proteger depois de um susto assim. O que mais tem pesado na sua vida por causa disso? Acho que ajuda bastante.",
+          "en": "It makes sense to want to protect yourself after such a scare. What else has weighed on your life because of this? I think it helps a lot.",
+          "es": "Tiene sentido querer protegerte después de un susto así. ¿Qué más ha pesado en tu vida por esto? Creo que ayuda bastante."
+        },
+        "diretiva": {
+          "pt": "Volte ao metrô já amanhã e encare de uma vez, sem sair no meio da viagem: isso resolve mais rápido.",
+          "en": "Go back on the subway tomorrow and face it at once, without leaving mid-trip: this resolves it faster.",
+          "es": "Vuelva al metro mañana mismo y enfréntelo de una vez, sin bajarse a mitad del viaje: esto resuelve más rápido."
+        }
+      },
+      "variants": [
+        {
+          "pt": "'Hoje eu fujo do metrô, de reuniões e até da academia. Se o coração dispara, eu saio na hora. Não quero passar por aquilo de novo.'",
+          "en": "'Today I steer clear of the subway, meetings and even the gym. If my heart races, I leave immediately. I don't want to go through that again.'",
+          "es": "'Hoy esquivo el metro, las reuniones y hasta el gimnasio. Si el corazón se dispara, me voy en el acto. No quiero pasar por eso otra vez.'"
+        },
+        {
+          "pt": "'Hoje fujo do metrô, das reuniões e até da academia. Quando o coração acelera eu saio na hora. Não quero viver aquilo outra vez.'",
+          "en": "'Today I avoid the subway, meetings and even the gym. When my heart speeds up I leave immediately. I don't want to live through that again.'",
+          "es": "'Hoy huyo del metro, de las reuniones y hasta del gimnasio. Cuando el corazón se acelera me voy enseguida. No quiero vivir eso otra vez.'"
+        }
+      ]
+    },
+    {
+      "who": "patient",
+      "text": {
+        "pt": "'Então quer dizer que não é o meu coração? É... só o medo?'",
+        "en": "'So you mean it's not my heart? It's... just fear?'",
+        "es": "'¿Entonces no es mi corazón? ¿Es... solo el miedo?'"
+      },
+      "note": {
+        "pt": "Começa a considerar que os sintomas são de ansiedade.",
+        "en": "Starts to consider that the symptoms are anxiety.",
+        "es": "Empieza a considerar que los síntomas son de ansiedad."
+      },
+      "mods": {
+        "psicoeducacao": 2,
+        "tcc": 0,
+        "acolhimento": 0
+      },
+      "options": {
+        "psicoeducacao": {
+          "pt": "O medo é real e o corpo sente de verdade, mas o coração está saudável. A crise passa em minutos e há treino para reduzi-la.",
+          "en": "The fear is real and the body truly feels it, but your heart is healthy. The attack passes in minutes and there is training to reduce it.",
+          "es": "El miedo es real y el cuerpo lo siente de verdad, pero tu corazón está sano. La crisis pasa en minutos y hay entrenamiento para reducirla."
+        },
+        "tcc": {
+          "pt": "Que tal testar isso na prática? Provocar de leve uma sensação, como subir escadas, e observar que o corpo se recupera.",
+          "en": "How about testing it in practice? Mildly bring on a sensation, like climbing stairs, and observe that the body recovers.",
+          "es": "¿Qué tal probarlo en la práctica? Provocar levemente una sensación, como subir escaleras, y observar que el cuerpo se recupera."
+        },
+        "acolhimento": {
+          "pt": "Mudar essa ideia não é fácil, e você está indo com coragem. Como você se sente ao ouvir isso?",
+          "en": "Changing this idea is not easy, and you are doing it with courage. How do you feel hearing this?",
+          "es": "Cambiar esta idea no es fácil y lo estás haciendo con valentía. ¿Cómo te sientes al escuchar esto?"
+        },
+        "diretiva": {
+          "pt": "Sim, é o medo do medo. Com força de vontade, você volta à sua rotina normal em pouco tempo.",
+          "en": "Yes, it's the fear of fear. With willpower, you will be back to your normal routine soon.",
+          "es": "Sí, es el miedo al miedo. Con fuerza de voluntad, volverás a tu rutina normal en poco tiempo."
+        }
+      },
+      "variants": [
+        {
+          "pt": "'Então o meu coração está bem? Era só medo, o tempo todo?'",
+          "en": "'So my heart is fine? It was only fear, all along?'",
+          "es": "'¿Entonces mi corazón está bien? ¿Era solo miedo, todo el tiempo?'"
+        },
+        {
+          "pt": "'Quer dizer que meu coração está bem? Era só o medo o tempo todo?'",
+          "en": "'Does that mean my heart is fine? It was just fear all along?'",
+          "es": "'¿Quiere decir que mi corazón está bien? ¿Era solo el miedo todo el tiempo?'"
+        }
+      ]
+    },
+    {
+      "who": "patient",
+      "text": {
+        "pt": "'Se eu tiver uma crise no caminho de volta, o que eu faço?'",
+        "en": "'If I have an attack on the way back, what do I do?'",
+        "es": "'Si tengo una crisis en el camino de vuelta, ¿qué hago?'"
+      },
+      "note": {
+        "pt": "Pede um plano concreto para lidar com uma crise fora do consultório.",
+        "en": "Asks for a concrete plan to handle an attack outside the office.",
+        "es": "Pide un plan concreto para manejar una crisis fuera del consultorio."
+      },
+      "mods": {
+        "acolhimento": -1
+      },
+      "options": {
+        "tcc": {
+          "pt": "Lembre do ciclo: sensação, susto, mais sensação. Respire devagar, diga que é pânico e que passa em minutos, e fique no lugar até baixar.",
+          "en": "Remember the cycle: sensation, fright, more sensation. Breathe slowly, tell yourself it's panic and passes in minutes, and stay until it eases.",
+          "es": "Recuerda el ciclo: sensación, susto, más sensación. Respira despacio, dite que es pánico y que pasa en minutos, y quédate hasta que baje."
+        },
+        "comportamental": {
+          "pt": "Vamos ensaiar agora a respiração lenta, contando 4 tempos para inspirar e 6 para soltar, para você ter em mãos o que fazer. É simples o bastante para lembrar no meio do pânico.",
+          "en": "Let's rehearse slow breathing now, counting 4 in and 6 out, so you have something to do at hand. It's simple enough to remember in the middle of the panic.",
+          "es": "Ensayemos ahora la respiración lenta, contando 4 para inspirar y 6 para soltar, para que tengas algo que hacer a mano. Es lo bastante simple para recordarlo en medio del pánico."
+        },
+        "acolhimento": {
+          "pt": "Pode me ligar se precisar. Estarei disponível hoje à noite e amanhã cedo, para você se sentir mais seguro. Saber que tem para quem ligar já muda a noite.",
+          "en": "You can call me if you need to. I'll be available tonight and tomorrow morning so you feel safer. Knowing there's someone to call already changes the night.",
+          "es": "Puedes llamarme si lo necesitas. Estaré disponible esta noche y mañana temprano, para que te sientas más seguro. Saber que hay a quién llamar ya cambia la noche."
+        },
+        "diretiva": {
+          "pt": "Prefira ir de carro hoje e evitar o metrô até a próxima sessão. Assim você não corre o risco de passar mal.",
+          "en": "Better to go by car today and avoid the subway until the next session. That way you don't risk feeling ill.",
+          "es": "Mejor ve en auto hoy y evita el metro hasta la próxima sesión. Así no corres el riesgo de sentirte mal."
+        }
+      },
+      "variants": [
+        {
+          "pt": "'E se a crise aparecer quando eu estiver voltando para casa? Qual é o plano?'",
+          "en": "'And if the attack shows up while I'm heading home? What's the plan?'",
+          "es": "'¿Y si la crisis aparece cuando esté volviendo a casa? ¿Cuál es el plan?'"
+        },
+        {
+          "pt": "'E se a crise vier quando eu estiver indo embora? O que eu faço nessa hora?'",
+          "en": "'And if the attack comes as I'm leaving? What do I do then?'",
+          "es": "'¿Y si la crisis llega cuando me esté yendo? ¿Qué hago en ese momento?'"
+        }
+      ]
+    }
+  ],
+  "diagnosis": {
+    "answer": "panico",
+    "options": [
+      "panico",
+      "tag",
+      "agorafobia",
+      "sintomas-somaticos"
+    ],
+    "why": {
+      "pt": "Crises súbitas com medo de morrer, sintomas físicos intensos e medo persistente de novas crises, com evitação, definem o transtorno de pânico. A agorafobia pode se somar depois, se a evitação crescer.",
+      "en": "Sudden attacks with fear of dying, intense physical symptoms and persistent fear of new attacks, with avoidance, define panic disorder. Agoraphobia may be added later if avoidance grows.",
+      "es": "Las crisis súbitas con miedo a morir, síntomas físicos intensos y miedo persistente a nuevas crisis, con evitación, definen el trastorno de pánico. La agorafobia puede sumarse después, si la evitación crece."
+    }
+  },
+  "voice": {
+    "intro": {
+      "pt": "(senta rápido, olhando o relógio) 'Rafael, 27. Olha, os exames deram normais e mesmo assim eu tive uma crise que parecia infarto. Preciso entender o que tá acontecendo comigo.'",
+      "en": "(sits quickly, checking his watch) 'Rafael, 27. Look, my tests came back normal and I still had an attack that felt like a heart attack. I need to understand what's happening to me.'",
+      "es": "(se sienta rápido, mirando el reloj) 'Rafael, 27. Mira, los exámenes salieron normales y aun así tuve una crisis que parecía infarto. Necesito entender qué me pasa.'"
+    },
+    "pre": [
+      {
+        "pt": "Deixa eu ser objetivo:",
+        "en": "Let me be straightforward:",
+        "es": "Voy a ser objetivo:"
+      },
+      {
+        "pt": "Tecnicamente...",
+        "en": "Technically...",
+        "es": "Técnicamente..."
+      }
+    ],
+    "post": {
+      "pt": "Faz sentido isso?",
+      "en": "Does that make sense?",
+      "es": "¿Tiene sentido esto?"
+    },
+    "ref": [
+      {
+        "pt": "Tive outra crise no metrô e desci na primeira estação.",
+        "en": "I had another attack on the subway and got off at the first station.",
+        "es": "Tuve otra crisis en el metro y bajé en la primera estación."
+      },
+      {
+        "pt": "Fiquei uma semana sem café e a crise veio mais fraca.",
+        "en": "I went a week without coffee and the attack came weaker.",
+        "es": "Pasé una semana sin café y la crisis vino más débil."
+      },
+      {
+        "pt": "Fui até o trabalho de metrô. Senti o coração acelerar e fiquei... e passou.",
+        "en": "I took the subway to work. I felt my heart race and I stayed... and it passed.",
+        "es": "Fui al trabajo en metro. Sentí el corazón acelerar y me quedé... y pasó."
+      }
+    ],
+    "hookA": {
+      "pt": "Quando o coração acelera, o que você diz para si mesmo?",
+      "en": "When your heart races, what do you tell yourself?",
+      "es": "Cuando el corazón se acelera, ¿qué te dices a ti mismo?"
+    },
+    "hookB": {
+      "pt": "Vamos praticar a respiração e a exposição gradual ao metrô com um plano por etapas?",
+      "en": "Shall we practice breathing and gradual subway exposure with a step-by-step plan?",
+      "es": "¿Practicamos la respiración y la exposición gradual al metro con un plan por etapas?"
+    },
+    "sessoes": {
+      "s3": [
+        {
+          "pt": "'Tive uma no metrô na terça. (mexe no relógio) Desci duas estações antes e fui a pé. Agora eu saio de casa quarenta minutos mais cedo pra poder ir andando se precisar.'",
+          "en": "'I had one on the underground on Tuesday. (fiddles with his watch) I got off two stops early and walked. Now I leave home forty minutes earlier so I can walk if I need to.'",
+          "es": "'I had one on the underground on Tuesday. (fiddles with his watch) I got off two stops early and walked. Now I leave home forty minutes earlier so I can walk if I need to.'"
+        },
+        {
+          "pt": "'Fiz os exames todos que o clínico pediu. Coração perfeito. (ri sem graça) E eu li o resultado e continuei achando que os médicos não viram alguma coisa.'",
+          "en": "'I did every test the GP asked for. Heart perfect. (laughs awkwardly) And I read the result and still thought the doctors had missed something.'",
+          "es": "'I did every test the GP asked for. Heart perfect. (laughs awkwardly) And I read the result and still thought the doctors had missed something.'"
+        }
+      ],
+      "s4": [
+        {
+          "pt": "'Eu fiz a conta que a senhora mandou. (tira um papel do bolso) Em oito meses foram onze crises. Nenhuma me matou. Onze de onze. Escrito assim é difícil de discutir.'",
+          "en": "'I did the maths you asked for. (pulls a paper from his pocket) In eight months, eleven attacks. None of them killed me. Eleven out of eleven. Written down like that, it's hard to argue with.'",
+          "es": "'I did the maths you asked for. (pulls a paper from his pocket) In eight months, eleven attacks. None of them killed me. Eleven out of eleven. Written down like that, it's hard to argue with.'"
+        },
+        {
+          "pt": "'Sexta eu fiquei no vagão. (a mão ainda treme um pouco) Passei mal, achei que ia morrer igual sempre, e fiquei. Desci no ponto certo. Foi a coisa mais difícil que eu fiz esse ano.'",
+          "en": "'On Friday I stayed in the carriage. (his hand still shakes a little) I felt awful, I thought I'd die like always, and I stayed. I got off at the right stop. It was the hardest thing I've done this year.'",
+          "es": "'On Friday I stayed in the carriage. (his hand still shakes a little) I felt awful, I thought I'd die like always, and I stayed. I got off at the right stop. It was the hardest thing I've done this year.'"
+        }
+      ]
+    },
+    "fecho": {
+      "s2": {
+        "pt": "(olha o relógio de novo) 'Quanto tempo isso leva pra passar? Me dá um número. Eu preciso de um número.'",
+        "en": "(checks his watch again) 'How long does this take to go away? Give me a number. I need a number.'",
+        "es": "(checks his watch again) 'How long does this take to go away? Give me a number. I need a number.'"
+      },
+      "s3": {
+        "pt": "'Eu trouxe o papel do exame de novo. (ri de si mesmo) Eu sei que não precisa. Eu trouxe do mesmo jeito.'",
+        "en": "'I brought the test results again. (laughs at himself) I know I don't need to. I brought them anyway.'",
+        "es": "'I brought the test results again. (laughs at himself) I know I don't need to. I brought them anyway.'"
+      },
+      "s4": {
+        "pt": "'Onze de onze.' (dobra o papel e guarda no bolso, com cuidado) 'Vou repetir isso na próxima vez que acontecer.'",
+        "en": "'Eleven out of eleven.' (folds the paper and puts it in his pocket, carefully) 'I'll repeat that the next time it happens.'",
+        "es": "'Eleven out of eleven.' (folds the paper and puts it in his pocket, carefully) 'I'll repeat that the next time it happens.'"
+      }
+    },
+    "opcoes": {
+      "s3": [
+        {
+          "acolhimento": {
+            "pt": "Quarenta minutos mais cedo, todo dia, para o caso de precisar ir a pé. Isso é muito cansaço para carregar calado.",
+            "en": "Forty minutes earlier, every day, just in case you need to walk. That is a lot of exhaustion to carry in silence.",
+            "es": "Forty minutes earlier, every day, just in case you need to walk. That is a lot of exhaustion to carry in silence."
+          },
+          "tcc": {
+            "pt": "Descer duas estações antes te deu alívio na hora. E na terça seguinte, ficou mais fácil ou mais difícil entrar no metrô?",
+            "en": "Getting off two stops early gave you relief in the moment. And the following Tuesday, was it easier or harder to get on the train?",
+            "es": "Getting off two stops early gave you relief in the moment. And the following Tuesday, was it easier or harder to get on the train?"
+          },
+          "psicoeducacao": {
+            "pt": "Cada volta a pé ensina ao seu corpo que o metrô era mesmo perigoso. É assim que o pânico vira agorafobia, sem ninguém decidir isso.",
+            "en": "Each walk home teaches your body that the train really was dangerous. That is how panic becomes agoraphobia, without anyone deciding it.",
+            "es": "Each walk home teaches your body that the train really was dangerous. That is how panic becomes agoraphobia, without anyone deciding it."
+          },
+          "diretiva": {
+            "pt": "A evitação é o que a gente vai atacar primeiro. Não é o coração: é o caminho que você deixou de fazer.",
+            "en": "Avoidance is what we will tackle first. It is not the heart: it is the route you stopped taking.",
+            "es": "Avoidance is what we will tackle first. It is not the heart: it is the route you stopped taking."
+          }
+        },
+        {
+          "acolhimento": {
+            "pt": "Coração perfeito no papel e a dúvida continua. Eu sei que ler aquilo não acalmou.",
+            "en": "A perfect heart on paper and the doubt remains. I know reading it did not calm you.",
+            "es": "A perfect heart on paper and the doubt remains. I know reading it did not calm you."
+          },
+          "tcc": {
+            "pt": "Se aparecesse um exame novo amanhã, quanto tempo a tranquilidade duraria? É essa conta que interessa.",
+            "en": "If a new test appeared tomorrow, how long would the calm last? That is the calculation that matters.",
+            "es": "If a new test appeared tomorrow, how long would the calm last? That is the calculation that matters."
+          },
+          "psicoeducacao": {
+            "pt": "Reasseguramento não resolve pânico: alimenta. Cada exame normal compra algumas horas e cobra o próximo.",
+            "en": "Reassurance does not solve panic: it feeds it. Each normal test buys a few hours and charges you the next one.",
+            "es": "Reassurance does not solve panic: it feeds it. Each normal test buys a few hours and charges you the next one."
+          },
+          "diretiva": {
+            "pt": "Sem exames novos a partir de agora. Se vier a dúvida, ela é material para a nossa sessão, não para o laboratório.",
+            "en": "No new tests from now on. If the doubt comes, it is material for our session, not for the lab.",
+            "es": "No new tests from now on. If the doubt comes, it is material for our session, not for the lab."
+          }
+        }
+      ],
+      "s4": [
+        {
+          "acolhimento": {
+            "pt": "Onze de onze. Você escreveu isso com a sua letra — é a sua prova, não a minha.",
+            "en": "Eleven out of eleven. You wrote that in your own hand — it is your proof, not mine.",
+            "es": "Eleven out of eleven. You wrote that in your own hand — it is your proof, not mine."
+          },
+          "tcc": {
+            "pt": "Então da próxima vez que vier a certeza de que vai morrer, o que a gente responde para ela?",
+            "en": "So next time the certainty of dying comes, what do we answer it with?",
+            "es": "So next time the certainty of dying comes, what do we answer it with?"
+          },
+          "psicoeducacao": {
+            "pt": "É assim que o medo perde força: não com alguém te dizendo que passa, mas com o seu próprio registro mostrando.",
+            "en": "That is how fear loses its grip: not with someone telling you it passes, but with your own record showing it.",
+            "es": "That is how fear loses its grip: not with someone telling you it passes, but with your own record showing it."
+          },
+          "diretiva": {
+            "pt": "Esse papel anda no bolso a partir de hoje. É ele que responde na hora da crise.",
+            "en": "That paper goes in your pocket from today. It is what answers during the attack.",
+            "es": "That paper goes in your pocket from today. It is what answers during the attack."
+          }
+        },
+        {
+          "acolhimento": {
+            "pt": "Você passou mal e ficou. É a coisa mais difícil, e você fez.",
+            "en": "You felt awful and you stayed. It is the hardest thing, and you did it.",
+            "es": "You felt awful and you stayed. It is the hardest thing, and you did it."
+          },
+          "tcc": {
+            "pt": "E no ponto certo, o que aconteceu com o medo? Ele sumiu de uma vez ou foi cedendo?",
+            "en": "And at the right stop, what happened to the fear? Did it vanish at once or did it ease off?",
+            "es": "And at the right stop, what happened to the fear? Did it vanish at once or did it ease off?"
+          },
+          "psicoeducacao": {
+            "pt": "É exatamente isso a exposição: não é deixar de sentir, é deixar de fugir. Sentir e ficar é o que ensina o corpo.",
+            "en": "That is exactly what exposure is: not to stop feeling, but to stop fleeing. Feeling and staying is what teaches the body.",
+            "es": "That is exactly what exposure is: not to stop feeling, but to stop fleeing. Feeling and staying is what teaches the body."
+          },
+          "diretiva": {
+            "pt": "Semana que vem, o mesmo trajeto, no mesmo horário. Uma vez só, e eu quero saber como foi.",
+            "en": "Next week, the same route, at the same time. Just once, and I want to hear how it went.",
+            "es": "Next week, the same route, at the same time. Just once, and I want to hear how it went."
+          }
+        }
+      ]
+    }
+  },
+  "look": {
+    "skin": "#d9ae82",
+    "hair": "#1d1a26",
+    "top": "#8fa6bd",
+    "acc": "glasses",
+    "eyeShape": "round",
+    "brow": "soft",
+    "mouth": "neutral",
+    "rosto": "assets/rosto-rafael.png",
+    "corpo": "m"
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "approaches": {
+    "acolhimento": {
+      "icon": "🤝",
+      "color": "#e2478a",
+      "name": {
+        "pt": "Acolhimento",
+        "en": "Supportive",
+        "es": "Acogida"
+      },
+      "manual": "ap-acolhimento"
+    },
+    "tcc": {
+      "icon": "🧠",
+      "color": "#1f66d6",
+      "name": {
+        "pt": "TCC",
+        "en": "CBT",
+        "es": "TCC"
+      },
+      "manual": "ap-tcc"
+    },
+    "psicodinamica": {
+      "icon": "🌀",
+      "color": "#8b5fbf",
+      "name": {
+        "pt": "Psicodinâmica",
+        "en": "Psychodynamic",
+        "es": "Psicodinámica"
+      },
+      "manual": "ap-psicodinamica"
+    },
+    "psicoeducacao": {
+      "icon": "📘",
+      "color": "#1f9d6b",
+      "name": {
+        "pt": "Psicoeducação",
+        "en": "Psychoeducation",
+        "es": "Psicoeducación"
+      },
+      "manual": "ap-psicoeducacao"
+    },
+    "comportamental": {
+      "icon": "🧸",
+      "color": "#d9821f",
+      "name": {
+        "pt": "Comportamental / lúdica",
+        "en": "Behavioral / play",
+        "es": "Conductual / lúdica"
+      },
+      "manual": "ap-comportamental"
+    },
+    "diretiva": {
+      "icon": "📢",
+      "color": "#c0392b",
+      "name": {
+        "pt": "Diretiva",
+        "en": "Directive",
+        "es": "Directiva"
+      },
+      "manual": "ap-diretiva"
+    }
+  },
+  "defaultWhy": {
+    "diretiva": {
+      "pt": "Dar conselho, rotular ou culpar de imediato rompe a confiança e interrompe a investigação.",
+      "en": "Giving advice, labeling or blaming right away breaks trust and cuts off the investigation.",
+      "es": "Aconsejar, etiquetar o culpar de inmediato rompe la confianza e interrumpe la investigación."
+    },
+    "psicodinamica": {
+      "pt": "Interpretações profundas exigem vínculo e tempo, e nem sempre cabem no objetivo desta sessão.",
+      "en": "Deep interpretations need a bond and time, and do not always fit the aim of this session.",
+      "es": "Las interpretaciones profundas exigen vínculo y tiempo, y no siempre caben en el objetivo de esta sesión."
+    },
+    "tcc": {
+      "pt": "A TCC funciona melhor quando já há vínculo e o problema envolve pensamentos e comportamentos.",
+      "en": "CBT works best once there is a bond and the problem involves thoughts and behaviors.",
+      "es": "La TCC funciona mejor cuando ya hay vínculo y el problema involucra pensamientos y conductas."
+    },
+    "acolhimento": {
+      "pt": "Acolher fortalece o vínculo, mas sozinho nem sempre avança a investigação.",
+      "en": "Being supportive strengthens the bond, but on its own it does not always move the investigation forward.",
+      "es": "Acoger fortalece el vínculo, pero por sí solo no siempre hace avanzar la investigación."
+    },
+    "psicoeducacao": {
+      "pt": "Informar ajuda quando chega no momento certo e sem sobrecarregar.",
+      "en": "Informing helps when it arrives at the right moment and without overwhelming.",
+      "es": "Informar ayuda cuando llega en el momento oportuno y sin abrumar."
+    },
+    "comportamental": {
+      "pt": "Observar e estruturar comportamentos ajuda quando o problema é prático ou de rotina.",
+      "en": "Observing and structuring behaviors helps when the problem is practical or about routine.",
+      "es": "Observar y estructurar conductas ayuda cuando el problema es práctico o de rutina."
+    }
+  }
+}

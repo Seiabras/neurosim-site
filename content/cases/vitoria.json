@@ -1,0 +1,505 @@
+{
+  "name": {
+    "pt": "Vitória Nunes",
+    "en": "Vitória Nunes",
+    "es": "Vitória Nunes"
+  },
+  "age": {
+    "pt": "31 anos",
+    "en": "31 years old",
+    "es": "31 años"
+  },
+  "complaint": {
+    "pt": "Sensação de estar fora do próprio corpo e de que o mundo é irreal.",
+    "en": "Feeling outside her own body and that the world is unreal.",
+    "es": "Sensación de estar fuera del propio cuerpo y de que el mundo es irreal."
+  },
+  "history": {
+    "pt": "Advogada. Depois de meses de estresse e de um luto recente, passou a se sentir 'como num filme', olhando a si mesma de fora. Teme estar 'ficando louca'.",
+    "en": "A lawyer. After months of stress and a recent loss, she began to feel 'like in a movie', watching herself from outside. She fears she is 'going crazy'.",
+    "es": "Abogada. Tras meses de estrés y un duelo reciente, empezó a sentirse 'como en una película', mirándose desde fuera. Teme estar 'volviéndose loca'."
+  },
+  "image": "assets/char-vitoria.png",
+  "parent": null,
+  "dot": "dot-pink",
+  "group": "dissociativos",
+  "type": {
+    "pt": "1ª Sessão: Anamnese",
+    "en": "1st session: intake interview",
+    "es": "1.ª sesión: anamnesis"
+  },
+  "info": {
+    "pt": "Adulta com episódios de despersonalização e desrealização sob estresse. Primeira sessão.",
+    "en": "Adult with episodes of depersonalization and derealization under stress. First session.",
+    "es": "Adulta con episodios de despersonalización y desrealización bajo estrés. Primera sesión."
+  },
+  "message": {
+    "from": {
+      "pt": "Vitória Nunes (WhatsApp)",
+      "en": "Vitória Nunes (WhatsApp)",
+      "es": "Vitória Nunes (WhatsApp)"
+    },
+    "text": {
+      "pt": "Oi. Às vezes eu me vejo de fora e nada parece real. Isso me apavora. Será que estou ficando louca?",
+      "en": "Hi. Sometimes I see myself from outside and nothing feels real. It terrifies me. Am I going crazy?",
+      "es": "Hola. A veces me veo desde fuera y nada parece real. Me aterra. ¿Estaré volviéndome loca?"
+    }
+  },
+  "fit": {
+    "psicoeducacao": 4,
+    "acolhimento": 3,
+    "tcc": 3,
+    "comportamental": 3,
+    "psicodinamica": 2,
+    "diretiva": 0
+  },
+  "why": {
+    "psicoeducacao": {
+      "pt": "Explicar que despersonalização é uma reação comum do cérebro ao estresse e ao medo derruba o pavor de 'enlouquecer', que mantém o quadro.",
+      "en": "Explaining that depersonalization is a common brain reaction to stress and fear removes the dread of 'going crazy' that keeps the condition going.",
+      "es": "Explicar que la despersonalización es una reacción común del cerebro al estrés y al miedo derriba el pavor a 'enloquecer', que mantiene el cuadro."
+    },
+    "acolhimento": {
+      "pt": "Ela chega assustada e com vergonha. Ser ouvida sem susto e sem rótulo ajuda a baixar a ansiedade que alimenta o sintoma.",
+      "en": "She arrives scared and ashamed. Being heard without alarm and without labels helps lower the anxiety that feeds the symptom.",
+      "es": "Llega asustada y con vergüenza. Ser escuchada sin alarma y sin etiquetas ayuda a bajar la ansiedad que alimenta el síntoma."
+    },
+    "tcc": {
+      "pt": "A TCC trabalha as interpretações catastróficas ('estou enlouquecendo') e reduz a checagem constante das sensações.",
+      "en": "CBT works on catastrophic interpretations ('I'm going crazy') and reduces constant checking of sensations.",
+      "es": "La TCC trabaja las interpretaciones catastróficas ('me estoy volviendo loca') y reduce la revisión constante de las sensaciones."
+    },
+    "comportamental": {
+      "pt": "Técnicas de aterramento (usar os sentidos para voltar ao presente) e retomar rotinas ajudam nos episódios.",
+      "en": "Grounding techniques (using the senses to return to the present) and resuming routines help during episodes.",
+      "es": "Las técnicas de anclaje (usar los sentidos para volver al presente) y retomar rutinas ayudan en los episodios."
+    },
+    "psicodinamica": {
+      "pt": "O luto e o estresse recentes têm relação com o quadro e valem exploração, com cuidado para não aumentar a angústia.",
+      "en": "The recent loss and stress relate to the condition and merit exploration, taking care not to increase distress.",
+      "es": "El duelo y el estrés recientes se relacionan con el cuadro y merecen exploración, con cuidado de no aumentar la angustia."
+    }
+  },
+  "steps": [
+    {
+      "who": "patient",
+      "text": {
+        "pt": "(mexendo nas mãos) 'É como se eu estivesse atrás de um vidro. Eu me vejo falando, mas não parece que sou eu. Tenho medo de estar ficando louca.'",
+        "en": "(fidgeting with her hands) 'It's like I'm behind glass. I see myself talking, but it doesn't feel like me. I'm afraid I'm going crazy.'",
+        "es": "(moviendo las manos) 'Es como si estuviera detrás de un vidrio. Me veo hablando, pero no siento que sea yo. Tengo miedo de estar volviéndome loca.'"
+      },
+      "note": {
+        "pt": "Despersonalização e desrealização; medo de 'enlouquecer'.",
+        "en": "Depersonalization and derealization; fear of 'going crazy'.",
+        "es": "Despersonalización y desrealización; miedo a 'enloquecer'."
+      },
+      "mods": {
+        "psicoeducacao": 1
+      },
+      "options": {
+        "acolhimento": {
+          "pt": "Deve ser muito assustador. Você fez bem em procurar ajuda. Pode me contar quando começou e o que acontecia na sua vida?",
+          "en": "That must be very frightening. You did well to seek help. Can you tell me when it started and what was happening in your life?",
+          "es": "Debe ser muy aterrador. Hiciste bien en buscar ayuda. ¿Puedes contarme cuándo empezó y qué pasaba en tu vida?"
+        },
+        "psicoeducacao": {
+          "pt": "Isso tem nome: despersonalização, quando o cérebro se 'afasta' sob muito estresse. Não é loucura.",
+          "en": "This has a name: depersonalization, when the brain 'steps back' under great stress. It is not madness.",
+          "es": "Esto tiene nombre: despersonalización, cuando el cerebro se 'aleja' bajo mucho estrés. No es locura."
+        },
+        "tcc": {
+          "pt": "Quando isso vem, o que você pensa que significa? Vamos anotar esse pensamento e ver se há outra explicação.",
+          "en": "When it comes, what do you think it means? Let's write down that thought and see if there is another explanation.",
+          "es": "Cuando viene, ¿qué piensas que significa? Anotemos ese pensamiento y veamos si hay otra explicación."
+        },
+        "diretiva": {
+          "pt": "Isso é só estresse acumulado. Umas férias e menos preocupação resolvem, não precisa se assustar.",
+          "en": "That's just accumulated stress. A vacation and less worrying will fix it, no need to be scared.",
+          "es": "Eso es solo estrés acumulado. Unas vacaciones y menos preocupación lo resuelven, no hace falta asustarse."
+        }
+      },
+      "variants": [
+        {
+          "pt": "(apertando os dedos) 'É como se houvesse um vidro entre mim e tudo. Eu me vejo falando, mas parece outra pessoa. Tenho medo de estar perdendo o juízo.'",
+          "en": "(pressing her fingers together) 'It's as if there were glass between me and everything. I watch myself speak, but it seems like someone else. I'm afraid I'm losing my mind.'",
+          "es": "(apretándose los dedos) 'Es como si hubiera un vidrio entre todo y yo. Me veo hablar, pero parece otra persona. Tengo miedo de estar perdiendo la cabeza.'"
+        },
+        {
+          "pt": "(apertando as mãos) 'Parece que tem um vidro entre mim e o mundo. Eu me vejo falando como se fosse outra pessoa. Tenho medo de estar enlouquecendo.'",
+          "en": "(squeezing her hands) 'It feels like there's a pane of glass between me and the world. I watch myself talk as if I were someone else. I'm afraid I'm losing my mind.'",
+          "es": "(apretándose las manos) 'Parece que hay un vidrio entre el mundo y yo. Me veo hablando como si fuera otra persona. Tengo miedo de estar enloqueciendo.'"
+        }
+      ]
+    },
+    {
+      "who": "patient",
+      "text": {
+        "pt": "'Começou depois que meu pai morreu, há uns seis meses. Eu trabalhava dobrado para não pensar nele. Agora, quando o dia é puxado, tudo fica distante.'",
+        "en": "'It started after my father died, about six months ago. I worked double to avoid thinking about him. Now, when the day is rough, everything feels distant.'",
+        "es": "'Empezó después de que murió mi padre, hace unos seis meses. Trabajaba el doble para no pensar en él. Ahora, cuando el día es pesado, todo se siente lejano.'"
+      },
+      "note": {
+        "pt": "Início após luto e sobrecarga de trabalho; piora sob estresse.",
+        "en": "Onset after grief and work overload; worsens under stress.",
+        "es": "Inicio tras duelo y sobrecarga laboral; empeora bajo estrés."
+      },
+      "mods": {
+        "psicodinamica": 1,
+        "acolhimento": 1,
+        "comportamental": 0
+      },
+      "options": {
+        "acolhimento": {
+          "pt": "Sinto muito pelo seu pai. Trabalhar demais foi uma forma de aguentar a dor. Como tem sido falar dele?",
+          "en": "I'm sorry about your father. Working too much was a way to bear the pain. How has it been to talk about him?",
+          "es": "Lamento lo de tu padre. Trabajar de más fue una forma de soportar el dolor. ¿Cómo ha sido hablar de él?"
+        },
+        "psicodinamica": {
+          "pt": "O afastamento pode ser uma forma de a mente se proteger de uma dor grande. O que aconteceu na semana em que ele morreu?",
+          "en": "The distancing may be a way for the mind to protect itself from great pain. What happened the week he died?",
+          "es": "El alejamiento puede ser una forma en que la mente se protege de un gran dolor. ¿Qué pasó la semana en que murió?"
+        },
+        "comportamental": {
+          "pt": "Que tal experimentarmos um exercício de aterramento: nomear 5 coisas que você vê, 4 que toca, 3 que ouve? Serve para os momentos em que aparecer.",
+          "en": "How about trying a grounding exercise: naming 5 things you see, 4 you touch, 3 you hear? It helps in the moments it appears.",
+          "es": "¿Qué tal probar un ejercicio de anclaje: nombrar 5 cosas que ves, 4 que tocas, 3 que oyes? Sirve para los momentos en que aparece."
+        },
+        "diretiva": {
+          "pt": "O problema é o excesso de trabalho: o melhor é pedir licença e descansar já amanhã.",
+          "en": "The problem is overwork: the best thing is to take leave and rest starting tomorrow.",
+          "es": "El problema es el exceso de trabajo: lo mejor es pedir licencia y descansar desde mañana."
+        }
+      },
+      "variants": [
+        {
+          "pt": "'Foi depois que meu pai morreu, uns seis meses atrás. Eu me afundava no trabalho para não pensar nele. Hoje, num dia puxado, tudo parece distante.'",
+          "en": "'It was after my father died, about six months ago. I buried myself in work so I wouldn't think of him. Today, on a tough day, everything seems distant.'",
+          "es": "'Fue después de que murió mi padre, hace unos seis meses. Me hundía en el trabajo para no pensar en él. Hoy, en un día pesado, todo parece lejano.'"
+        },
+        {
+          "pt": "'Começou uns seis meses atrás, depois que meu pai morreu. Eu me enterrava no trabalho para não pensar nele. Hoje, se o dia é pesado, o mundo parece longe.'",
+          "en": "'It started about six months ago, after my father died. I buried myself in work so I wouldn't think of him. Today, if the day is heavy, the world feels far away.'",
+          "es": "'Empezó hace unos seis meses, cuando murió mi padre. Me enterraba en el trabajo para no pensar en él. Hoy, si el día es pesado, el mundo se siente lejos.'"
+        }
+      ]
+    },
+    {
+      "who": "patient",
+      "text": {
+        "pt": "'E se isso nunca passar? Às vezes eu fico horas checando se estou sentindo as coisas de verdade. Isso só piora.'",
+        "en": "'What if this never goes away? Sometimes I spend hours checking whether I'm really feeling things. It only gets worse.'",
+        "es": "'¿Y si esto nunca pasa? A veces paso horas revisando si de verdad siento las cosas. Solo empeora.'"
+      },
+      "note": {
+        "pt": "Checagem constante das sensações e medo da cronicidade mantêm o quadro.",
+        "en": "Constant checking of sensations and fear of chronicity keep the condition going.",
+        "es": "La revisión constante de las sensaciones y el miedo a la cronicidad mantienen el cuadro."
+      },
+      "mods": {
+        "psicoeducacao": 2,
+        "tcc": 1,
+        "comportamental": 0,
+        "acolhimento": 0
+      },
+      "options": {
+        "psicoeducacao": {
+          "pt": "Quanto mais checamos e tememos, mais o sintoma se reforça. A boa notícia: costuma diminuir quando paramos de vigiá-lo.",
+          "en": "The more we check and fear, the more the symptom is reinforced. The good news: it usually eases when we stop monitoring it.",
+          "es": "Cuanto más revisamos y tememos, más se refuerza el síntoma. La buena noticia: suele disminuir cuando dejamos de vigilarlo."
+        },
+        "tcc": {
+          "pt": "Vamos testar: o que acontece se você não checar por 10 minutos e se distrair com uma tarefa? Depois comparamos.",
+          "en": "Let's test it: what happens if you don't check for 10 minutes and get absorbed in a task? Then we compare.",
+          "es": "Probemos: ¿qué pasa si no revisas durante 10 minutos y te distraes con una tarea? Luego comparamos."
+        },
+        "comportamental": {
+          "pt": "Vamos combinar uma rotina: horários regulares de sono, movimento diário e o aterramento sempre que a sensação chegar.",
+          "en": "Let's agree on a routine: regular sleep times, daily movement and grounding whenever the sensation arrives.",
+          "es": "Acordemos una rutina: horarios regulares de sueño, movimiento diario y anclaje cada vez que llegue la sensación."
+        },
+        "acolhimento": {
+          "pt": "Entendo o medo de que não passe. Estamos juntas nisso, e você não precisa resolver tudo hoje. Acho que ajuda bastante.",
+          "en": "I understand the fear that it won't pass. We are in this together, and you don't need to solve everything today. I think it helps a lot.",
+          "es": "Entiendo el miedo a que no pase. Estamos juntas en esto y no necesitas resolver todo hoy. Creo que ayuda bastante."
+        }
+      },
+      "variants": [
+        {
+          "pt": "'E se isso nunca passar? Às vezes fico horas checando se estou sentindo as coisas de verdade. Isso só piora.'",
+          "en": "'And what if this never goes away? Sometimes I spend hours checking whether I'm really feeling things. It only gets worse.'",
+          "es": "'¿Y si esto nunca pasa? A veces paso horas comprobando si de verdad siento las cosas. Solo empeora.'"
+        },
+        {
+          "pt": "'E se isso não passar nunca? Às vezes passo horas me testando para ver se sinto as coisas de verdade, e só piora.'",
+          "en": "'What if it never passes? Sometimes I spend hours testing myself to see if I really feel things, and it only makes it worse.'",
+          "es": "'¿Y si esto no pasa nunca? A veces paso horas poniéndome a prueba para ver si siento las cosas de verdad, y solo empeora.'"
+        }
+      ]
+    },
+    {
+      "who": "patient",
+      "text": {
+        "pt": "(mais leve) 'Foi bom falar. Mas amanhã vou trabalhar de novo. E se a sensação voltar na frente de todo mundo?'",
+        "en": "(lighter) 'It felt good to talk. But tomorrow I go back to work. What if the sensation returns in front of everyone?'",
+        "es": "(más ligera) 'Fue bueno hablar. Pero mañana vuelvo a trabajar. ¿Y si la sensación vuelve delante de todos?'"
+      },
+      "note": {
+        "pt": "Teme uma crise de despersonalização em público e pede estratégias.",
+        "en": "Fears a depersonalization episode in public and asks for strategies.",
+        "es": "Teme un episodio de despersonalización en público y pide estrategias."
+      },
+      "mods": {
+        "comportamental": 1,
+        "psicoeducacao": -1
+      },
+      "options": {
+        "comportamental": {
+          "pt": "Leve um recurso discreto: apoie os pés no chão, nomeie 3 coisas que vê e 2 que ouve. Ele traz a atenção de volta ao presente e ninguém percebe.",
+          "en": "Bring a discreet tool: feel your feet on the floor, name 3 things you see and 2 you hear. It brings attention back to the present and no one notices.",
+          "es": "Lleva un recurso discreto: apoya los pies en el suelo, nombra 3 cosas que ves y 2 que oyes. Trae la atención al presente y nadie lo nota."
+        },
+        "psicoeducacao": {
+          "pt": "Se a sensação vier, lembre: é uma reação do estresse, passa sozinha e não é perigosa. Saber disso já reduz o medo que a alimenta.",
+          "en": "If the sensation comes, remember: it's a stress reaction, passes by itself and isn't dangerous. Knowing that already lowers the fear that feeds it.",
+          "es": "Si la sensación llega, recuerda: es una reacción al estrés, pasa sola y no es peligrosa. Saberlo ya reduce el miedo que la alimenta."
+        },
+        "acolhimento": {
+          "pt": "É natural ter esse medo. Se quiser, avise uma pessoa de confiança no trabalho, para você se sentir mais segura. Não precisa provar nada além disso por enquanto.",
+          "en": "It's natural to have this fear. If you like, tell one trusted person at work, so you feel safer. You don't need to prove anything beyond that for now.",
+          "es": "Es natural tener ese miedo. Si quieres, avisa a una persona de confianza en el trabajo, para sentirte más segura. No necesitas demostrar nada más que eso por ahora."
+        },
+        "diretiva": {
+          "pt": "Se sentir chegar, saia da sala na hora e vá para casa. Não vale a pena arriscar passar por isso diante dos colegas.",
+          "en": "If you feel it coming, leave the room immediately and go home. It's not worth risking going through it in front of colleagues.",
+          "es": "Si la sientes venir, sal de la sala en el acto y vete a casa. No vale la pena arriesgarse a pasarlo delante de los colegas."
+        }
+      },
+      "variants": [
+        {
+          "pt": "(mais aliviada) 'Fez bem falar. Mas amanhã eu volto ao trabalho... e se a sensação aparecer na frente de todo mundo?'",
+          "en": "(more relieved) 'It did me good to talk. But tomorrow I'm back at work... and what if the feeling shows up in front of everyone?'",
+          "es": "(más aliviada) 'Me hizo bien hablar. Pero mañana vuelvo al trabajo... ¿y si la sensación aparece delante de todos?'"
+        },
+        {
+          "pt": "(mais aliviada) 'Fez bem conversar. Só que amanhã volto ao trabalho... e se essa sensação aparecer na frente de todo mundo?'",
+          "en": "(more relieved) 'It did me good to talk. But tomorrow I'm back at work... and what if that feeling shows up in front of everyone?'",
+          "es": "(más aliviada) 'Me hizo bien hablar. Pero mañana vuelvo al trabajo... ¿y si esa sensación aparece delante de todos?'"
+        }
+      ]
+    }
+  ],
+  "diagnosis": {
+    "answer": "despersonalizacao",
+    "options": [
+      "despersonalizacao",
+      "did",
+      "luto",
+      "panico"
+    ],
+    "why": {
+      "pt": "Sensação persistente de se ver de fora e de irrealidade do mundo, com o teste de realidade preservado, e piora sob estresse configuram despersonalização/desrealização. O luto recente é um fator importante, mas o quadro central é dissociativo.",
+      "en": "A persistent feeling of watching oneself from outside and of the world being unreal, with reality testing intact, and worsening under stress make up depersonalization/derealization. The recent loss is an important factor, but the core picture is dissociative.",
+      "es": "La sensación persistente de verse desde fuera y de irrealidad del mundo, con la prueba de realidad conservada, y el empeoramiento bajo estrés configuran despersonalización/desrealización. El duelo reciente es un factor importante, pero el cuadro central es disociativo."
+    }
+  },
+  "voice": {
+    "intro": {
+      "pt": "(senta apertando as mãos) 'Vitória, 31. Eu não sei como explicar... parece que tudo é um filme e eu tô do lado de fora. Perdi meu pai há uns meses. Tenho medo de estar enlouquecendo.'",
+      "en": "(sits wringing her hands) 'Vitória, 31. I don't know how to explain... it feels like everything is a movie and I'm outside of it. I lost my dad a few months ago. I'm scared I'm going crazy.'",
+      "es": "(se sienta apretándose las manos) 'Vitória, 31. No sé cómo explicarlo... parece que todo es una película y yo estoy afuera. Perdí a mi padre hace unos meses. Tengo miedo de estar enloqueciendo.'"
+    },
+    "pre": [
+      {
+        "pt": "É estranho, mas...",
+        "en": "It's strange, but...",
+        "es": "Es raro, pero..."
+      },
+      {
+        "pt": "Você entende o que eu quero dizer?",
+        "en": "Do you understand what I mean?",
+        "es": "¿Entiendes lo que quiero decir?"
+      }
+    ],
+    "post": {
+      "pt": "Faz sentido ou tô inventando?",
+      "en": "Does that make sense or am I making it up?",
+      "es": "¿Tiene sentido o me lo estoy inventando?"
+    },
+    "ref": [
+      {
+        "pt": "Fiquei duas horas checando se eu estava 'presente'. Foi exaustivo.",
+        "en": "I spent two hours checking if I was 'present'. It was exhausting.",
+        "es": "Pasé dos horas comprobando si estaba 'presente'. Fue agotador."
+      },
+      {
+        "pt": "Teve um dia bom, em que eu me senti eu. Aí o medo voltou de noite.",
+        "en": "One good day I felt like myself. Then the fear came back at night.",
+        "es": "Tuve un día bueno, en que me sentí yo. Luego el miedo volvió de noche."
+      },
+      {
+        "pt": "Fui no supermercado e a sensação veio, mas passou sozinha em alguns minutos.",
+        "en": "I went to the supermarket and the feeling came, but passed on its own in a few minutes.",
+        "es": "Fui al supermercado y la sensación vino, pero pasó sola en unos minutos."
+      }
+    ],
+    "hookA": {
+      "pt": "Quando o mundo parece um filme, o que você faz para voltar?",
+      "en": "When the world feels like a movie, what do you do to come back?",
+      "es": "Cuando el mundo parece una película, ¿qué haces para volver?"
+    },
+    "hookB": {
+      "pt": "Vamos treinar um exercício de aterramento e ver o que você percebe com os cinco sentidos?",
+      "en": "Shall we practice a grounding exercise and see what you notice with the five senses?",
+      "es": "¿Practicamos un ejercicio de anclaje y vemos qué notas con los cinco sentidos?"
+    },
+    "sessoes": {
+      "s3": [
+        {
+          "pt": "'Aconteceu na reunião. (aperta as mãos) Do nada eu tava me vendo de fora, como se fosse um vídeo. Eu continuei falando, ninguém percebeu. Isso é o mais assustador: ninguém percebe.'",
+          "en": "'It happened in the meeting. (clasps her hands) Out of nowhere I was watching myself from outside, like a video. I kept talking, nobody noticed. That's the scariest part: nobody notices.'",
+          "es": "'It happened in the meeting. (clasps her hands) Out of nowhere I was watching myself from outside, like a video. I kept talking, nobody noticed. That's the scariest part: nobody notices.'"
+        },
+        {
+          "pt": "'Eu passo o dia me checando. Tô real agora? E agora? (ri sem humor) Quanto mais eu checo, pior fica. Eu já percebi isso e mesmo assim eu checo.'",
+          "en": "'I spend the day checking myself. Am I real now? And now? (laughs without humour) The more I check, the worse it gets. I've noticed that, and I still check.'",
+          "es": "'I spend the day checking myself. Am I real now? And now? (laughs without humour) The more I check, the worse it gets. I've noticed that, and I still check.'"
+        }
+      ],
+      "s4": [
+        {
+          "pt": "'Eu fiz o que a senhora falou: em vez de checar, eu segurei o gelo e contei o que eu via na sala. (pausa) Passou em uns dez minutos. Dez. Antes era a tarde inteira.'",
+          "en": "'I did what you said: instead of checking, I held the ice and named what I could see in the room. (pause) It passed in about ten minutes. Ten. It used to be the whole afternoon.'",
+          "es": "'I did what you said: instead of checking, I held the ice and named what I could see in the room. (pause) It passed in about ten minutes. Ten. It used to be the whole afternoon.'"
+        },
+        {
+          "pt": "'Faz seis meses que minha avó morreu e eu não chorei nenhuma vez. (silêncio) A senhora acha que tem a ver? Eu não tinha juntado as duas coisas até agora.'",
+          "en": "'It's six months since my grandmother died and I haven't cried once. (silence) Do you think it's connected? I hadn't put the two things together until now.'",
+          "es": "'It's six months since my grandmother died and I haven't cried once. (silence) Do you think it's connected? I hadn't put the two things together until now.'"
+        }
+      ]
+    },
+    "fecho": {
+      "s2": {
+        "pt": "(toca a própria mão, devagar, como quem confere) 'Desculpa. Eu faço isso sem perceber. A senhora vê que eu tô aqui, né?'",
+        "en": "(touches her own hand, slowly, like someone checking) 'Sorry. I do that without noticing. You can see I'm here, right?'",
+        "es": "(touches her own hand, slowly, like someone checking) 'Sorry. I do that without noticing. You can see I'm here, right?'"
+      },
+      "s3": {
+        "pt": "'Dez minutos.' (respira) 'Eu vou anotar num papel e deixar na bolsa: dez minutos. Porque na hora eu esqueço que passa.'",
+        "en": "'Ten minutes.' (breathes) 'I'm going to write it on a piece of paper and keep it in my bag: ten minutes. Because in the moment I forget that it passes.'",
+        "es": "'Ten minutes.' (breathes) 'I'm going to write it on a piece of paper and keep it in my bag: ten minutes. Because in the moment I forget that it passes.'"
+      },
+      "s4": {
+        "pt": "'Minha avó.' (fica em silêncio um tempo) 'A senhora pode me ajudar com isso também, ou é outro assunto?'",
+        "en": "'My grandmother.' (stays silent for a while) 'Can you help me with that too, or is that another subject?'",
+        "es": "'My grandmother.' (stays silent for a while) 'Can you help me with that too, or is that another subject?'"
+      }
+    },
+    "opcoes": {
+      "s3": [
+        {
+          "acolhimento": {
+            "pt": "Ninguém percebeu, e é isso que assusta. Você ficou sozinha em cima daquilo.",
+            "en": "Nobody noticed, and that is what frightens. You were alone on top of it.",
+            "es": "Nobody noticed, and that is what frightens. You were alone on top of it."
+          },
+          "tcc": {
+            "pt": "Enquanto você se via de fora, você continuou falando e fazendo sentido. O que isso te diz sobre estar perdendo o controle?",
+            "en": "While you were watching from outside, you kept talking and making sense. What does that tell you about losing control?",
+            "es": "While you were watching from outside, you kept talking and making sense. What does that tell you about losing control?"
+          },
+          "psicoeducacao": {
+            "pt": "Isso se chama despersonalização e é assustador justamente por ser invisível. Não é psicose, e o exame de realidade está intacto — você sabia que era estranho.",
+            "en": "That is called depersonalisation and it is frightening precisely because it is invisible. It is not psychosis, and reality testing is intact — you knew it was strange.",
+            "es": "That is called depersonalisation and it is frightening precisely because it is invisible. It is not psychosis, and reality testing is intact — you knew it was strange."
+          },
+          "comportamental": {
+            "pt": "Na próxima vez, quero que você faça uma coisa concreta: pés no chão, nomear três objetos da sala em voz baixa.",
+            "en": "Next time, I want you to do something concrete: feet on the floor, name three objects in the room under your breath.",
+            "es": "Next time, I want you to do something concrete: feet on the floor, name three objects in the room under your breath."
+          }
+        },
+        {
+          "acolhimento": {
+            "pt": "Você já percebeu que checar piora e checa mesmo assim. Isso não é falta de inteligência — é o ciclo funcionando.",
+            "en": "You already know that checking makes it worse and you check anyway. That is not a lack of intelligence — it is the cycle working.",
+            "es": "You already know that checking makes it worse and you check anyway. That is not a lack of intelligence — it is the cycle working."
+          },
+          "tcc": {
+            "pt": "'Tô real agora?' — quando você responde que sim, quanto tempo dura a resposta?",
+            "en": "'Am I real now?' — when you answer yes, how long does the answer last?",
+            "es": "'Am I real now?' — when you answer yes, how long does the answer last?"
+          },
+          "psicoeducacao": {
+            "pt": "Checar é o mesmo mecanismo do ritual: alivia por um instante e mantém o ciclo de pé. A saída é trocar a checagem por outra coisa, não por uma resposta melhor.",
+            "en": "Checking is the same mechanism as a ritual: it relieves for an instant and keeps the cycle standing. The way out is to replace the checking, not to find a better answer.",
+            "es": "Checking is the same mechanism as a ritual: it relieves for an instant and keeps the cycle standing. The way out is to replace the checking, not to find a better answer."
+          },
+          "comportamental": {
+            "pt": "Combinado: quando vier o 'tô real?', em vez de responder, gelo na mão ou água fria no pulso. Sem discutir com a pergunta.",
+            "en": "Agreed: when 'am I real?' comes, instead of answering, ice in your hand or cold water on your wrist. No arguing with the question.",
+            "es": "Agreed: when 'am I real?' comes, instead of answering, ice in your hand or cold water on your wrist. No arguing with the question."
+          }
+        }
+      ],
+      "s4": [
+        {
+          "acolhimento": {
+            "pt": "Dez minutos em vez de uma tarde. Você mudou o tamanho da coisa.",
+            "en": "Ten minutes instead of an afternoon. You changed the size of it.",
+            "es": "Ten minutes instead of an afternoon. You changed the size of it."
+          },
+          "tcc": {
+            "pt": "Foi o gelo ou foi ter parado de checar? Vale separar, porque um dos dois é o que está fazendo efeito.",
+            "en": "Was it the ice or was it having stopped checking? It is worth separating, because one of the two is what is working.",
+            "es": "Was it the ice or was it having stopped checking? It is worth separating, because one of the two is what is working."
+          },
+          "psicoeducacao": {
+            "pt": "Dez minutos é a curva normal quando ninguém a alimenta. O que durava a tarde inteira era a checagem, não a crise.",
+            "en": "Ten minutes is the normal curve when nobody feeds it. What lasted all afternoon was the checking, not the episode.",
+            "es": "Ten minutes is the normal curve when nobody feeds it. What lasted all afternoon was the checking, not the episode."
+          },
+          "comportamental": {
+            "pt": "Anote no papel, porque na hora você esquece que passa. O papel é que vai lembrar por você.",
+            "en": "Write it on paper, because in the moment you forget that it passes. The paper will remember for you.",
+            "es": "Write it on paper, because in the moment you forget that it passes. The paper will remember for you."
+          }
+        },
+        {
+          "acolhimento": {
+            "pt": "Seis meses sem chorar. (pausa) Sim, pode ter a ver — e obrigada por trazer isso aqui.",
+            "en": "Six months without crying. (pause) Yes, it may be connected — and thank you for bringing it here.",
+            "es": "Six months without crying. (pause) Yes, it may be connected — and thank you for bringing it here."
+          },
+          "tcc": {
+            "pt": "Quando começaram as crises, em relação à morte dela? Antes, junto, ou depois?",
+            "en": "When did the episodes start, in relation to her death? Before, alongside, or after?",
+            "es": "When did the episodes start, in relation to her death? Before, alongside, or after?"
+          },
+          "psicoeducacao": {
+            "pt": "Desligar-se é uma forma de não sentir o que é grande demais. O luto não chorado costuma aparecer assim, por outro caminho.",
+            "en": "Disconnecting is a way of not feeling what is too big. Ungrieved loss often shows up like this, by another route.",
+            "es": "Disconnecting is a way of not feeling what is too big. Ungrieved loss often shows up like this, by another route."
+          },
+          "comportamental": {
+            "pt": "Vamos fazer uma coisa por semana ligada a ela: uma foto, uma música, cinco minutos. Devagar.",
+            "en": "Let's do one thing a week connected to her: a photo, a song, five minutes. Slowly.",
+            "es": "Let's do one thing a week connected to her: a photo, a song, five minutes. Slowly."
+          }
+        }
+      ]
+    }
+  },
+  "look": {
+    "skin": "#8a5c3a",
+    "hair": "#241a14",
+    "hairStyle": "curly",
+    "top": "#8a7ab8",
+    "style": "shirt",
+    "eyeShape": "almond",
+    "brow": "soft",
+    "mouth": "neutral",
+    "rosto": "assets/rosto-vitoria.png",
+    "corpo": "f"
+  }
+}

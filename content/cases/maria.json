@@ -1,0 +1,542 @@
+{
+  "name": {
+    "pt": "Maria",
+    "en": "Maria",
+    "es": "Maria"
+  },
+  "age": {
+    "pt": "25 anos",
+    "en": "25 years old",
+    "es": "25 años"
+  },
+  "complaint": {
+    "pt": "Medo intenso de ser abandonada nos relacionamentos.",
+    "en": "Intense fear of being abandoned in relationships.",
+    "es": "Miedo intenso a ser abandonada en las relaciones."
+  },
+  "history": {
+    "pt": "Procurou a clínica por conta própria. Relata relações afetivas intensas e curtas.",
+    "en": "Came to the clinic on her own. Reports intense, short romantic relationships.",
+    "es": "Acudió a la clínica por su cuenta. Relata relaciones afectivas intensas y breves."
+  },
+  "image": "assets/maria.png",
+  "parent": null,
+  "dot": "dot-pink",
+  "group": "personalidade",
+  "type": {
+    "pt": "1ª Sessão: Anamnese",
+    "en": "1st session: intake interview",
+    "es": "1.ª sesión: anamnesis"
+  },
+  "info": {
+    "pt": "Adulta jovem, queixa de medo de abandono e sofrimento nas relações. Primeira sessão.",
+    "en": "Young adult, complaining of fear of abandonment and distress in relationships. First session.",
+    "es": "Adulta joven, queja de miedo al abandono y sufrimiento en las relaciones. Primera sesión."
+  },
+  "message": {
+    "from": {
+      "pt": "Recepção da clínica",
+      "en": "Clinic reception",
+      "es": "Recepción de la clínica"
+    },
+    "text": {
+      "pt": "Maria (25 anos) agendou pelo WhatsApp e escreveu: 'Sinto que sempre estrago tudo nas minhas relações.'",
+      "en": "Maria (25) booked through WhatsApp and wrote: 'I feel like I always ruin everything in my relationships.'",
+      "es": "María (25 años) agendó por WhatsApp y escribió: 'Siento que siempre lo estropeo todo en mis relaciones.'"
+    }
+  },
+  "fit": {
+    "acolhimento": 4,
+    "psicodinamica": 3,
+    "tcc": 2,
+    "comportamental": 2,
+    "psicoeducacao": 1,
+    "diretiva": 0
+  },
+  "why": {
+    "acolhimento": {
+      "pt": "Com o medo de abandono, sentir-se ouvida e sem julgamento vem primeiro: é o que cria a segurança para o resto do processo.",
+      "en": "With fear of abandonment, feeling heard without judgment comes first: it builds the safety for the rest of the process.",
+      "es": "Con el miedo al abandono, sentirse escuchada sin juicio va primero: crea la seguridad para el resto del proceso."
+    },
+    "psicodinamica": {
+      "pt": "Os padrões que se repetem nas relações são terreno da psicodinâmica, mas interpretar cedo demais pode soar como acusação.",
+      "en": "Patterns that repeat in relationships are psychodynamic territory, but interpreting too early can sound like an accusation.",
+      "es": "Los patrones que se repiten en las relaciones son terreno de la psicodinámica, pero interpretar demasiado pronto puede sonar a acusación."
+    },
+    "tcc": {
+      "pt": "A TCC ajuda a examinar pensamentos sobre abandono, mas só depois que há vínculo e validação; antes, soa como invalidação.",
+      "en": "CBT helps examine thoughts about abandonment, but only once there is a bond and validation; before that, it sounds like invalidation.",
+      "es": "La TCC ayuda a examinar los pensamientos sobre el abandono, pero solo cuando hay vínculo y validación; antes, suena a invalidación."
+    },
+    "comportamental": {
+      "pt": "Entender o que ela faz para evitar o abandono revela o padrão, mas isolado pode parecer frio diante de tanta dor.",
+      "en": "Understanding what she does to avoid abandonment reveals the pattern, but on its own it can feel cold given so much pain.",
+      "es": "Entender lo que hace para evitar el abandono revela el patrón, pero aislado puede parecer frío ante tanto dolor."
+    },
+    "psicoeducacao": {
+      "pt": "Explicar o processo é valioso, sobretudo ao final; no começo, ela precisa ser ouvida antes de ser informada.",
+      "en": "Explaining the process is valuable, especially at the end; at the start, she needs to be heard before being informed.",
+      "es": "Explicar el proceso es valioso, sobre todo al final; al principio, necesita ser escuchada antes de ser informada."
+    }
+  },
+  "steps": [
+    {
+      "who": "patient",
+      "text": {
+        "pt": "(olhando para baixo) 'Às vezes eu acho que todo mundo vai me abandonar.'",
+        "en": "(looking down) 'Sometimes I think everyone is going to abandon me.'",
+        "es": "(mirando hacia abajo) 'A veces pienso que todo el mundo me va a abandonar.'"
+      },
+      "note": {
+        "pt": "Medo de abandono relatado logo no início.",
+        "en": "Fear of abandonment reported right at the start.",
+        "es": "Miedo al abandono relatado desde el inicio."
+      },
+      "mods": {
+        "tcc": -1,
+        "psicodinamica": -1
+      },
+      "options": {
+        "acolhimento": {
+          "pt": "Parece muito doloroso sentir isso. Quer me contar mais?",
+          "en": "That sounds very painful. Would you like to tell me more?",
+          "es": "Parece muy doloroso sentir eso. ¿Quieres contarme más?"
+        },
+        "tcc": {
+          "pt": "Que evidências você tem de que isso irá acontecer?",
+          "en": "What evidence do you have that this will happen?",
+          "es": "¿Qué evidencias tienes de que esto va a ocurrir?"
+        },
+        "psicodinamica": {
+          "pt": "Isso já aconteceu antes na sua vida? Com quem?",
+          "en": "Has this happened before in your life? With whom?",
+          "es": "¿Esto ya ocurrió antes en tu vida? ¿Con quién?"
+        },
+        "comportamental": {
+          "pt": "O que você faz para evitar o abandono?",
+          "en": "What do you do to avoid being abandoned?",
+          "es": "¿Qué haces para evitar el abandono?"
+        }
+      },
+      "variants": [
+        {
+          "pt": "(olhando para baixo) 'Às vezes eu sinto que todo mundo vai acabar me deixando.'",
+          "en": "(looking down) 'Sometimes I feel like everyone is going to end up leaving me.'",
+          "es": "(mirando hacia abajo) 'A veces siento que todo el mundo va a terminar dejándome.'"
+        },
+        {
+          "pt": "(mexendo no cabelo) 'Tenho um medo constante de que as pessoas se cansem de mim e me abandonem.'",
+          "en": "(playing with her hair) 'I have a constant fear that people will get tired of me and abandon me.'",
+          "es": "(tocándose el cabello) 'Tengo un miedo constante de que la gente se canse de mí y me abandone.'"
+        }
+      ]
+    },
+    {
+      "who": "patient",
+      "text": {
+        "pt": "'Quando meu namorado demora a responder, eu ligo dez vezes. Depois me sinto ridícula. Já terminei relações antes que me deixassem.'",
+        "en": "'When my boyfriend takes long to reply, I call him ten times. Then I feel ridiculous. I've ended relationships before they could leave me.'",
+        "es": "'Cuando mi novio tarda en responder, lo llamo diez veces. Después me siento ridícula. Ya terminé relaciones antes de que me dejaran.'"
+      },
+      "note": {
+        "pt": "Liga repetidamente quando o parceiro demora; já terminou relações antes de ser deixada.",
+        "en": "Calls repeatedly when her partner is slow to reply; has ended relationships before being left.",
+        "es": "Llama repetidamente cuando la pareja tarda; ha terminado relaciones antes de ser dejada."
+      },
+      "mods": {
+        "tcc": 1
+      },
+      "options": {
+        "acolhimento": {
+          "pt": "Faz sentido querer se proteger de tanta dor. Isso também acontece com amigos ou no trabalho?",
+          "en": "It makes sense to protect yourself from so much pain. Does it also happen with friends or at work?",
+          "es": "Tiene sentido protegerte de tanto dolor. ¿Esto también pasa con amigos o en el trabajo?"
+        },
+        "tcc": {
+          "pt": "Quando ele demora, que pensamento vem primeiro? E se existir outra explicação para a demora?",
+          "en": "When he is slow to reply, what thought comes first? What if there is another explanation for the delay?",
+          "es": "Cuando tarda, ¿qué pensamiento viene primero? ¿Y si hubiera otra explicación para la demora?"
+        },
+        "psicodinamica": {
+          "pt": "Parece que você termina antes de ser deixada. Isso lembra alguma outra história sua?",
+          "en": "It seems you end things before being left. Does that remind you of another story of yours?",
+          "es": "Parece que terminas antes de que te dejen. ¿Eso te recuerda alguna otra historia tuya?"
+        },
+        "diretiva": {
+          "pt": "Parece um padrão de personalidade borderline. Talvez você devesse tentar confiar mais no seu namorado.",
+          "en": "That sounds like a borderline pattern. Maybe you should try to trust your boyfriend more.",
+          "es": "Eso suena a un patrón límite. Quizá deberías intentar confiar más en tu novio."
+        }
+      },
+      "variants": [
+        {
+          "pt": "'Quando meu namorado demora para responder, eu ligo umas dez vezes. Depois me sinto ridícula. Já terminei relações antes de ser deixada.'",
+          "en": "'When my boyfriend takes long to reply, I call about ten times. Then I feel ridiculous. I've ended relationships before I could be left.'",
+          "es": "'Cuando mi novio tarda en responder, lo llamo unas diez veces. Después me siento ridícula. Ya terminé relaciones antes de que me dejaran.'"
+        },
+        {
+          "pt": "'Se meu namorado some por um tempo, eu ligo sem parar e depois fico com vergonha de mim. Várias vezes eu terminei tudo antes que me deixassem.'",
+          "en": "'If my boyfriend goes quiet for a while, I call nonstop and then feel ashamed of myself. Several times I ended everything before they could leave me.'",
+          "es": "'Si mi novio desaparece un rato, lo llamo sin parar y luego me da vergüenza. Varias veces terminé todo antes de que me dejaran.'"
+        }
+      ]
+    },
+    {
+      "who": "patient",
+      "text": {
+        "pt": "'Eu nunca contei isso para ninguém... Você acha que eu tenho algum problema?'",
+        "en": "'I've never told anyone this... Do you think there is something wrong with me?'",
+        "es": "'Nunca le conté esto a nadie... ¿Crees que tengo algún problema?'"
+      },
+      "note": {
+        "pt": "Primeira vez que fala sobre isso com alguém. Pergunta se tem 'algum problema'.",
+        "en": "First time she talks about this with anyone. Asks if she has 'a problem'.",
+        "es": "Primera vez que habla de esto con alguien. Pregunta si tiene 'algún problema'."
+      },
+      "mods": {
+        "acolhimento": -1,
+        "psicoeducacao": 3,
+        "comportamental": 1
+      },
+      "options": {
+        "acolhimento": {
+          "pt": "Fico feliz que tenha me contado isso. Hoje não vou colocar nenhum rótulo: vamos entender juntas o seu padrão.",
+          "en": "I'm glad you told me this. I won't put any label on it today: let's understand your pattern together.",
+          "es": "Me alegra que me hayas contado esto. Hoy no voy a poner ninguna etiqueta: vamos a entender juntas tu patrón."
+        },
+        "psicoeducacao": {
+          "pt": "Vou explicar o processo: vamos entender seu padrão e sua história antes de decidir o que fazer.",
+          "en": "I'll explain the process: we will understand your pattern and history before deciding what to do.",
+          "es": "Voy a explicar el proceso: entenderemos tu patrón y tu historia antes de decidir qué hacer."
+        },
+        "comportamental": {
+          "pt": "Até a próxima sessão, que tal anotar os momentos em que a angústia aparece e o que você faz?",
+          "en": "Until the next session, how about noting the moments when the distress shows up and what you do?",
+          "es": "Hasta la próxima sesión, ¿qué tal anotar los momentos en que aparece la angustia y qué haces?"
+        },
+        "diretiva": {
+          "pt": "Pelo que você contou, já dá para ver um transtorno de personalidade. Vamos falar de tratamento.",
+          "en": "From what you told me, I can already see a personality disorder. Let's talk about treatment.",
+          "es": "Por lo que contaste, ya se ve un trastorno de personalidad. Hablemos del tratamiento."
+        }
+      },
+      "variants": [
+        {
+          "pt": "'Isso eu nunca contei a ninguém... Você acha que existe algo de errado comigo?'",
+          "en": "'I've never told anyone this... Do you think something is wrong with me?'",
+          "es": "'Esto no se lo he contado a nadie... ¿Crees que hay algo mal en mí?'"
+        },
+        {
+          "pt": "'Isso eu nunca disse a ninguém... Será que tem algo errado comigo?'",
+          "en": "'I've never said this to anybody... Is there something wrong with me?'",
+          "es": "'Esto nunca se lo dije a nadie... ¿Habrá algo mal en mí?'"
+        }
+      ]
+    },
+    {
+      "who": "patient",
+      "text": {
+        "pt": "(olhando o relógio) 'Já acabou o tempo? E se eu não voltar? Ou se você cansar de mim, como os outros?'",
+        "en": "(looking at the clock) 'Is time up already? What if I don't come back? Or if you get tired of me, like the others?'",
+        "es": "(mirando el reloj) '¿Ya se acabó el tiempo? ¿Y si no vuelvo? ¿O si te cansas de mí, como los demás?'"
+      },
+      "note": {
+        "pt": "Testa o vínculo no fim da sessão: teme ser abandonada também pela terapeuta.",
+        "en": "Tests the bond at the end of the session: fears being abandoned by the therapist too.",
+        "es": "Pone a prueba el vínculo al final de la sesión: teme ser abandonada también por la terapeuta."
+      },
+      "mods": {
+        "comportamental": 1,
+        "psicodinamica": -1
+      },
+      "options": {
+        "acolhimento": {
+          "pt": "Vou estar aqui na próxima semana, no mesmo horário. Se der vontade de sumir, me avise: podemos conversar sobre isso.",
+          "en": "I'll be here next week at the same time. If you feel like disappearing, tell me: we can talk about it.",
+          "es": "Voy a estar aquí la próxima semana, a la misma hora. Si te dan ganas de desaparecer, avísame: podemos hablarlo."
+        },
+        "comportamental": {
+          "pt": "Combinado: se sentir vontade de faltar, mande uma mensagem antes. Assim testamos outro caminho em vez de sumir. Faltar sem avisar é o que mais atrapalha o processo.",
+          "en": "Agreed: if you feel like missing a session, message me first. That way we try another path instead of disappearing. Missing without notice is what disrupts the process the most.",
+          "es": "Acordado: si sientes ganas de faltar, mándame un mensaje antes. Así probamos otro camino en lugar de desaparecer. Faltar sin avisar es lo que más entorpece el proceso."
+        },
+        "psicodinamica": {
+          "pt": "Você acabou de repetir comigo o medo de ser deixada. Vale pensarmos juntas de onde vem essa expectativa.",
+          "en": "You just repeated with me the fear of being left. It's worth thinking together about where this expectation comes from.",
+          "es": "Acabas de repetir conmigo el miedo a ser dejada. Vale la pena pensar juntas de dónde viene esa expectativa."
+        },
+        "diretiva": {
+          "pt": "Se você faltar sem avisar, vou entender que desistiu do tratamento e a vaga passa para outra pessoa da fila.",
+          "en": "If you miss without notice, I'll take it that you gave up treatment and the slot goes to someone else on the list.",
+          "es": "Si faltas sin avisar, entenderé que abandonaste el tratamiento y el cupo pasa a otra persona de la lista."
+        }
+      },
+      "variants": [
+        {
+          "pt": "(olhando para o relógio) 'O tempo já acabou? E se eu não conseguir voltar? Ou se você também se cansar de mim?'",
+          "en": "(glancing at the clock) 'Is the time over already? What if I can't come back? Or if you get tired of me too?'",
+          "es": "(mirando el reloj) '¿Ya terminó el tiempo? ¿Y si no consigo volver? ¿O si tú también te cansas de mí?'"
+        },
+        {
+          "pt": "(olhando para a porta) 'O tempo acabou? E se eu não conseguir voltar? Ou se você também se cansar de mim?'",
+          "en": "(looking at the door) 'Is time up? What if I can't come back? Or if you also get tired of me?'",
+          "es": "(mirando la puerta) '¿Se acabó el tiempo? ¿Y si no puedo volver? ¿O si tú también te cansas de mí?'"
+        }
+      ]
+    }
+  ],
+  "diagnosis": {
+    "answer": "borderline",
+    "options": [
+      "borderline",
+      "dependente",
+      "histrionica",
+      "bipolar2"
+    ],
+    "why": {
+      "pt": "A hipótese mais consistente é o transtorno da personalidade borderline: medo intenso de abandono, relações intensas e curtas e término antes de ser deixada. É uma hipótese a investigar por várias sessões, não um rótulo para a primeira.",
+      "en": "The most consistent hypothesis is borderline personality disorder: intense fear of abandonment, intense short relationships and ending things before being left. It is a hypothesis to investigate over several sessions, not a label for the first one.",
+      "es": "La hipótesis más consistente es el trastorno de la personalidad límite: miedo intenso al abandono, relaciones intensas y cortas y terminarlas antes de ser dejada. Es una hipótesis a investigar durante varias sesiones, no una etiqueta para la primera."
+    }
+  },
+  "voice": {
+    "intro": {
+      "pt": "(entra devagar, segurando a bolsa com as duas mãos) 'Oi... eu sou a Maria, tenho 25 anos. Vim porque tenho um medo enorme de as pessoas irem embora, e isso está estragando tudo.'",
+      "en": "(walks in slowly, holding her bag with both hands) 'Hi... I'm Maria, I'm 25. I came because I'm terrified people will leave, and it's ruining everything.'",
+      "es": "(entra despacio, sujetando el bolso con las dos manos) 'Hola... soy Maria, tengo 25 años. Vine porque tengo un miedo enorme a que la gente se vaya, y está arruinándolo todo.'"
+    },
+    "pre": [
+      {
+        "pt": "Ai, é que...",
+        "en": "Ugh, it's just that...",
+        "es": "Ay, es que..."
+      },
+      {
+        "pt": "Você vai achar que é exagero, mas...",
+        "en": "You'll think I'm exaggerating, but...",
+        "es": "Vas a pensar que exagero, pero..."
+      }
+    ],
+    "post": {
+      "pt": "Você continua aqui, né?",
+      "en": "You're still here, right?",
+      "es": "Sigues aquí, ¿no?"
+    },
+    "ref": [
+      {
+        "pt": "Ele demorou pra responder de novo e eu liguei umas dez vezes.",
+        "en": "He was slow to answer again and I called about ten times.",
+        "es": "Volvió a tardar en contestar y llamé unas diez veces."
+      },
+      {
+        "pt": "Teve um dia que eu esperei antes de ligar, mas doeu.",
+        "en": "One day I waited before calling, but it hurt.",
+        "es": "Un día esperé antes de llamar, pero dolió."
+      },
+      {
+        "pt": "Consegui esperar a resposta sem ligar. Foi estranho, mas eu aguentei.",
+        "en": "I managed to wait for the reply without calling. It was strange, but I held on.",
+        "es": "Logré esperar la respuesta sin llamar. Fue raro, pero aguanté."
+      }
+    ],
+    "hookA": {
+      "pt": "E quando ele demora a responder, o que passa por dentro de você?",
+      "en": "And when he takes long to reply, what goes on inside you?",
+      "es": "Y cuando él tarda en responder, ¿qué pasa dentro de ti?"
+    },
+    "hookB": {
+      "pt": "Vamos olhar a última vez que você ligou várias vezes: o que veio antes?",
+      "en": "Let's look at the last time you called many times: what came before?",
+      "es": "Miremos la última vez que llamaste muchas veces: ¿qué vino antes?"
+    },
+    "sessoes": {
+      "s3": [
+        {
+          "pt": "'Brigamos de novo no sábado. (aperta o celular com as duas mãos) Ele demorou quatro horas pra responder e eu… eu mandei trinta mensagens. Depois liguei. Depois falei que ia terminar. Ele pediu desculpa e eu chorei de alívio. Domingo eu já achava ele perfeito de novo. Segunda eu já odiava. É sempre assim, e eu odeio que seja assim.'",
+          "en": "'We fought again on Saturday. (grips her phone with both hands) He took four hours to answer and I… I sent thirty messages. Then I called. Then I said I'd break up. He apologised and I cried with relief. By Sunday I thought he was perfect again. By Monday I hated him. It's always like this, and I hate that it is.'",
+          "es": "'We fought again on Saturday. (grips her phone with both hands) He took four hours to answer and I… I sent thirty messages. Then I called. Then I said I'd break up. He apologised and I cried with relief. By Sunday I thought he was perfect again. By Monday I hated him. It's always like this, and I hate that it is.'"
+        },
+        {
+          "pt": "'O pior não é a briga. (a voz fica mais baixa) O pior é o depois, quando fica tudo quieto e eu sinto um vazio aqui dentro, como se eu não fosse ninguém. Aí eu preciso de alguém me olhando pra lembrar que eu existo. É feio falar isso em voz alta.'",
+          "en": "'The worst part isn't the fight. (her voice drops) The worst is afterwards, when everything goes quiet and I feel an emptiness in here, like I'm nobody. Then I need someone looking at me to remember I exist. It sounds ugly saying it out loud.'",
+          "es": "'The worst part isn't the fight. (her voice drops) The worst is afterwards, when everything goes quiet and I feel an emptiness in here, like I'm nobody. Then I need someone looking at me to remember I exist. It sounds ugly saying it out loud.'"
+        }
+      ],
+      "s4": [
+        {
+          "pt": "'Eu fiz uma lista, como a senhora pediu. (desdobra um papel amassado) O Rafa, antes dele o Bruno, antes o Diego. Todos começaram com eu achando que finalmente alguém tinha me entendido de verdade. Todos terminaram com eu gritando que eles eram iguais aos outros. Eu escrevi e fiquei enjoada.'",
+          "en": "'I made a list, like you asked. (unfolds a crumpled sheet) Rafa, before him Bruno, before that Diego. Every one started with me thinking someone had finally really understood me. Every one ended with me screaming that they were just like the rest. I wrote it down and felt sick.'",
+          "es": "'I made a list, like you asked. (unfolds a crumpled sheet) Rafa, before him Bruno, before that Diego. Every one started with me thinking someone had finally really understood me. Every one ended with me screaming that they were just like the rest. I wrote it down and felt sick.'"
+        },
+        {
+          "pt": "'Então me fala uma coisa, doutora, sem enrolar. (olha direto pela primeira vez) O que eu tenho? Minha mãe diz que eu sou dramática. Meu ex dizia que eu era louca. Eu preciso de um nome pra isso, senão eu vou continuar achando que o problema é ser eu.'",
+          "en": "'So tell me something, doctor, straight. (looks at you directly for the first time) What do I have? My mother says I'm dramatic. My ex said I was crazy. I need a name for this, otherwise I'll keep thinking the problem is being me.'",
+          "es": "'So tell me something, doctor, straight. (looks at you directly for the first time) What do I have? My mother says I'm dramatic. My ex said I was crazy. I need a name for this, otherwise I'll keep thinking the problem is being me.'"
+        }
+      ]
+    },
+    "fecho": {
+      "s2": {
+        "pt": "'Posso te perguntar uma coisa? (hesita) Você acha que tem conserto? Porque se não tiver, eu prefiro saber agora e parar de tentar.'",
+        "en": "'Can I ask you something? (hesitates) Do you think this can be fixed? Because if it can't, I'd rather know now and stop trying.'",
+        "es": "'Can I ask you something? (hesitates) Do you think this can be fixed? Because if it can't, I'd rather know now and stop trying.'"
+      },
+      "s3": {
+        "pt": "(já de pé, com a bolsa no ombro) 'Ah — e desculpa pelas trinta mensagens. Não pra você. Pra ele. Eu ia mandar agora e não vou.'",
+        "en": "(already on her feet, bag on her shoulder) 'Oh — and sorry about the thirty messages. Not to you. To him. I was going to send them now and I won't.'",
+        "es": "(already on her feet, bag on her shoulder) 'Oh — and sorry about the thirty messages. Not to you. To him. I was going to send them now and I won't.'"
+      },
+      "s4": {
+        "pt": "'Então é isso. Tem nome.' (fica um tempo olhando para a parede) 'Eu achei que ia ser pior ouvir. Foi meio... alívio.'",
+        "en": "'So that's it. It has a name.' (stares at the wall for a while) 'I thought hearing it would be worse. It was sort of... a relief.'",
+        "es": "'So that's it. It has a name.' (stares at the wall for a while) 'I thought hearing it would be worse. It was sort of... a relief.'"
+      }
+    },
+    "opcoes": {
+      "s3": [
+        {
+          "acolhimento": {
+            "pt": "Trinta mensagens, uma ligação, a ameaça de terminar — e depois o choro. Você já reparou que o choro vem quando o medo passa?",
+            "en": "Thirty messages, a call, the threat to end it — and then the crying. Have you noticed the crying comes when the fear passes?",
+            "es": "Thirty messages, a call, the threat to end it — and then the crying. Have you noticed the crying comes when the fear passes?"
+          },
+          "tcc": {
+            "pt": "Vamos separar as quatro horas: no minuto zero, o que você pensou? E no minuto cento e vinte?",
+            "en": "Let's break down those four hours: at minute zero, what did you think? And at minute one hundred and twenty?",
+            "es": "Let's break down those four hours: at minute zero, what did you think? And at minute one hundred and twenty?"
+          },
+          "psicodinamica": {
+            "pt": "Quatro horas sem resposta e você já sabia o que ia acontecer. De onde vem essa certeza de que vão embora?",
+            "en": "Four hours without an answer and you already knew what would happen. Where does that certainty that people leave come from?",
+            "es": "Four hours without an answer and you already knew what would happen. Where does that certainty that people leave come from?"
+          },
+          "psicoeducacao": {
+            "pt": "O que você descreveu tem um nome e um desenho: o medo dispara, a ação alivia por um minuto e depois cobra. Não é falta de caráter, é um ciclo.",
+            "en": "What you described has a name and a shape: the fear fires, the action relieves for a minute and then charges you. It is not a lack of character, it is a cycle.",
+            "es": "What you described has a name and a shape: the fear fires, the action relieves for a minute and then charges you. It is not a lack of character, it is a cycle."
+          },
+          "comportamental": {
+            "pt": "Da próxima vez que ele demorar, quero que você espere quinze minutos antes da primeira mensagem. Quinze, contados no relógio.",
+            "en": "Next time he takes long, I want you to wait fifteen minutes before the first message. Fifteen, timed on a clock.",
+            "es": "Next time he takes long, I want you to wait fifteen minutes before the first message. Fifteen, timed on a clock."
+          },
+          "diretiva": {
+            "pt": "Trinta mensagens não é amor nem loucura: é pânico. E pânico a gente trata.",
+            "en": "Thirty messages is neither love nor madness: it is panic. And panic is something we treat.",
+            "es": "Thirty messages is neither love nor madness: it is panic. And panic is something we treat."
+          }
+        },
+        {
+          "acolhimento": {
+            "pt": "Você disse 'como se eu não fosse ninguém'. Isso é o mais difícil de dizer em voz alta, e você disse.",
+            "en": "You said 'as if I were nobody'. That is the hardest thing to say out loud, and you said it.",
+            "es": "You said 'as if I were nobody'. That is the hardest thing to say out loud, and you said it."
+          },
+          "tcc": {
+            "pt": "Esse vazio aparece sempre depois da briga, ou ele já estava aí antes dela?",
+            "en": "Does that emptiness always appear after the fight, or was it already there before it?",
+            "es": "Does that emptiness always appear after the fight, or was it already there before it?"
+          },
+          "psicodinamica": {
+            "pt": "Precisar de alguém olhando para lembrar que existe — quando foi a primeira vez que você sentiu isso?",
+            "en": "Needing someone looking at you to remember you exist — when was the first time you felt that?",
+            "es": "Needing someone looking at you to remember you exist — when was the first time you felt that?"
+          },
+          "psicoeducacao": {
+            "pt": "Esse vazio crônico é o núcleo do que você tem, e não um defeito seu. É dele que saem a pressa e o medo.",
+            "en": "That chronic emptiness is the core of what you have, not a defect of yours. The urgency and the fear come from it.",
+            "es": "That chronic emptiness is the core of what you have, not a defect of yours. The urgency and the fear come from it."
+          },
+          "comportamental": {
+            "pt": "Quando o vazio vier, quero que você tente uma coisa concreta antes do celular: gelo na mão, ou descrever em voz alta o que está na sua frente.",
+            "en": "When the emptiness comes, I want you to try something concrete before the phone: ice in your hand, or describing out loud what is in front of you.",
+            "es": "When the emptiness comes, I want you to try something concrete before the phone: ice in your hand, or describing out loud what is in front of you."
+          },
+          "diretiva": {
+            "pt": "Isso aí é o que a gente vem tratar. O namoro é o palco; o vazio é a peça.",
+            "en": "That is what we came here to treat. The relationship is the stage; the emptiness is the play.",
+            "es": "That is what we came here to treat. The relationship is the stage; the emptiness is the play."
+          }
+        }
+      ],
+      "s4": [
+        {
+          "acolhimento": {
+            "pt": "Rafa, Bruno, Diego. Deve ter dado enjoo escrever isso, né?",
+            "en": "Rafa, Bruno, Diego. It must have turned your stomach to write that.",
+            "es": "Rafa, Bruno, Diego. It must have turned your stomach to write that."
+          },
+          "tcc": {
+            "pt": "Olha a lista de novo: todos começam igual e terminam igual. O que se repete não são eles — é o começo.",
+            "en": "Look at the list again: they all start the same and end the same. What repeats is not them — it is the beginning.",
+            "es": "Look at the list again: they all start the same and end the same. What repeats is not them — it is the beginning."
+          },
+          "psicodinamica": {
+            "pt": "'Finalmente alguém me entendeu.' Você lembra de já ter pensado isso de alguém antes do Diego?",
+            "en": "'Finally someone understood me.' Do you remember thinking that about someone before Diego?",
+            "es": "'Finally someone understood me.' Do you remember thinking that about someone before Diego?"
+          },
+          "psicoeducacao": {
+            "pt": "Esse padrão tem nome e não é sina: idealizar depressa e desvalorizar depressa é o que acontece quando o vazio pede socorro rápido.",
+            "en": "This pattern has a name and is not fate: idealising fast and devaluing fast is what happens when the emptiness calls for a quick rescue.",
+            "es": "This pattern has a name and is not fate: idealising fast and devaluing fast is what happens when the emptiness calls for a quick rescue."
+          },
+          "comportamental": {
+            "pt": "Vamos marcar na lista onde, em cada um, você percebeu a primeira virada. Quero ver se há um sinal comum.",
+            "en": "Let's mark on the list where, in each one, you noticed the first turn. I want to see if there is a common sign.",
+            "es": "Let's mark on the list where, in each one, you noticed the first turn. I want to see if there is a common sign."
+          },
+          "diretiva": {
+            "pt": "Você trouxe a prova do padrão. Agora a gente para de discutir se ele existe e começa a mexer nele.",
+            "en": "You brought the proof of the pattern. Now we stop arguing whether it exists and start working on it.",
+            "es": "You brought the proof of the pattern. Now we stop arguing whether it exists and start working on it."
+          }
+        },
+        {
+          "acolhimento": {
+            "pt": "Você olhou para mim pela primeira vez para fazer essa pergunta. Eu vou responder — e antes quero dizer que dramática e louca não são diagnósticos, são xingamentos.",
+            "en": "You looked at me for the first time to ask that. I will answer — and first I want to say that dramatic and crazy are not diagnoses, they are insults.",
+            "es": "You looked at me for the first time to ask that. I will answer — and first I want to say that dramatic and crazy are not diagnoses, they are insults."
+          },
+          "tcc": {
+            "pt": "Eu vou te dar o nome, e junto o que ele significa na prática: o que muda na sua semana a partir de saber disso.",
+            "en": "I will give you the name, and with it what it means in practice: what changes in your week from knowing it.",
+            "es": "I will give you the name, and with it what it means in practice: what changes in your week from knowing it."
+          },
+          "psicodinamica": {
+            "pt": "Antes do nome: o que você espera que ele faça por você? Porque um nome pode libertar ou pode virar mais uma prisão.",
+            "en": "Before the name: what do you hope it does for you? Because a name can free you or become one more cage.",
+            "es": "Before the name: what do you hope it does for you? Because a name can free you or become one more cage."
+          },
+          "psicoeducacao": {
+            "pt": "Tem nome, tem critério e tem tratamento com resultado bom. Vou explicar cada parte devagar e você me diz o que não fez sentido.",
+            "en": "It has a name, it has criteria and it has treatment with good results. I will explain each part slowly and you tell me what did not make sense.",
+            "es": "It has a name, it has criteria and it has treatment with good results. I will explain each part slowly and you tell me what did not make sense."
+          },
+          "comportamental": {
+            "pt": "O nome ajuda, mas o que muda a sua vida é o que a gente vai treinar toda semana. Começa hoje.",
+            "en": "The name helps, but what changes your life is what we will practise every week. It starts today.",
+            "es": "The name helps, but what changes your life is what we will practise every week. It starts today."
+          },
+          "diretiva": {
+            "pt": "Você tem razão em exigir uma resposta. Vou te dar, com todas as letras, e a gente decide juntas o que fazer com ela.",
+            "en": "You are right to demand an answer. I will give it to you, in plain words, and we decide together what to do with it.",
+            "es": "You are right to demand an answer. I will give it to you, in plain words, and we decide together what to do with it."
+          }
+        }
+      ]
+    }
+  },
+  "look": {
+    "skin": "#eac6a4",
+    "hair": "#c98a52",
+    "hairStyle": "long",
+    "top": "#4a90c8",
+    "eyeShape": "round",
+    "brow": "soft",
+    "mouth": "soft",
+    "rosto": "assets/rosto-maria.png",
+    "corpo": "f"
+  }
+}

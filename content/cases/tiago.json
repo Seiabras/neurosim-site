@@ -1,0 +1,503 @@
+{
+  "name": {
+    "pt": "Tiago Prado",
+    "en": "Tiago Prado",
+    "es": "Tiago Prado"
+  },
+  "age": {
+    "pt": "29 anos",
+    "en": "29 years old",
+    "es": "29 años"
+  },
+  "complaint": {
+    "pt": "Semanas de muita energia e pouco sono, seguidas de queda profunda.",
+    "en": "Weeks of high energy and little sleep, followed by a deep crash.",
+    "es": "Semanas de mucha energía y poco sueño, seguidas de una caída profunda."
+  },
+  "history": {
+    "pt": "Publicitário. Há dois meses ficou 10 dias dormindo 3 horas por noite, gastou muito e se sentiu 'invencível'. Depois ficou semanas sem sair da cama.",
+    "en": "Advertising professional. Two months ago he spent 10 days sleeping 3 hours a night, spent a lot and felt 'invincible'. Then he spent weeks unable to get out of bed.",
+    "es": "Publicista. Hace dos meses pasó 10 días durmiendo 3 horas por noche, gastó mucho y se sintió 'invencible'. Luego pasó semanas sin salir de la cama."
+  },
+  "image": "assets/char-tiago.png",
+  "parent": null,
+  "dot": "dot-green",
+  "group": "bipolar",
+  "type": {
+    "pt": "Devolutiva & Orientações",
+    "en": "Feedback & guidance",
+    "es": "Devolutiva y orientaciones"
+  },
+  "info": {
+    "pt": "Devolutiva da avaliação: hipótese de transtorno bipolar e orientação sobre encaminhamento.",
+    "en": "Assessment feedback: bipolar disorder hypothesis and guidance on referral.",
+    "es": "Devolutiva de la evaluación: hipótesis de trastorno bipolar y orientación sobre derivación."
+  },
+  "message": {
+    "from": {
+      "pt": "Psiquiatra parceiro (Dr. Ferraz)",
+      "en": "Partner psychiatrist (Dr. Ferraz)",
+      "es": "Psiquiatra colaborador (Dr. Ferraz)"
+    },
+    "text": {
+      "pt": "{doc}, o Tiago vem para a devolutiva. Os relatos sugerem episódio hipomaníaco e depressivo. Ele resiste à ideia de medicação.",
+      "en": "{doc}, Tiago is coming for the feedback session. Reports suggest hypomanic and depressive episodes. He resists the idea of medication.",
+      "es": "{doc}, Tiago viene a la devolutiva. Los relatos sugieren episodios hipomaníacos y depresivos. Se resiste a la idea de medicación."
+    }
+  },
+  "fit": {
+    "psicoeducacao": 4,
+    "acolhimento": 3,
+    "tcc": 3,
+    "comportamental": 2,
+    "psicodinamica": 1,
+    "diretiva": 0
+  },
+  "why": {
+    "psicoeducacao": {
+      "pt": "Na bipolaridade, entender o quadro (fases, gatilhos, papel do sono e da medicação) é a base do tratamento e melhora a adesão.",
+      "en": "In bipolar disorder, understanding the condition (phases, triggers, role of sleep and medication) is the base of treatment and improves adherence.",
+      "es": "En el trastorno bipolar, entender el cuadro (fases, gatillos, papel del sueño y la medicación) es la base del tratamiento y mejora la adherencia."
+    },
+    "acolhimento": {
+      "pt": "Ele pode sentir o diagnóstico como uma perda de identidade e das fases boas. Acolher esse luto ajuda a aceitar o cuidado.",
+      "en": "He may feel the diagnosis as a loss of identity and of the good phases. Supporting this grief helps accept care.",
+      "es": "Puede sentir el diagnóstico como una pérdida de identidad y de las fases buenas. Acoger ese duelo ayuda a aceptar el cuidado."
+    },
+    "tcc": {
+      "pt": "A TCC ajuda a reconhecer sinais de alerta e a lidar com pensamentos da fase depressiva, junto com o acompanhamento médico.",
+      "en": "CBT helps recognize warning signs and cope with depressive-phase thoughts, alongside medical care.",
+      "es": "La TCC ayuda a reconocer señales de alerta y a manejar pensamientos de la fase depresiva, junto con el seguimiento médico."
+    },
+    "comportamental": {
+      "pt": "Rotina regular de sono e agenda estruturada protegem contra novos episódios, mas não substituem o tratamento médico.",
+      "en": "A regular sleep routine and structured schedule protect against new episodes, but do not replace medical treatment.",
+      "es": "Una rutina regular de sueño y una agenda estructurada protegen de nuevos episodios, pero no reemplazan el tratamiento médico."
+    },
+    "psicodinamica": {
+      "pt": "Compreender o sentido dos episódios pode ajudar no futuro; na devolutiva, o foco é informar e orientar.",
+      "en": "Understanding the meaning of the episodes may help later; in a feedback session the focus is informing and guiding.",
+      "es": "Comprender el sentido de los episodios puede ayudar más adelante; en la devolutiva el foco es informar y orientar."
+    }
+  },
+  "steps": [
+    {
+      "who": "patient",
+      "text": {
+        "pt": "(animado) 'Olha, eu tive umas semanas incríveis: criei campanha em uma noite, tinha ideias o tempo todo. Se isso é doença, eu quero!'",
+        "en": "(cheerful) 'Look, I had incredible weeks: created a campaign in one night, had ideas all the time. If that's an illness, I want it!'",
+        "es": "(animado) 'Mira, tuve unas semanas increíbles: creé una campaña en una noche, tenía ideas todo el tiempo. ¡Si eso es una enfermedad, la quiero!'"
+      },
+      "note": {
+        "pt": "Idealiza a fase de energia elevada; pouca crítica sobre o prejuízo.",
+        "en": "Idealizes the high-energy phase; little insight into the harm.",
+        "es": "Idealiza la fase de energía elevada; poca crítica del perjuicio."
+      },
+      "mods": {
+        "acolhimento": -1,
+        "psicoeducacao": 1
+      },
+      "options": {
+        "psicoeducacao": {
+          "pt": "Essas fases têm um lado bom, sim. Mas vieram junto pouco sono e gastos, e depois a queda. Vamos olhar o quadro completo?",
+          "en": "Those phases do have a good side. But they came with little sleep and spending, and then the crash. Shall we look at the whole picture?",
+          "es": "Esas fases tienen un lado bueno, sí. Pero vinieron con poco sueño y gastos, y luego la caída. ¿Miramos el cuadro completo?"
+        },
+        "acolhimento": {
+          "pt": "Faz sentido gostar dessa sensação: ela era boa para você. Como foi o depois?",
+          "en": "It makes sense to like that feeling: it felt good to you. How was the aftermath?",
+          "es": "Tiene sentido que te guste esa sensación: era buena para ti. ¿Cómo fue el después?"
+        },
+        "tcc": {
+          "pt": "Vamos ver as duas fases lado a lado: o que você ganhou e o que perdeu em cada uma? Colocar lado a lado tira a decisão do lugar do 'sinto que'.",
+          "en": "Let's look at both phases side by side: what did you gain and what did you lose in each? Putting them side by side takes the decision out of 'I feel like'.",
+          "es": "Veamos las dos fases lado a lado: ¿qué ganaste y qué perdiste en cada una? Ponerlas lado a lado saca la decisión del 'siento que'."
+        },
+        "diretiva": {
+          "pt": "Isso que você chama de fase incrível é mania, e o tratamento é lítio. O melhor é começar logo.",
+          "en": "What you call an incredible phase is mania, and the treatment is lithium. It's best to start soon.",
+          "es": "Eso que llamas una fase increíble es manía, y el tratamiento es litio. Lo mejor es empezar pronto."
+        }
+      },
+      "variants": [
+        {
+          "pt": "(animado) 'Olha, tive umas semanas incríveis: criei uma campanha numa noite, tinha ideia o tempo todo. Se isso é doença, eu quero!'",
+          "en": "(excited) 'Look, I had some incredible weeks: I created a campaign in one night, had ideas nonstop. If that's an illness, I want it!'",
+          "es": "(animado) 'Mira, tuve unas semanas increíbles: creé una campaña en una noche, tenía ideas todo el tiempo. Si eso es una enfermedad, ¡la quiero!'"
+        },
+        {
+          "pt": "(sorrindo) 'Sabe aquelas semanas em que tudo flui? Fiz uma campanha inteira em uma noite, cheio de ideias. Se isso é doença, pode vir!'",
+          "en": "(smiling) 'You know those weeks when everything flows? I did a whole campaign in one night, full of ideas. If that's an illness, bring it on!'",
+          "es": "(sonriendo) '¿Sabes esas semanas en que todo fluye? Hice una campaña entera en una noche, lleno de ideas. Si eso es una enfermedad, ¡que venga!'"
+        }
+      ]
+    },
+    {
+      "who": "patient",
+      "text": {
+        "pt": "'Depois veio a queda. Fiquei três semanas sem trabalhar, dizendo que não prestava para nada. Não sei qual dos dois sou eu de verdade.'",
+        "en": "'Then came the crash. I spent three weeks not working, saying I was worthless. I don't know which of the two is really me.'",
+        "es": "'Luego vino la caída. Pasé tres semanas sin trabajar, diciendo que no servía para nada. No sé cuál de los dos soy yo de verdad.'"
+      },
+      "note": {
+        "pt": "Alternância de fases; dúvida sobre a própria identidade.",
+        "en": "Alternating phases; doubt about his own identity.",
+        "es": "Alternancia de fases; duda sobre su propia identidad."
+      },
+      "mods": {
+        "psicoeducacao": 1,
+        "acolhimento": 1
+      },
+      "options": {
+        "acolhimento": {
+          "pt": "Sentir-se dividido é muito difícil. Você é a pessoa inteira, e as fases são parte de um quadro que dá para cuidar.",
+          "en": "Feeling divided is very hard. You are the whole person, and the phases are part of a condition that can be managed.",
+          "es": "Sentirse dividido es muy difícil. Eres la persona completa y las fases son parte de un cuadro que se puede cuidar."
+        },
+        "psicoeducacao": {
+          "pt": "São episódios de um quadro de humor, não o seu caráter. Com tratamento, o humor tende a ficar mais estável.",
+          "en": "They are episodes of a mood condition, not your character. With treatment, mood tends to become more stable.",
+          "es": "Son episodios de un cuadro del ánimo, no tu carácter. Con tratamiento, el ánimo tiende a estabilizarse."
+        },
+        "tcc": {
+          "pt": "Que pensamentos você tinha sobre si na fase de queda? Vamos ver quais deles se repetem?",
+          "en": "What thoughts did you have about yourself in the low phase? Shall we see which ones repeat?",
+          "es": "¿Qué pensamientos tenías sobre ti en la fase de caída? ¿Vemos cuáles se repiten?"
+        },
+        "comportamental": {
+          "pt": "Vamos montar uma linha do tempo: dias de sono, gastos e humor. Ela mostra padrões e o que muda antes de cada fase.",
+          "en": "Let's build a timeline: sleep days, spending and mood. It shows patterns and what changes before each phase.",
+          "es": "Armemos una línea de tiempo: días de sueño, gastos y ánimo. Muestra patrones y qué cambia antes de cada fase."
+        }
+      },
+      "variants": [
+        {
+          "pt": "'Depois veio o buraco: três semanas sem conseguir trabalhar, achando que eu não prestava. Nem sei qual dos dois é o de verdade.'",
+          "en": "'Then came the hole: three weeks unable to work, thinking I was no good. I don't even know which of the two is the real me.'",
+          "es": "'Luego vino el pozo: tres semanas sin poder trabajar, pensando que no servía. Ni sé cuál de los dos es el de verdad.'"
+        },
+        {
+          "pt": "'Aí veio a queda: três semanas sem conseguir trabalhar, achando que eu não servia para nada. Já não sei qual dos dois é o verdadeiro eu.'",
+          "en": "'Then the drop came: three weeks unable to work, thinking I was worthless. I no longer know which of the two is the real me.'",
+          "es": "'Después vino la caída: tres semanas sin poder trabajar, pensando que no valía nada. Ya no sé cuál de los dos es el verdadero yo.'"
+        }
+      ]
+    },
+    {
+      "who": "patient",
+      "text": {
+        "pt": "'O Dr. Ferraz falou em remédio. Eu tenho medo de ficar apagado, sem criatividade. Eu preciso mesmo?'",
+        "en": "'Dr. Ferraz mentioned medication. I'm afraid of feeling flat, without creativity. Do I really need it?'",
+        "es": "'El Dr. Ferraz habló de medicación. Tengo miedo de quedar apagado, sin creatividad. ¿De verdad la necesito?'"
+      },
+      "note": {
+        "pt": "Resistência à medicação por medo de perder a criatividade.",
+        "en": "Resistance to medication for fear of losing creativity.",
+        "es": "Resistencia a la medicación por miedo a perder la creatividad."
+      },
+      "mods": {
+        "psicoeducacao": 2,
+        "tcc": 0,
+        "acolhimento": 0
+      },
+      "options": {
+        "psicoeducacao": {
+          "pt": "A decisão é do médico junto com você. Posso explicar como o tratamento previne novos episódios; vale levar essa dúvida ao Dr. Ferraz.",
+          "en": "The decision is the doctor's together with you. I can explain how treatment prevents new episodes; it's worth bringing this doubt to Dr. Ferraz.",
+          "es": "La decisión es del médico junto contigo. Puedo explicarte cómo el tratamiento previene nuevos episodios; vale llevar esta duda al Dr. Ferraz."
+        },
+        "acolhimento": {
+          "pt": "Esse medo é muito comum. Você não precisa decidir hoje. O que a criatividade representa para você?",
+          "en": "This fear is very common. You don't need to decide today. What does creativity represent to you?",
+          "es": "Este miedo es muy común. No necesitas decidir hoy. ¿Qué representa la creatividad para ti?"
+        },
+        "tcc": {
+          "pt": "Vamos listar juntos o que você teme e o que já viveu nas fases sem tratamento, e pesar os dois lados?",
+          "en": "Let's list together what you fear and what you already lived through in the untreated phases, and weigh both sides?",
+          "es": "Listemos juntos lo que temes y lo que ya viviste en las fases sin tratamiento, y pesemos ambos lados."
+        },
+        "diretiva": {
+          "pt": "Sem o remédio, o próximo episódio pode ser pior e você pode perder o emprego. Vale a pena tomar. Perder o emprego pesa mais do que um efeito colateral.",
+          "en": "Without the medication, the next episode may be worse and you could lose your job. It's worth taking it. Losing the job weighs more than a side effect.",
+          "es": "Sin la medicación, el próximo episodio puede ser peor y podrías perder el empleo. Vale la pena tomarla. Perder el empleo pesa más que un efecto secundario."
+        }
+      },
+      "variants": [
+        {
+          "pt": "'O Dr. Ferraz indicou um remédio. Tenho medo de perder a criatividade e ficar apagado. Será que eu preciso mesmo?'",
+          "en": "'Dr. Ferraz recommended a medication. I'm afraid of losing my creativity and going flat. Do I actually need it?'",
+          "es": "'El Dr. Ferraz recomendó un medicamento. Temo perder la creatividad y quedarme apagado. ¿De verdad lo necesito?'"
+        },
+        {
+          "pt": "'O Dr. Ferraz sugeriu um remédio. Fico com medo de perder a criatividade e ficar sem graça. Será que preciso mesmo?'",
+          "en": "'Dr. Ferraz suggested a medication. I'm scared of losing my creativity and going dull. Do I really need it?'",
+          "es": "'El Dr. Ferraz sugirió un medicamento. Me da miedo perder la creatividad y quedar sin gracia. ¿De verdad lo necesito?'"
+        }
+      ]
+    },
+    {
+      "who": "patient",
+      "text": {
+        "pt": "'Se eu tiver uma semana daquelas de novo, com pouco sono e cheio de ideias, o que eu faço?'",
+        "en": "'If I have one of those weeks again, with little sleep and full of ideas, what do I do?'",
+        "es": "'Si tengo otra de esas semanas, con poco sueño y lleno de ideas, ¿qué hago?'"
+      },
+      "note": {
+        "pt": "Pergunta sobre sinais de alerta de nova fase; abertura para um plano de prevenção.",
+        "en": "Asks about warning signs of a new phase; opening for a prevention plan.",
+        "es": "Pregunta por señales de alerta de una nueva fase; apertura para un plan de prevención."
+      },
+      "mods": {
+        "comportamental": 1
+      },
+      "options": {
+        "psicoeducacao": {
+          "pt": "Vamos listar seus sinais de alerta: dormir menos de 5 horas, gastos fora do comum, muita pressa. Se aparecerem, avisar o Dr. Ferraz e alguém de confiança.",
+          "en": "Let's list your warning signs: sleeping under 5 hours, unusual spending, rushing. If they show up, tell Dr. Ferraz and someone you trust.",
+          "es": "Listemos tus señales de alerta: dormir menos de 5 horas, gastos fuera de lo común, mucha prisa. Si aparecen, avisar al Dr. Ferraz y a alguien de confianza."
+        },
+        "comportamental": {
+          "pt": "Proteja o sono como prioridade: horário fixo para deitar, sem trabalhar de madrugada e um registro diário simples de humor e horas dormidas.",
+          "en": "Protect sleep as a priority: fixed bedtime, no working overnight and a simple daily log of mood and hours slept.",
+          "es": "Protege el sueño como prioridad: hora fija de acostarte, sin trabajar de madrugada y un registro diario simple de ánimo y horas dormidas."
+        },
+        "tcc": {
+          "pt": "Quando as ideias vierem, escreva-as em vez de agir na hora. Depois de dormir, releia e decida com a cabeça descansada. A cabeça de manhã decide melhor do que a euforia de madrugada.",
+          "en": "When ideas come, write them down instead of acting right away. After sleeping, reread and decide with a rested mind. A rested morning mind decides better than a euphoric 3 a.m. one.",
+          "es": "Cuando lleguen las ideas, escríbelas en lugar de actuar en el momento. Después de dormir, relee y decide con la mente descansada. La cabeza descansada de la mañana decide mejor que la euforia de la madrugada."
+        },
+        "diretiva": {
+          "pt": "Se acontecer, pare tudo e vá direto ao pronto-socorro. Não tente resolver sozinho nem confie no que você sente nessa fase.",
+          "en": "If it happens, stop everything and go straight to the ER. Don't try to handle it alone or trust what you feel in that phase.",
+          "es": "Si ocurre, detén todo y ve directo a urgencias. No intentes resolverlo solo ni confíes en lo que sientes en esa fase."
+        }
+      },
+      "variants": [
+        {
+          "pt": "'E se aparecer outra semana daquelas, dormindo pouco e com a cabeça a mil? O que eu faço?'",
+          "en": "'And if another one of those weeks shows up, sleeping little and head racing? What do I do?'",
+          "es": "'¿Y si aparece otra de esas semanas, durmiendo poco y con la cabeza a mil? ¿Qué hago?'"
+        },
+        {
+          "pt": "'E se vier outra daquelas semanas, dormindo pouco e com a cabeça cheia de ideias? O que eu faço?'",
+          "en": "'And if another one of those weeks comes, sleeping little and head full of ideas? What do I do?'",
+          "es": "'¿Y si viene otra de esas semanas, durmiendo poco y con la cabeza llena de ideas? ¿Qué hago?'"
+        }
+      ]
+    }
+  ],
+  "diagnosis": {
+    "answer": "bipolar2",
+    "options": [
+      "bipolar2",
+      "bipolar1",
+      "ciclotimico",
+      "tdm"
+    ],
+    "why": {
+      "pt": "Uma fase de energia elevada, pouco sono e gastos, sem prejuízo grave, sugere hipomania, seguida de episódio depressivo: perfil de bipolar tipo II. O tipo I exigiria mania completa e o TDM sozinho não explica a fase elevada.",
+      "en": "A phase of high energy, little sleep and spending, without severe impairment, suggests hypomania, followed by a depressive episode: a bipolar II profile. Type I would require full mania, and MDD alone does not explain the elevated phase.",
+      "es": "Una fase de energía elevada, poco sueño y gastos, sin deterioro grave, sugiere hipomanía, seguida de un episodio depresivo: perfil de bipolar tipo II. El tipo I exigiría manía completa y el TDM solo no explica la fase elevada."
+    }
+  },
+  "voice": {
+    "intro": {
+      "pt": "(entra falando, gesticulando) 'Oi, doutora! Tiago, 29. Olha, eu tô ótimo, mas minha família disse que eu passei dois meses sem dormir e gastei o que não devia, então vim conferir. Também já tive fases bem ruins, viu?'",
+      "en": "(walks in talking, gesturing) 'Hi, doctor! Tiago, 29. Look, I'm great, but my family said I went two months barely sleeping and spent what I shouldn't have, so I came to check. I've had really bad phases too, you know?'",
+      "es": "(entra hablando, gesticulando) '¡Hola, doctora! Tiago, 29. Mira, estoy genial, pero mi familia dijo que pasé dos meses sin dormir y gasté lo que no debía, así que vine a revisar. También tuve fases muy malas, ¿eh?'"
+    },
+    "pre": [
+      {
+        "pt": "Nossa, presta atenção:",
+        "en": "Wow, listen:",
+        "es": "Uf, escucha:"
+      },
+      {
+        "pt": "Então, tive uma ideia!",
+        "en": "So, I had an idea!",
+        "es": "¡Bueno, tuve una idea!"
+      }
+    ],
+    "post": {
+      "pt": "Ou não. Sei lá.",
+      "en": "Or not. Whatever.",
+      "es": "O no. No sé."
+    },
+    "ref": [
+      {
+        "pt": "Dormi tipo quatro horas e fiquei a mil, mas hoje bateu um cansaço.",
+        "en": "Slept about four hours and was on fire, but today the tiredness hit.",
+        "es": "Dormí como cuatro horas y estuve a mil, pero hoy me cayó el cansancio."
+      },
+      {
+        "pt": "Passei uns dias pra baixo, depois voltou a energia. Uma montanha-russa.",
+        "en": "A few days low, then the energy came back. A roller coaster.",
+        "es": "Unos días bajo, luego volvió la energía. Una montaña rusa."
+      },
+      {
+        "pt": "Dormi as oito horas certinhas a semana toda. Sabia que eu ia conseguir!",
+        "en": "Slept a proper eight hours all week. I knew I could do it!",
+        "es": "Dormí ocho horas exactas toda la semana. ¡Sabía que podía!"
+      }
+    ],
+    "hookA": {
+      "pt": "Como você percebe que a energia está subindo?",
+      "en": "How do you notice your energy rising?",
+      "es": "¿Cómo notas que la energía está subiendo?"
+    },
+    "hookB": {
+      "pt": "Vamos montar um diário de sono e humor para acompanhar as fases?",
+      "en": "Shall we set up a sleep and mood diary to track the phases?",
+      "es": "¿Armamos un diario de sueño y ánimo para seguir las fases?"
+    },
+    "sessoes": {
+      "s3": [
+        {
+          "pt": "'Fechei três projetos em quatro dias. (fala rápido, sorrindo) Dormi umas três horas por noite e tava ótimo, sério. Minha sócia que ficou preocupada. Eu não entendi por quê.'",
+          "en": "'I closed three projects in four days. (speaking fast, smiling) I slept about three hours a night and I felt great, honestly. My business partner was the one who got worried. I didn't understand why.'",
+          "es": "'I closed three projects in four days. (speaking fast, smiling) I slept about three hours a night and I felt great, honestly. My business partner was the one who got worried. I didn't understand why.'"
+        },
+        {
+          "pt": "'Aí semana passada eu não consegui responder um e-mail. Um. Fiquei olhando a tela. (a voz baixa) Do jeito que sobe, desce.'",
+          "en": "'Then last week I couldn't answer one email. One. I just stared at the screen. (his voice drops) The way it goes up, it comes down.'",
+          "es": "'Then last week I couldn't answer one email. One. I just stared at the screen. (his voice drops) The way it goes up, it comes down.'"
+        }
+      ],
+      "s4": [
+        {
+          "pt": "'Eu preenchi o diário do sono. (abre o caderno) Olha o desenho que dá. Quatro dias de três horas, depois duas semanas de doze. Nunca no meio. Eu achava que era só personalidade.'",
+          "en": "'I filled in the sleep diary. (opens the notebook) Look at the shape it makes. Four days of three hours, then two weeks of twelve. Never in between. I thought it was just personality.'",
+          "es": "'I filled in the sleep diary. (opens the notebook) Look at the shape it makes. Four days of three hours, then two weeks of twelve. Never in between. I thought it was just personality.'"
+        },
+        {
+          "pt": "'Me assusta uma coisa, doutora. (pausa) Se tratar tira a parte de cima, eu ainda sou bom no que eu faço? Porque é lá em cima que eu produzo.'",
+          "en": "'Something scares me, doctor. (pause) If treatment takes away the top part, am I still good at what I do? Because the top is where I produce.'",
+          "es": "'Something scares me, doctor. (pause) If treatment takes away the top part, am I still good at what I do? Because the top is where I produce.'"
+        }
+      ]
+    },
+    "fecho": {
+      "s2": {
+        "pt": "(já de pé, falando rápido) 'Ah, e eu tive uma ideia pra clínica da senhora, um app, eu já desenhei a tela inicial — desculpa, é assim mesmo, vem tudo junto.'",
+        "en": "(already on his feet, talking fast) 'Oh, and I had an idea for your clinic, an app, I've already sketched the home screen — sorry, it's like this, it all comes at once.'",
+        "es": "(already on his feet, talking fast) 'Oh, and I had an idea for your clinic, an app, I've already sketched the home screen — sorry, it's like this, it all comes at once.'"
+      },
+      "s3": {
+        "pt": "(mostra o caderno de novo, mais sério) 'Olha o desenho. Eu não tinha visto o desenho. Faz uns seis anos que isso desenha a mesma coisa.'",
+        "en": "(shows the notebook again, more serious) 'Look at the shape. I hadn't seen the shape. This has been drawing the same thing for about six years.'",
+        "es": "(shows the notebook again, more serious) 'Look at the shape. I hadn't seen the shape. This has been drawing the same thing for about six years.'"
+      },
+      "s4": {
+        "pt": "'Se eu tratar e continuar bom no que eu faço, eu topo.' (pausa) 'Se for pra ficar morno, eu prefiro o risco. Isso é problema?'",
+        "en": "'If I get treatment and stay good at what I do, I'm in.' (pause) 'If it means going lukewarm, I'd rather take the risk. Is that a problem?'",
+        "es": "'If I get treatment and stay good at what I do, I'm in.' (pause) 'If it means going lukewarm, I'd rather take the risk. Is that a problem?'"
+      }
+    },
+    "opcoes": {
+      "s3": [
+        {
+          "acolhimento": {
+            "pt": "Você não entendeu por que ela se preocupou — e é justamente isso que costuma acontecer de dentro.",
+            "en": "You did not understand why she was worried — and that is exactly what tends to happen from the inside.",
+            "es": "You did not understand why she was worried — and that is exactly what tends to happen from the inside."
+          },
+          "tcc": {
+            "pt": "Três horas de sono por quatro noites e tudo ótimo. O que acontecia com a sua cabeça nesses dias, a velocidade mudava?",
+            "en": "Three hours of sleep for four nights and everything great. What was happening in your head those days, did the speed change?",
+            "es": "Three hours of sleep for four nights and everything great. What was happening in your head those days, did the speed change?"
+          },
+          "psicoeducacao": {
+            "pt": "No alto ninguém sente que há problema — é por isso que quem percebe é quem está de fora. Isso não é falha sua, é o desenho do quadro.",
+            "en": "In the high, nobody feels there is a problem — which is why the one who notices is on the outside. That is not your failing, it is how the condition works.",
+            "es": "In the high, nobody feels there is a problem — which is why the one who notices is on the outside. That is not your failing, it is how the condition works."
+          },
+          "diretiva": {
+            "pt": "Sua sócia viu certo. Quero que você me traga o que ela viu, da boca dela, na próxima.",
+            "en": "Your business partner saw it right. I want you to bring me what she saw, in her words, next time.",
+            "es": "Your business partner saw it right. I want you to bring me what she saw, in her words, next time."
+          }
+        },
+        {
+          "acolhimento": {
+            "pt": "'Do jeito que sobe, desce.' Você ligou as duas pontas sozinho.",
+            "en": "'The way it goes up, it comes down.' You connected the two ends yourself.",
+            "es": "'The way it goes up, it comes down.' You connected the two ends yourself."
+          },
+          "tcc": {
+            "pt": "Vamos marcar isso no tempo: quantos dias entre o fim dos quatro dias e o e-mail que você não conseguiu responder?",
+            "en": "Let's put that on a timeline: how many days between the end of those four days and the email you could not answer?",
+            "es": "Let's put that on a timeline: how many days between the end of those four days and the email you could not answer?"
+          },
+          "psicoeducacao": {
+            "pt": "É essa frase que transforma dois problemas separados num só. O que a gente trata não é a descida: é o ciclo.",
+            "en": "That sentence is what turns two separate problems into one. What we treat is not the low: it is the cycle.",
+            "es": "That sentence is what turns two separate problems into one. What we treat is not the low: it is the cycle."
+          },
+          "diretiva": {
+            "pt": "A partir de agora eu quero as duas pontas anotadas: sono e horas de trabalho, todo dia.",
+            "en": "From now on I want both ends written down: sleep and work hours, every day.",
+            "es": "From now on I want both ends written down: sleep and work hours, every day."
+          }
+        }
+      ],
+      "s4": [
+        {
+          "acolhimento": {
+            "pt": "Seis anos com a mesma forma. Deve dar um alívio e um susto ao mesmo tempo ver isso desenhado.",
+            "en": "Six years with the same shape. It must be a relief and a fright at once to see it drawn.",
+            "es": "Six years with the same shape. It must be a relief and a fright at once to see it drawn."
+          },
+          "tcc": {
+            "pt": "Nunca no meio: é o dado mais importante da sua semana. O que costuma vir logo antes de cada subida?",
+            "en": "Never in the middle: that is the most important fact of your week. What usually comes right before each climb?",
+            "es": "Never in the middle: that is the most important fact of your week. What usually comes right before each climb?"
+          },
+          "psicoeducacao": {
+            "pt": "Personalidade não desenha isso. Episódios desenham. É esse gráfico que muda o nome do que você tem.",
+            "en": "Personality does not draw that. Episodes do. That chart is what changes the name of what you have.",
+            "es": "Personality does not draw that. Episodes do. That chart is what changes the name of what you have."
+          },
+          "diretiva": {
+            "pt": "Continue anotando. Esse caderno vale mais que qualquer conversa que a gente tiver aqui.",
+            "en": "Keep writing it down. That notebook is worth more than any conversation we have in here.",
+            "es": "Keep writing it down. That notebook is worth more than any conversation we have in here."
+          }
+        },
+        {
+          "acolhimento": {
+            "pt": "Essa pergunta é honesta e eu vou responder com honestidade: não, tratar não tira o que você é bom em fazer.",
+            "en": "That question is honest and I will answer honestly: no, treatment does not take away what you are good at.",
+            "es": "That question is honest and I will answer honestly: no, treatment does not take away what you are good at."
+          },
+          "tcc": {
+            "pt": "Olhe o caderno de novo: o que você produziu nos quatro dias de alto sobreviveu às duas semanas de baixo?",
+            "en": "Look at the notebook again: did what you produced in the four high days survive the two low weeks?",
+            "es": "Look at the notebook again: did what you produced in the four high days survive the two low weeks?"
+          },
+          "psicoeducacao": {
+            "pt": "O que o tratamento tira é a queda que vem junto. O alto não é o seu talento — é o que cobra o preço dele depois.",
+            "en": "What treatment takes away is the crash that comes with it. The high is not your talent — it is what charges you for it afterwards.",
+            "es": "What treatment takes away is the crash that comes with it. The high is not your talent — it is what charges you for it afterwards."
+          },
+          "diretiva": {
+            "pt": "Se eu não responder isso direito, o senhor abandona o tratamento na terceira consulta. Então: não, e eu explico.",
+            "en": "If I do not answer that properly, you will drop out by the third session. So: no, and I will explain.",
+            "es": "If I do not answer that properly, you will drop out by the third session. So: no, and I will explain."
+          }
+        }
+      ]
+    }
+  },
+  "look": {
+    "skin": "#eec49a",
+    "hair": "#a87a4a",
+    "top": "#e08a2a",
+    "style": "shirt",
+    "eyeShape": "round",
+    "brow": "soft",
+    "mouth": "soft",
+    "freckles": true,
+    "rosto": "assets/rosto-tiago.png",
+    "corpo": "m"
+  }
+}

@@ -1,0 +1,352 @@
+{
+ "principal": [
+  {
+   "id": "p1",
+   "cond": {
+    "tipo": "visitar",
+    "alvo": "praca"
+   },
+   "nome": {
+    "pt": "Sair do consultório",
+    "en": "Leave the office",
+    "es": "Salir del consultorio"
+   },
+   "texto": {
+    "pt": "Você atendeu, anotou, fechou a porta. Agora ande até a praça e fique lá um minuto sem fazer nada. Quem cuida dos outros precisa de um lugar onde não está cuidando de ninguém.",
+    "en": "You saw patients, took notes, closed the door. Now walk to the square and stay there a minute doing nothing. People who care for others need a place where they are not caring for anyone.",
+    "es": "Atendiste, anotaste, cerraste la puerta. Ahora camina hasta la plaza y quédate ahí un minuto sin hacer nada. Quien cuida de otros necesita un lugar donde no esté cuidando de nadie."
+   },
+   "premio": {
+    "moedas": 20,
+    "xp": 10
+   }
+  },
+  {
+   "id": "p2",
+   "cond": {
+    "tipo": "falarN",
+    "n": 3
+   },
+   "nome": {
+    "pt": "Aprender três nomes",
+    "en": "Learn three names",
+    "es": "Aprender tres nombres"
+   },
+   "texto": {
+    "pt": "A cidade tem gente que você cruza todo dia e não sabe o nome. Converse com três pessoas — quaisquer três. Saber o nome de quem vende o seu pão muda o tamanho da cidade.",
+    "en": "There are people you pass every day whose names you do not know. Talk to three people — any three. Knowing the name of whoever sells you bread changes the size of a city.",
+    "es": "Hay gente con la que te cruzas a diario y no sabes su nombre. Habla con tres personas, cualesquiera tres. Saber el nombre de quien te vende el pan cambia el tamaño de una ciudad."
+   },
+   "premio": {
+    "moedas": 25,
+    "xp": 15,
+    "eixo": "multi"
+   }
+  },
+  {
+   "id": "p3",
+   "cond": {
+    "tipo": "visitar",
+    "alvo": "capsi"
+   },
+   "nome": {
+    "pt": "Achar os seus",
+    "en": "Find your people",
+    "es": "Encontrar a los tuyos"
+   },
+   "texto": {
+    "pt": "Tem um centro acadêmico de psicologia dentro da faculdade. Entra. Ter com quem dividir caso pesado é o que segura quem cuida dos outros.",
+    "en": "There is a psychology student union inside the university. Go in. Having someone to share a heavy case with is what holds up the people who care for others.",
+    "es": "Hay un centro de estudiantes de psicología dentro de la facultad. Entra. Tener con quién compartir un caso pesado es lo que sostiene a quien cuida de otros."
+   },
+   "premio": {
+    "moedas": 30,
+    "xp": 20
+   }
+  },
+  {
+   "id": "p4",
+   "cond": {
+    "tipo": "atividadeQualquer"
+   },
+   "nome": {
+    "pt": "Fazer algo que não é trabalho",
+    "en": "Do something that is not work",
+    "es": "Hacer algo que no es trabajo"
+   },
+   "texto": {
+    "pt": "Pescar, desenhar, ver as constelações, jogar pingue-pongue, dar comida aos patos — qualquer coisa. Escolha uma e faça até o fim. Não vale começar e voltar para a ficha.",
+    "en": "Fish, draw, watch the constellations, play ping-pong, feed the ducks — anything. Pick one and finish it. Starting and going back to the chart does not count.",
+    "es": "Pescar, dibujar, ver las constelaciones, jugar ping-pong, dar de comer a los patos: lo que sea. Elige una y termínala. Empezar y volver a la ficha no vale."
+   },
+   "premio": {
+    "moedas": 25,
+    "xp": 15
+   }
+  },
+  {
+   "id": "p5",
+   "cond": {
+    "tipo": "supervisao"
+   },
+   "nome": {
+    "pt": "Levar o caso para alguém",
+    "en": "Take the case to someone",
+    "es": "Llevar el caso a alguien"
+   },
+   "texto": {
+    "pt": "Tem uma sala de supervisão na faculdade. Leve o caso que está pesando. Ninguém sustenta clínica sozinho, e a primeira vez é a mais difícil de todas.",
+    "en": "There is a supervision room at the university. Take the case that is weighing on you. Nobody holds a practice alone, and the first time is the hardest of all.",
+    "es": "Hay una sala de supervisión en la facultad. Lleva el caso que pesa. Nadie sostiene una clínica solo, y la primera vez es la más difícil."
+   },
+   "premio": {
+    "moedas": 40,
+    "xp": 30,
+    "eixo": "raciocinio"
+   }
+  },
+  {
+   "id": "p6",
+   "cond": {
+    "tipo": "visitarN",
+    "n": 10
+   },
+   "nome": {
+    "pt": "A cidade é sua",
+    "en": "The city is yours",
+    "es": "La ciudad es tuya"
+   },
+   "texto": {
+    "pt": "Dez lugares diferentes, com os seus pés. Quando você souber onde fica tudo sem abrir o mapa, esta cidade deixou de ser um cenário e virou um lugar onde você mora.",
+    "en": "Ten different places, on your own feet. When you know where everything is without opening the map, this city has stopped being scenery and become a place where you live.",
+    "es": "Diez lugares distintos, con tus propios pies. Cuando sepas dónde queda todo sin abrir el mapa, esta ciudad dejó de ser un decorado y se volvió un lugar donde vives."
+   },
+   "premio": {
+    "moedas": 60,
+    "xp": 50,
+    "eixo": "anamnese"
+   }
+  }
+ ],
+ "secundarias": [
+  {
+   "id": "s-aquario",
+   "cond": {
+    "tipo": "aquario"
+   },
+   "lugar": "apartamento",
+   "nome": {
+    "pt": "O aquário quer atenção",
+    "en": "The aquarium wants attention",
+    "es": "El acuario quiere atención"
+   },
+   "texto": {
+    "pt": "Alimente o aquário. É a única coisa em casa que depende de você e não fala.",
+    "en": "Feed the aquarium. It is the only thing at home that depends on you and does not talk.",
+    "es": "Alimenta el acuario. Es lo único en casa que depende de ti y no habla."
+   },
+   "premio": {
+    "moedas": 15,
+    "xp": 8
+   }
+  },
+  {
+   "id": "s-xadrez",
+   "cond": {
+    "tipo": "xadrez"
+   },
+   "lugar": "xadrez",
+   "nome": {
+    "pt": "Uma partida no clube",
+    "en": "A game at the club",
+    "es": "Una partida en el club"
+   },
+   "texto": {
+    "pt": "Jogue uma partida de xadrez até o fim. Perder para o Mestre também conta — ele explica onde estava a armadilha.",
+    "en": "Play a game of chess to the end. Losing to the Master counts too — he explains where the trap was.",
+    "es": "Juega una partida de ajedrez hasta el final. Perder con el Maestro también cuenta: él explica dónde estaba la trampa."
+   },
+   "premio": {
+    "moedas": 20,
+    "xp": 12,
+    "eixo": "raciocinio"
+   }
+  },
+  {
+   "id": "s-pingue",
+   "cond": {
+    "tipo": "pingue"
+   },
+   "lugar": "capsi",
+   "nome": {
+    "pt": "Pingue-pongue no CAPsi",
+    "en": "Ping-pong at the student union",
+    "es": "Ping-pong en el centro"
+   },
+   "texto": {
+    "pt": "A mesa está livre. Jogue uma partida com a turma.",
+    "en": "The table is free. Play a round with the group.",
+    "es": "La mesa está libre. Juega una ronda con el grupo."
+   },
+   "premio": {
+    "moedas": 15,
+    "xp": 10
+   }
+  },
+  {
+   "id": "s-aula",
+   "cond": {
+    "tipo": "aula"
+   },
+   "lugar": "academia",
+   "nome": {
+    "pt": "A aula do dia",
+    "en": "The class of the day",
+    "es": "La clase del día"
+   },
+   "texto": {
+    "pt": "Faça a aula do dia na academia. O corpo de quem escuta o dia inteiro também precisa de alguém.",
+    "en": "Take the day's class at the gym. The body of someone who listens all day needs somebody too.",
+    "es": "Haz la clase del día en el gimnasio. El cuerpo de quien escucha todo el día también necesita a alguien."
+   },
+   "premio": {
+    "moedas": 18,
+    "xp": 12
+   }
+  },
+  {
+   "id": "s-museu",
+   "cond": {
+    "tipo": "visitar",
+    "alvo": "museu"
+   },
+   "lugar": "museu",
+   "nome": {
+    "pt": "Uma tarde no museu",
+    "en": "An afternoon at the museum",
+    "es": "Una tarde en el museo"
+   },
+   "texto": {
+    "pt": "O museu da cidade guarda a história de como se chegou até aqui. Vale uma tarde.",
+    "en": "The city museum keeps the story of how we got here. Worth an afternoon.",
+    "es": "El museo de la ciudad guarda la historia de cómo se llegó hasta aquí. Vale una tarde."
+   },
+   "premio": {
+    "moedas": 20,
+    "xp": 15,
+    "eixo": "laudo"
+   }
+  },
+  {
+   "id": "s-feira",
+   "cond": {
+    "tipo": "visitar",
+    "alvo": "feira-domingo"
+   },
+   "lugar": "feira-domingo",
+   "nome": {
+    "pt": "Feira de domingo",
+    "en": "Sunday market",
+    "es": "Feria de domingo"
+   },
+   "texto": {
+    "pt": "A feira só abre de manhã. Vá antes das duas da tarde e leve fruta para casa.",
+    "en": "The market only opens in the morning. Go before two in the afternoon and take fruit home.",
+    "es": "La feria solo abre por la mañana. Ve antes de las dos y llévate fruta a casa."
+   },
+   "premio": {
+    "moedas": 18,
+    "xp": 10
+   }
+  },
+  {
+   "id": "s-farol",
+   "cond": {
+    "tipo": "visitar",
+    "alvo": "farol"
+   },
+   "lugar": "farol",
+   "nome": {
+    "pt": "O capitão do farol",
+    "en": "The lighthouse keeper",
+    "es": "El capitán del faro"
+   },
+   "texto": {
+    "pt": "Dizem que o Capitão Névoa conta boas histórias para quem sobe até lá.",
+    "en": "They say Captain Mist tells good stories to whoever climbs up there.",
+    "es": "Dicen que el Capitán Niebla cuenta buenas historias a quien sube hasta allá."
+   },
+   "premio": {
+    "moedas": 22,
+    "xp": 14
+   }
+  },
+  {
+   "id": "s-zoo",
+   "cond": {
+    "tipo": "visitar",
+    "alvo": "zoo"
+   },
+   "lugar": "zoo",
+   "nome": {
+    "pt": "Os bichos do zoológico",
+    "en": "The zoo animals",
+    "es": "Los animales del zoológico"
+   },
+   "texto": {
+    "pt": "Observe um animal no Zoológico dos Biomas. Olhar bicho de perto acalma quem passa o dia olhando gente.",
+    "en": "Watch an animal at the Biomes Zoo. Watching animals up close calms someone who spends the day watching people.",
+    "es": "Observa un animal en el Zoológico de los Biomas. Mirar animales de cerca calma a quien pasa el día mirando gente."
+   },
+   "premio": {
+    "moedas": 18,
+    "xp": 12
+   }
+  },
+  {
+   "id": "s-livraria",
+   "cond": {
+    "tipo": "visitar",
+    "alvo": "livraria"
+   },
+   "lugar": "livraria",
+   "nome": {
+    "pt": "Um livro que não é técnico",
+    "en": "A book that is not technical",
+    "es": "Un libro que no es técnico"
+   },
+   "texto": {
+    "pt": "Passe na livraria e escolha algo que não tenha a palavra 'transtorno' na capa.",
+    "en": "Stop by the bookshop and pick something without the word 'disorder' on the cover.",
+    "es": "Pasa por la librería y elige algo que no tenga la palabra 'trastorno' en la portada."
+   },
+   "premio": {
+    "moedas": 16,
+    "xp": 10
+   }
+  },
+  {
+   "id": "s-memorial",
+   "cond": {
+    "tipo": "visitar",
+    "alvo": "memorial"
+   },
+   "lugar": "memorial",
+   "nome": {
+    "pt": "Quem veio antes",
+    "en": "Those who came before",
+    "es": "Quienes vinieron antes"
+   },
+   "texto": {
+    "pt": "O Parque Memorial guarda os nomes de quem abriu o caminho da psicologia. Vá prestar atenção neles.",
+    "en": "The Memorial Park keeps the names of those who opened psychology's path. Go and pay attention to them.",
+    "es": "El Parque Memorial guarda los nombres de quienes abrieron el camino de la psicología. Ve a prestarles atención."
+   },
+   "premio": {
+    "moedas": 20,
+    "xp": 18,
+    "eixo": "laudo"
+   }
+  }
+ ]
+}

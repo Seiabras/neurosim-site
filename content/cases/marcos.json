@@ -1,0 +1,553 @@
+{
+  "name": {
+    "pt": "Marcos Vieira",
+    "en": "Marcos Vieira",
+    "es": "Marcos Vieira"
+  },
+  "age": {
+    "pt": "38 anos",
+    "en": "38 years old",
+    "es": "38 años"
+  },
+  "complaint": {
+    "pt": "Tristeza, insônia e desânimo desde que perdeu o emprego. Diz que 'só bebe um pouco à noite'.",
+    "en": "Sadness, insomnia and low drive since losing his job. Says he 'just drinks a little at night'.",
+    "es": "Tristeza, insomnio y desgano desde que perdió el empleo. Dice que 'solo bebe un poco por la noche'."
+  },
+  "history": {
+    "pt": "Engenheiro, demitido há 3 meses. A esposa ameaça se separar. Bebe todos os dias 'para dormir' e acorda de madrugada.",
+    "en": "Engineer, laid off 3 months ago. His wife threatens to separate. Drinks every day 'to sleep' and wakes before dawn.",
+    "es": "Ingeniero, despedido hace 3 meses. Su esposa amenaza con separarse. Bebe todos los días 'para dormir' y despierta de madrugada."
+  },
+  "image": "assets/char-marcos.png",
+  "parent": null,
+  "dot": "dot-pink",
+  "group": "depressivos",
+  "type": {
+    "pt": "1ª Sessão: Anamnese",
+    "en": "1st session: intake interview",
+    "es": "1.ª sesión: anamnesis"
+  },
+  "info": {
+    "pt": "Caso complexo: depressão e uso de álcool entrelaçados; ele minimiza o consumo. Exige separar causa e efeito.",
+    "en": "Complex case: depression and alcohol use intertwined; he minimizes consumption. Requires separating cause and effect.",
+    "es": "Caso complejo: depresión y consumo de alcohol entrelazados; él minimiza el consumo. Exige separar causa y efecto."
+  },
+  "message": {
+    "from": {
+      "pt": "Esposa do paciente (Simone)",
+      "en": "Patient's wife (Simone)",
+      "es": "Esposa del paciente (Simone)"
+    },
+    "text": {
+      "pt": "Ele está triste desde a demissão, mas o problema é a bebida todo dia. Ele nega. Pedi que viesse falar com você.",
+      "en": "He has been sad since the layoff, but the problem is the daily drinking. He denies it. I asked him to come talk to you.",
+      "es": "Está triste desde el despido, pero el problema es la bebida todos los días. Lo niega. Le pedí que viniera a hablar contigo."
+    }
+  },
+  "fit": {
+    "acolhimento": 3,
+    "comportamental": 3,
+    "psicoeducacao": 3,
+    "tcc": 3,
+    "psicodinamica": 1,
+    "diretiva": 0
+  },
+  "why": {
+    "acolhimento": {
+      "pt": "Em quem minimiza o consumo, a confrontação faz a pessoa se fechar. Ouvir sem julgar e refletir a ambivalência abre espaço para mudar.",
+      "en": "In someone who minimizes drinking, confrontation makes the person shut down. Listening without judgment and reflecting ambivalence opens space for change.",
+      "es": "En quien minimiza el consumo, la confrontación hace que la persona se cierre. Escuchar sin juzgar y reflejar la ambivalencia abre espacio al cambio."
+    },
+    "comportamental": {
+      "pt": "Levantar quanto, quando e por que ele bebe (análise funcional) dá dados concretos sem rotular, e o diário de consumo e sono sustenta o plano.",
+      "en": "Finding how much, when and why he drinks (functional analysis) gives concrete data without labeling, and a drinking and sleep diary supports the plan.",
+      "es": "Averiguar cuánto, cuándo y por qué bebe (análisis funcional) da datos concretos sin etiquetar, y el diario de consumo y sueño sostiene el plan."
+    },
+    "psicoeducacao": {
+      "pt": "Explicar que o álcool piora o sono e o humor, e que a abstinência pode ser perigosa, é central e precisa de cuidado com o momento.",
+      "en": "Explaining that alcohol worsens sleep and mood, and that withdrawal can be dangerous, is central and needs care with timing.",
+      "es": "Explicar que el alcohol empeora el sueño y el ánimo, y que la abstinencia puede ser peligrosa, es central y requiere cuidado con el momento."
+    },
+    "tcc": {
+      "pt": "A TCC ajuda com pensamentos como 'só bebo para dormir' e com o balanço de custos e benefícios, quando ele já está aberto a falar.",
+      "en": "CBT helps with thoughts like 'I only drink to sleep' and with weighing costs and benefits, once he is open to talking.",
+      "es": "La TCC ayuda con pensamientos como 'solo bebo para dormir' y con el balance de costos y beneficios, cuando ya está abierto a hablar."
+    },
+    "psicodinamica": {
+      "pt": "O sentido da perda do emprego e da bebida importa, mas com álcool em uso diário a prioridade é o cuidado com o consumo e a segurança.",
+      "en": "The meaning of losing his job and drinking matters, but with daily alcohol use the priority is care around consumption and safety.",
+      "es": "El sentido de perder el empleo y de beber importa, pero con alcohol de uso diario la prioridad es el cuidado del consumo y la seguridad."
+    }
+  },
+  "diagnosis": {
+    "answer": "alcool",
+    "options": [
+      "alcool",
+      "tdm",
+      "distimia",
+      "tag"
+    ],
+    "why": {
+      "pt": "O uso diário para dormir, a dificuldade de parar e a continuidade apesar dos prejuízos (família, emprego) indicam transtorno por uso de álcool. Os sintomas depressivos podem ser induzidos pela bebida: só se pode falar em depressão maior se persistirem cerca de 4 semanas sem álcool. Por isso o álcool vem primeiro, e o humor é reavaliado depois.",
+      "en": "Daily use to sleep, difficulty stopping and continuing despite harm (family, job) indicate alcohol use disorder. The depressive symptoms may be induced by drinking: major depression can only be considered if they persist about 4 weeks without alcohol. So alcohol comes first, and mood is reassessed afterwards.",
+      "es": "El uso diario para dormir, la dificultad para parar y la continuidad a pesar de los perjuicios (familia, empleo) indican trastorno por consumo de alcohol. Los síntomas depresivos pueden ser inducidos por la bebida: solo se puede hablar de depresión mayor si persisten unas 4 semanas sin alcohol. Por eso el alcohol va primero y el ánimo se reevalúa después."
+    }
+  },
+  "steps": [
+    {
+      "who": "patient",
+      "text": {
+        "pt": "(braços cruzados) 'Vim por causa da tristeza. Bebo só uns drinks à noite para relaxar, como todo mundo.'",
+        "en": "(arms crossed) 'I came because of the sadness. I only have a few drinks at night to relax, like everyone.'",
+        "es": "(brazos cruzados) 'Vine por la tristeza. Bebo solo unos tragos por la noche para relajarme, como todo el mundo.'"
+      },
+      "note": {
+        "pt": "Minimiza o consumo; foca na tristeza.",
+        "en": "Minimizes consumption; focuses on the sadness.",
+        "es": "Minimiza el consumo; se centra en la tristeza."
+      },
+      "mods": {
+        "comportamental": 1,
+        "diretiva": 1
+      },
+      "options": {
+        "comportamental": {
+          "pt": "Me ajuda a entender uma noite típica: a que horas começa, quanto toma e como fica depois. Só para eu ter o quadro completo.",
+          "en": "Help me understand a typical evening: when it starts, how much you have and how you feel afterwards. Just so I have the full picture.",
+          "es": "Ayúdame a entender una noche típica: a qué hora empieza, cuánto tomas y cómo quedas después. Solo para tener el cuadro completo."
+        },
+        "acolhimento": {
+          "pt": "Chegar aqui não foi fácil. Vamos começar pela tristeza, então, e o resto a gente vê no seu tempo.",
+          "en": "Getting here wasn't easy. Let's start with the sadness, then, and we'll see the rest in your own time.",
+          "es": "Llegar aquí no fue fácil. Empecemos por la tristeza, entonces, y lo demás lo vemos a tu tiempo."
+        },
+        "psicodinamica": {
+          "pt": "Perder o emprego pode mexer com o lugar que o homem ocupa em casa. O que isso mudou na sua relação com a sua esposa? Às vezes o corpo grita o que o orgulho não deixa dizer.",
+          "en": "Losing a job can shake the place a man holds at home. What has that changed in your relationship with your wife? Sometimes the body shouts what pride won't let you say.",
+          "es": "Perder el empleo puede sacudir el lugar que ocupa el hombre en casa. ¿Qué cambió eso en tu relación con tu esposa? A veces el cuerpo grita lo que el orgullo no deja decir."
+        },
+        "diretiva": {
+          "pt": "Pelo que você conta, o problema principal é a bebida e a tristeza é consequência. Vamos tratar direto o álcool.",
+          "en": "From what you say, the main problem is drinking and the sadness is a consequence. Let's treat the alcohol directly.",
+          "es": "Por lo que cuentas, el problema principal es la bebida y la tristeza es consecuencia. Tratemos directamente el alcohol."
+        }
+      },
+      "variants": [
+        {
+          "pt": "(cruzando os braços) 'Estou aqui pela tristeza. Bebida? Só uns drinks à noite pra desestressar, como todo mundo.'",
+          "en": "(folding his arms) 'I'm here because of the sadness. Drinking? Just a few drinks at night to de-stress, like everyone.'",
+          "es": "(cruzando los brazos) 'Estoy aquí por la tristeza. ¿Bebida? Solo unos tragos por la noche para desestresarme, como todos.'"
+        },
+        {
+          "pt": "(encostando na cadeira) 'O problema é a tristeza. Bebida? Só uns copos à noite pra relaxar, todo mundo faz isso.'",
+          "en": "(leaning back) 'The problem is the sadness. Drinking? Just a few glasses at night to unwind, everybody does that.'",
+          "es": "(recostándose) 'El problema es la tristeza. ¿Bebida? Solo unas copas por la noche para relajarme, todo el mundo lo hace.'"
+        }
+      ]
+    },
+    {
+      "who": "patient",
+      "text": {
+        "pt": "'Perdi o emprego há 3 meses. Desde então não tenho vontade de nada. Bebo mais para dormir, mas acordo às 4 da manhã.'",
+        "en": "'I lost my job 3 months ago. Since then I have no desire for anything. I drink more to sleep, but I wake up at 4 in the morning.'",
+        "es": "'Perdí el empleo hace 3 meses. Desde entonces no tengo ganas de nada. Bebo más para dormir, pero despierto a las 4 de la mañana.'"
+      },
+      "note": {
+        "pt": "Humor rebaixado, insônia terminal e álcool para dormir: causa e efeito entrelaçados.",
+        "en": "Low mood, early-morning waking and alcohol to sleep: cause and effect intertwined.",
+        "es": "Ánimo bajo, despertar de madrugada y alcohol para dormir: causa y efecto entrelazados."
+      },
+      "mods": {
+        "psicoeducacao": 1,
+        "comportamental": -1
+      },
+      "options": {
+        "psicoeducacao": {
+          "pt": "O álcool ajuda a pegar no sono, mas piora a qualidade dele e o humor no dia seguinte. Precisamos separar o que é tristeza e o que é efeito da bebida.",
+          "en": "Alcohol helps you fall asleep, but worsens its quality and next-day mood. We need to separate what is sadness and what is an effect of drinking.",
+          "es": "El alcohol ayuda a conciliar el sueño, pero empeora su calidad y el ánimo del día siguiente. Necesitamos separar lo que es tristeza y lo que es efecto de la bebida."
+        },
+        "tcc": {
+          "pt": "Você disse que 'não tem vontade de nada'. Que pensamentos aparecem quando acorda às 4 da manhã? Vamos anotá-los. Escrever tira o pensamento da cabeça e coloca na frente dos olhos.",
+          "en": "You said you 'have no desire for anything'. What thoughts show up when you wake at 4 a.m.? Let's write them down. Writing takes the thought out of your head and puts it in front of your eyes.",
+          "es": "Dijiste que 'no tienes ganas de nada'. ¿Qué pensamientos aparecen cuando despiertas a las 4 de la mañana? Anotémoslos. Escribir saca el pensamiento de la cabeza y lo pone frente a los ojos."
+        },
+        "acolhimento": {
+          "pt": "Perder o emprego é uma perda grande, e faz sentido que tudo pese. Como tem sido esses meses para você?",
+          "en": "Losing a job is a big loss, and it makes sense that everything weighs on you. What have these months been like for you?",
+          "es": "Perder el empleo es una gran pérdida y tiene sentido que todo pese. ¿Cómo han sido estos meses para ti?"
+        },
+        "comportamental": {
+          "pt": "Vamos montar uma rotina do dia: horários fixos para acordar, atividade física leve e a busca de novas vagas em pequenos passos.",
+          "en": "Let's build a daily routine: fixed wake-up times, light physical activity and job searching in small steps.",
+          "es": "Armemos una rutina diaria: horarios fijos para despertar, actividad física ligera y búsqueda de empleo en pequeños pasos."
+        }
+      },
+      "variants": [
+        {
+          "pt": "'Faz 3 meses que fiquei sem emprego e desde então nada me interessa. Bebo mais para pegar no sono, mas às 4 da manhã já estou de olhos abertos.'",
+          "en": "'It's been 3 months since I lost my job and since then nothing interests me. I drink more to fall asleep, but by 4 a.m. my eyes are open.'",
+          "es": "'Hace 3 meses que me quedé sin trabajo y desde entonces nada me interesa. Bebo más para dormirme, pero a las 4 de la mañana ya tengo los ojos abiertos.'"
+        },
+        {
+          "pt": "'Faz 3 meses que perdi o emprego e nada mais me interessa. Bebo mais para conseguir dormir, mas às 4 da manhã já estou acordado.'",
+          "en": "'It's been 3 months since I lost my job and nothing interests me anymore. I drink more to get to sleep, but by 4 a.m. I'm awake.'",
+          "es": "'Hace 3 meses que perdí el trabajo y nada me interesa. Bebo más para poder dormir, pero a las 4 de la mañana ya estoy despierto.'"
+        }
+      ]
+    },
+    {
+      "who": "patient",
+      "text": {
+        "pt": "'Minha esposa disse que vai embora se eu não parar. Mas eu não tenho problema: eu paro quando eu quiser.'",
+        "en": "'My wife said she'll leave if I don't stop. But I don't have a problem: I can stop whenever I want.'",
+        "es": "'Mi esposa dijo que se irá si no paro. Pero no tengo un problema: paro cuando quiera.'"
+      },
+      "note": {
+        "pt": "Ambivalência: nega o problema, mas teme perder a esposa.",
+        "en": "Ambivalence: denies the problem but fears losing his wife.",
+        "es": "Ambivalencia: niega el problema pero teme perder a su esposa."
+      },
+      "mods": {
+        "acolhimento": 1,
+        "psicoeducacao": -1
+      },
+      "options": {
+        "acolhimento": {
+          "pt": "Por um lado, você sente que controla; por outro, tem medo de perder a Simone. O que você mais quer preservar hoje?",
+          "en": "On one hand you feel in control; on the other, you fear losing Simone. What do you most want to protect today?",
+          "es": "Por un lado sientes que controlas; por otro, temes perder a Simone. ¿Qué es lo que más quieres preservar hoy?"
+        },
+        "tcc": {
+          "pt": "Vamos fazer uma lista: o que a bebida te dá e o que ela custa hoje. Depois você me diz o que pesa mais.",
+          "en": "Let's make a list: what drinking gives you and what it costs you today. Then you tell me which weighs more.",
+          "es": "Hagamos una lista: lo que la bebida te da y lo que te cuesta hoy. Luego me dices qué pesa más."
+        },
+        "psicoeducacao": {
+          "pt": "Quem consegue parar quando quer, em geral, consegue ficar uma semana sem beber. Podemos testar isso nesta semana?",
+          "en": "Someone who can stop when they want can usually go a week without drinking. Shall we test that this week?",
+          "es": "Quien puede parar cuando quiere, en general, puede pasar una semana sin beber. ¿Lo probamos esta semana?"
+        },
+        "diretiva": {
+          "pt": "Isso é negação típica de quem tem dependência. Enquanto você não admitir que é alcoolista, o tratamento não avança.",
+          "en": "That is typical denial in someone with dependence. Until you admit you are an alcoholic, treatment won't move forward.",
+          "es": "Eso es la negación típica de quien tiene dependencia. Mientras no admitas que eres alcohólico, el tratamiento no avanza."
+        }
+      },
+      "variants": [
+        {
+          "pt": "'Minha esposa disse que vai embora se eu não parar. Mas eu não tenho problema: paro quando eu quiser.'",
+          "en": "'My wife said she'll leave if I don't stop. But I don't have a problem: I stop when I want to.'",
+          "es": "'Mi esposa dijo que se va si no paro. Pero yo no tengo problema: paro cuando quiera.'"
+        },
+        {
+          "pt": "'Minha mulher ameaçou me deixar se eu não parar. Exagero dela: eu não tenho problema nenhum, paro na hora que eu quiser.'",
+          "en": "'My wife threatened to leave me if I don't stop. She's exaggerating: I have no problem at all, I stop whenever I want.'",
+          "es": "'Mi mujer amenazó con dejarme si no paro. Exagera: no tengo ningún problema, paro cuando quiera.'"
+        }
+      ]
+    },
+    {
+      "who": "patient",
+      "text": {
+        "pt": "'Fiquei uma semana sem beber. Foi horrível: tremia, suava e quase não dormi.'",
+        "en": "'I went a week without drinking. It was awful: I shook, sweated and barely slept.'",
+        "es": "'Pasé una semana sin beber. Fue horrible: temblaba, sudaba y casi no dormí.'"
+      },
+      "note": {
+        "pt": "Sintomas de abstinência: risco médico, exige avaliação.",
+        "en": "Withdrawal symptoms: medical risk, needs evaluation.",
+        "es": "Síntomas de abstinencia: riesgo médico, requiere evaluación."
+      },
+      "mods": {
+        "psicoeducacao": 1,
+        "comportamental": -1
+      },
+      "options": {
+        "psicoeducacao": {
+          "pt": "Esses sintomas são de abstinência, que pode ser perigosa. Antes de qualquer nova tentativa, precisamos de avaliação médica para reduzir com segurança.",
+          "en": "These symptoms are withdrawal, which can be dangerous. Before any new attempt, we need a medical evaluation to reduce safely.",
+          "es": "Esos síntomas son de abstinencia, que puede ser peligrosa. Antes de cualquier nuevo intento, necesitamos evaluación médica para reducir con seguridad."
+        },
+        "acolhimento": {
+          "pt": "Deve ter sido bem difícil e assustador passar por isso sozinho. Fico feliz que tenha me contado. Guardar isso sozinho só pesava mais.",
+          "en": "It must have been very hard and scary going through that alone. I'm glad you told me. Carrying that alone was only making it heavier.",
+          "es": "Debe haber sido muy difícil y aterrador pasar por eso solo. Me alegra que me lo hayas contado. Cargar eso en soledad solo lo hacía más pesado."
+        },
+        "comportamental": {
+          "pt": "Da próxima vez, tente reduzir aos poucos, anotando o que bebe por dia, para o corpo sentir menos.",
+          "en": "Next time, try to cut down gradually, noting what you drink each day, so the body feels it less.",
+          "es": "La próxima vez, intenta reducir de a poco, anotando lo que bebes por día, para que el cuerpo lo sienta menos."
+        },
+        "diretiva": {
+          "pt": "Ótimo que aguentou uma semana. Aguente mais uma e a abstinência passa: é só força de vontade, sem precisar de médico.",
+          "en": "Great that you lasted a week. Hold out one more and the withdrawal passes: it's just willpower, no doctor needed.",
+          "es": "Qué bueno que aguantaste una semana. Aguanta una más y la abstinencia pasa: es solo fuerza de voluntad, sin necesidad de médico."
+        }
+      },
+      "variants": [
+        {
+          "pt": "'Aguentei uma semana sem beber e foi um sofrimento: tremedeira, suor e noites sem dormir.'",
+          "en": "'I lasted a week without drinking and it was misery: shaking, sweating and sleepless nights.'",
+          "es": "'Aguanté una semana sin beber y fue un sufrimiento: temblores, sudor y noches sin dormir.'"
+        },
+        {
+          "pt": "'Tentei ficar uma semana sem beber. Foi péssimo: as mãos tremiam, suava e não consegui dormir.'",
+          "en": "'I tried going a week without drinking. It was terrible: my hands shook, I sweated and couldn't sleep.'",
+          "es": "'Intenté pasar una semana sin beber. Fue pésimo: las manos me temblaban, sudaba y no podía dormir.'"
+        }
+      ]
+    },
+    {
+      "who": "patient",
+      "text": {
+        "pt": "'E a depressão? Se eu continuar sem beber, ela passa?'",
+        "en": "'And the depression? If I keep not drinking, will it go away?'",
+        "es": "'¿Y la depresión? Si sigo sin beber, ¿se me pasa?'"
+      },
+      "note": {
+        "pt": "Pergunta se a tristeza era efeito do álcool.",
+        "en": "Asks whether the sadness was an effect of alcohol.",
+        "es": "Pregunta si la tristeza era un efecto del alcohol."
+      },
+      "mods": {
+        "psicoeducacao": 1,
+        "diretiva": 1
+      },
+      "options": {
+        "psicoeducacao": {
+          "pt": "Parte pode melhorar em semanas sem álcool. Vamos reavaliar o humor após cerca de 4 semanas: se persistir, tratamos a depressão também.",
+          "en": "Part of it may improve within weeks without alcohol. We'll reassess mood after about 4 weeks: if it persists, we treat the depression as well.",
+          "es": "Parte puede mejorar en semanas sin alcohol. Reevaluaremos el ánimo tras unas 4 semanas: si persiste, tratamos también la depresión."
+        },
+        "tcc": {
+          "pt": "Vamos acompanhar seu humor de 0 a 10 todo dia junto com os dias sem beber, para ver com dados como uma coisa influencia a outra.",
+          "en": "Let's track your mood 0 to 10 each day along with days without drinking, to see with data how one affects the other.",
+          "es": "Sigamos tu ánimo de 0 a 10 cada día junto con los días sin beber, para ver con datos cómo una cosa influye en la otra."
+        },
+        "acolhimento": {
+          "pt": "É natural querer saber. Você já deu um passo enorme ao encarar a abstinência. Como está se sentindo agora?",
+          "en": "It's natural to want to know. You've already taken a huge step by facing withdrawal. How are you feeling now?",
+          "es": "Es natural querer saberlo. Ya diste un gran paso al enfrentar la abstinencia. ¿Cómo te sientes ahora?"
+        },
+        "diretiva": {
+          "pt": "Se você mantiver a abstinência, a depressão passa. Então nem precisa de terapia para o humor, só continue firme.",
+          "en": "If you keep abstinent, the depression goes away. So you don't even need therapy for mood, just stay firm.",
+          "es": "Si mantienes la abstinencia, la depresión pasa. Así que ni siquiera necesitas terapia para el ánimo, solo sigue firme."
+        }
+      },
+      "variants": [
+        {
+          "pt": "'E a depressão, doutor(a)? Se eu largar a bebida, ela vai embora?'",
+          "en": "'And the depression, doctor? If I quit drinking, will it go away?'",
+          "es": "'¿Y la depresión, doctor(a)? Si dejo la bebida, ¿se va?'"
+        },
+        {
+          "pt": "'E a tristeza, doutor(a)? Parando de beber, ela vai embora sozinha?'",
+          "en": "'And the sadness, doctor? If I stop drinking, will it go away on its own?'",
+          "es": "'¿Y la tristeza, doctor(a)? Si dejo de beber, ¿se va sola?'"
+        }
+      ]
+    }
+  ],
+  "voice": {
+    "intro": {
+      "pt": "(senta com os braços cruzados, meio sorrindo) 'Marcos, 38. Sem grandes problemas, viu? Só uma cervejinha pra dormir. Minha esposa é que exagera. Fui demitido, tá difícil, só isso.'",
+      "en": "(sits with arms crossed, half-smiling) 'Marcos, 38. No big problems, okay? Just a beer to sleep. My wife's the one exaggerating. I got laid off, things are hard, that's all.'",
+      "es": "(se sienta con los brazos cruzados, medio sonriendo) 'Marcos, 38. Sin grandes problemas, ¿eh? Solo una cerveza para dormir. Mi esposa es la que exagera. Me despidieron, está difícil, nada más.'"
+    },
+    "pre": [
+      {
+        "pt": "É só que...",
+        "en": "It's just that...",
+        "es": "Es solo que..."
+      },
+      {
+        "pt": "Ah, a gente sempre exagera...",
+        "en": "Ah, we always exaggerate...",
+        "es": "Ah, siempre se exagera..."
+      }
+    ],
+    "post": {
+      "pt": "Mas não é nada demais.",
+      "en": "But it's nothing serious.",
+      "es": "Pero no es nada grave."
+    },
+    "ref": [
+      {
+        "pt": "Bebi mais do que queria e acordei com a mão tremendo.",
+        "en": "I drank more than I wanted and woke up with a shaking hand.",
+        "es": "Bebí más de lo que quería y desperté con la mano temblando."
+      },
+      {
+        "pt": "Fiquei dois dias sem beber. No terceiro, não aguentei.",
+        "en": "Two days without drinking. On the third, I couldn't.",
+        "es": "Dos días sin beber. El tercero, no aguanté."
+      },
+      {
+        "pt": "Passei uma semana sem beber e dormi melhor do que eu esperava.",
+        "en": "A week without drinking and I slept better than I expected.",
+        "es": "Una semana sin beber y dormí mejor de lo que esperaba."
+      }
+    ],
+    "hookA": {
+      "pt": "O que você sente nos momentos em que dá mais vontade de beber?",
+      "en": "What do you feel in the moments when the urge to drink is strongest?",
+      "es": "¿Qué sientes en los momentos en que más ganas de beber tienes?"
+    },
+    "hookB": {
+      "pt": "Vamos combinar metas pequenas e um plano para os horários mais difíceis?",
+      "en": "Shall we agree on small goals and a plan for the hardest times of day?",
+      "es": "¿Acordamos metas pequeñas y un plan para los horarios más difíciles?"
+    },
+    "sessoes": {
+      "s3": [
+        {
+          "pt": "'Fiquei dois dias sem beber. (as mãos tremem um pouco e ele as esconde) No terceiro eu acordei às quatro da manhã suando e voltei. Aí a gente volta e se sente um lixo, né.'",
+          "en": "'I went two days without drinking. (his hands shake a little and he hides them) On the third I woke at four in the morning sweating and went back to it. Then you go back and feel like rubbish, don't you.'",
+          "es": "'I went two days without drinking. (his hands shake a little and he hides them) On the third I woke at four in the morning sweating and went back to it. Then you go back and feel like rubbish, don't you.'"
+        },
+        {
+          "pt": "'Minha mulher contou os dias no calendário e me mostrou. (silêncio) Eu briguei com ela. Não por causa da conta. Por causa de ela ter contado.'",
+          "en": "'My wife counted the days on the calendar and showed me. (silence) I had a row with her. Not about the count. About her having counted.'",
+          "es": "'My wife counted the days on the calendar and showed me. (silence) I had a row with her. Not about the count. About her having counted.'"
+        }
+      ],
+      "s4": [
+        {
+          "pt": "'Eu procurei o grupo. (pausa) Fiquei do lado de fora vinte minutos antes de entrar. Tinha um cara lá que trabalhava na mesma empresa que eu. Eu quase fui embora.'",
+          "en": "'I looked up the group. (pause) I stood outside for twenty minutes before going in. There was a bloke there who used to work at the same company as me. I nearly left.'",
+          "es": "'I looked up the group. (pause) I stood outside for twenty minutes before going in. There was a bloke there who used to work at the same company as me. I nearly left.'"
+        },
+        {
+          "pt": "'Eu falava que bebia porque perdi o emprego. (olha para o copo de água na mesa) A minha mulher lembrou que eu já bebia assim antes. Eu fiquei bravo porque ela tem razão.'",
+          "en": "'I used to say I drank because I lost my job. (looks at the glass of water on the table) My wife reminded me I already drank like this before. I got angry because she's right.'",
+          "es": "'I used to say I drank because I lost my job. (looks at the glass of water on the table) My wife reminded me I already drank like this before. I got angry because she's right.'"
+        }
+      ]
+    },
+    "fecho": {
+      "s2": {
+        "pt": "(esconde as mãos entre os joelhos) 'A senhora vai me pedir pra parar, né? Todo mundo pede. Eu só queria dormir.'",
+        "en": "(hides his hands between his knees) 'You're going to ask me to stop, aren't you? Everyone does. I just wanted to sleep.'",
+        "es": "(hides his hands between his knees) 'You're going to ask me to stop, aren't you? Everyone does. I just wanted to sleep.'"
+      },
+      "s3": {
+        "pt": "'Dois dias.' (olha para o chão) 'Dois dias não é nada, eu sei. Mas eu não tinha dois dias fazia uns quatro anos.'",
+        "en": "'Two days.' (looks at the floor) 'Two days is nothing, I know. But I hadn't had two days in about four years.'",
+        "es": "'Two days.' (looks at the floor) 'Two days is nothing, I know. But I hadn't had two days in about four years.'"
+      },
+      "s4": {
+        "pt": "'Aquele cara do grupo me chamou pra tomar café depois.' (pausa) 'Café, doutora. Eu fui.'",
+        "en": "'That bloke from the group asked me for a coffee afterwards.' (pause) 'Coffee, doctor. I went.'",
+        "es": "'That bloke from the group asked me for a coffee afterwards.' (pause) 'Coffee, doctor. I went.'"
+      }
+    },
+    "opcoes": {
+      "s3": [
+        {
+          "acolhimento": {
+            "pt": "Dois dias é mais do que zero, e o senhor escondeu as mãos agora. Aqui não precisa esconder.",
+            "en": "Two days is more than zero, and you just hid your hands. In here you do not have to hide.",
+            "es": "Two days is more than zero, and you just hid your hands. In here you do not have to hide."
+          },
+          "tcc": {
+            "pt": "Às quatro da manhã, suando: o que o senhor pensou naquele minuto antes de decidir beber?",
+            "en": "At four in the morning, sweating: what did you think in the minute before deciding to drink?",
+            "es": "At four in the morning, sweating: what did you think in the minute before deciding to drink?"
+          },
+          "psicoeducacao": {
+            "pt": "Tremor, suor e acordar de madrugada no terceiro dia é abstinência — é o corpo, não é fraqueza de caráter. E abstinência tem manejo médico.",
+            "en": "Tremor, sweating and waking at dawn on the third day is withdrawal — it is the body, not weakness of character. And withdrawal has medical management.",
+            "es": "Tremor, sweating and waking at dawn on the third day is withdrawal — it is the body, not weakness of character. And withdrawal has medical management."
+          },
+          "diretiva": {
+            "pt": "Parar sozinho nesse estágio pode ser perigoso. Eu quero o senhor com avaliação médica antes da próxima tentativa.",
+            "en": "Stopping alone at this stage can be dangerous. I want you medically assessed before the next attempt.",
+            "es": "Stopping alone at this stage can be dangerous. I want you medically assessed before the next attempt."
+          }
+        },
+        {
+          "acolhimento": {
+            "pt": "O senhor brigou com ela por ter contado. O que incomodou tanto em ver no papel?",
+            "en": "You fought with her for counting. What bothered you so much about seeing it on paper?",
+            "es": "You fought with her for counting. What bothered you so much about seeing it on paper?"
+          },
+          "tcc": {
+            "pt": "O calendário não inventou nada: ele só mostrou. É o número que incomoda, ou o que ele significa?",
+            "en": "The calendar invented nothing: it only showed. Is it the number that bothers you, or what it means?",
+            "es": "The calendar invented nothing: it only showed. Is it the number that bothers you, or what it means?"
+          },
+          "psicoeducacao": {
+            "pt": "Essa reação é parte do quadro: é mais fácil brigar com quem mostra do que com o tamanho do que foi mostrado.",
+            "en": "That reaction is part of the condition: it is easier to fight with whoever shows you than with the size of what was shown.",
+            "es": "That reaction is part of the condition: it is easier to fight with whoever shows you than with the size of what was shown."
+          },
+          "diretiva": {
+            "pt": "Ela fez certo. E eu vou pedir o mesmo: quero o registro dos dias, feito pelo senhor.",
+            "en": "She did the right thing. And I am going to ask for the same: I want the record of the days, kept by you.",
+            "es": "She did the right thing. And I am going to ask for the same: I want the record of the days, kept by you."
+          }
+        }
+      ],
+      "s4": [
+        {
+          "acolhimento": {
+            "pt": "Vinte minutos na porta, e o senhor entrou. Foi a parte mais difícil da semana, imagino.",
+            "en": "Twenty minutes at the door, and you went in. I imagine that was the hardest part of the week.",
+            "es": "Twenty minutes at the door, and you went in. I imagine that was the hardest part of the week."
+          },
+          "tcc": {
+            "pt": "O que o senhor imaginou que aconteceria se aquele colega te reconhecesse?",
+            "en": "What did you imagine would happen if that colleague recognised you?",
+            "es": "What did you imagine would happen if that colleague recognised you?"
+          },
+          "psicoeducacao": {
+            "pt": "O medo de ser visto é o maior obstáculo de tratamento aqui — maior que a vontade de beber. E costuma ceder na terceira ou quarta vez.",
+            "en": "The fear of being seen is the biggest obstacle to treatment here — bigger than the urge to drink. And it usually eases by the third or fourth time.",
+            "es": "The fear of being seen is the biggest obstacle to treatment here — bigger than the urge to drink. And it usually eases by the third or fourth time."
+          },
+          "diretiva": {
+            "pt": "Volte na semana que vem. Mesmo grupo, mesmo horário, mesmo que o colega esteja lá.",
+            "en": "Go back next week. Same group, same time, even if the colleague is there.",
+            "es": "Go back next week. Same group, same time, even if the colleague is there."
+          }
+        },
+        {
+          "acolhimento": {
+            "pt": "Ficar bravo porque ela tem razão é um jeito honesto de começar a concordar.",
+            "en": "Getting angry because she is right is an honest way of starting to agree.",
+            "es": "Getting angry because she is right is an honest way of starting to agree."
+          },
+          "tcc": {
+            "pt": "Então a ordem dos fatos muda a explicação. Se já bebia antes, o que a demissão mudou de verdade?",
+            "en": "So the order of events changes the explanation. If you were already drinking before, what did being fired actually change?",
+            "es": "So the order of events changes the explanation. If you were already drinking before, what did being fired actually change?"
+          },
+          "psicoeducacao": {
+            "pt": "Essa troca de ordem é comum e não é mentira: a gente organiza a história de um jeito que dê para viver com ela.",
+            "en": "That reversal of order is common and it is not a lie: we organise the story in a way we can live with.",
+            "es": "That reversal of order is common and it is not a lie: we organise the story in a way we can live with."
+          },
+          "diretiva": {
+            "pt": "Então vamos parar de discutir a causa e tratar o que está acontecendo hoje.",
+            "en": "Then let's stop arguing about the cause and treat what is happening today.",
+            "es": "Then let's stop arguing about the cause and treat what is happening today."
+          }
+        }
+      ]
+    }
+  },
+  "look": {
+    "skin": "#d9ae82",
+    "hair": "#3a3a42",
+    "top": "#8fa6bd",
+    "style": "shirt",
+    "eyeShape": "round",
+    "brow": "thick",
+    "mouth": "neutral",
+    "rosto": "assets/rosto-marcos.png",
+    "corpo": "m"
+  }
+}

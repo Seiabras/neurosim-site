@@ -1,0 +1,517 @@
+{
+  "name": {
+    "pt": "Enzo Santos",
+    "en": "Enzo Santos",
+    "es": "Enzo Santos"
+  },
+  "age": {
+    "pt": "6 anos",
+    "en": "6 years old",
+    "es": "6 años"
+  },
+  "complaint": {
+    "pt": "Suspeita de TEA levantada pela escola: pouco contato visual e rotinas rígidas.",
+    "en": "Suspected ASD raised by the school: little eye contact and rigid routines.",
+    "es": "Sospecha de TEA planteada por la escuela: poco contacto visual y rutinas rígidas."
+  },
+  "history": {
+    "pt": "Encaminhado pela coordenação pedagógica. Acompanhado da mãe (Sra. Camila).",
+    "en": "Referred by the school coordination. Accompanied by his mother (Mrs. Camila).",
+    "es": "Derivado por la coordinación pedagógica. Acompañado de su madre (Sra. Camila)."
+  },
+  "image": "assets/char-enzo.png",
+  "dot": "dot-pink",
+  "group": "neuro",
+  "parent": {
+    "name": {
+      "pt": "Sra. Camila",
+      "en": "Sra. Camila",
+      "es": "Sra. Camila"
+    },
+    "image": "assets/par-camila.png",
+    "look": {
+      "skin": "#8a5c3a",
+      "hair": "#5a3a26",
+      "hairStyle": "curly",
+      "top": "#c9525a",
+      "eyeShape": "round",
+      "brow": "soft",
+      "mouth": "neutral",
+      "corpo": "f"
+    },
+    "papel": "mae"
+  },
+  "type": {
+    "pt": "1ª Sessão: Anamnese",
+    "en": "1st session: intake interview",
+    "es": "1.ª sesión: anamnesis"
+  },
+  "info": {
+    "pt": "Suspeita de Transtorno do Espectro Autista (TEA) levantada pela coordenação pedagógica.",
+    "en": "Suspected Autism Spectrum Disorder (ASD) raised by the school coordination.",
+    "es": "Sospecha de Trastorno del Espectro Autista (TEA) planteada por la coordinación pedagógica."
+  },
+  "message": {
+    "from": {
+      "pt": "Coordenação (Escola Pequenos Passos)",
+      "en": "Coordination (Little Steps School)",
+      "es": "Coordinación (Escuela Pequeños Pasos)"
+    },
+    "text": {
+      "pt": "{doc}, o Enzo tem pouco contato visual, alinha os carrinhos e se aflige quando a rotina muda. Gostaríamos de uma avaliação.",
+      "en": "{doc}, Enzo makes little eye contact, lines up his cars and gets upset when the routine changes. We would like an assessment.",
+      "es": "{doc}, Enzo tiene poco contacto visual, alinea los cochecitos y se aflige cuando cambia la rutina. Nos gustaría una evaluación."
+    }
+  },
+  "fit": {
+    "acolhimento": 4,
+    "comportamental": 3,
+    "psicoeducacao": 3,
+    "tcc": 1,
+    "psicodinamica": 1,
+    "diretiva": 0
+  },
+  "why": {
+    "acolhimento": {
+      "pt": "Com uma mãe na defensiva, acolher a resistência vem antes de qualquer investigação.",
+      "en": "With a defensive mother, supporting the resistance comes before any investigation.",
+      "es": "Con una madre a la defensiva, acoger la resistencia va antes de cualquier investigación."
+    },
+    "psicoeducacao": {
+      "pt": "Explicar que a avaliação é ampla e não rotula ajuda a família a colaborar, na hora certa.",
+      "en": "Explaining that the assessment is broad and does not label helps the family collaborate, at the right time.",
+      "es": "Explicar que la evaluación es amplia y no etiqueta ayuda a la familia a colaborar, en el momento oportuno."
+    },
+    "comportamental": {
+      "pt": "Observar o brincar e o desenvolvimento e estruturar rotinas é central na avaliação e no cuidado do TEA.",
+      "en": "Observing play and development and structuring routines is central to ASD assessment and care.",
+      "es": "Observar el juego y el desarrollo y estructurar rutinas es central en la evaluación y el cuidado del TEA."
+    },
+    "tcc": {
+      "pt": "A TCC baseada em pensamentos não é o ponto de partida para uma criança de 6 anos em avaliação.",
+      "en": "Thought-based CBT is not the starting point for a 6-year-old under assessment.",
+      "es": "La TCC basada en pensamientos no es el punto de partida para un niño de 6 años en evaluación."
+    },
+    "psicodinamica": {
+      "pt": "Interpretações não ajudam a esclarecer sinais do neurodesenvolvimento.",
+      "en": "Interpretations do not help clarify neurodevelopmental signs.",
+      "es": "Las interpretaciones no ayudan a esclarecer signos del neurodesarrollo."
+    }
+  },
+  "steps": [
+    {
+      "who": "parent",
+      "text": {
+        "pt": "(na defensiva) 'A escola quer rotular meu filho... ele só é tímido, é o jeito dele.'",
+        "en": "(defensive) 'The school wants to label my son... he's just shy, that's how he is.'",
+        "es": "(a la defensiva) 'La escuela quiere etiquetar a mi hijo... solo es tímido, es su forma de ser.'"
+      },
+      "note": {
+        "pt": "Mãe resistente: acha que a escola quer 'rotular' o filho.",
+        "en": "Resistant mother: thinks the school wants to 'label' her son.",
+        "es": "Madre resistente: cree que la escuela quiere 'etiquetar' a su hijo."
+      },
+      "options": {
+        "acolhimento": {
+          "pt": "Entendo a preocupação. Não quero rotular: quero compreender o Enzo para apoiá-lo. Como a senhora o vê em casa?",
+          "en": "I understand the worry. I don't want to label: I want to understand Enzo to support him. How do you see him at home?",
+          "es": "Entiendo la preocupación. No quiero etiquetar: quiero comprender a Enzo para apoyarlo. ¿Cómo lo ve usted en casa?"
+        },
+        "psicoeducacao": {
+          "pt": "Vou explicar como funciona uma avaliação: ela olha várias áreas e não fecha nada de antemão.",
+          "en": "I'll explain how an assessment works: it looks at many areas and closes nothing in advance.",
+          "es": "Voy a explicar cómo funciona una evaluación: mira varias áreas y no cierra nada de antemano."
+        },
+        "comportamental": {
+          "pt": "Posso observar o Enzo brincando um pouco, sem pressa, enquanto a gente conversa?",
+          "en": "May I watch Enzo play for a bit, without rushing, while we talk?",
+          "es": "¿Puedo observar a Enzo jugando un rato, sin prisa, mientras conversamos?"
+        },
+        "diretiva": {
+          "pt": "Os sinais que a escola descreveu são bem típicos de autismo. Melhor a senhora ir se preparando. Antecipar já poupa muita aflição depois.",
+          "en": "The signs the school described are quite typical of autism. It's best that you start preparing. Getting ahead of it saves a lot of distress later.",
+          "es": "Las señales que describió la escuela son muy típicas de autismo. Es mejor que se vaya preparando. Anticiparse ya ahorra mucha angustia después."
+        }
+      },
+      "variants": [
+        {
+          "pt": "(na defensiva) 'A escola quer colocar um rótulo no meu filho... Ele é só tímido, é o jeito dele.'",
+          "en": "(defensive) 'The school wants to put a label on my son... He's just shy, that's how he is.'",
+          "es": "(a la defensiva) 'La escuela quiere ponerle una etiqueta a mi hijo... Es solo tímido, es su forma de ser.'"
+        },
+        {
+          "pt": "(cruzando os braços) 'Foi a escola que mandou a gente vir. Meu filho é tímido, só isso. Não precisa de rótulo.'",
+          "en": "(crossing his arms) 'The school told us to come. My son is shy, that's all. He doesn't need a label.'",
+          "es": "(cruzando los brazos) 'Fue la escuela la que nos mandó venir. Mi hijo es tímido, nada más. No necesita una etiqueta.'"
+        }
+      ]
+    },
+    {
+      "who": "parent",
+      "text": {
+        "pt": "'Ele fala poucas frases e prefere brincar sozinho com os carrinhos...'",
+        "en": "'He speaks few sentences and prefers to play alone with his cars...'",
+        "es": "'Habla pocas frases y prefiere jugar solo con los cochecitos...'"
+      },
+      "note": {
+        "pt": "Poucas frases; brinca sozinho com carrinhos.",
+        "en": "Few sentences; plays alone with cars.",
+        "es": "Pocas frases; juega solo con cochecitos."
+      },
+      "mods": {
+        "comportamental": 1,
+        "acolhimento": -1
+      },
+      "options": {
+        "comportamental": {
+          "pt": "Como foi o desenvolvimento dele: quando começou a falar, a apontar, a responder ao nome? Faz de conta?",
+          "en": "How was his development: when did he start talking, pointing, responding to his name? Does he pretend-play?",
+          "es": "¿Cómo fue su desarrollo: cuándo empezó a hablar, a señalar, a responder a su nombre? ¿Hace juego simbólico?"
+        },
+        "psicoeducacao": {
+          "pt": "Posso explicar quais sinais costumamos observar nessa idade e por quê?",
+          "en": "May I explain which signs we usually look at at this age, and why?",
+          "es": "¿Puedo explicar qué signos solemos observar a esta edad y por qué?"
+        },
+        "acolhimento": {
+          "pt": "Deve ser difícil ouvir essa preocupação da escola. O que a senhora mais gosta de fazer com o Enzo?",
+          "en": "It must be hard to hear this concern from the school. What do you enjoy most doing with Enzo?",
+          "es": "Debe de ser difícil escuchar esa preocupación de la escuela. ¿Qué es lo que más disfruta hacer con Enzo?"
+        },
+        "diretiva": {
+          "pt": "Ele já foi ao pediatra? Se o pediatra falou que está tudo bem, então não é nada.",
+          "en": "Has he seen the pediatrician? If the pediatrician said everything is fine, then it's nothing.",
+          "es": "¿Ya fue al pediatra? Si el pediatra dijo que todo está bien, entonces no es nada."
+        }
+      },
+      "variants": [
+        {
+          "pt": "'Ele fala poucas frases e prefere brincar sozinho, com os carrinhos...'",
+          "en": "'He speaks only a few sentences and prefers to play alone, with his little cars...'",
+          "es": "'Habla pocas frases y prefiere jugar solo, con sus cochecitos...'"
+        },
+        {
+          "pt": "'Fala pouquinho, em frases curtas, e gosta de ficar sozinho alinhando os carrinhos...'",
+          "en": "'He talks very little, in short sentences, and likes to be alone lining up his cars...'",
+          "es": "'Habla poquito, con frases cortas, y le gusta estar solo alineando sus cochecitos...'"
+        }
+      ]
+    },
+    {
+      "who": "parent",
+      "text": {
+        "pt": "'Ele começou a falar tarde... e já teve crises quando mudamos o caminho da escola.'",
+        "en": "'He started talking late... and he has had meltdowns when we changed the way to school.'",
+        "es": "'Empezó a hablar tarde... y ya tuvo crisis cuando cambiamos el camino a la escuela.'"
+      },
+      "note": {
+        "pt": "Fala tardia; crises com mudança de rotina (caminho da escola).",
+        "en": "Late speech; meltdowns with routine change (route to school).",
+        "es": "Habla tardía; crisis con cambio de rutina (camino a la escuela)."
+      },
+      "mods": {
+        "acolhimento": -1
+      },
+      "options": {
+        "psicoeducacao": {
+          "pt": "Vou levar isso a sério. Faremos uma avaliação completa: observação, instrumentos específicos e conversa com a escola.",
+          "en": "I'll take this seriously. We will do a full assessment: observation, specific instruments and talking with the school.",
+          "es": "Voy a tomar esto en serio. Haremos una evaluación completa: observación, instrumentos específicos y conversación con la escuela."
+        },
+        "comportamental": {
+          "pt": "Podemos combinar uma forma de avisar o Enzo das mudanças de rotina com antecedência, usando imagens. As imagens dizem o que as palavras às vezes não conseguem.",
+          "en": "We can agree on a way to warn Enzo about routine changes ahead of time, using pictures. The pictures say what words sometimes can't.",
+          "es": "Podemos acordar una forma de avisar a Enzo de los cambios de rutina con antelación, usando imágenes. Las imágenes dicen lo que a veces las palabras no logran."
+        },
+        "acolhimento": {
+          "pt": "Essas crises devem ser difíceis para a família. Como a senhora costuma acalmá-lo? O que já funciona vale a pena repetir.",
+          "en": "Those meltdowns must be hard on the family. How do you usually calm him? Whatever already works is worth repeating.",
+          "es": "Esas crisis deben de ser difíciles para la familia. ¿Cómo suele calmarlo? Lo que ya funciona vale la pena repetirlo."
+        },
+        "diretiva": {
+          "pt": "Pelo que a senhora contou, já dá para dizer que é autismo nível 1. Vou preencher o laudo.",
+          "en": "From what you have told me, I can already say it is autism level 1. I'll fill in the report.",
+          "es": "Por lo que usted contó, ya se puede decir que es autismo nivel 1. Voy a completar el informe."
+        }
+      },
+      "variants": [
+        {
+          "pt": "'Ele demorou a começar a falar... e quando trocamos o trajeto da escola, teve uma crise.'",
+          "en": "'He took a long time to start talking... and when we switched the route to school he had a meltdown.'",
+          "es": "'Tardó mucho en empezar a hablar... y cuando cambiamos el trayecto a la escuela tuvo una crisis.'"
+        },
+        {
+          "pt": "'Demorou para falar... e quando mudamos o trajeto da escola ele teve uma crise enorme.'",
+          "en": "'He was slow to talk... and when we changed the school route he had a huge meltdown.'",
+          "es": "'Tardó en hablar... y cuando cambiamos el recorrido de la escuela tuvo una crisis enorme.'"
+        }
+      ]
+    },
+    {
+      "who": "parent",
+      "text": {
+        "pt": "(mais calma) 'E se for autismo, o que muda? Ele vai ser tratado diferente na escola?'",
+        "en": "(calmer) 'And if it is autism, what changes? Will he be treated differently at school?'",
+        "es": "(más calmada) 'Y si es autismo, ¿qué cambia? ¿Lo van a tratar diferente en la escuela?'"
+      },
+      "note": {
+        "pt": "A mãe começa a considerar a hipótese e pergunta sobre rótulo e escola.",
+        "en": "The mother starts to consider the hypothesis and asks about labels and school.",
+        "es": "La madre empieza a considerar la hipótesis y pregunta por la etiqueta y la escuela."
+      },
+      "mods": {
+        "psicoeducacao": 1,
+        "acolhimento": -1,
+        "comportamental": -1
+      },
+      "options": {
+        "psicoeducacao": {
+          "pt": "Um diagnóstico não muda quem o Enzo é: ele abre acesso a apoios, como adaptações na escola e terapias. Só decidimos depois da avaliação.",
+          "en": "A diagnosis doesn't change who Enzo is: it opens access to support, like school adaptations and therapies. We decide only after the assessment.",
+          "es": "Un diagnóstico no cambia quién es Enzo: abre acceso a apoyos, como adaptaciones escolares y terapias. Decidimos solo tras la evaluación."
+        },
+        "acolhimento": {
+          "pt": "É natural ter medo do que isso significa para ele. Como a senhora imagina o Enzo daqui a alguns anos? Não existe resposta errada para essa pergunta.",
+          "en": "It's natural to fear what it means for him. How do you imagine Enzo a few years from now? There's no wrong answer to that question.",
+          "es": "Es natural temer lo que significa para él. ¿Cómo imagina usted a Enzo dentro de unos años? No hay respuesta equivocada para esa pregunta."
+        },
+        "comportamental": {
+          "pt": "Enquanto avaliamos, podemos anotar situações do dia a dia: o que ele faz, o que antecede e como reage às mudanças.",
+          "en": "While we assess, we can note daily situations: what he does, what comes before and how he reacts to changes.",
+          "es": "Mientras evaluamos, podemos anotar situaciones del día a día: qué hace, qué las precede y cómo reacciona a los cambios."
+        },
+        "diretiva": {
+          "pt": "A escola tem obrigação de adaptar o que for preciso. Se resistirem, a senhora pode ameaçar tirá-lo de lá.",
+          "en": "The school is obliged to adapt whatever is needed. If they resist, you can threaten to take him out.",
+          "es": "La escuela está obligada a adaptar lo necesario. Si se resisten, usted puede amenazar con sacarlo."
+        }
+      },
+      "variants": [
+        {
+          "pt": "(mais tranquilo) 'Se for autismo, muda alguma coisa para ele? A escola vai olhar para ele de outro jeito?'",
+          "en": "(more at ease) 'If it is autism, does anything change for him? Will the school look at him differently?'",
+          "es": "(más tranquilo) 'Si es autismo, ¿cambia algo para él? ¿La escuela lo va a mirar de otra manera?'"
+        },
+        {
+          "pt": "(respirando fundo) 'Se for autismo, o que isso muda de verdade? Na escola vão tratar ele de outro jeito?'",
+          "en": "(taking a deep breath) 'If it is autism, what does that really change? Will they treat him differently at school?'",
+          "es": "(respirando hondo) 'Si es autismo, ¿qué cambia de verdad? ¿En la escuela lo van a tratar de otra manera?'"
+        }
+      ]
+    }
+  ],
+  "kid": true,
+  "diagnosis": {
+    "answer": "tea",
+    "options": [
+      "tea",
+      "comunicacao",
+      "mutismo",
+      "tdi"
+    ],
+    "why": {
+      "pt": "Poucas frases, brincar sozinho com carrinhos, fala tardia e crises com mudança de rotina apontam para o espectro autista. Como a avaliação é completa, o diagnóstico só se confirma com observação, instrumentos e dados da escola.",
+      "en": "Few sentences, playing alone with cars, late speech and meltdowns with routine changes point to the autism spectrum. Since the assessment is comprehensive, the diagnosis is confirmed only with observation, instruments and school data.",
+      "es": "Pocas frases, jugar solo con autitos, habla tardía y crisis con cambios de rutina apuntan al espectro autista. Como la evaluación es completa, el diagnóstico solo se confirma con observación, instrumentos y datos de la escuela."
+    }
+  },
+  "voice": {
+    "intro": {
+      "pt": "(a mãe, com Enzo alinhando carrinhos no chão:) 'Este é o Enzo, tem 6 anos. Ele fala pouco e tem muita dificuldade quando muda alguma coisa.' (Enzo:) '...carrinho.'",
+      "en": "(his mom, with Enzo lining up cars on the floor:) 'This is Enzo, he's 6. He speaks little and has a hard time when anything changes.' (Enzo:) '...car.'",
+      "es": "(la madre, con Enzo alineando cochecitos en el suelo:) 'Este es Enzo, tiene 6 años. Habla poco y le cuesta mucho cuando algo cambia.' (Enzo:) '...coche.'"
+    },
+    "pre": [
+      {
+        "pt": "(Enzo, sem olhar:) Carrinho.",
+        "en": "(Enzo, not looking:) Car.",
+        "es": "(Enzo, sin mirar:) Coche."
+      },
+      {
+        "pt": "(a mãe, suspirando:)",
+        "en": "(his mom, sighing:)",
+        "es": "(la madre, suspirando:)"
+      }
+    ],
+    "post": {
+      "pt": "(Enzo gira uma rodinha de novo.)",
+      "en": "(Enzo spins a wheel again.)",
+      "es": "(Enzo hace girar una rueda otra vez.)"
+    },
+    "ref": [
+      {
+        "pt": "Mudou o caminho da escola de novo e foi um dia inteiro de choro.",
+        "en": "The way to school changed again and it was a whole day of crying.",
+        "es": "Cambió el camino a la escuela otra vez y fue un día entero de llanto."
+      },
+      {
+        "pt": "Avisei a mudança com a figurinha antes e ele chorou só um pouquinho.",
+        "en": "I warned him about the change with the picture card first and he cried just a little.",
+        "es": "Avisé del cambio con la tarjeta antes y lloró solo un poquito."
+      },
+      {
+        "pt": "Ele apontou pro desenho do parque e pediu pra ir. Pediu sozinho!",
+        "en": "He pointed at the park picture and asked to go. He asked on his own!",
+        "es": "¡Señaló el dibujo del parque y pidió ir. Lo pidió solo!"
+      }
+    ],
+    "hookA": {
+      "pt": "Como o Enzo mostra quando alguma coisa está demais pra ele?",
+      "en": "How does Enzo show when something is too much for him?",
+      "es": "¿Cómo muestra Enzo cuando algo es demasiado para él?"
+    },
+    "hookB": {
+      "pt": "Vamos montar um quadro de rotina com figuras para as mudanças?",
+      "en": "Shall we build a routine board with pictures for the changes?",
+      "es": "¿Armamos un tablero de rutina con imágenes para los cambios?"
+    },
+    "sessoes": {
+      "s3": [
+        {
+          "pt": "'(a mãe:) Ele decorou o caminho inteiro até aqui, doutora. Se eu pego outra rua ele chora. (Enzo, alinhando três carrinhos na mesa, sem olhar:) Vermelho, azul, amarelo. Vermelho, azul, amarelo.'",
+          "en": "'(his mother:) He memorised the whole route here, doctor. If I take a different street he cries. (Enzo, lining up three toy cars on the table, without looking up:) Red, blue, yellow. Red, blue, yellow.'",
+          "es": "'(his mother:) He memorised the whole route here, doctor. If I take a different street he cries. (Enzo, lining up three toy cars on the table, without looking up:) Red, blue, yellow. Red, blue, yellow.'"
+        },
+        {
+          "pt": "'(a mãe:) Na festa da escola ele ficou no corredor o tempo todo, com as mãos na orelha. Não é que ele não goste das crianças — ele me falou o nome de todas elas. É o barulho junto, acho.'",
+          "en": "'(his mother:) At the school party he stayed in the corridor the whole time, hands over his ears. It isn't that he dislikes the other children — he told me all their names. It's the noise all at once, I think.'",
+          "es": "'(his mother:) At the school party he stayed in the corridor the whole time, hands over his ears. It isn't that he dislikes the other children — he told me all their names. It's the noise all at once, I think.'"
+        }
+      ],
+      "s4": [
+        {
+          "pt": "'(a mãe, cansada:) A minha sogra disse que é falta de pulso. Que se eu forçasse ele a ficar na festa ele aprendia. (silêncio) Eu quase forcei.'",
+          "en": "'(his mother, tired:) My mother-in-law said it's lack of discipline. That if I forced him to stay at the party he'd learn. (silence) I almost forced him.'",
+          "es": "'(his mother, tired:) My mother-in-law said it's lack of discipline. That if I forced him to stay at the party he'd learn. (silence) I almost forced him.'"
+        },
+        {
+          "pt": "'(Enzo, ainda com os carrinhos, mas falando alto pela primeira vez:) Eu gosto quando a senhora fala baixo. (a mãe olha para ele, surpresa) É. Ele não fala assim com quase ninguém.'",
+          "en": "'(Enzo, still with the cars, but speaking up for the first time:) I like it when you talk quietly. (his mother looks at him, surprised) He is. He hardly talks like that to anyone.'",
+          "es": "'(Enzo, still with the cars, but speaking up for the first time:) I like it when you talk quietly. (his mother looks at him, surprised) He is. He hardly talks like that to anyone.'"
+        }
+      ]
+    },
+    "fecho": {
+      "s2": {
+        "pt": "(a mãe:) 'Ele deixou a senhora chegar perto hoje. (para, emocionada) Isso não é pouco, doutora. Isso não é nada pouco.'",
+        "en": "(his mother:) 'He let you come close today. (stops, moved) That's not a small thing, doctor. That's not a small thing at all.'",
+        "es": "(his mother:) 'He let you come close today. (stops, moved) That's not a small thing, doctor. That's not a small thing at all.'"
+      },
+      "s3": {
+        "pt": "(Enzo alinha os carrinhos uma última vez e, sem olhar, empurra o vermelho na direção da senhora.) (a mãe, baixinho:) 'Ele está te dando o favorito.'",
+        "en": "(Enzo lines up the cars one last time and, without looking, pushes the red one towards you.) (his mother, quietly:) 'He's giving you his favourite.'",
+        "es": "(Enzo lines up the cars one last time and, without looking, pushes the red one towards you.) (his mother, quietly:) 'He's giving you his favourite.'"
+      },
+      "s4": {
+        "pt": "(a mãe:) 'Eu vim aqui com medo de um rótulo.' (respira) 'Saio com um manual. É diferente.'",
+        "en": "(his mother:) 'I came here afraid of a label.' (breathes) 'I'm leaving with a manual. It's different.'",
+        "es": "(his mother:) 'I came here afraid of a label.' (breathes) 'I'm leaving with a manual. It's different.'"
+      }
+    },
+    "opcoes": {
+      "s3": [
+        {
+          "acolhimento": {
+            "pt": "(baixando a voz) A senhora conta o caminho decorado como problema. Para ele, pode ser o que faz o dia caber.",
+            "en": "(lowering my voice) You tell me about the memorised route as a problem. For him, it may be what makes the day fit.",
+            "es": "(lowering my voice) You tell me about the memorised route as a problem. For him, it may be what makes the day fit."
+          },
+          "psicoeducacao": {
+            "pt": "Rotina e ordem não são birra: são previsibilidade construída por ele. Tirar sem avisar é que produz o choro.",
+            "en": "Routine and order are not tantrums: they are predictability he built. Taking it away without warning is what produces the crying.",
+            "es": "Routine and order are not tantrums: they are predictability he built. Taking it away without warning is what produces the crying."
+          },
+          "comportamental": {
+            "pt": "Se precisar mudar de rua, avise antes e mostre no mapa. A mudança avisada custa muito menos que a mudança de surpresa.",
+            "en": "If you need to change streets, tell him first and show him on the map. An announced change costs far less than a surprise one.",
+            "es": "If you need to change streets, tell him first and show him on the map. An announced change costs far less than a surprise one."
+          },
+          "diretiva": {
+            "pt": "Vamos manter o caminho por enquanto. Não é hora de treinar flexibilidade — é hora de ele confiar no dia.",
+            "en": "Let's keep the route for now. This is not the time to train flexibility — it is the time for him to trust the day.",
+            "es": "Let's keep the route for now. This is not the time to train flexibility — it is the time for him to trust the day."
+          }
+        },
+        {
+          "acolhimento": {
+            "pt": "Ele sabia o nome de todas as crianças. Isso muda bastante a história que a escola conta, não muda?",
+            "en": "He knew every child's name. That changes the story the school tells, doesn't it?",
+            "es": "He knew every child's name. That changes the story the school tells, doesn't it?"
+          },
+          "psicoeducacao": {
+            "pt": "Repare na distinção: não é recusa das pessoas, é o som junto. Isso separa o quadro dele de timidez ou de birra.",
+            "en": "Notice the distinction: it is not refusal of people, it is the sound all at once. That separates his condition from shyness or defiance.",
+            "es": "Notice the distinction: it is not refusal of people, it is the sound all at once. That separates his condition from shyness or defiance."
+          },
+          "comportamental": {
+            "pt": "Na próxima festa: chegar antes de encher, um lugar de saída combinado e abafador de ouvido. E sair é permitido.",
+            "en": "At the next party: arrive before it fills up, an agreed exit spot and ear defenders. And leaving is allowed.",
+            "es": "At the next party: arrive before it fills up, an agreed exit spot and ear defenders. And leaving is allowed."
+          },
+          "diretiva": {
+            "pt": "Quero isso por escrito para a escola: o corredor não é fuga, é a adaptação que funciona.",
+            "en": "I want this in writing for the school: the corridor is not running away, it is the adaptation that works.",
+            "es": "I want this in writing for the school: the corridor is not running away, it is the adaptation that works."
+          }
+        }
+      ],
+      "s4": [
+        {
+          "acolhimento": {
+            "pt": "A senhora quase forçou, e não forçou. Deve ter sido sozinha nessa hora.",
+            "en": "You almost forced him, and you did not. You must have been alone in that moment.",
+            "es": "You almost forced him, and you did not. You must have been alone in that moment."
+          },
+          "psicoeducacao": {
+            "pt": "Forçar não ensina: satura. O que ensina é aproximar aos poucos, com saída garantida — e isso a senhora já estava fazendo.",
+            "en": "Forcing does not teach: it overloads. What teaches is approaching bit by bit, with a guaranteed exit — and you were already doing that.",
+            "es": "Forcing does not teach: it overloads. What teaches is approaching bit by bit, with a guaranteed exit — and you were already doing that."
+          },
+          "comportamental": {
+            "pt": "Vamos combinar uma resposta pronta para a sua sogra. Uma frase só, para a senhora não ter de explicar tudo de novo.",
+            "en": "Let's agree on a ready answer for your mother-in-law. Just one sentence, so you do not have to explain it all over again.",
+            "es": "Let's agree on a ready answer for your mother-in-law. Just one sentence, so you do not have to explain it all over again."
+          },
+          "diretiva": {
+            "pt": "A senhora está certa e a sua sogra está errada. Eu assino isso.",
+            "en": "You are right and your mother-in-law is wrong. I will put my name to that.",
+            "es": "You are right and your mother-in-law is wrong. I will put my name to that."
+          }
+        },
+        {
+          "acolhimento": {
+            "pt": "(para o Enzo, na mesma voz baixa) Obrigada por me contar isso. (para a mãe) Ele acabou de escolher falar.",
+            "en": "(to Enzo, in the same quiet voice) Thank you for telling me. (to his mother) He just chose to speak.",
+            "es": "(to Enzo, in the same quiet voice) Thank you for telling me. (to his mother) He just chose to speak."
+          },
+          "psicoeducacao": {
+            "pt": "Isto é reciprocidade — no formato dele. Vai vir sempre assim: no assunto dele, na hora dele, com quem respeita o volume.",
+            "en": "This is reciprocity — in his format. It will always come like this: on his subject, in his time, with someone who respects the volume.",
+            "es": "This is reciprocity — in his format. It will always come like this: on his subject, in his time, with someone who respects the volume."
+          },
+          "comportamental": {
+            "pt": "Então usamos isso: voz baixa, poucas palavras e o carrinho por perto. É o combinado que abre conversa com ele.",
+            "en": "So we use that: quiet voice, few words and the little car nearby. That is the arrangement that opens conversation with him.",
+            "es": "So we use that: quiet voice, few words and the little car nearby. That is the arrangement that opens conversation with him."
+          },
+          "diretiva": {
+            "pt": "Guarde esse momento. Quando disserem que ele não se importa, a senhora lembra deste.",
+            "en": "Hold on to this moment. When people say he does not care, you remember this one.",
+            "es": "Hold on to this moment. When people say he does not care, you remember this one."
+          }
+        }
+      ]
+    }
+  },
+  "look": {
+    "skin": "#b07a4e",
+    "hair": "#6a4526",
+    "hairStyle": "curly",
+    "top": "#d9534f",
+    "eyeShape": "round",
+    "brow": "soft",
+    "mouth": "neutral",
+    "rosto": "assets/rosto-enzo.png",
+    "corpo": "m"
+  }
+}

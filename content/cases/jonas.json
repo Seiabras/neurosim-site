@@ -1,0 +1,500 @@
+{
+  "name": {
+    "pt": "Jonas Azevedo",
+    "en": "Jonas Azevedo",
+    "es": "Jonas Azevedo"
+  },
+  "age": {
+    "pt": "21 anos",
+    "en": "21 years old",
+    "es": "21 años"
+  },
+  "complaint": {
+    "pt": "Ouve vozes e acredita que estão observando e comentando o que ele faz.",
+    "en": "Hears voices and believes he is being watched and commented on.",
+    "es": "Oye voces y cree que lo observan y comentan lo que hace."
+  },
+  "history": {
+    "pt": "Estudante de Engenharia, trancou o curso. Nos últimos meses se isolou, dorme de dia e cobre a câmera do notebook. A mãe o trouxe.",
+    "en": "Engineering student, dropped out. In recent months he isolated, sleeps by day and covers the laptop camera. His mother brought him.",
+    "es": "Estudiante de Ingeniería, dejó la carrera. En los últimos meses se aisló, duerme de día y tapa la cámara de la laptop. Su madre lo trajo."
+  },
+  "image": "assets/char-jonas.png",
+  "parent": null,
+  "dot": "dot-pink",
+  "group": "psicoticos",
+  "type": {
+    "pt": "1ª Sessão: Anamnese",
+    "en": "1st session: intake interview",
+    "es": "1.ª sesión: anamnesis"
+  },
+  "info": {
+    "pt": "Jovem com alucinações auditivas, ideias de perseguição e retraimento. Primeira sessão.",
+    "en": "Young man with auditory hallucinations, persecutory ideas and withdrawal. First session.",
+    "es": "Joven con alucinaciones auditivas, ideas de persecución y retraimiento. Primera sesión."
+  },
+  "message": {
+    "from": {
+      "pt": "Mãe do paciente (Dona Rosa)",
+      "en": "Patient's mother (Dona Rosa)",
+      "es": "Madre del paciente (Doña Rosa)"
+    },
+    "text": {
+      "pt": "Meu filho fala sozinho e diz que 'eles' estão nos ouvindo. Tenho medo. Ele só aceitou vir porque eu disse que era só uma conversa.",
+      "en": "My son talks to himself and says 'they' are listening to us. I'm scared. He only agreed to come because I said it was just a chat.",
+      "es": "Mi hijo habla solo y dice que 'ellos' nos escuchan. Tengo miedo. Solo aceptó venir porque le dije que era solo una charla."
+    }
+  },
+  "fit": {
+    "acolhimento": 4,
+    "psicoeducacao": 3,
+    "comportamental": 2,
+    "tcc": 2,
+    "psicodinamica": 1,
+    "diretiva": 0
+  },
+  "why": {
+    "acolhimento": {
+      "pt": "Na psicose, confiança e segurança vêm primeiro. Ouvir sem julgar e sem confrontar as crenças mantém a pessoa em contato e em tratamento.",
+      "en": "In psychosis, trust and safety come first. Listening without judging or confronting beliefs keeps the person in contact and in treatment.",
+      "es": "En la psicosis, la confianza y la seguridad van primero. Escuchar sin juzgar ni confrontar las creencias mantiene a la persona en contacto y en tratamiento."
+    },
+    "psicoeducacao": {
+      "pt": "Explicar com calma que o cuidado envolve avaliação médica e que ele não está sozinho ajuda, sem discutir se as vozes são reais.",
+      "en": "Explaining calmly that care involves medical evaluation and that he is not alone helps, without arguing about whether the voices are real.",
+      "es": "Explicar con calma que el cuidado incluye una evaluación médica y que no está solo ayuda, sin discutir si las voces son reales."
+    },
+    "comportamental": {
+      "pt": "Rotina de sono e atividades simples ajudam a estabilizar, mas vêm depois de o vínculo estar criado.",
+      "en": "A sleep routine and simple activities help stabilize, but come after the bond is built.",
+      "es": "Una rutina de sueño y actividades simples ayudan a estabilizar, pero vienen después de crear el vínculo."
+    },
+    "tcc": {
+      "pt": "A TCC para psicose trabalha a relação com as vozes e crenças, sem confrontar. Exige vínculo prévio e é complemento ao tratamento médico.",
+      "en": "CBT for psychosis works on the relationship with voices and beliefs, without confronting. It requires a prior bond and complements medical treatment.",
+      "es": "La TCC para psicosis trabaja la relación con las voces y creencias, sin confrontar. Requiere un vínculo previo y complementa el tratamiento médico."
+    },
+    "psicodinamica": {
+      "pt": "Interpretar conteúdos delirantes cedo pode aumentar a desconfiança; o foco inicial é estabilidade e segurança.",
+      "en": "Interpreting delusional content early can increase mistrust; the initial focus is stability and safety.",
+      "es": "Interpretar contenidos delirantes pronto puede aumentar la desconfianza; el foco inicial es la estabilidad y la seguridad."
+    }
+  },
+  "steps": [
+    {
+      "who": "patient",
+      "text": {
+        "pt": "(olhando para a porta) 'Você está gravando isso, né? Eles pediram para você me fazer falar.'",
+        "en": "(looking at the door) 'You are recording this, right? They asked you to make me talk.'",
+        "es": "(mirando la puerta) 'Estás grabando esto, ¿no? Ellos te pidieron que me hicieras hablar.'"
+      },
+      "note": {
+        "pt": "Desconfiança persecutória; teme ser gravado.",
+        "en": "Persecutory mistrust; fears being recorded.",
+        "es": "Desconfianza persecutoria; teme ser grabado."
+      },
+      "mods": {
+        "acolhimento": 1,
+        "tcc": -1,
+        "psicodinamica": -1
+      },
+      "options": {
+        "acolhimento": {
+          "pt": "Sei que é difícil confiar num lugar novo. Nada aqui é gravado e você fala só o que quiser, no seu tempo.",
+          "en": "I know it's hard to trust a new place. Nothing here is recorded and you only say what you want, in your time.",
+          "es": "Sé que es difícil confiar en un lugar nuevo. Aquí nada se graba y dices solo lo que quieras, a tu tiempo."
+        },
+        "psicoeducacao": {
+          "pt": "Esta sala é privada: o que você diz fica entre nós, com exceção de situações de risco. Posso explicar como funciona a nossa conversa?",
+          "en": "This room is private: what you say stays between us, except in situations of risk. May I explain how our conversation works?",
+          "es": "Esta sala es privada: lo que digas queda entre nosotros, salvo situaciones de riesgo. ¿Puedo explicarte cómo funciona nuestra conversación?"
+        },
+        "tcc": {
+          "pt": "Que provas você tem de que estão gravando? Vamos examinar isso juntos.",
+          "en": "What evidence do you have that they are recording? Let's examine it together.",
+          "es": "¿Qué pruebas tienes de que están grabando? Examinémoslo juntos."
+        },
+        "diretiva": {
+          "pt": "Ninguém está gravando, isso é uma ideia da doença. Aqui você pode ficar tranquilo.",
+          "en": "No one is recording, that's an idea from the illness. You can relax here.",
+          "es": "Nadie está grabando, eso es una idea de la enfermedad. Aquí puedes estar tranquilo."
+        }
+      },
+      "variants": [
+        {
+          "pt": "(olhando para o teto) 'Isso aqui está sendo gravado, não está? Pediram para você me fazer falar.'",
+          "en": "(looking at the ceiling) 'This is being recorded, isn't it? They asked you to get me talking.'",
+          "es": "(mirando el techo) 'Esto se está grabando, ¿no? Te pidieron que me hicieras hablar.'"
+        },
+        {
+          "pt": "(olhando para a janela) 'Tem alguém ouvindo lá fora, não tem? Mandaram você me fazer falar.'",
+          "en": "(looking at the window) 'Someone is listening outside, aren't they? They sent you to make me talk.'",
+          "es": "(mirando la ventana) 'Hay alguien escuchando afuera, ¿no? Te mandaron para hacerme hablar.'"
+        }
+      ]
+    },
+    {
+      "who": "patient",
+      "text": {
+        "pt": "'Eu ouço vozes o tempo todo. Comentam o que eu faço: agora ele está sentado, agora ele vai mentir. Ninguém acredita em mim.'",
+        "en": "'I hear voices all the time. They comment on what I do: now he is sitting, now he will lie. Nobody believes me.'",
+        "es": "'Oigo voces todo el tiempo. Comentan lo que hago: ahora está sentado, ahora va a mentir. Nadie me cree.'"
+      },
+      "note": {
+        "pt": "Alucinações auditivas comentando as ações; sente-se sem crédito.",
+        "en": "Auditory hallucinations commenting on his actions; feels disbelieved.",
+        "es": "Alucinaciones auditivas que comentan sus acciones; se siente sin credibilidad."
+      },
+      "mods": {
+        "acolhimento": 1,
+        "psicoeducacao": 1
+      },
+      "options": {
+        "acolhimento": {
+          "pt": "Não ouço as vozes, mas sei que para você são reais e incomodam muito. Quando ficam mais fortes?",
+          "en": "I don't hear the voices, but I know they are real and very disturbing to you. When are they strongest?",
+          "es": "No oigo las voces, pero sé que para ti son reales y molestan mucho. ¿Cuándo son más fuertes?"
+        },
+        "psicoeducacao": {
+          "pt": "Ouvir vozes é uma experiência que médicos e psicólogos conhecem e tratam. Podemos buscar formas de reduzir o incômodo delas.",
+          "en": "Hearing voices is an experience that doctors and psychologists know and treat. We can look for ways to reduce how disturbing they are.",
+          "es": "Oír voces es una experiencia que médicos y psicólogos conocen y tratan. Podemos buscar formas de reducir su molestia."
+        },
+        "comportamental": {
+          "pt": "Vamos anotar quando as vozes ficam mais altas e quando diminuem: sono, cansaço, barulho. Isso pode mostrar o que ajuda.",
+          "en": "Let's note when the voices get louder and when they ease: sleep, tiredness, noise. This may show what helps.",
+          "es": "Anotemos cuándo las voces suben y cuándo bajan: sueño, cansancio, ruido. Esto puede mostrar qué ayuda."
+        },
+        "diretiva": {
+          "pt": "Essas vozes não são reais, são um sintoma. O primeiro passo é aceitar isso e tomar a medicação.",
+          "en": "Those voices are not real, they are a symptom. The first step is to accept that and take the medication.",
+          "es": "Esas voces no son reales, son un síntoma. El primer paso es aceptarlo y tomar la medicación."
+        }
+      },
+      "variants": [
+        {
+          "pt": "'As vozes ficam comentando tudo o que eu faço: agora ele senta, agora ele vai mentir. Todo mundo duvida de mim.'",
+          "en": "'The voices keep commenting on everything I do: now he sits, now he's going to lie. Everybody doubts me.'",
+          "es": "'Las voces van comentando todo lo que hago: ahora se sienta, ahora va a mentir. Todos dudan de mí.'"
+        },
+        {
+          "pt": "'As vozes não param. Falam de mim o tempo todo: agora ele senta, agora ele vai mentir. E ninguém acredita quando eu conto.'",
+          "en": "'The voices never stop. They talk about me all the time: now he sits, now he's going to lie. And no one believes me when I say so.'",
+          "es": "'Las voces no paran. Hablan de mí todo el tiempo: ahora se sienta, ahora va a mentir. Y nadie me cree cuando lo cuento.'"
+        }
+      ]
+    },
+    {
+      "who": "patient",
+      "text": {
+        "pt": "'Minha mãe quer me internar, né? Vocês todos estão juntos nisso.'",
+        "en": "'My mother wants to have me hospitalized, right? You are all in this together.'",
+        "es": "'Mi madre quiere internarme, ¿no? Todos ustedes están juntos en esto.'"
+      },
+      "note": {
+        "pt": "Medo de internação; suspeita de conluio.",
+        "en": "Fear of hospitalization; suspects collusion.",
+        "es": "Miedo a la internación; sospecha de confabulación."
+      },
+      "mods": {
+        "acolhimento": 1,
+        "psicoeducacao": 1,
+        "tcc": -1
+      },
+      "options": {
+        "acolhimento": {
+          "pt": "Deve ser assustador sentir que decidem por você. Eu quero ajudar de um jeito que você participe das decisões.",
+          "en": "It must be frightening to feel others decide for you. I want to help in a way that you take part in the decisions.",
+          "es": "Debe ser aterrador sentir que deciden por ti. Quiero ayudar de un modo en que participes en las decisiones."
+        },
+        "psicoeducacao": {
+          "pt": "Ninguém falou em internação hoje. O que proponho é uma avaliação com um psiquiatra e acompanhamento aqui, com você participando de cada passo.",
+          "en": "No one mentioned hospitalization today. What I propose is an evaluation with a psychiatrist and follow-up here, with you taking part in each step.",
+          "es": "Nadie habló de internación hoy. Lo que propongo es una evaluación con un psiquiatra y seguimiento aquí, con tu participación en cada paso."
+        },
+        "comportamental": {
+          "pt": "Que tal combinarmos duas coisas pequenas para esta semana, como dormir em horários mais regulares e sair de casa uma vez?",
+          "en": "How about agreeing on two small things for this week, like sleeping at more regular times and leaving the house once?",
+          "es": "¿Qué tal acordar dos cosas pequeñas para esta semana, como dormir en horarios más regulares y salir de casa una vez?"
+        },
+        "diretiva": {
+          "pt": "Se você não colaborar, a internação pode ser a única saída, e isso serve para protegê-lo.",
+          "en": "If you don't cooperate, hospitalization may be the only way out, and that is to protect you.",
+          "es": "Si no colaboras, la internación puede ser la única salida, y eso sirve para protegerte."
+        }
+      },
+      "variants": [
+        {
+          "pt": "'A minha mãe quer me internar, não quer? Vocês estão todos de acordo.'",
+          "en": "'My mother wants to have me committed, doesn't she? You're all in on it.'",
+          "es": "'Mi madre quiere internarme, ¿no? Todos ustedes están de acuerdo.'"
+        },
+        {
+          "pt": "'Aposto que minha mãe combinou com você para me internar. Vocês todos estão do mesmo lado.'",
+          "en": "'I bet my mother arranged with you to have me committed. You are all on the same side.'",
+          "es": "'Apuesto a que mi madre se puso de acuerdo contigo para internarme. Todos están del mismo lado.'"
+        }
+      ]
+    },
+    {
+      "who": "patient",
+      "text": {
+        "pt": "(mais calmo) 'Eu posso voltar aqui? E você... você vai me ouvir de novo, sem me contar para todo mundo?'",
+        "en": "(calmer) 'Can I come back here? And you... will you listen to me again, without telling everyone?'",
+        "es": "(más calmado) '¿Puedo volver aquí? Y tú... ¿me vas a escuchar de nuevo, sin contárselo a todo el mundo?'"
+      },
+      "note": {
+        "pt": "Primeiro sinal de confiança: pede para voltar e cobra sigilo.",
+        "en": "First sign of trust: asks to come back and demands confidentiality.",
+        "es": "Primera señal de confianza: pide volver y exige confidencialidad."
+      },
+      "mods": {},
+      "options": {
+        "acolhimento": {
+          "pt": "Pode voltar quando quiser. O que você disser aqui fica entre nós, exceto se houver risco para você ou para alguém. Vou te avisar antes de falar com qualquer pessoa.",
+          "en": "You can come back whenever you like. What you say here stays between us, unless there is risk to you or someone else. I'll tell you before speaking with anyone.",
+          "es": "Puedes volver cuando quieras. Lo que digas aquí queda entre nosotros, salvo que haya riesgo para ti o para alguien. Te aviso antes de hablar con cualquier persona."
+        },
+        "psicoeducacao": {
+          "pt": "Sugiro combinarmos também uma consulta com um psiquiatra, para cuidar do sono e das vozes. Eu continuo acompanhando você aqui. Ninguém precisa cuidar disso sozinho.",
+          "en": "I suggest we also arrange a visit with a psychiatrist, to look after sleep and the voices. I keep working with you here. No one needs to handle this alone.",
+          "es": "Sugiero acordar también una consulta con un psiquiatra, para cuidar el sueño y las voces. Yo sigo acompañándote aquí. Nadie necesita cuidar esto solo."
+        },
+        "comportamental": {
+          "pt": "Até a próxima vez, tente dormir em horários mais regulares e sair de casa uma vez. Se as vozes piorarem, anote quando foi.",
+          "en": "Until next time, try to sleep at more regular hours and go out once. If the voices get worse, note when it was.",
+          "es": "Hasta la próxima vez, intenta dormir en horarios más regulares y salir de casa una vez. Si las voces empeoran, anota cuándo fue."
+        },
+        "diretiva": {
+          "pt": "Vou precisar contar para a sua mãe e para o médico tudo o que você me disse aqui, para que eles decidam o melhor.",
+          "en": "I'll need to tell your mother and the doctor everything you told me here, so they can decide what's best.",
+          "es": "Voy a tener que contarle a tu madre y al médico todo lo que me dijiste aquí, para que decidan lo mejor."
+        }
+      },
+      "variants": [
+        {
+          "pt": "(mais tranquilo) 'Posso voltar? E você vai me ouvir de novo, sem espalhar o que eu falei?'",
+          "en": "(calmer) 'Can I come back? And will you listen to me again, without spreading what I said?'",
+          "es": "(más tranquilo) '¿Puedo volver? ¿Y me vas a escuchar otra vez, sin esparcir lo que dije?'"
+        },
+        {
+          "pt": "(um pouco mais calmo) 'Dá para eu voltar? E você vai me ouvir de novo sem sair contando para os outros?'",
+          "en": "(a bit calmer) 'Can I come back? And will you hear me again without going and telling others?'",
+          "es": "(un poco más tranquilo) '¿Puedo volver? ¿Y me vas a escuchar de nuevo sin ir a contárselo a los demás?'"
+        }
+      ]
+    }
+  ],
+  "diagnosis": {
+    "answer": "esquizofrenia",
+    "options": [
+      "esquizofrenia",
+      "psicotico-breve",
+      "esquizoafetivo",
+      "cannabis"
+    ],
+    "why": {
+      "pt": "Alucinações auditivas, ideias de perseguição, retraimento e queda de funcionamento sustentam o espectro da esquizofrenia. O que fecha o caso é a LINHA DO TEMPO: o pródromo começou um ano e meio antes das vozes (largou o time, parou de responder, passou a achar que riam dele), o que afasta o transtorno psicótico breve; não houve episódio de humor junto, o que afasta o esquizoafetivo; e ele parou a cannabis oito meses antes das vozes, que continuaram e pioraram depois da abstinência — psicose induzida por substância teria melhorado em semanas.",
+      "en": "Auditory hallucinations, persecutory ideas, withdrawal and a drop in functioning support the schizophrenia spectrum. What closes the case is the TIMELINE: the prodrome began a year and a half before the voices (he quit the team, stopped replying, started believing people laughed at him), which rules out brief psychotic disorder; there was no mood episode alongside, which rules out schizoaffective disorder; and he stopped cannabis eight months before the voices, which continued and worsened after abstinence — substance-induced psychosis would have improved within weeks.",
+      "es": "Alucinaciones auditivas, ideas de persecución, retraimiento y caída del funcionamiento sostienen el espectro de la esquizofrenia. Lo que cierra el caso es la LÍNEA DE TIEMPO: el pródromo empezó un año y medio antes de las voces (dejó el equipo, dejó de responder, empezó a creer que se reían de él), lo que descarta el trastorno psicótico breve; no hubo episodio del ánimo junto, lo que descarta el esquizoafectivo; y dejó el cannabis ocho meses antes de las voces, que continuaron y empeoraron tras la abstinencia — una psicosis inducida por sustancias habría mejorado en semanas."
+    }
+  },
+  "voice": {
+    "intro": {
+      "pt": "(entra olhando de lado, fala baixo) '...Jonas. 21. Minha mãe me trouxe. Não sei se é necessário. Eu escuto umas coisas. Talvez não devesse falar isso.'",
+      "en": "(walks in glancing sideways, speaks low) '...Jonas. 21. My mom brought me. I don't know if it's necessary. I hear some things. Maybe I shouldn't say that.'",
+      "es": "(entra mirando de lado, habla bajo) '...Jonas. 21. Me trajo mi madre. No sé si es necesario. Oigo algunas cosas. Quizá no debería decirlo.'"
+    },
+    "pre": [
+      {
+        "pt": "(silêncio)",
+        "en": "(silence)",
+        "es": "(silencio)"
+      },
+      {
+        "pt": "...não sei.",
+        "en": "...I don't know.",
+        "es": "...no sé."
+      }
+    ],
+    "post": {
+      "pt": "(olha pra porta.)",
+      "en": "(looks at the door.)",
+      "es": "(mira la puerta.)"
+    },
+    "ref": [
+      {
+        "pt": "As vozes ficaram mais altas e eu não saí do quarto.",
+        "en": "The voices got louder and I didn't leave my room.",
+        "es": "Las voces subieron y no salí del cuarto."
+      },
+      {
+        "pt": "Algumas noites eu consegui dormir. As vozes ficaram mais baixas.",
+        "en": "Some nights I could sleep. The voices got quieter.",
+        "es": "Algunas noches pude dormir. Las voces bajaron."
+      },
+      {
+        "pt": "Sai pra rua com a minha mãe. Foi... menos ruim do que eu pensava.",
+        "en": "I went outside with my mom. It was... less bad than I thought.",
+        "es": "Salí a la calle con mi madre. Fue... menos malo de lo que pensaba."
+      }
+    ],
+    "hookA": {
+      "pt": "Como está sendo, hoje, viver com essas vozes por perto?",
+      "en": "How is it, today, living with those voices around?",
+      "es": "¿Cómo está siendo, hoy, vivir con esas voces cerca?"
+    },
+    "hookB": {
+      "pt": "Vamos combinar uma rotina simples de sono e uma pessoa de confiança para chamar?",
+      "en": "Shall we agree on a simple sleep routine and a trusted person to call?",
+      "es": "¿Acordamos una rutina simple de sueño y una persona de confianza a quien llamar?"
+    },
+    "sessoes": {
+      "s3": [
+        {
+          "pt": "'(fala baixo, olhando a porta) Elas ficaram mais quietas com o remédio. Não sumiram. Ficaram tipo… do outro lado da parede. Dá pra pensar agora.'",
+          "en": "'(speaking quietly, watching the door) They've got quieter with the medication. They didn't go away. They're more like… on the other side of the wall. I can think now.'",
+          "es": "'(speaking quietly, watching the door) They've got quieter with the medication. They didn't go away. They're more like… on the other side of the wall. I can think now.'"
+        },
+        {
+          "pt": "'Minha mãe entrou no meu quarto e eu perguntei o que ela tinha combinado com eles. (silêncio) Ela chorou. Eu sabia enquanto falava que era esquisito, mas na hora eu tinha certeza.'",
+          "en": "'My mum came into my room and I asked her what she'd arranged with them. (silence) She cried. I knew while I was saying it that it was strange, but in the moment I was certain.'",
+          "es": "'My mum came into my room and I asked her what she'd arranged with them. (silence) She cried. I knew while I was saying it that it was strange, but in the moment I was certain.'"
+        }
+      ],
+      "s4": [
+        {
+          "pt": "'A senhora me perguntou se eu podia estar errado sobre a câmera. (pausa longa) Eu fui lá e olhei. Não tem câmera. Eu olhei três vezes, mas eu fui olhar.'",
+          "en": "'You asked me whether I might be wrong about the camera. (long pause) I went and looked. There's no camera. I looked three times, but I went and looked.'",
+          "es": "'You asked me whether I might be wrong about the camera. (long pause) I went and looked. There's no camera. I looked three times, but I went and looked.'"
+        },
+        {
+          "pt": "'Voltei pra faculdade segunda. Fiquei duas aulas. (quase sorri) Duas aulas é pouco, eu sei. Mas eu tava há sete meses sem sair.'",
+          "en": "'I went back to university on Monday. I stayed for two lectures. (almost smiles) Two lectures isn't much, I know. But I hadn't left the house in seven months.'",
+          "es": "'I went back to university on Monday. I stayed for two lectures. (almost smiles) Two lectures isn't much, I know. But I hadn't left the house in seven months.'"
+        }
+      ]
+    },
+    "fecho": {
+      "s2": {
+        "pt": "(olha a porta mais uma vez antes de sair) 'A senhora vai anotar o que eu falei? ...Tudo bem. Só me avisa se alguém pedir pra ver.'",
+        "en": "(looks at the door once more before leaving) 'Are you going to write down what I said? ...That's fine. Just tell me if anyone asks to see it.'",
+        "es": "(looks at the door once more before leaving) 'Are you going to write down what I said? ...That's fine. Just tell me if anyone asks to see it.'"
+      },
+      "s3": {
+        "pt": "'Hoje elas ficaram quietas o tempo todo que eu tava aqui.' (pausa) 'Eu não sei se é a senhora ou o remédio. Mas ficaram.'",
+        "en": "'Today they were quiet the whole time I was here.' (pause) 'I don't know if it's you or the medication. But they were.'",
+        "es": "'Today they were quiet the whole time I was here.' (pause) 'I don't know if it's you or the medication. But they were.'"
+      },
+      "s4": {
+        "pt": "'Duas aulas.' (quase sorri de novo) 'Semana que vem eu tento três. A senhora acha muito?'",
+        "en": "'Two lectures.' (almost smiles again) 'Next week I'll try three. Do you think that's too much?'",
+        "es": "'Two lectures.' (almost smiles again) 'Next week I'll try three. Do you think that's too much?'"
+      }
+    },
+    "opcoes": {
+      "s3": [
+        {
+          "acolhimento": {
+            "pt": "Do outro lado da parede. (pausa) É uma boa descrição — e deve ser mais fácil pensar assim.",
+            "en": "On the other side of the wall. (pause) That is a good description — and it must be easier to think like that.",
+            "es": "On the other side of the wall. (pause) That is a good description — and it must be easier to think like that."
+          },
+          "psicoeducacao": {
+            "pt": "É isso que a medicação faz: não apaga, afasta. E com elas afastadas dá para trabalhar o resto, que é o que a gente vai fazer aqui.",
+            "en": "That is what medication does: it does not erase, it distances. And with them at a distance we can work on the rest, which is what we will do here.",
+            "es": "That is what medication does: it does not erase, it distances. And with them at a distance we can work on the rest, which is what we will do here."
+          },
+          "comportamental": {
+            "pt": "Quero saber em que horas elas ficam mais perto. Anote o horário, só isso, durante a semana.",
+            "en": "I want to know at what times they come closer. Write down the time, nothing else, during the week.",
+            "es": "I want to know at what times they come closer. Write down the time, nothing else, during the week."
+          },
+          "diretiva": {
+            "pt": "Não pare o remédio porque melhorou. É a melhora que mostra que ele está fazendo efeito.",
+            "en": "Do not stop the medication because you got better. The improvement is what shows it is working.",
+            "es": "Do not stop the medication because you got better. The improvement is what shows it is working."
+          }
+        },
+        {
+          "acolhimento": {
+            "pt": "Você percebeu enquanto falava, e mesmo assim tinha certeza. Isso é dos dois lados ao mesmo tempo — deve ser exaustivo.",
+            "en": "You noticed while you were speaking, and still you were certain. That is both sides at once — it must be exhausting.",
+            "es": "You noticed while you were speaking, and still you were certain. That is both sides at once — it must be exhausting."
+          },
+          "psicoeducacao": {
+            "pt": "Ter a crítica voltando enquanto a certeza ainda está lá é sinal bom, e não contradição. É assim que costuma ceder.",
+            "en": "Having your judgement return while the certainty is still there is a good sign, not a contradiction. That is how it usually eases.",
+            "es": "Having your judgement return while the certainty is still there is a good sign, not a contradiction. That is how it usually eases."
+          },
+          "comportamental": {
+            "pt": "Quando vier de novo, tente uma coisa: não discuta com a ideia, só anote a hora e o que estava acontecendo antes.",
+            "en": "When it comes again, try one thing: do not argue with the idea, just write the time and what was happening before.",
+            "es": "When it comes again, try one thing: do not argue with the idea, just write the time and what was happening before."
+          },
+          "diretiva": {
+            "pt": "Sua mãe chorou porque levou um susto, não porque combinou algo. Isso eu posso te afirmar.",
+            "en": "Your mother cried because she was startled, not because she arranged anything. That I can tell you for certain.",
+            "es": "Your mother cried because she was startled, not because she arranged anything. That I can tell you for certain."
+          }
+        }
+      ],
+      "s4": [
+        {
+          "acolhimento": {
+            "pt": "Você foi olhar. Três vezes, mas foi. Eu sei o que isso custa.",
+            "en": "You went to look. Three times, but you went. I know what that costs.",
+            "es": "You went to look. Three times, but you went. I know what that costs."
+          },
+          "psicoeducacao": {
+            "pt": "Testar a própria certeza é a maior conquista possível neste momento do tratamento — mais do que a ideia ter sumido.",
+            "en": "Testing your own certainty is the biggest achievement possible at this point of the treatment — more than the idea having gone.",
+            "es": "Testing your own certainty is the biggest achievement possible at this point of the treatment — more than the idea having gone."
+          },
+          "comportamental": {
+            "pt": "Então a gente repete isso: quando bater a certeza, ir ver. E anotar o que encontrou.",
+            "en": "So we repeat that: when the certainty hits, go and check. And write down what you found.",
+            "es": "So we repeat that: when the certainty hits, go and check. And write down what you found."
+          },
+          "diretiva": {
+            "pt": "Isso é o tratamento funcionando. Continue indo olhar, mesmo nas vezes em que der medo.",
+            "en": "That is the treatment working. Keep going to look, even the times it frightens you.",
+            "es": "That is the treatment working. Keep going to look, even the times it frightens you."
+          }
+        },
+        {
+          "acolhimento": {
+            "pt": "Duas aulas depois de sete meses em casa não é pouco. É o tamanho do passo que conta, não o número.",
+            "en": "Two classes after seven months at home is not little. It is the size of the step that counts, not the number.",
+            "es": "Two classes after seven months at home is not little. It is the size of the step that counts, not the number."
+          },
+          "psicoeducacao": {
+            "pt": "Voltar aos poucos é exatamente o recomendado — quem volta de uma vez costuma recuar de uma vez.",
+            "en": "Going back bit by bit is exactly what is recommended — whoever goes back all at once tends to retreat all at once.",
+            "es": "Going back bit by bit is exactly what is recommended — whoever goes back all at once tends to retreat all at once."
+          },
+          "comportamental": {
+            "pt": "Semana que vem, as mesmas duas aulas. Só isso. A gente aumenta quando essas duas ficarem fáceis.",
+            "en": "Next week, the same two classes. Only that. We increase when those two become easy.",
+            "es": "Next week, the same two classes. Only that. We increase when those two become easy."
+          },
+          "diretiva": {
+            "pt": "Não, não é pouco — e eu não quero que você aumente ainda. Mantenha duas.",
+            "en": "No, it is not little — and I do not want you to increase yet. Keep it at two.",
+            "es": "No, it is not little — and I do not want you to increase yet. Keep it at two."
+          }
+        }
+      ]
+    }
+  },
+  "look": {
+    "skin": "#e8c49a",
+    "hair": "#14121c",
+    "top": "#2a2f42",
+    "eyeShape": "almond",
+    "brow": "thick",
+    "mouth": "neutral",
+    "rosto": "assets/rosto-jonas.png",
+    "corpo": "m"
+  }
+}
